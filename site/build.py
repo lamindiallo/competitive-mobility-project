@@ -17,6 +17,20 @@ TCS = pd.read_csv(os.path.join(IN, 'tierC_seasons.csv'))
 TC = {'ENG': pd.read_csv(os.path.join(IN, 'england_tierC_prototype.csv')).set_index('k'),
       'FRA': pd.read_csv(os.path.join(IN, 'france_tierC_prototype.csv')).set_index('k')}
 FEEDN = pd.read_csv(os.path.join(IN, 'feed_names.csv'))
+AUTHOR = 'Lamin Diallo'
+# Money-aware ceilings (D301), England and France: precomputed by analysis/clubvalues/money_ceiling.py
+MC = pd.read_csv(os.path.join(IN, 'money_ceilings.csv')) if os.path.exists(os.path.join(IN, 'money_ceilings.csv')) else pd.DataFrame()
+MCM = pd.read_csv(os.path.join(IN, 'money_ceiling_models.csv')).set_index(['country', 'goal']) if os.path.exists(os.path.join(IN, 'money_ceiling_models.csv')) else pd.DataFrame()
+MGOAL = {'top4_5': 'reached the top four within five seasons', 'stay5': 'stayed in the top flight for all of the next five seasons',
+         'tf5': 'were in the top flight within five seasons'}
+# Gross mobility G (registered result, D167/D213): expected time to reach the top four relative to a league without memory
+# or club differences, measured on the whole ladder (England four divisions, elsewhere two)
+G = {'ENG': 4.00, 'ESP': 3.44, 'ITA': 3.28, 'GER': 2.56, 'FRA': 2.38}
+# How much of a big over-performance against the money survives into the next season
+PERS = {}
+for _c in ('ENG', 'FRA'):
+    _g = TCS[TCS.country == _c].sort_values('season').copy(); _g['nxt'] = _g.groupby('k').places.shift(-1); _g['ns'] = _g.groupby('k').season.shift(-1)
+    _g = _g[(_g.ns == _g.season + 1) & (_g.places >= 4)]; PERS[_c] = (_g.places.mean(), _g.nxt.mean(), len(_g))
 
 # ------------------------------------------------------------------ helpers
 def season(s): return f'{s}/{(s + 1) % 100:02d}'
@@ -39,6 +53,7 @@ def icons(share, cls='icons', k=10):
     on = int(round(share * k)) if share == share else 0
     if share > 0 and on == 0 and cls == 'icons': on = 0
     return f'<span class="{cls}" role="img" aria-label="{on} out of {k}">' + ''.join(f'<span class="{"on" if i < on else ""}"></span>' for i in range(k)) + '</span>'
+def rng(r): return f'{r.hits} of {r.n} ({r.share:.0%}); likely range {r.lo:.0%}–{r.hi:.0%}, {r.clubs} different clubs'
 def how(summary, body): return f'<details class="how"><summary>{E(summary)}</summary><div>{body}</div></details>'
 
 # display names: the 2025/26 official name where the club played in 2025/26
@@ -220,11 +235,10 @@ TIPJS = ('<div id="tip" role="tooltip"></div><script>(()=>{const t=document.getE
 def page(title, body, rel, desc, here=''):
     nav = ''.join(f'<a href="{rel}{h}"{" aria-current=page" if h == here else ""}>{t}</a>' for h, t in NAV)
     return f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{E(title)} · Competitive Mobility Project</title><meta name="description" content="{E(desc)}"><meta name="robots" content="noindex">
-<link rel="stylesheet" href="{rel}style.css"></head>
+<title>{E(title)} · Competitive Mobility Project</title><meta name="description" content="{E(desc)}"><link rel="stylesheet" href="{rel}style.css"></head>
 <body><header class="top"><div class="wrap"><a class="brand" href="{rel}index.html"><i></i>Competitive Mobility Project</a><nav>{nav}</nav></div></header>
 <main class="wrap">{body}</main>
-<footer class="wrap foot"><p>Competitive Mobility Project · version {E(VERSION)}, {E(DATE)} · Final tables to {season(2025)}; this season's table is provisional.
+<footer class="wrap foot"><p>Competitive Mobility Project by {AUTHOR} · version {E(VERSION)}, {E(DATE)} · Final tables to {season(2025)}; this season's table is provisional.
 Figures come from match results and from clubs' published accounts. No one's individual pay is shown. No club badges are used: they belong to the clubs.
 <a href="{rel}data.html">Data and code</a> · <a href="{rel}corrections.html">Report an error</a></p></footer>{TIPJS}</body></html>'''
 def write(path, s):
@@ -242,21 +256,48 @@ HOWCEIL = (f'<p>We took every season since {season(START)} in which a club finis
            'The figure is the share that reached each goal. Ten-year goals use finishes from {a} to {b}, five-year goals from {a} to {c}, so every case has had the full time to play out; '
            'results run to the end of {d}.</p><p>It describes what happened to clubs in this position, not a forecast for one club. '
            'A club with much more money or history than is usual for its position has better chances than the figure suggests, which is why the club\'s own record is shown underneath.</p>'
+           '<p>The likely range is a 95% interval worked out by resampling clubs rather than seasons, because the same club often appears several times. It is wide where only a few clubs have been in a position, and two leagues whose ranges overlap may not really differ. '
+           'Reserve teams such as Barcelona B or Real Madrid Castilla are left out of these counts, because they cannot be promoted into their first team\'s division.</p>'
            ).format(a=season(START), b=season(END10), c=season(END5), d=season(2025))
 def ceiling_block(cl, tier, pos, b, when, live=False):
     c, R, nm = cl['c'], cl['R'], cl['name']; parts = ceiling_parts(c, tier, b)
     if not parts: return ''
     g0, r0 = parts[0]
     head = phrase(r0.share, r0.n, r0.hits)
-    rows = ''.join(f'<tr><td>{E(GOALS[g][0][0].upper() + GOALS[g][0][1:])}</td><td class="v">{E(phrase(r.share, r.n, r.hits))}{icons(r.share, "mini")}</td></tr>' for g, r in parts[1:])
+    rows = ''.join(f'<tr><td>{E(GOALS[g][0][0].upper() + GOALS[g][0][1:])}</td><td class="v">{E(phrase(r.share, r.n, r.hits))}{icons(r.share, "mini")}<br><span class="note">{r.hits} of {r.n}; range {r.lo:.0%}–{r.hi:.0%}</span></td></tr>' for g, r in parts[1:])
     lead = (f'<p class="q">{"<span class=live>Provisional</span> " if live else ""}{E(when)}</p>')
     big = f'<p class="headline">{E(head[0].upper() + head[1:])}</p>' if r0.n >= 30 else f'<p class="headline">{E(head)}</p>'
     sent = (f'<p>Of the {r0.n} times a club {E(band_label(c, tier, b))} between {season(r0.first)} and {season(r0.last)}, '
-            f'{r0.hits} {GOALS[g0][0]}.</p>')
-    own = own_line(cl, g0, r0)
+            f'{r0.hits} {GOALS[g0][0]}.</p><p class="note">{E(rng(r0))}.</p>')
+    own = own_line(cl, g0, r0) + money_ceiling(cl)
     return (f'<div class="ceiling">{lead}{big}{icons(r0.share)}{sent}'
             + (f'<table class="goals">{rows}</table>' if rows else '') + own
             + how('How do we know?', HOWCEIL + f'<p>Counts: {"; ".join(f"{GOALS[g][0]}: {r.hits} of {r.n}" for g, r in parts)}.</p>') + '</div>')
+
+def pphrase(p):
+    if p >= 0.95: return 'almost all'
+    if p >= 0.25: return f'about {round(p * 10)} in 10'
+    if p < 0.02: return 'fewer than 1 in 50'
+    return f'about 1 in {round(1 / p)}'
+def money_ceiling(cl):
+    c, k, nm = cl['c'], cl['k'], cl['name']
+    if MC.empty: return ''
+    m = MC[(MC.country == c) & (MC.k == k)]
+    if m.empty: return ''
+    r0 = m.iloc[0]
+    rows = ''
+    for r in m.itertuples():
+        mm = MCM.loc[(c, r.goal)]
+        helps = mm.logloss_with_wages < mm.logloss_position_only
+        rows += (f'<tr><td>{E(MGOAL[r.goal][0].upper() + MGOAL[r.goal][1:])}'
+                 + ('' if helps else '<br><span class="note">In this league the wage bill adds little here: the figure is close to the one for position alone.</span>')
+                 + f'</td><td class="v">{E(pphrase(r.p))}<br><span class="note">range {r.lo:.0%}–{r.hi:.0%}</span></td></tr>')
+    return (f'<h3 style="margin-top:18px">Taking its wage bill into account</h3>'
+            f'<p class="small">Of clubs in a similar position with a wage bill like {E(nm)}\'s — the {ordinal(r0.wage_rank)} highest of {int(r0.wage_n)} in the top two divisions in {season(int(r0.wage_season))}, '
+            f'{r0.relative_wage:.1f} times the average — this share went on to:</p><table class="goals">{rows}</table>'
+            + how('How is this worked out?', '<p>A model fitted on every club-season with a published wage bill (England from 2011/12, France from 2008/09) relates each goal to two things: where the club finished and how its wage bill compared with the season\'s average. Five-year goals are used because the wage records are too recent for ten-year ones. '
+                  'We checked the model on clubs it had not seen: adding the wage bill makes the figures more accurate for most goals, and where it does not, the page says so. The range comes from refitting the model on clubs drawn at random with replacement. '
+                  'Like every figure here, it describes clubs like this one, not a forecast for this club; wage bills include all staff, not only players. This model was added after the registered tests and is descriptive, not one of them.</p>'))
 
 def own_line(cl, g0, r0):
     c, R, nm = cl['c'], cl['R'], cl['name']; T = R['ten']; n = T['seasons']
@@ -300,6 +341,8 @@ def money_block(cl):
         else:
             verdict = 'About where its money would put it'
             expl = (f'Over {int(r.seasons)} seasons, the average gap was {v:+.1f} places, which is within what chance alone would produce.')
+        above = int((rows.places > 0).sum())
+        expl += f' It finished above its money in {above} of {len(rows)} seasons with published figures.'
         out += f'<p class="headline">{E(verdict)}</p><p>{expl}</p>'
         if c == 'ENG' and int(r.parachute_seasons) > 0: out += f'<p class="note">{plural(int(r.parachute_seasons), "season")} followed relegation and came with parachute payments; they are included.</p>'
         if c == 'ENG' and bool(r.group_accounts): out += '<p class="note">Wage bill from the group accounts of the club\'s parent company (NSWE Sports Ltd), where football is the whole business.</p>'
@@ -316,7 +359,7 @@ def money_block(cl):
     out += how('How do we know?', f'<p>For every season, we compare each club\'s wage bill with the average in the top two divisions, and work out the finish that wage bill usually brings, '
                'allowing for differences between seasons and assuming a bigger wage bill never lowers the expected finish. The gap between that and the actual finish, averaged over the seasons, is the figure above. '
                'An overall verdict needs at least eight seasons, and a signed number is given only when the gap is clearly larger than chance.</p>'
-               f'<p>{HOWMONEY[c]}</p><p>Beating the money rarely lasts: clubs that finish well above their money usually fall back towards it the next season. It mixes good management, luck and resources the measure cannot see, so it is not a score for how well a club is run.</p>')
+               f'<p>{HOWMONEY[c]}</p><p>On average, most of a big over-performance fades: clubs that finished at least four places above their money (on average {PERS[c][0]:.1f} places) were {PERS[c][1]:+.1f} places the next season, so about {1 - PERS[c][1] / PERS[c][0]:.0%} of it disappeared and the rest persisted. Some clubs beat their money season after season. It mixes good management, luck and resources the measure cannot see, so it is not a score for how well a club is run.</p>')
     return out
 
 # ------------------------------------------------------------------ the story (D290)
@@ -374,7 +417,10 @@ def status_line(cl):
 
 for cl in clubs:
     c, R, nm = cl['c'], cl['R'], cl['name']; m = LEAGUES[c]
-    if R['last']:
+    if c == 'ESP' and L[c][L[c].k == cl['k']].reserve.any():
+        ceil_sec = (f'<h2>How high can {E(nm)} realistically go?</h2><p class="muted">{E(nm)} is a reserve team. Reserve teams cannot be promoted into the division of their '
+                    'first team, so no realistic ceiling is given, and reserve teams are left out of the figures for all other clubs.</p>')
+    elif R['last']:
         t, p, b = R['last']
         ceil = ceiling_block(cl, t, p, b, f'Based on finishing {ordinal(p)} in {the(c, t)} in {season(LAST[c])}' + {'prom': ' and going up', 'rel': ' and going down'}.get(b, ''))
         ceil_sec = f'<h2>How high can {E(nm)} realistically go?</h2>{ceil}<div id="livebox" data-c="{c}" data-k="{E(cl["k"], quote=True)}"></div>'
@@ -412,12 +458,17 @@ for cl in clubs:
     write(f'clubs/{cl["slug"]}.html', page(nm, body, '../', f'{nm}: how high the club can realistically go, its story, and how it does against its wage bill.'))
 
 # ------------------------------------------------------------------ league statistics
-def bottom_half_rate(c, a, b):
-    d = L[c]; S = {(r.k, r.Season): r for r in d.itertuples()}; hits = n = 0
+def bottom_half_rows(c, a, b):
+    d = L[c]; S = {(r.k, r.Season): r for r in d.itertuples()}; out = []
     for r in d[(d.tier == 1) & (d.Season >= a) & (d.Season <= b)].itertuples():
         if r.pos <= r.N / 2: continue
-        n += 1; hits += any((x := S.get((r.k, r.Season + i))) is not None and x.tier == 1 and x.pos <= 4 for i in range(1, 11))
+        out.append(dict(k=r.k, hit=float(any((x := S.get((r.k, r.Season + i))) is not None and x.tier == 1 and x.pos <= 4 for i in range(1, 11)))))
+    return pd.DataFrame(out)
+def bottom_half_rate(c, a, b):
+    g = bottom_half_rows(c, a, b); n = len(g); hits = int(g.hit.sum()) if n else 0
     return hits / n if n else float('nan'), n, hits
+from model import club_interval
+BHCI = {c: club_interval(bottom_half_rows(c, 2004, 2015), 'hit') for c in ORDER}
 PERIODS = [(1994, 1999, '1994–99'), (2000, 2005, '2000–05'), (2006, 2010, '2006–10'), (2011, 2015, '2011–15')]
 BH = {c: [bottom_half_rate(c, a, b)[0] for a, b, _ in PERIODS] for c in ORDER}
 BH0415 = {c: bottom_half_rate(c, 2004, 2015) for c in ORDER}
@@ -439,7 +490,7 @@ for c in ORDER:
         for b in ['1', '2-4', '5-7', '8-12', '13+', 'rel', 'prom', 'top', 'bot']:
             parts = ceiling_parts(c, tier, b)
             if not parts: continue
-            ceil_rows += f'<tr><td>{E(band_label(c, tier, b)[0].upper() + band_label(c, tier, b)[1:])}</td><td>' + '<br>'.join(f'{E(GOALS[g][0])}: <strong>{E(phrase(r.share, r.n, r.hits))}</strong>' for g, r in parts) + '</td></tr>'
+            ceil_rows += f'<tr><td>{E(band_label(c, tier, b)[0].upper() + band_label(c, tier, b)[1:])}</td><td>' + '<br>'.join(f'{E(GOALS[g][0])}: <strong>{E(phrase(r.share, r.n, r.hits))}</strong> <span class="note">({r.hits} of {r.n}; range {r.lo:.0%}–{r.hi:.0%})</span>' for g, r in parts) + '</td></tr>'
     money = ''
     if c in TC:
         T = TC[c]; s = T[T.published_as != 'within the normal range'].sort_values('places_above_expected', ascending=False)
@@ -454,15 +505,16 @@ for c in ORDER:
                     + ''.join(f'<li><a href="../clubs/{x["slug"]}.html">{E(x["name"])}</a></li>' for x in groups[t]) + '</ul>' for t in sorted(groups))
     body = f'''<p class="crumb"><a href="../leagues.html">Leagues</a></p><h1>How open is {E(the(c, 1))}?</h1>
 <p class="lede">{E(m["country"])} · {" · ".join(E(v) for v in m["tiers"].values())} · {season(m["start"])} to {season(LAST[c])}</p>
-<div class="tiles"><div class="tile"><b>{champs.size}</b><span>different champions since {season(m["start"])}</span></div>
+<div class="tiles"><div class="tile"><b>{G[c]:.1f}×</b><span>as long to reach the top four as in a league where the past did not matter</span></div>
+<div class="tile"><b>{champs.size}</b><span>different champions since {season(m["start"])}</span></div>
 <div class="tile"><b>{last10.k.nunique()}</b><span>different champions in the last ten seasons</span></div>
 <div class="tile"><b>{DT[c][1]}</b><span>different clubs in the top four, 2016/17–2025/26</span></div>
 <div class="tile"><b>{DT[c][0]}</b><span>different clubs in the top four, 2000/01–2009/10</span></div></div>
 <p class="small">Champions: {champ_list}.</p>
 <h2>Can a bottom-half club reach the top four?</h2>
-<p>Of the {bh[1]} times a club finished in the bottom half of {E(the(c, 1))} between {season(2004)} and {season(2015)}, <strong>{bh[2]}</strong> reached the top four within the next ten seasons: {E(phrase(bh[0], bh[1], bh[2]))}.</p>
+<p>Of the {bh[1]} times a club finished in the bottom half of {E(the(c, 1))} between {season(2004)} and {season(2015)}, <strong>{bh[2]}</strong> reached the top four within the next ten seasons: {E(phrase(bh[0], bh[1], bh[2]))} (likely range {BHCI[c][0]:.0%}–{BHCI[c][1]:.0%}).</p>
 <div class="grid2"><div class="chartbox"><p class="small"><strong>The same question in each league</strong> (finishes 2004/05–2015/16)</p>
-{bars([(cname(x), BH0415[x][0], x == c, f"{cname(x)}: {BH0415[x][2]} of {BH0415[x][1]}") for x in ORDER], lambda v: f"{v:.0%}")}</div>
+{bars([(cname(x), BH0415[x][0], x == c, f"{cname(x)}: {BH0415[x][2]} of {BH0415[x][1]}; likely range {BHCI[x][0]:.0%}–{BHCI[x][1]:.0%}") for x in ORDER], lambda v: f"{v:.0%}")}</div>
 <div class="chartbox"><p class="small"><strong>Over time</strong>: share reaching the top four within ten seasons, by when the bottom-half finish happened</p>
 {lines_chart({cname(x): BH[x] for x in ORDER}, [p[2] for p in PERIODS], cname(c), lambda v: f"{v:.0%}")}</div></div>
 {how("How do we know?", "<p>Every bottom-half finish in the top division was followed forward ten seasons. The periods are short, so single seasons move the lines; the project's registered tests, which use the whole ladder and every season, are on the <a href='../about.html'>How it works</a> page.</p>")}
@@ -480,28 +532,29 @@ write('leagues.html', page('Leagues', '<h1>Leagues</h1><p class="lede">Five coun
 idx = json.dumps([[x['name'], cname(x['c']), x['slug'], (f'{ordinal(x["R"]["last"][1])} in {the(x["c"], x["R"]["last"][0])}' if x['R']['last'] else '')]
                   for x in sorted(clubs, key=lambda x: (x['R']['last'] is None, x['name']))], ensure_ascii=False)
 PROM = {c: CEIL[(c, 2, 'prom', 'stay5')] for c in ORDER}; REL = {c: CEIL[(c, 1, 'rel', 'back5')] for c in ORDER}
-pers = {}
-for c in ('ENG', 'FRA'):
-    g = TCS[TCS.country == c].sort_values('season').copy(); g['nxt'] = g.groupby('k').places.shift(-1); g['ns'] = g.groupby('k').season.shift(-1)
-    g = g[(g.ns == g.season + 1) & (g.places >= 4)]; pers[c] = (g.places.mean(), g.nxt.mean(), len(g))
+pers = PERS
 ENGB = BH0415['ENG']
 home = f'''<section class="hero"><h1>How far can your club climb?</h1>
 <p class="lede">Every club in the top divisions of England, Spain, Italy, Germany and France since the early 1990s: how high clubs like yours have realistically gone, the story of each club, and — in England and France — whether it beats its money.</p>
 <div class="search"><input id="q" type="search" placeholder="Type a club, e.g. Brentford, Lens, Bologna" autocomplete="off" aria-label="Find a club"><ul id="res" class="results"></ul></div>
 <div class="chips">{"".join(f'<a href="leagues/{c.lower()}.html">{E(TOPN[c])}</a>' for c in ORDER)}<a href="live.html">This season so far</a></div></section>
+<h2>What "mobility" means here</h2>
+<p>Mobility is how easily a club can move up over the years — above all, into the top four. We compare each league with an imaginary one in which last season's position told you nothing about the next and every club had the same chance. In England, reaching the top four takes about <strong>4 times longer</strong> than in that imaginary league; in France about <strong>2.4 times</strong>.</p>
+<div class="chartbox" style="max-width:560px">{bars([(cname(x), G[x], x == "ENG", f"{cname(x)}: {G[x]:.2f} times as long as in a league without memory") for x in ORDER], lambda v: f"{v:.1f}×", W=420)}</div>
+{how("How is this worked out?", "<p>Every club is placed on one ladder each season, covering England's four divisions and the top two elsewhere. We measure how long, on average, it takes clubs to reach the top four, and compare that with the same calculation for a league in which positions are reshuffled at random every season. The ratio is 1 when a league is as open as pure chance. The test and its rejection rule were written down before the result was computed; see <a href='about.html'>How it works</a>.</p>")}
 <p class="kicker">Three things the numbers show</p>
 <div class="finds">
 <div class="find"><h3>From the bottom half to the top four is a long shot — longest in England</h3>
-<p>Of clubs finishing in the bottom half of the Premier League (2004/05–2015/16), {E(phrase(*ENGB))} reached the top four within ten years. In the Bundesliga it was {E(phrase(*BH0415["GER"]))}.</p>
+<p>Of clubs finishing in the bottom half of the Premier League (2004/05–2015/16), {E(phrase(*ENGB))} reached the top four within ten years ({ENGB[2]} of {ENGB[1]}). In the Bundesliga it was {E(phrase(*BH0415["GER"]))} ({BH0415["GER"][2]} of {BH0415["GER"][1]}). The same clubs recur, so the likely ranges are wide: England {BHCI["ENG"][0]:.0%}–{BHCI["ENG"][1]:.0%}, Germany {BHCI["GER"][0]:.0%}–{BHCI["GER"][1]:.0%}.</p>
 {bars([(cname(x), BH0415[x][0], x == "ENG", f"{cname(x)}: {BH0415[x][2]} of {BH0415[x][1]}") for x in ORDER], lambda v: f"{v:.0%}")}</div>
 <div class="find"><h3>Going up is easier than staying up</h3>
 <p>Only about 1 in 3 promoted clubs stayed in the top flight for the next five seasons. About half of relegated clubs were back within five.</p>
 {bars([(cname(x), PROM[x].share, True, f"{cname(x)}: {PROM[x].hits} of {PROM[x].n} promoted clubs stayed up five seasons") for x in ORDER], lambda v: f"{v:.0%}")}<p class="note">Share of promoted clubs that stayed up for five seasons (promoted 2004/05–2020/21).</p></div>
-<div class="find"><h3>Beating your money rarely lasts</h3>
-<p>Clubs that finished well above what their wage bill usually buys (on average {pers["ENG"][0]:.0f} places in England) kept only about {pers["ENG"][1]:.0f} of those places the next season. France is similar.</p>
+<div class="find"><h3>Beating your money: most of it fades, some of it sticks</h3>
+<p>Clubs that finished well above what their wage bill usually buys (on average {pers["ENG"][0]:.0f} places in England) were still about {pers["ENG"][1]:.0f} places above it the next season: roughly two-thirds faded, a third stayed. A few clubs, Brentford among them, beat their money almost every season. France is similar.</p>
 <div class="legend"><span style="--c:var(--acc)">That season</span><span style="--c:var(--ctx)">The next season</span></div>{bars([("England", pers["ENG"][0], True, f"England: {pers['ENG'][2]} cases, average that season"), ("", pers["ENG"][1], False, "England: average the next season"), ("France", pers["FRA"][0], True, f"France: {pers['FRA'][2]} cases, average that season"), ("", pers["FRA"][1], False, "France: average the next season")], lambda v: f"+{v:.1f}", r=48)}<p class="note">Average places above what the wage bill usually buys.</p></div>
 </div>
-{how("How do we know?", f"<p>Positions come from every league table since the early 1990s; outcomes are followed forward for ten or five seasons, so recent finishes are not counted until their time has passed. Wage bills come from clubs' published accounts (England: Companies House; France: the DNCG). Over-performance here means finishing at least four places above what the wage bill usually buys. More on the <a href='about.html'>How it works</a> page.</p>")}
+{how("How do we know?", f"<p>Positions come from every league table since the early 1990s; outcomes are followed forward for ten or five seasons, so recent finishes are not counted until their time has passed. Wage bills come from clubs' published accounts (England: Companies House; France: the DNCG). Over-performance here means finishing at least four places above what the wage bill usually buys. If it were pure luck, the next season would be back to zero on average; it is not, so part of it reflects something lasting about the club. More on the <a href='about.html'>How it works</a> page.</p>")}
 <script>const C={idx};const q=document.getElementById('q'),r=document.getElementById('res');
 const n=s=>s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
 q.addEventListener('input',()=>{{const v=n(q.value.trim());r.innerHTML='';if(v.length<2)return;C.filter(c=>n(c[0]).includes(v)).slice(0,12).forEach(c=>{{const li=document.createElement('li'),a=document.createElement('a'),s=document.createElement('span');a.href='clubs/'+c[2]+'.html';a.textContent=c[0];s.textContent=c[1]+(c[3]?' · '+c[3]:'');a.appendChild(s);li.appendChild(a);r.appendChild(li);}});}});
@@ -515,7 +568,7 @@ CJ = [dict(n=x['name'], c=x['c'], s=x['slug'], y=[[a, b, p, round((b - 1) + (p -
 json.dump(dict(tiers={c: LEAGUES[c]['tiers'] for c in ORDER}, the={c: {t: the(c, t) for t in LEAGUES[c]['tiers']} for c in ORDER}, clubs=CJ), open(os.path.join(OUT, 'data', 'clubs.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
 CEJ = {}
 for r in C.itertuples():
-    CEJ.setdefault(r.country, {}).setdefault(str(r.tier), {}).setdefault(r.band, []).append([r.goal, GOALS[r.goal][0], r.n, r.hits, round(r.share, 4), r.first, r.last])
+    CEJ.setdefault(r.country, {}).setdefault(str(r.tier), {}).setdefault(r.band, []).append([r.goal, GOALS[r.goal][0], r.n, r.hits, round(r.share, 4), r.first, r.last, r.lo, r.hi])
 LBL = {c: {str(t): {b: band_label(c, t, b) for b in BAND_GOALS} for t in LEAGUES[c]['tiers']} for c in ORDER}
 FN = {}
 for r in FEEDN.itertuples():
@@ -551,13 +604,13 @@ EP[['k', 'season', 'payroll_k', 'ye', 'company_no', 'source', 'xcheck_diff_pct',
 FP[['k', 'ladder_club', 'season', 'payroll_keur', 'payroll_source', 'consolidated', 'file', 'page']].rename(columns={
     'k': 'club_key', 'ladder_club': 'club', 'season': 'season_start', 'payroll_keur': 'payroll_eur_thousands', 'payroll_source': 'check', 'consolidated': 'group_perimeter',
     'file': 'dncg_report', 'page': 'report_page'}).to_csv(os.path.join(OUT, 'data', 'payroll_france.csv'), index=False)
-for f in ('official_position_changes.csv', 'final_tables_2025_26.txt', 'code.zip'):
+for f in ('official_position_changes.csv', 'final_tables_2025_26.txt', 'code.zip', 'money_ceilings.csv', 'money_ceiling_models.csv'):
     if os.path.exists(os.path.join(IN, f)): shutil.copy(os.path.join(IN, f), os.path.join(OUT, 'data', f))
 REPO = os.path.dirname(HERE)   # in the repository layout, zip the code that produced this site (D271)
 if not os.path.exists(os.path.join(OUT, 'data', 'code.zip')) and os.path.isdir(os.path.join(REPO, 'analysis')):
     import zipfile
     with zipfile.ZipFile(os.path.join(OUT, 'data', 'code.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
-        for top in ('analysis', 'site', 'api'):
+        for top in ('analysis', 'site', 'api', 'docs'):
             for root, dirs, fs in os.walk(os.path.join(REPO, top)):
                 dirs[:] = [d for d in dirs if d != '__pycache__']
                 for f in sorted(fs):
@@ -565,12 +618,14 @@ if not os.path.exists(os.path.join(OUT, 'data', 'code.zip')) and os.path.isdir(o
         for f in ('README.md', 'package.json', 'vercel.json'):
             if os.path.exists(os.path.join(REPO, f)): z.write(os.path.join(REPO, f), f)
 files = [('positions_five_leagues.csv', 'Final position of every club, every season (England four divisions, elsewhere two), with its position band'),
-         ('realistic_ceilings.csv', 'What happened next to clubs in each position band: counts and shares, with the seasons used'),
+         ('realistic_ceilings.csv', 'What happened next to clubs in each position band: counts, shares, 95% ranges from resampling clubs, number of different clubs, and the seasons used (reserve teams excluded)'),
          ('club_records.csv', 'Each club\'s record: seasons by division, titles, top-four finishes, promotions, relegations'),
          ('final_tables_2025_26.txt', 'The official 2025/26 final tables used'),
          ('official_position_changes.csv', 'Every top-flight position changed from the results-based table to the official classification, with the reason'),
          ('against_the_money_eng.csv', 'England: each club\'s average places above or below what its wage bill usually buys, with 95% intervals'),
          ('against_the_money_fra.csv', 'France: the same'),
+         ('money_ceilings.csv', 'England and France: the realistic ceiling taking the wage bill into account, for each club in a position where it applies, with 95% ranges'),
+         ('money_ceiling_models.csv', 'The models behind those figures, with the out-of-sample check against position alone'),
          ('against_the_money_by_season.csv', 'England and France, season by season: finish, the finish the wage bill usually buys, wage bill and its rank'),
          ('payroll_england.csv', 'England: club staff costs (£000) from Companies House accounts, with company number, year end and the cross-check'),
          ('payroll_france.csv', 'France: club payroll (€000) from the DNCG\'s published accounts, with report and page'),
@@ -581,6 +636,7 @@ write('data.html', page('Data and code', f'''<h1>Data and code</h1><p class="led
 <h2>Sources</h2><ul><li>Match results 1992/93–2024/25: the engsoccerdata and football-data compilations; England 2022/23 from openfootball. Final tables 2025/26: the official tables as published on each league's Wikipedia page, checked against openfootball's results for the top divisions and the Championship.</li>
 <li>This season (2026/27): tables from <a href='https://www.football-data.org'>football-data.org</a>, provisional; openfootball's public-domain files as a fallback.</li>
 <li>England wage bills: statutory accounts at Companies House. France wage bills: the DNCG's annual reports on club accounts.</li></ul>
+<h2>Who made this</h2><p>The Competitive Mobility Project is by {AUTHOR}. The code and data are on <a href="https://github.com/lamindiallo/competitive-mobility-project">GitHub</a>, including the <a href="https://github.com/lamindiallo/competitive-mobility-project/blob/main/docs/Hypothesis_Register.md">register of tests</a> written before the results were computed.</p>
 <h2>What is not here</h2><ul><li>The original filings: they are public at their sources and cited row by row.</li><li>Transfer-market valuations or anything derived from them.</li><li>Anyone's individual pay.</li><li>Club badges: they are the clubs' property.</li></ul>''', '', 'Downloads.'))
 shutil.copy(os.path.join(HERE, 'style.css'), os.path.join(OUT, 'style.css')); shutil.copy(os.path.join(HERE, 'live.js'), os.path.join(OUT, 'live.js'))
 print(len(clubs), 'club pages;', sum(1 for x in clubs if x['c'] in TC and x['k'] in TC[x['c']].index), 'with an against-the-money verdict')

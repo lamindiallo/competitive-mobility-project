@@ -2,7 +2,7 @@
 Loads the ladders, assigns every club-season to a position band and measures what happened next.
 Realistic ceilings (D288): of all club-seasons in the same band in the same league, the share that reached each goal.
 Ten-year goals use starting seasons 2004/05-2015/16; five-year goals 2004/05-2020/21 (outcomes to 2025/26)."""
-import os
+import os, re
 import numpy as np, pandas as pd
 
 LEAGUES = {
@@ -13,6 +13,9 @@ LEAGUES = {
     'FRA': dict(country='France', file='ladder_FRA.csv', start=1993, tiers={1: 'Ligue 1', 2: 'Ligue 2'}),
 }
 ORDER = ['ENG', 'ESP', 'ITA', 'GER', 'FRA']
+# Reserve teams cannot be promoted into their first team's division, so they are left out of every
+# realistic-ceiling count (as starting points). They stay on the ladder, where they did take places.
+RESERVE = re.compile(r'(?:\bB$|Castilla|Sevilla Atl[eé]tico|Atl[eé]tico Madrid B|Athletic Club B|\bII$)')
 START, END10, END5 = 2004, 2015, 2020
 
 GOALS = {  # key: (label, horizon)
@@ -70,6 +73,7 @@ def load(IN):
             if c == 'ENG' and r.tier in (2, 3) and r.next_tier > r.tier: return 'rel'   # England: the third and fourth divisions are covered
             return 'top' if r.pos <= r.N / 2 else 'bot'
         d['band'] = [band(r) for r in d.itertuples()]
+        d['reserve'] = d.club.astype(str).str.contains(RESERVE)
         # outcomes
         S = {(r.k, r.Season): r for r in d.itertuples()}
         def outcome(r, g):
@@ -91,13 +95,24 @@ def load(IN):
         L[c] = d
     return L, NOCH
 
+def club_interval(g, goal, reps=2000, seed=7):
+    """95% interval for a share when the same club appears several times: resample clubs, not seasons."""
+    v = g[['k', goal]].dropna()
+    if v.empty: return (np.nan, np.nan)
+    by = v.groupby('k')[goal].agg(['sum', 'count']).values
+    rng = np.random.default_rng(seed); idx = rng.integers(0, len(by), size=(reps, len(by)))
+    s = by[idx]; share = s[:, :, 0].sum(1) / s[:, :, 1].sum(1)
+    return (float(np.percentile(share, 2.5)), float(np.percentile(share, 97.5)))
+
 def ceilings(L):
     rows = []
     for c, d in L.items():
+        d = d[~d.reserve]
         for (tier, b), g in d.groupby(['tier', 'band']):
             for goal in (BAND_GOALS[b] if not (b == 'rel' and tier > 1) else ['backup5', 'tf10']):
                 if tier >= 3 and goal == 'top6_10': continue
-                v = g[goal].dropna()
+                v = g[goal].dropna(); lo, hi = club_interval(g, goal)
                 rows.append(dict(country=c, tier=int(tier), band=b, goal=goal, n=int(len(v)), hits=int(v.sum()), share=float(v.mean()) if len(v) else np.nan,
+                                 lo=round(lo, 4) if lo == lo else np.nan, hi=round(hi, 4) if hi == hi else np.nan, clubs=int(g.loc[v.index].k.nunique()),
                                  first=int(g.loc[v.index].Season.min()) if len(v) else None, last=int(g.loc[v.index].Season.max()) if len(v) else None))
     return pd.DataFrame(rows)

@@ -1,5 +1,7 @@
 # Competitive Mobility Project
 
+By Lamin Diallo.
+
 How far can a football club climb? Every club in the top divisions of England, Spain, Italy, Germany and France since the early 1990s: realistic ceilings by position, each club's story, and — for England and France — how clubs perform against their wage bill.
 
 Live site: https://competitive-mobility-project.vercel.app
@@ -12,6 +14,7 @@ Live site: https://competitive-mobility-project.vercel.app
 | `api/` | Two Vercel functions: `live.js` (this season's tables from football-data.org, openfootball as fallback) and `corrections.js` (error reports, stored privately) |
 | `data/` | The inputs the site is built from: final positions, 2025/26 official tables, wage panels, against-the-money estimates |
 | `analysis/` | The code behind every figure: ladders, registered hypothesis tests, wage readings, club values |
+| `docs/` | The register of tests, written before the results were computed |
 
 ## Build
 

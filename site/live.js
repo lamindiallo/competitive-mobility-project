@@ -29,7 +29,7 @@ function stale(d,L){if(L&&L.fresh)return false;return (Date.now()-new Date(d+'T1
 function ceilHTML(meta,c,tier,b,lead){const rows=((meta.ceilings[c]||{})[tier]||{})[b];if(!rows)return'';const [g,lab,n,h,s,f,l]=rows[0];const big=phrase(s,n,h);
   let on=Math.round(s*10),ic='<span class="icons">'+Array.from({length:10},(_,i)=>'<span class="'+(i<on?'on':'')+'"></span>').join('')+'</span>';
   return '<div class="ceiling"><p class="q"><span class="live">Provisional</span> '+esc(lead)+'</p><p class="headline">'+esc(big[0].toUpperCase()+big.slice(1))+'</p>'+ic+
-    '<p>Of the '+n+' times a club '+esc(meta.labels[c][tier][b])+', '+h+' '+esc(lab)+'.</p>'+
+    '<p>Of the '+n+' times a club '+esc(meta.labels[c][tier][b])+', '+h+' '+esc(lab)+'.</p>'+(rows[0][7]!=null?'<p class="note">'+h+' of '+n+'; likely range '+Math.round(rows[0][7]*100)+'%–'+Math.round(rows[0][8]*100)+'%</p>':'')+
     (rows.length>1?'<table class="goals">'+rows.slice(1).map(r=>'<tr><td>'+esc(r[1][0].toUpperCase()+r[1].slice(1))+'</td><td class="v">'+esc(phrase(r[4],r[2],r[3]))+'</td></tr>').join('')+'</table>':'')+'</div>';}
 async function club(box){const {meta,live,src}=await load();const c=box.dataset.c,k=box.dataset.k;
   for(const L of leagues(live,meta)){if(L.c!==c)continue;const i=L.T.findIndex(r=>r.m&&r.m[2]===k);if(i<0)continue;
