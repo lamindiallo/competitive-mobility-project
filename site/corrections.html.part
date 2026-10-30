@@ -1,0 +1,26 @@
+<h1>Corrections</h1>
+<p class="lede">If a figure on this site is wrong, tell us — with a source. A figure is changed only when a filing, an official table or another primary source shows it is wrong. Opinions do not change numbers. Every accepted correction is listed below.</p>
+
+<h2>Report an error</h2>
+<form class="f" id="cf">
+<label>Page or club<input name="page" id="page" required maxlength="200" placeholder="e.g. Brentford"></label>
+<label>Which figure<input name="figure" required maxlength="300" placeholder="e.g. Promotions: shown as 3"></label>
+<label>What is wrong, and what it should be<textarea name="detail" required rows="4" maxlength="2000"></textarea></label>
+<label>Source (required)<input name="source" required maxlength="500" placeholder="A link or a precise reference: document, page, season"></label>
+<label>Email (optional, only if you would like a reply; never published)<input name="email" type="email" maxlength="200"></label>
+<button type="submit">Send</button>
+<p id="msg" class="note" role="status"></p>
+</form>
+
+<h2>Correction log</h2>
+<table class="t"><tr><th>Date</th><th>Page</th><th>Change</th><th>Source</th></tr>
+<tr><td colspan="4" class="muted">No corrections yet. Version {{VERSION}} published {{DATE}}.</td></tr></table>
+
+<script>
+const p=new URLSearchParams(location.search).get('page');if(p)document.getElementById('page').value=p;
+document.getElementById('cf').addEventListener('submit',async e=>{e.preventDefault();const m=document.getElementById('msg');
+const body=Object.fromEntries(new FormData(e.target).entries());m.textContent='Sending…';
+try{const r=await fetch('/api/corrections',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+if(!r.ok)throw new Error();m.textContent='Thank you. Your report has been received and will be checked against the source.';e.target.reset();}
+catch(_){m.textContent='Sorry, the report could not be sent. Please try again later.';}});
+</script>

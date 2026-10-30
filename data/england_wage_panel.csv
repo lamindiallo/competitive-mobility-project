@@ -1,0 +1,568 @@
+k,season,payroll_k,ye,company_no,source,xcheck_diff_pct,flag_xcheck_conflict
+manchester city,2011,201789.0,,,next_year_comparative_only,,False
+manchester united,2011,133432.0,,,next_year_comparative_only,,False
+arsenal,2011,140610.0,,,next_year_comparative_only,,False
+tottenham hotspur,2011,87111.0,,,next_year_comparative_only,,False
+newcastle united,2011,64097.0,,,next_year_comparative_only,,False
+liverpool,2011,118671.0,,,next_year_comparative_only,,False
+fulham,2011,62256.869,,,next_year_comparative_only,,False
+west bromwich albion,2011,50493.0,,,next_year_comparative_only,,False
+norwich city,2011,36768.0,,,next_year_comparative_only,,False
+sunderland,2011,63784.0,,,next_year_comparative_only,,False
+stoke city,2011,53223.0,,,next_year_comparative_only,,False
+aston villa,2011,69609.0,,,next_year_comparative_only,,False
+queens park rangers,2011,55950.0,,,next_year_comparative_only,,False
+blackburn rovers,2011,49975.58,,,next_year_comparative_only,,False
+wolverhampton wanderers,2011,38339.0,,,next_year_comparative_only,,False
+southampton,2011,26114.422,,,next_year_comparative_only,,False
+west ham united,2011,41645.0,,,next_year_comparative_only,,False
+birmingham city,2011,25120.366,,,next_year_comparative_only,,False
+blackpool,2011,12350.617,,,next_year_comparative_only,,False
+middlesbrough,2011,21541.0,,,next_year_comparative_only,,False
+brighton and hove albion,2011,14682.093,,,next_year_comparative_only,,False
+millwall,2011,10250.0,,,next_year_comparative_only,,False
+crystal palace,2011,12698.808,,,next_year_comparative_only,,False
+bristol city,2011,16502.837,,,next_year_comparative_only,,False
+charlton athletic,2011,8870.0,,,next_year_comparative_only,,False
+sheffield wednesday,2011,8268.0,,,next_year_comparative_only,,False
+sheffield united,2011,12024.647,,,next_year_comparative_only,,False
+huddersfield town,2011,9473.508,,,next_year_comparative_only,,False
+preston north end,2011,7361.0,,,next_year_comparative_only,,False
+manchester united,2012,145799.0,2013-06,95489.0,own_year_crosschecked,0.0,False
+manchester city,2012,233106.0,2013-05,40946.0,own_year_crosschecked,0.0,False
+chelsea,2012,163172.0,,,next_year_comparative_only,,False
+arsenal,2012,151441.0,2013-05,109244.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2012,92567.0,2013-06,57186.0,own_year_crosschecked,0.0,False
+everton,2012,63049.0,2013-05,36624.0,own_year_crosschecked,0.0,False
+liverpool,2012,132240.0,2013-05,35668.0,own_year_crosschecked,0.0,False
+west bromwich albion,2012,53977.0,2013-06,3295063.0,own_year_crosschecked,0.0,False
+west ham united,2012,56220.0,2013-05,66516.0,own_year,,False
+norwich city,2012,50814.0,2013-06,154044.0,own_year_crosschecked,0.0,False
+fulham,2012,66500.46,2013-06,2114486.0,own_year_crosschecked,0.0,False
+stoke city,2012,60310.0,2013-05,99885.0,own_year_crosschecked,0.0,False
+southampton,2012,43500.089,2013-06,53301.0,own_year_crosschecked,0.0,False
+aston villa,2012,71880.0,2013-05,5891280.0,own_year_crosschecked,0.0,False
+newcastle united,2012,61706.0,2013-06,31014.0,own_year_crosschecked,0.0,False
+sunderland,2012,56776.0,2013-07,49116.0,own_year_crosschecked,0.0,False
+reading,2012,46171.34,2013-06,53703.0,own_year,,False
+queens park rangers,2012,73265.0,2013-05,60094.0,own_year_crosschecked,0.0,False
+cardiff city,2012,29965.0,,,next_year_comparative_only,,False
+hull city,2012,25894.221,,,next_year_comparative_only,,False
+brighton and hove albion,2012,21063.539,2013-06,81077.0,own_year,,False
+leicester city,2012,26814.0,,,next_year_comparative_only,,False
+charlton athletic,2012,11977.0,2013-06,1788466.0,own_year,,False
+derby county,2012,12059.0,,,next_year_comparative_only,,False
+birmingham city,2012,22913.922,2013-06,27318.0,own_year,,False
+leeds united,2012,20004.401,,,next_year_comparative_only,,False
+blackpool,2012,11560.831,2013-05,48409.0,own_year,,False
+middlesbrough,2012,20745.0,2013-06,1947851.0,own_year_crosschecked,0.0,False
+blackburn rovers,2012,36617.904,2013-06,53482.0,own_year,,False
+sheffield wednesday,2012,11887.0,2013-05,2509978.0,own_year,,False
+huddersfield town,2012,13351.94,2013-05,1771361.0,own_year_crosschecked,0.0,False
+millwall,2012,12053.0,2013-06,1924222.0,own_year,,False
+wolverhampton wanderers,2012,31116.0,2013-05,1989823.0,own_year_crosschecked,0.0,False
+bristol city,2012,15215.156,2013-05,3230871.0,own_year,,False
+brentford,2012,6442.121,2013-05,3642327.0,own_year_crosschecked,0.0,False
+sheffield united,2012,8296.197,2013-06,61564.0,own_year_crosschecked,0.0,False
+preston north end,2012,5518.0,2013-06,39494.0,own_year,,False
+manchester city,2013,205044.0,2014-05,40946.0,own_year_crosschecked,0.0,False
+liverpool,2013,143749.0,2014-05,35668.0,own_year_crosschecked,0.0,False
+chelsea,2013,176642.0,2014-06,1965149.0,own_year_crosschecked,0.0,False
+arsenal,2013,163046.0,2014-05,109244.0,own_year_crosschecked,0.0,False
+everton,2013,69332.0,2014-05,36624.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2013,101608.0,2014-06,57186.0,own_year_crosschecked,0.0,False
+manchester united,2013,165350.0,2014-06,95489.0,own_year_crosschecked,0.0,False
+southampton,2013,59629.0,2014-06,53301.0,own_year_crosschecked,0.0,False
+stoke city,2013,60557.0,2014-05,99885.0,own_year_crosschecked,0.0,False
+newcastle united,2013,78297.0,2014-06,31014.0,own_year,,False
+crystal palace,2013,45755.527,2014-06,7270793.0,own_year_crosschecked,0.0,False
+swansea city,2013,63231.88,2014-05,123414.0,own_year_crosschecked,0.0,False
+sunderland,2013,68055.0,2014-07,49116.0,own_year_crosschecked,0.0,False
+aston villa,2013,69339.0,2014-05,5891280.0,own_year_crosschecked,0.0,False
+hull city,2013,43322.596,2014-06,4032392.0,own_year,,False
+west bromwich albion,2013,65470.0,2014-06,3295063.0,own_year_crosschecked,0.0,False
+norwich city,2013,54059.0,2014-06,154044.0,own_year_crosschecked,0.0,False
+fulham,2013,68519.237,2014-06,2114486.0,own_year_crosschecked,0.000346,False
+cardiff city,2013,53158.0,2014-05,109065.0,own_year,,False
+leicester city,2013,36342.0,2014-05,4593477.0,own_year_crosschecked,0.0,False
+derby county,2013,16386.0,2014-06,49139.0,own_year,,False
+queens park rangers,2013,71964.0,2014-05,60094.0,own_year_crosschecked,0.0,False
+brighton and hove albion,2013,20302.151,2014-06,81077.0,own_year_crosschecked,0.0,False
+reading,2013,34548.171,,,next_year_comparative_only,,False
+blackburn rovers,2013,34485.623,,,next_year_comparative_only,,False
+ipswich town,2013,13903.0,,,next_year_comparative_only,,False
+bournemouth,2013,17347.352,,,next_year_comparative_only,,False
+middlesbrough,2013,16285.0,2014-06,1947851.0,own_year_crosschecked,0.0,False
+watford,2013,11896.0,,,next_year_comparative_only,,False
+leeds united,2013,22370.106,2014-06,6233875.0,own_year_crosschecked,0.0,False
+sheffield wednesday,2013,12505.0,,,next_year_comparative_only,,False
+huddersfield town,2013,13300.611,2014-05,1771361.0,own_year_crosschecked,0.0,False
+charlton athletic,2013,11519.0,,,next_year_comparative_only,,False
+millwall,2013,13853.0,,,next_year_comparative_only,,False
+blackpool,2013,8693.54,,,next_year_comparative_only,,False
+birmingham city,2013,20057.582,,,next_year_comparative_only,,False
+wolverhampton wanderers,2013,20464.0,2014-05,1989823.0,own_year_crosschecked,19.825059,True
+brentford,2013,9950.861,2014-06,3642327.0,own_year,,False
+rotherham united,2013,5443.7,,,next_year_comparative_only,,False
+preston north end,2013,6291.0,,,next_year_comparative_only,,False
+sheffield united,2013,8431.797,2014-06,61564.0,own_year_crosschecked,1.33025,False
+coventry city,2013,4607239.0,,,next_year_comparative_only,,False
+bristol city,2013,9594.894,,,next_year_comparative_only,,False
+chelsea,2014,199831.0,2015-06,1965149.0,own_year_crosschecked,0.0,False
+manchester city,2014,193821.0,2015-05,40946.0,own_year_crosschecked,0.0,False
+arsenal,2014,189708.0,2015-05,109244.0,own_year_crosschecked,0.024248,False
+manchester united,2014,158289.0,2015-06,95489.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2014,99245.0,,,next_year_comparative_only,,False
+liverpool,2014,166085.0,2015-05,35668.0,own_year_crosschecked,0.0,False
+southampton,2014,78257.654,2015-06,53301.0,own_year_crosschecked,0.863371,False
+swansea city,2014,82540.562,2015-07,123414.0,own_year_crosschecked,0.0,False
+stoke city,2014,66580.0,2015-05,99885.0,own_year_crosschecked,0.626314,False
+crystal palace,2014,68028.216,2015-06,7270793.0,own_year,,False
+everton,2014,77515.0,2015-05,36624.0,own_year,,False
+west ham united,2014,72715.0,2015-05,66516.0,own_year_crosschecked,0.0,False
+west bromwich albion,2014,69801.0,2015-06,3295063.0,own_year_crosschecked,0.0,False
+leicester city,2014,57438.0,2015-05,4593477.0,own_year_crosschecked,0.0,False
+sunderland,2014,75158.0,2015-07,49116.0,own_year_crosschecked,0.0,False
+aston villa,2014,83777.0,2015-05,5891280.0,own_year_crosschecked,0.0,False
+hull city,2014,55611.076,2015-06,4032392.0,own_year_crosschecked,0.0,False
+burnley,2014,29395.0,2015-06,54222.0,own_year,,False
+queens park rangers,2014,69992.0,,,next_year_comparative_only,,False
+bournemouth,2014,30437.919,2015-07,6632170.0,own_year_crosschecked,2.733166,True
+watford,2014,20689.0,2015-06,104194.0,own_year_crosschecked,0.0,False
+norwich city,2014,48529.0,2015-06,154044.0,own_year_crosschecked,0.0,False
+middlesbrough,2014,20481.0,2015-06,1947851.0,own_year_crosschecked,0.0,False
+brentford,2014,17711.971,2015-06,3642327.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2014,17657.0,2015-05,1989823.0,own_year_crosschecked,0.0,False
+derby county,2014,21767.0,,,next_year_comparative_only,,False
+blackburn rovers,2014,29958.108,2015-06,53482.0,own_year,,False
+birmingham city,2014,14113.988,2015-06,27318.0,own_year,,False
+charlton athletic,2014,11480.0,2015-06,1788466.0,own_year,,False
+sheffield wednesday,2014,13401.0,2015-05,2509978.0,own_year,,False
+nottingham forest,2014,30384.0,,,next_year_comparative_only,,False
+leeds united,2014,19847.739,2015-06,6233875.0,own_year_crosschecked,0.0,False
+huddersfield town,2014,13287.703,2015-05,1771361.0,own_year_crosschecked,0.0,False
+fulham,2014,37068.0,2015-06,2114486.0,own_year_crosschecked,0.116003,False
+reading,2014,33336.809,2015-06,53703.0,own_year,,False
+rotherham united,2014,3262897.0,2015-06,6550400.0,own_year,,False
+brighton and hove albion,2014,20641.074,2015-06,81077.0,own_year_crosschecked,0.0,False
+millwall,2014,15156.0,2015-06,1924222.0,own_year,,False
+blackpool,2014,7970.057,2015-05,48409.0,own_year,,False
+bristol city,2014,9683.331,2015-05,3230871.0,own_year,,False
+preston north end,2014,7559.0,2015-06,39494.0,own_year,,False
+sheffield united,2014,9599.569,2015-06,61564.0,own_year,,False
+coventry city,2014,5247.064,2015-05,7612487.0,own_year,,False
+leicester city,2015,80352.0,2016-05,4593477.0,own_year_crosschecked,0.0,False
+arsenal,2015,191764.0,2016-05,109244.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2015,98288.0,2016-06,57186.0,own_year_crosschecked,0.0,False
+manchester city,2015,197584.0,2016-05,40946.0,own_year,,False
+manchester united,2015,184946.0,2016-06,95489.0,own_year_crosschecked,0.0,False
+southampton,2015,82209.0,2016-06,53301.0,own_year_crosschecked,0.0,False
+west ham united,2015,84633.0,2016-05,66516.0,own_year,,False
+liverpool,2015,208258.0,2016-05,35668.0,own_year_crosschecked,0.0,False
+stoke city,2015,82293.0,2016-05,99885.0,own_year_crosschecked,0.0,False
+chelsea,2015,202686.0,2016-06,1965149.0,own_year_crosschecked,0.0,False
+everton,2015,83985.0,,,next_year_comparative_only,,False
+swansea city,2015,81777.656,2016-07,123414.0,own_year_crosschecked,0.0,False
+watford,2015,57900.0,2016-06,104194.0,own_year_crosschecked,6.2e-05,False
+west bromwich albion,2015,73742.0,2016-06,3295063.0,own_year,,False
+bournemouth,2015,59557.0,2016-07,6632170.0,own_year_crosschecked,0.0,False
+sunderland,2015,81753.0,2016-07,49116.0,own_year_crosschecked,0.0,False
+newcastle united,2015,74668.0,,,next_year_comparative_only,,False
+norwich city,2015,67193.0,2016-06,154044.0,own_year_crosschecked,0.0,False
+aston villa,2015,93014.0,2016-05,5891280.0,own_year_crosschecked,0.0,False
+middlesbrough,2015,32386.0,,,next_year_comparative_only,,False
+brighton and hove albion,2015,27383.446,2016-06,81077.0,own_year_crosschecked,0.0,False
+hull city,2015,30009.49,2016-06,4032392.0,own_year_crosschecked,0.0,False
+derby county,2015,31908.0,2016-06,49139.0,own_year,,False
+sheffield wednesday,2015,19295.0,,,next_year_comparative_only,,False
+brentford,2015,17602.769,2016-06,3642327.0,own_year_crosschecked,0.0,False
+birmingham city,2015,15327.088,,,next_year_comparative_only,,False
+queens park rangers,2015,37788.0,2016-05,60094.0,own_year_crosschecked,0.0,False
+leeds united,2015,18130.316,2016-06,6233875.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2015,18240.0,2016-05,1989823.0,own_year,,False
+blackburn rovers,2015,25307.348,,,next_year_comparative_only,,False
+nottingham forest,2015,30615.0,2016-05,1630402.0,own_year_crosschecked,0.0,False
+reading,2015,30761.382,,,next_year_comparative_only,,False
+bristol city,2015,15436.725,,,next_year_comparative_only,,False
+huddersfield town,2015,12539.588,2016-06,1771361.0,own_year_crosschecked,0.0,False
+fulham,2015,36132.0,2016-06,2114486.0,own_year_crosschecked,0.0,False
+charlton athletic,2015,14064.0,,,next_year_comparative_only,,False
+coventry city,2015,4512381.0,,,next_year_comparative_only,,False
+sheffield united,2015,11348.16,,,next_year_comparative_only,,False
+blackpool,2015,3566399.0,,,next_year_comparative_only,,False
+chelsea,2016,203499.0,2017-06,1965149.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2016,124825.0,2017-06,57186.0,own_year_crosschecked,0.0,False
+manchester city,2016,264133.0,,,next_year_comparative_only,,False
+liverpool,2016,207526.0,2017-05,35668.0,own_year_crosschecked,0.362364,False
+arsenal,2016,195396.0,2017-05,109244.0,own_year_crosschecked,0.0,False
+manchester united,2016,211958.0,2017-06,95489.0,own_year_crosschecked,0.0,False
+everton,2016,104655.0,2017-05,36624.0,own_year,,False
+southampton,2016,108687.0,2017-06,53301.0,own_year_crosschecked,0.0,False
+bournemouth,2016,71534.0,2017-06,6632170.0,own_year_crosschecked,0.0,False
+west ham united,2016,95045.0,2017-05,66516.0,own_year_crosschecked,0.0,False
+leicester city,2016,112555.0,2017-05,4593477.0,own_year_crosschecked,0.0,False
+stoke city,2016,84886.0,2017-05,99885.0,own_year_crosschecked,0.0,False
+swansea city,2016,98698.69,2017-07,123414.0,own_year,,False
+burnley,2016,61198.0,2017-06,54222.0,own_year_crosschecked,0.0,False
+watford,2016,74821.974,2017-06,104194.0,own_year_crosschecked,3.5e-05,False
+hull city,2016,61254.189,2017-06,4032392.0,own_year_crosschecked,0.0,False
+middlesbrough,2016,64943.0,2017-06,1947851.0,own_year_crosschecked,0.0,False
+sunderland,2016,82691.0,2017-07,49116.0,own_year_crosschecked,0.0,False
+newcastle united,2016,112187.0,2017-06,31014.0,own_year_crosschecked,0.0,False
+brighton and hove albion,2016,40043.129,2017-06,81077.0,own_year_crosschecked,0.000322,False
+reading,2016,27894.461,2017-06,53703.0,own_year,,False
+sheffield wednesday,2016,29341.0,2017-05,2509978.0,own_year,,False
+huddersfield town,2016,21732.329,2017-06,1771361.0,own_year_crosschecked,0.0,False
+fulham,2016,37087.0,2017-06,2114486.0,own_year_crosschecked,0.0,False
+leeds united,2016,20713.719,2017-06,6233875.0,own_year_crosschecked,0.0,False
+norwich city,2016,55144.0,2017-06,154044.0,own_year_crosschecked,0.0,False
+brentford,2016,14670.024,2017-06,3642327.0,own_year_crosschecked,0.0,False
+aston villa,2016,61473.0,2017-05,5891280.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2016,28235.0,,,next_year_comparative_only,,False
+ipswich town,2016,17779.0,2017-06,315421.0,own_year,,False
+bristol city,2016,17895.605,2017-05,3230871.0,own_year,,False
+birmingham city,2016,22198.981,2017-06,27318.0,own_year,,False
+nottingham forest,2016,28573.0,2017-05,1630402.0,own_year_crosschecked,2.299374,True
+blackburn rovers,2016,21954.125,2017-06,53482.0,own_year,,False
+sheffield united,2016,10033.714,2017-06,61564.0,own_year_crosschecked,0.0,False
+charlton athletic,2016,11127.0,2017-06,1788466.0,own_year,,False
+coventry city,2016,4453339.0,2017-05,7612487.0,own_year,,False
+blackpool,2016,3361513.0,2017-05,48409.0,own_year,,False
+manchester city,2017,259634.0,2018-06,40946.0,own_year_crosschecked,0.0,False
+manchester united,2017,288239.0,2018-06,95489.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2017,144909.0,2018-06,57186.0,own_year_crosschecked,0.0,False
+liverpool,2017,263615.0,2018-05,35668.0,own_year_crosschecked,0.0,False
+chelsea,2017,222870.0,2018-06,1965149.0,own_year_crosschecked,0.0,False
+arsenal,2017,235703.0,2018-05,109244.0,own_year,,False
+burnley,2017,81616.0,2018-06,54222.0,own_year_crosschecked,0.0,False
+everton,2017,145008.0,,,next_year_comparative_only,,False
+leicester city,2017,119013.0,2018-05,4593477.0,own_year,,False
+newcastle united,2017,93623.0,2018-06,31014.0,own_year_crosschecked,0.0,False
+crystal palace,2017,117328.0,,,next_year_comparative_only,,False
+bournemouth,2017,101860.0,2018-06,6632170.0,own_year_crosschecked,0.0,False
+west ham united,2017,106635.0,2018-05,66516.0,own_year_crosschecked,0.0,False
+watford,2017,85915.0,,,next_year_comparative_only,,False
+brighton and hove albion,2017,77005.0,2018-06,81077.0,own_year_crosschecked,0.0,False
+huddersfield town,2017,62613.144,2018-06,1771361.0,own_year_crosschecked,0.0,False
+southampton,2017,109785.0,2018-06,53301.0,own_year_crosschecked,0.0,False
+swansea city,2017,90743.472,2018-07,123414.0,own_year_crosschecked,2.013087,True
+stoke city,2017,94226.0,2018-05,99885.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2017,50709.0,2018-05,1989823.0,own_year_crosschecked,0.0,False
+cardiff city,2017,48445.0,,,next_year_comparative_only,,False
+fulham,2017,54334.0,2018-06,2114486.0,own_year_crosschecked,0.0,False
+aston villa,2017,73110.0,2018-05,5891280.0,own_year_crosschecked,0.0,False
+middlesbrough,2017,48707.0,2018-06,1947851.0,own_year_crosschecked,0.0,False
+millwall,2017,13396.0,,,next_year_comparative_only,,False
+brentford,2017,17207.443,2018-06,3642327.0,own_year_crosschecked,4.608111,True
+sheffield united,2017,18965.852,2018-06,61564.0,own_year,,False
+bristol city,2017,23083.565,,,next_year_comparative_only,,False
+ipswich town,2017,18535.0,2018-06,315421.0,own_year,,False
+leeds united,2017,31358.013,2018-06,6233875.0,own_year_crosschecked,0.0,False
+norwich city,2017,54252.0,2018-06,154044.0,own_year_crosschecked,0.0,False
+sheffield wednesday,2017,42408.0,,,next_year_comparative_only,,False
+nottingham forest,2017,27749.0,2018-05,1630402.0,own_year_crosschecked,0.0,False
+hull city,2017,31132.18,2018-06,4032392.0,own_year,,False
+reading,2017,35343.233,,,next_year_comparative_only,,False
+barnsley,2017,10598.822,,,next_year_comparative_only,,False
+sunderland,2017,46834.0,2018-07,49116.0,own_year_crosschecked,0.0,False
+blackburn rovers,2017,16772.407,,,next_year_comparative_only,,False
+rotherham united,2017,6313.148,,,next_year_comparative_only,,False
+charlton athletic,2017,10199.0,,,next_year_comparative_only,,False
+blackpool,2017,4237258.0,,,next_year_comparative_only,,False
+coventry city,2017,4879299.0,,,next_year_comparative_only,,False
+manchester city,2018,315257.0,2019-06,40946.0,own_year_crosschecked,0.0,False
+liverpool,2018,309917.0,2019-05,35668.0,own_year_crosschecked,0.0,False
+chelsea,2018,262795.0,2019-06,1965149.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2018,175013.0,2019-06,57186.0,own_year_crosschecked,0.0,False
+arsenal,2018,230463.0,,,next_year_comparative_only,,False
+manchester united,2018,324004.0,2019-06,95489.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2018,92131.0,2019-05,1989823.0,own_year_crosschecked,0.0,False
+everton,2018,159255.0,2019-06,36624.0,own_year_crosschecked,0.0,False
+leicester city,2018,149512.0,,,next_year_comparative_only,,False
+west ham united,2018,135796.0,2019-05,66516.0,own_year_crosschecked,0.0,False
+watford,2018,83599.0,,,next_year_comparative_only,,False
+crystal palace,2018,119295.0,2019-06,7270793.0,own_year_crosschecked,0.0,False
+newcastle united,2018,96798.0,,,next_year_comparative_only,,False
+bournemouth,2018,110894.0,2019-06,6632170.0,own_year_crosschecked,0.0,False
+burnley,2018,86619.0,2019-06,54222.0,own_year_crosschecked,0.0,False
+southampton,2018,111444.0,2019-06,53301.0,own_year_crosschecked,0.0,False
+brighton and hove albion,2018,100581.0,2019-06,81077.0,own_year_crosschecked,0.0,False
+cardiff city,2018,53651.0,2019-05,109065.0,own_year_crosschecked,0.0,False
+fulham,2018,92591.0,2019-06,2114486.0,own_year_crosschecked,0.0,False
+huddersfield town,2018,64175.649,2019-06,1771361.0,own_year_crosschecked,0.78989,False
+norwich city,2018,54441.0,2019-06,154044.0,own_year_crosschecked,0.0,False
+sheffield united,2018,40654.184,2019-06,61564.0,own_year_crosschecked,0.0,False
+leeds united,2018,46161.592,2019-06,6233875.0,own_year_crosschecked,0.0,False
+aston villa,2018,94998.0,2019-05,5891280.0,own_year,,False
+middlesbrough,2018,40125.0,2019-06,1947851.0,own_year_crosschecked,0.0,False
+bristol city,2018,24620.235,2019-05,3230871.0,own_year,,False
+nottingham forest,2018,36255.0,2019-05,1630402.0,own_year_crosschecked,0.0,False
+swansea city,2018,48900.027,2019-07,123414.0,own_year_crosschecked,0.0,False
+brentford,2018,18867.403,2019-06,3642327.0,own_year,,False
+sheffield wednesday,2018,36378.0,2019-07,2509978.0,own_year,,False
+hull city,2018,24779.268,2019-06,4032392.0,own_year,,False
+blackburn rovers,2018,22391.812,2019-06,53482.0,own_year,,False
+stoke city,2018,56028.0,2019-05,99885.0,own_year_crosschecked,0.0,False
+reading,2018,40748.878,2019-06,53703.0,own_year,,False
+millwall,2018,16914.0,2019-06,1924222.0,own_year,,False
+rotherham united,2018,7823.838,2019-06,6550400.0,own_year,,False
+ipswich town,2018,19249.0,,,next_year_comparative_only,,False
+barnsley,2018,8139.847,2019-05,4573250.0,own_year,,False
+charlton athletic,2018,10432.0,2019-06,1788466.0,own_year,,False
+sunderland,2018,26668.0,2019-07,49116.0,own_year_crosschecked,0.0,False
+coventry city,2018,5321.615,2019-05,7612487.0,own_year,,False
+liverpool,2019,325572.0,2020-05,35668.0,own_year_crosschecked,0.0,False
+manchester city,2019,351412.0,2020-06,40946.0,own_year_crosschecked,0.0,False
+manchester united,2019,274189.0,2020-06,95489.0,own_year,,False
+chelsea,2019,259450.0,2020-06,1965149.0,own_year_crosschecked,0.0,False
+leicester city,2019,157479.0,2020-05,4593477.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2019,177752.0,2020-06,57186.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2019,94251.0,,,next_year_comparative_only,,False
+arsenal,2019,227984.0,2020-05,109244.0,own_year_crosschecked,0.0,False
+sheffield united,2019,77885.823,2020-07,61564.0,own_year,,False
+burnley,2019,100094.0,2020-07,54222.0,own_year_crosschecked,0.0,False
+southampton,2019,114163.0,2020-06,53301.0,own_year,,False
+everton,2019,163705.0,2020-06,36624.0,own_year_crosschecked,0.64323,False
+newcastle united,2019,121146.0,2020-07,31014.0,own_year_crosschecked,0.0,False
+crystal palace,2019,132643.0,2020-07,7270793.0,own_year_crosschecked,0.0,False
+brighton and hove albion,2019,101870.0,2020-06,81077.0,own_year_crosschecked,0.0,False
+west ham united,2019,129949.0,2020-05,66516.0,own_year_crosschecked,0.0,False
+bournemouth,2019,107871.0,2020-06,6632170.0,own_year_crosschecked,0.0,False
+watford,2019,96201.0,2020-06,104194.0,own_year_crosschecked,0.0,False
+norwich city,2019,88925.0,2020-07,154044.0,own_year_crosschecked,0.0,False
+leeds united,2019,78290.456,2020-07,6233875.0,own_year_crosschecked,0.0,False
+brentford,2019,25861.915,,,next_year_comparative_only,,False
+fulham,2019,72626.0,2020-06,2114486.0,own_year_crosschecked,0.0,False
+cardiff city,2019,35640.0,2020-05,109065.0,own_year_crosschecked,0.0,False
+swansea city,2019,40216.842,2020-07,123414.0,own_year,,False
+nottingham forest,2019,38122.0,2020-05,1630402.0,own_year_crosschecked,0.0,False
+millwall,2019,18934.0,,,next_year_comparative_only,,False
+preston north end,2019,20028.0,,,next_year_comparative_only,,False
+blackburn rovers,2019,25599.35,,,next_year_comparative_only,,False
+queens park rangers,2019,17390.0,2020-05,60094.0,own_year_crosschecked,0.0,False
+reading,2019,37574.302,,,next_year_comparative_only,,False
+stoke city,2019,52663.0,2020-05,99885.0,own_year_crosschecked,0.0,False
+sheffield wednesday,2019,33541.0,,,next_year_comparative_only,,False
+middlesbrough,2019,30964.0,2020-06,1947851.0,own_year_crosschecked,0.0,False
+huddersfield town,2019,30253.71,2020-06,1771361.0,own_year_crosschecked,0.0,False
+luton town,2019,13998.106,,,next_year_comparative_only,,False
+birmingham city,2019,32418.347,,,next_year_comparative_only,,False
+barnsley,2019,11120.135,,,next_year_comparative_only,,False
+charlton athletic,2019,12241.0,,,next_year_comparative_only,,False
+hull city,2019,17751.492,,,next_year_comparative_only,,False
+coventry city,2019,6535.124,,,next_year_comparative_only,,False
+sunderland,2019,16273.0,,,next_year_comparative_only,,False
+ipswich town,2019,12853.0,2020-06,315421.0,own_year_crosschecked,0.0,False
+blackpool,2019,6647.566,,,next_year_comparative_only,,False
+manchester city,2020,354689.0,2021-06,40946.0,own_year_crosschecked,0.0,False
+manchester united,2020,312359.0,,,next_year_comparative_only,,False
+liverpool,2020,314354.0,2021-05,35668.0,own_year_crosschecked,0.0,False
+chelsea,2020,309080.0,2021-06,1965149.0,own_year_crosschecked,0.0,False
+leicester city,2020,191226.0,,,next_year_comparative_only,,False
+west ham united,2020,128451.0,2021-05,66516.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2020,201085.0,2021-06,57186.0,own_year_crosschecked,0.0,False
+arsenal,2020,239830.0,2021-05,109244.0,own_year_crosschecked,0.0,False
+leeds united,2020,108252.679,2021-06,6233875.0,own_year_crosschecked,0.0,False
+everton,2020,182570.0,2021-06,36624.0,own_year_crosschecked,0.0,False
+aston villa,2020,137799.0,,,next_year_comparative_only,,False
+newcastle united,2020,106829.0,2021-06,31014.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2020,138776.0,2021-05,1989823.0,own_year_crosschecked,0.0,False
+crystal palace,2020,127002.0,2021-06,7270793.0,own_year_crosschecked,2.591298,True
+southampton,2020,113359.0,2021-06,53301.0,own_year_crosschecked,0.0,False
+brighton and hove albion,2020,107404.0,2021-06,81077.0,own_year_crosschecked,0.0,False
+burnley,2020,85934.0,2021-07,54222.0,own_year_crosschecked,0.0,False
+fulham,2020,113871.0,2021-06,2114486.0,own_year_crosschecked,0.0,False
+west bromwich albion,2020,76897.0,,,next_year_comparative_only,,False
+sheffield united,2020,56518.365,2021-06,61564.0,own_year,,False
+norwich city,2020,66623.0,2021-06,154044.0,own_year,,False
+watford,2020,68066.0,2021-06,104194.0,own_year_crosschecked,3.953516,True
+brentford,2020,41441.161,2021-06,3642327.0,own_year_crosschecked,0.002025,False
+swansea city,2020,27791.99,,,next_year_comparative_only,,False
+barnsley,2020,14374.258,2021-05,4573250.0,own_year,,False
+bournemouth,2020,57376.0,2021-06,6632170.0,own_year_crosschecked,0.0,False
+cardiff city,2020,33497.0,2021-05,109065.0,own_year_crosschecked,0.0,False
+queens park rangers,2020,21908.0,,,next_year_comparative_only,,False
+middlesbrough,2020,26963.0,2021-06,1947851.0,own_year_crosschecked,0.0,False
+millwall,2020,20835.0,2021-06,1924222.0,own_year,,False
+luton town,2020,14109.13,2021-06,6133975.0,own_year_crosschecked,0.0,False
+preston north end,2020,22886.0,2021-06,39494.0,own_year,,False
+stoke city,2020,47893.0,2021-05,99885.0,own_year_crosschecked,21.742217,True
+blackburn rovers,2020,25652.262,2021-06,53482.0,own_year,,False
+coventry city,2020,13173.941,2021-05,7612487.0,own_year,,False
+nottingham forest,2020,37196.0,2021-06,1630402.0,own_year_crosschecked,0.0,False
+birmingham city,2020,30151.864,2021-06,27318.0,own_year,,False
+bristol city,2020,30251.6,2021-05,3230871.0,own_year,,False
+huddersfield town,2020,24636.751,2021-06,1771361.0,own_year_crosschecked,0.0,False
+sheffield wednesday,2020,24287.0,2021-07,2509978.0,own_year_crosschecked,0.0,False
+hull city,2020,8443.408,2021-06,4032392.0,own_year_crosschecked,0.0,False
+blackpool,2020,7671.92,2021-06,48409.0,own_year,,False
+sunderland,2020,13363.0,2021-07,49116.0,own_year_crosschecked,0.0,False
+charlton athletic,2020,9336.0,2021-06,1788466.0,own_year,,False
+ipswich town,2020,13370.0,2021-06,315421.0,own_year_crosschecked,0.0,False
+wigan athletic,2020,1507207.0,2021-06,13161421.0,own_year,,False
+manchester city,2021,353881.0,2022-06,40946.0,own_year,,False
+liverpool,2021,366092.0,2022-05,35668.0,own_year_crosschecked,0.0,False
+chelsea,2021,313794.0,2022-06,1965149.0,own_year_crosschecked,0.0,False
+tottenham hotspur,2021,205088.0,2022-06,57186.0,own_year_crosschecked,0.0,False
+arsenal,2021,205482.0,2022-05,109244.0,own_year_crosschecked,0.0,False
+manchester united,2021,372533.0,2022-06,95489.0,own_year_crosschecked,0.0,False
+west ham united,2021,134397.0,2022-05,66516.0,own_year_crosschecked,0.0,False
+leicester city,2021,180405.0,,,next_year_comparative_only,,False
+brighton and hove albion,2021,112718.0,2022-06,81077.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2021,120216.0,2022-05,1989823.0,own_year_crosschecked,0.0,False
+newcastle united,2021,170204.0,2022-06,31014.0,own_year_crosschecked,0.0,False
+crystal palace,2021,123835.0,2022-06,7270793.0,own_year_crosschecked,0.0,False
+brentford,2021,68152.0,2022-06,3642327.0,own_year_crosschecked,0.0,False
+aston villa,2021,137044.0,2022-05,5891280.0,own_year_crosschecked,0.0,False
+southampton,2021,113449.0,2022-06,53301.0,own_year_crosschecked,0.0,False
+everton,2021,162010.0,2022-06,36624.0,own_year_crosschecked,1.565953,False
+leeds united,2021,121405.579,2022-06,6233875.0,own_year_crosschecked,0.0,False
+burnley,2021,91978.0,2022-07,54222.0,own_year_crosschecked,0.0,False
+watford,2021,78969.0,2022-06,104194.0,own_year_crosschecked,0.0,False
+fulham,2021,90360.0,2022-06,2114486.0,own_year_crosschecked,0.0,False
+bournemouth,2021,61381.0,2022-06,6632170.0,own_year_crosschecked,0.0,False
+huddersfield town,2021,20264.566,2022-06,1771361.0,own_year_crosschecked,0.0,False
+nottingham forest,2021,58565.0,2022-06,1630402.0,own_year_crosschecked,0.0,False
+sheffield united,2021,42051.963,2022-06,61564.0,own_year,,False
+luton town,2021,17824.725,2022-06,6133975.0,own_year_crosschecked,0.0,False
+middlesbrough,2021,28427.0,2022-06,1947851.0,own_year_crosschecked,0.0,False
+blackburn rovers,2021,24356.209,,,next_year_comparative_only,,False
+millwall,2021,22316.0,,,next_year_comparative_only,,False
+west bromwich albion,2021,42382.0,2022-06,3295063.0,own_year_crosschecked,0.0,False
+queens park rangers,2021,24782.0,2022-05,60094.0,own_year_crosschecked,0.0,False
+coventry city,2021,15674.203,,,next_year_comparative_only,,False
+stoke city,2021,35560.0,2022-05,99885.0,own_year_crosschecked,0.0,False
+swansea city,2021,26066.858,2022-07,123414.0,own_year_crosschecked,0.0,False
+blackpool,2021,11579.392,,,next_year_comparative_only,,False
+cardiff city,2021,29215.0,2022-05,109065.0,own_year_crosschecked,0.0,False
+hull city,2021,12696.82,2022-06,4032392.0,own_year_crosschecked,0.0,False
+reading,2021,25322.777,,,next_year_comparative_only,,False
+barnsley,2021,13063.921,,,next_year_comparative_only,,False
+sheffield wednesday,2021,12428.0,2022-07,2509978.0,own_year,,False
+sunderland,2021,16143.0,2022-07,49116.0,own_year_crosschecked,0.0,False
+ipswich town,2021,16432.0,2022-06,315421.0,own_year_crosschecked,0.0,False
+manchester city,2022,422895.0,2023-06,40946.0,own_year_crosschecked,0.0,False
+arsenal,2022,225427.0,2023-05,109244.0,own_year_crosschecked,0.0,False
+manchester united,2022,313775.0,,,next_year_comparative_only,,False
+newcastle united,2022,186252.0,2023-06,31014.0,own_year_crosschecked,0.847776,False
+liverpool,2022,372881.0,2023-05,35668.0,own_year_crosschecked,0.0,False
+brighton and hove albion,2022,124371.0,2023-06,81077.0,own_year_crosschecked,0.0,False
+aston villa,2022,194236.0,2023-05,5891280.0,own_year,,False
+tottenham hotspur,2022,245024.0,2023-06,57186.0,own_year_crosschecked,0.0,False
+brentford,2022,98800.0,2023-06,3642327.0,own_year_crosschecked,0.0,False
+fulham,2022,139064.0,2023-06,2114486.0,own_year_crosschecked,0.0,False
+crystal palace,2022,129720.0,2023-06,7270793.0,own_year_crosschecked,0.0,False
+chelsea,2022,373396.0,2023-06,1965149.0,own_year_crosschecked,0.0,False
+west ham united,2022,135343.0,2023-05,66516.0,own_year_crosschecked,0.0,False
+bournemouth,2022,100109.0,2023-06,6632170.0,own_year,,False
+nottingham forest,2022,144912.0,2023-06,1630402.0,own_year_crosschecked,0.0,False
+everton,2022,156204.0,2023-06,36624.0,own_year_crosschecked,0.0,False
+leicester city,2022,203169.0,2023-06,4593477.0,own_year_crosschecked,1.285137,False
+leeds united,2022,145857.096,2023-06,6233875.0,own_year_crosschecked,0.0,False
+southampton,2022,121105.0,2023-06,53301.0,own_year,,False
+burnley,2022,53661.0,2023-07,54222.0,own_year_crosschecked,7.256667,True
+sheffield united,2022,48194.73,2023-06,61564.0,own_year_crosschecked,0.0,False
+luton town,2022,27593.595,2023-06,6133975.0,own_year_crosschecked,0.0,False
+middlesbrough,2022,29625.0,2023-06,1947851.0,own_year_crosschecked,0.0,False
+coventry city,2022,18459.53,2023-05,7612487.0,own_year,,False
+sunderland,2022,25296.0,2023-07,49116.0,own_year_crosschecked,0.0,False
+blackburn rovers,2022,25794.206,2023-06,53482.0,own_year,,False
+millwall,2022,22583.0,2023-06,1924222.0,own_year,,False
+west bromwich albion,2022,45947.0,2023-06,3295063.0,own_year_crosschecked,0.002176,False
+swansea city,2022,24850.723,2023-07,123414.0,own_year_crosschecked,0.0,False
+watford,2022,48726.0,2023-06,104194.0,own_year_crosschecked,0.0,False
+norwich city,2022,56448.0,2023-06,154044.0,own_year_crosschecked,0.0,False
+bristol city,2022,23807.941,,,next_year_comparative_only,,False
+hull city,2022,23651.367,2023-06,4032392.0,own_year_crosschecked,4e-06,False
+stoke city,2022,28231.0,2023-05,99885.0,own_year_crosschecked,0.0,False
+huddersfield town,2022,21522.081,2023-06,1771361.0,own_year_crosschecked,0.0,False
+reading,2022,24470.211,2023-06,53703.0,own_year,,False
+queens park rangers,2022,22436.0,2023-05,60094.0,own_year_crosschecked,0.0,False
+cardiff city,2022,22287.0,2023-05,109065.0,own_year_crosschecked,0.0,False
+wigan athletic,2022,23240.053,2023-06,13161421.0,own_year,,False
+blackpool,2022,13528.599,2023-06,48409.0,own_year,,False
+ipswich town,2022,19797.0,2023-06,315421.0,own_year_crosschecked,0.0,False
+sheffield wednesday,2022,15759.0,,,next_year_comparative_only,,False
+barnsley,2022,9277.755,2023-05,4573250.0,own_year,,False
+manchester city,2023,412573.0,2024-06,40946.0,own_year_crosschecked,0.0,False
+arsenal,2023,315168.0,2024-05,109244.0,own_year_crosschecked,0.0,False
+liverpool,2023,386086.0,2024-05,35668.0,own_year_crosschecked,0.0,False
+aston villa,2023,252049.0,,,next_year_comparative_only,,False
+tottenham hotspur,2023,215796.0,2024-06,57186.0,own_year_crosschecked,0.0,False
+chelsea,2023,296499.0,2024-06,1965149.0,own_year_crosschecked,0.0,False
+newcastle united,2023,217566.0,2024-06,31014.0,own_year_crosschecked,0.0,False
+manchester united,2023,349507.0,2024-06,95489.0,own_year_crosschecked,0.0,False
+west ham united,2023,159040.0,2024-05,66516.0,own_year_crosschecked,0.0,False
+crystal palace,2023,132444.0,2024-06,7270793.0,own_year_crosschecked,0.0,False
+brighton and hove albion,2023,142235.0,2024-06,81077.0,own_year_crosschecked,0.0,False
+everton,2023,153661.0,2024-06,36624.0,own_year_crosschecked,1.932826,False
+bournemouth,2023,136170.0,2024-06,6632170.0,own_year_crosschecked,0.0,False
+fulham,2023,154754.0,2024-06,2114486.0,own_year_crosschecked,0.0,False
+wolverhampton wanderers,2023,141284.0,2024-05,1989823.0,own_year_crosschecked,0.0,False
+brentford,2023,114371.0,2024-06,3642327.0,own_year_crosschecked,0.0,False
+nottingham forest,2023,166399.0,2024-06,1630402.0,own_year_crosschecked,0.0,False
+luton town,2023,56881.016,2024-06,6133975.0,own_year,,False
+burnley,2023,93420.0,2024-07,54222.0,own_year_crosschecked,0.0,False
+sheffield united,2023,63703.662,2024-06,61564.0,own_year_crosschecked,0.0,False
+leicester city,2023,107164.0,2024-06,4593477.0,own_year_crosschecked,0.0,False
+ipswich town,2023,44528.0,2024-06,315421.0,own_year_crosschecked,88.713699,True
+leeds united,2023,84030.436,2024-06,6233875.0,own_year,,False
+southampton,2023,79014.0,,,next_year_comparative_only,,False
+west bromwich albion,2023,42899.0,2024-06,3295063.0,own_year_crosschecked,0.0,False
+norwich city,2023,51842.0,2024-06,154044.0,own_year_crosschecked,0.0,False
+hull city,2023,29556.691,2024-06,4032392.0,own_year_crosschecked,0.0,False
+middlesbrough,2023,31394.0,2024-06,1947851.0,own_year_crosschecked,0.0,False
+bristol city,2023,26307.953,2024-06,3230871.0,own_year_crosschecked,5.644727,True
+cardiff city,2023,27857.0,2024-05,109065.0,own_year_crosschecked,7.193883,True
+millwall,2023,25578.584,,,next_year_comparative_only,,False
+swansea city,2023,27347.429,2024-06,123414.0,own_year_crosschecked,0.0,False
+watford,2023,33025.0,,,next_year_comparative_only,,False
+sunderland,2023,30463.0,2024-07,49116.0,own_year_crosschecked,0.0,False
+stoke city,2023,31764.0,,,next_year_comparative_only,,False
+queens park rangers,2023,20712.0,2024-05,60094.0,own_year_crosschecked,0.0,False
+blackburn rovers,2023,25443.371,,,next_year_comparative_only,,False
+sheffield wednesday,2023,21810.0,2024-07,2509978.0,own_year,,False
+huddersfield town,2023,23031.53,2024-06,1771361.0,own_year_crosschecked,0.0,False
+blackpool,2023,9508.212,,,next_year_comparative_only,,False
+wigan athletic,2023,11720.275,,,next_year_comparative_only,,False
+charlton athletic,2023,12132.0,,,next_year_comparative_only,,False
+liverpool,2024,427727.0,2025-05,35668.0,own_year,,False
+arsenal,2024,331227.0,2025-05,109244.0,own_year,,False
+manchester city,2024,408403.0,2025-06,40946.0,own_year,,False
+chelsea,2024,325575.0,2025-06,1965149.0,own_year,,False
+newcastle united,2024,241344.0,2025-06,31014.0,own_year,,False
+aston villa,2024,273376.0,2025-06,5891280.0,own_year,,False
+nottingham forest,2024,166651.0,2025-06,1630402.0,own_year,,False
+brighton and hove albion,2024,158679.0,2025-06,81077.0,own_year,,False
+bournemouth,2024,158422.0,2025-06,6632170.0,own_year,,False
+brentford,2024,130778.0,2025-06,3642327.0,own_year,,False
+fulham,2024,166507.0,2025-06,2114486.0,own_year,,False
+crystal palace,2024,145478.0,2025-06,7270793.0,own_year,,False
+everton,2024,152064.0,2025-06,36624.0,own_year,,False
+west ham united,2024,173335.0,2025-05,66516.0,own_year,,False
+manchester united,2024,296080.0,2025-06,95489.0,own_year,,False
+wolverhampton wanderers,2024,162087.0,2025-06,1989823.0,own_year,,False
+tottenham hotspur,2024,248263.0,2025-06,57186.0,own_year,,False
+leicester city,2024,152932.0,2025-06,4593477.0,own_year,,False
+ipswich town,2024,77141.0,2025-06,315421.0,own_year,,False
+southampton,2024,113957.0,2025-06,53301.0,own_year,,False
+burnley,2024,82263.0,2025-07,54222.0,own_year,,False
+sheffield united,2024,45971.762,2025-06,61564.0,own_year,,False
+sunderland,2024,52899.0,2025-07,49116.0,own_year,,False
+bristol city,2024,25853.682,2025-06,3230871.0,own_year,,False
+blackburn rovers,2024,28219.719,2025-06,53482.0,own_year,,False
+millwall,2024,28633.503,2025-06,1924222.0,own_year,,False
+west bromwich albion,2024,37050.0,2025-06,3295063.0,own_year,,False
+middlesbrough,2024,36360.0,2025-06,1947851.0,own_year,,False
+swansea city,2024,29019.531,2025-06,123414.0,own_year,,False
+norwich city,2024,48083.0,2025-06,154044.0,own_year,,False
+watford,2024,28124.0,2025-06,104194.0,own_year,,False
+queens park rangers,2024,23417.0,2025-05,60094.0,own_year,,False
+stoke city,2024,30300.0,2025-05,99885.0,own_year,,False
+hull city,2024,36678.453,2025-06,4032392.0,own_year,,False
+luton town,2024,39504.947,2025-06,6133975.0,own_year,,False
+cardiff city,2024,38954.0,2025-05,109065.0,own_year,,False
+charlton athletic,2024,15713.0,2025-06,1788466.0,own_year,,False
+blackpool,2024,9949.043,2025-06,48409.0,own_year,,False
+huddersfield town,2024,16890.348,2025-06,1771361.0,own_year,,False
+wigan athletic,2024,9852.801,2025-06,13161421.0,own_year,,False

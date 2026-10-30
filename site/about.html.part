@@ -1,0 +1,49 @@
+<div class="narrow">
+<h1>How it works</h1>
+<p class="lede">What the figures on this site are, where they come from, and what they cannot tell you.</p>
+
+<h2>The question</h2>
+<p>Can a club that is not already at the top get there — and how often does it happen? The project looks at every club in the divisions where clubs move between the top and the rest: the top two divisions in Spain, Italy, Germany and France, and the top four in England, from the early 1990s to the end of 2025/26.</p>
+
+<h2>"How high can my club realistically go?"</h2>
+<p>We do not predict anything. We look back. For every season since {{START}}, we note where each club finished and then follow it forward: did it reach the top four within ten seasons? Win the league? Stay up for the next five? Go up?</p>
+<p>Clubs are grouped by where they finished — for example, "finished 5th to 7th in Serie A", or "was promoted from the Championship". The figure on a club page is the share of clubs in the same group that reached each goal. "About 1 in 6" means that, of all the times a club finished there, roughly one in six went on to do it.</p>
+<p>Ten-year goals use finishes from {{START}} to {{END10}}; five-year goals use finishes from {{START}} to {{END5}}. That way every case has had its full time to play out. We chose this window because it is recent enough to reflect today's football and long enough to give stable figures.</p>
+<p><strong>It describes the position, not your club.</strong> A club with far more money or history than is usual for its position — a giant in a bad season — has better chances than the figure suggests. That is why each club page also shows the club's own last ten seasons, and says so plainly when a club is much bigger than its position.</p>
+
+<h2>"Against the money"</h2>
+<p>In England and France, clubs' wage bills are public: English clubs file accounts at Companies House, and the French league's financial watchdog (the DNCG) publishes every club's accounts. We use the wage bill because, across football, it is the single best guide to where a club finishes.</p>
+<p>For every season we compare each club's wage bill with the average in the top two divisions and work out the finish that wage bill usually brings. The gap between that and where the club actually finished is "places above (or below) its money". An overall verdict needs at least eight seasons, and a club is said to beat (or fall short of) its money only when the gap is clearly bigger than chance would produce.</p>
+<p>Beating the money rarely lasts. Clubs that finish well above what their wage bill usually buys tend to fall back the next season, and we found no sign that over-performance turns into a bigger wage bill later. It mixes good management, luck and resources we cannot see, so it is not a score for how well a club is run.</p>
+
+<h2>What the project found</h2>
+<p>Each of these was written down, with the test and what would count as a "no", before any result was calculated. A "no" is reported as prominently as a "yes".</p>
+<div class="scroll"><table class="t">
+<tr><th>Question</th><th>Answer</th><th>In plain words</th></tr>
+<tr><td>Has it got harder to reach the top across European football?</td><td><strong>No</strong></td><td>Only in England (since the early 1990s) and Italy (since the mid-1990s). Spain is borderline. Germany and France show no such change.</td></tr>
+<tr><td>Does a club's history matter, beyond where it finished last season?</td><td>Yes</td><td>But the pull is back towards each club's usual level: newcomers to the top four rarely stay, and fallen giants often return. "Success breeds success" is not what the data show.</td></tr>
+<tr><td>Is the top harder to break into than the bottom is to escape?</td><td>Yes</td><td>Top positions stick more than chance would allow, and more than bottom positions, in every league except Germany.</td></tr>
+<tr><td>Does promotion and relegation tell us whether the top is open?</td><td>No</td><td>How many clubs move up and down at the bottom says nothing about whether the top four can be reached.</td></tr>
+<tr><td>Does finishing above your money lead to a bigger wage bill later?</td><td><strong>No</strong></td><td>On English and French figures, clubs that beat their money are not reliably followed by bigger wage bills.</td></tr>
+</table></div>
+<details class="how"><summary>The measure behind the first row</summary><div><p>Every club is placed on one ladder each season (the champions first; the top club of the second division straight after the bottom club of the first). We compare how clubs actually move on that ladder with a league in which last season's position carried no information. The result is how many times longer, on average, it takes to reach the top four than in such a league: England 4.0, Spain 3.4, Italy 3.3, Germany 2.6, France 2.4 (1 would be as open as pure chance).</p></div></details>
+
+<h2>What these figures cannot tell you</h2>
+<ul>
+<li><strong>Why.</strong> We can see where and when the top of each league closed. We cannot say which rule or decision caused it: every league changed at once and nothing was tried at random.</li>
+<li><strong>Your club's future.</strong> Every figure describes what happened to clubs in a position, not what will happen to one club.</li>
+<li><strong>How well a club is run.</strong> Beating the money mixes skill, luck and things we cannot measure.</li>
+</ul>
+
+<h2>What we never publish</h2>
+<ul><li>Anyone's individual pay, or anything from which it could be worked out.</li><li>Transfer-market valuations, or anything derived from them.</li><li>Club badges: they belong to the clubs.</li></ul>
+
+<h2>How the data are checked</h2>
+<ul>
+<li>League positions to 2024/25 are worked out from match results and checked against an independent source (in England every club and position in 88 division-seasons agreed). Top-division positions then follow the official tables: head-to-head tie-breaks where the league uses them (Spain; Italy from 2005/06), point deductions, and titles taken away. Every change is listed in the downloads.</li>
+<li>The 2025/26 final tables are the official tables, checked against a separate results file for the five top divisions and the Championship. Where the two differed, the official table had applied a head-to-head tie-break, a points deduction or an awarded match.</li>
+<li>Every wage figure must add up from its own parts as printed in the accounts, and most are confirmed again by the next year's accounts. No figure was read by an AI model; all were read by fixed rules that can be re-run.</li>
+<li>This season's table is provisional and comes from a volunteer-run public-domain results file, which can run behind.</li>
+</ul>
+<p>Spotted something wrong? <a href="corrections.html">Tell us, with a source</a>. Version {{VERSION}}, {{DATE}}.</p>
+</div>

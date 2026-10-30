@@ -1,0 +1,253 @@
+country,team,k,club,how
+ENG,AFC Bournemouth,bournemouth,AFC Bournemouth,exact
+ENG,Arsenal FC,arsenal,Arsenal,exact
+ENG,Aston Villa FC,aston villa,Aston Villa,exact
+ENG,Brentford FC,brentford,Brentford,exact
+ENG,Brighton & Hove Albion FC,brighton and hove albion,Brighton & Hove Albion,exact
+ENG,Burnley FC,burnley,Burnley,exact
+ENG,Chelsea FC,chelsea,Chelsea,exact
+ENG,Crystal Palace FC,crystal palace,Crystal Palace,exact
+ENG,Everton FC,everton,Everton,exact
+ENG,Fulham FC,fulham,Fulham,exact
+ENG,Leeds United FC,leeds united,Leeds United,exact
+ENG,Liverpool FC,liverpool,Liverpool,exact
+ENG,Manchester City FC,manchester city,Manchester City,manual
+ENG,Manchester United FC,manchester united,Manchester United,manual
+ENG,Newcastle United FC,newcastle united,Newcastle United,exact
+ENG,Nottingham Forest FC,nottingham forest,Nottingham Forest,exact
+ENG,Sunderland AFC,sunderland,Sunderland,exact
+ENG,Tottenham Hotspur FC,tottenham hotspur,Tottenham Hotspur,exact
+ENG,West Ham United FC,west ham united,West Ham United,exact
+ENG,Wolverhampton Wanderers FC,wolverhampton wanderers,Wolverhampton Wanderers,exact
+ENG,Birmingham City FC,birmingham city,Birmingham City,exact
+ENG,Blackburn Rovers FC,blackburn rovers,Blackburn Rovers,exact
+ENG,Bristol City FC,bristol city,Bristol City,exact
+ENG,Charlton Athletic FC,charlton athletic,Charlton Athletic,exact
+ENG,Coventry City FC,coventry city,Coventry City,exact
+ENG,Derby County FC,derby county,Derby County,exact
+ENG,Hull City AFC,hull city,Hull City,exact
+ENG,Ipswich Town FC,ipswich town,Ipswich Town,exact
+ENG,Leicester City FC,leicester city,Leicester City,exact
+ENG,Middlesbrough FC,middlesbrough,Middlesbrough,exact
+ENG,Millwall FC,millwall,Millwall,exact
+ENG,Norwich City FC,norwich city,Norwich City,exact
+ENG,Oxford United FC,oxford united,Oxford United,exact
+ENG,Portsmouth FC,portsmouth,Portsmouth,exact
+ENG,Preston North End FC,preston north end,Preston North End,exact
+ENG,Queens Park Rangers FC,queens park rangers,Queens Park Rangers,exact
+ENG,Sheffield United FC,sheffield united,Sheffield United,exact
+ENG,Sheffield Wednesday FC,sheffield wednesday,Sheffield Wednesday,exact
+ENG,Southampton FC,southampton,Southampton,exact
+ENG,Stoke City FC,stoke city,Stoke City,exact
+ENG,Swansea City AFC,swansea city,Swansea City,exact
+ENG,Watford FC,watford,Watford,exact
+ENG,West Bromwich Albion FC,west bromwich albion,West Bromwich Albion,exact
+ENG,Wrexham AFC,wrexham,Wrexham,exact
+ENG,AFC Wimbledon,afc wimbledon,AFC Wimbledon,exact
+ENG,Barnsley FC,barnsley,Barnsley,exact
+ENG,Blackpool FC,blackpool,Blackpool,exact
+ENG,Bolton Wanderers,bolton wanderers,Bolton Wanderers,exact
+ENG,Bradford City,bradford city,Bradford City,exact
+ENG,Burton Albion,burton albion,Burton Albion,exact
+ENG,Cardiff City,cardiff city,Cardiff City,exact
+ENG,Doncaster Rovers,doncaster rovers,Doncaster Rovers,exact
+ENG,Exeter City,exeter city,Exeter City,exact
+ENG,Huddersfield Town,huddersfield town,Huddersfield Town,exact
+ENG,Leyton Orient,leyton orient,Leyton Orient,exact
+ENG,Lincoln City,lincoln city,Lincoln City,exact
+ENG,Luton Town,luton town,Luton Town,exact
+ENG,Mansfield Town,mansfield town,Mansfield Town,exact
+ENG,Northampton Town,northampton town,Northampton Town,exact
+ENG,Peterborough United,peterborough united,Peterborough United,exact
+ENG,Plymouth Argyle,plymouth argyle,Plymouth Argyle,exact
+ENG,Port Vale FC,port vale,Port Vale,exact
+ENG,Reading FC,reading,Reading,exact
+ENG,Rotherham United,rotherham united,Rotherham United,exact
+ENG,Stevenage FC,stevenage borough,Stevenage Borough,contain
+ENG,Stockport County,stockport county,Stockport County,exact
+ENG,Wigan Athletic,wigan athletic,Wigan Athletic,exact
+ENG,Wycombe Wanderers,wycombe wanderers,Wycombe Wanderers,exact
+ENG,Accrington Stanley,accrington,Accrington,contain
+ENG,Barnet FC,barnet,Barnet,exact
+ENG,Barrow AFC,barrow,Barrow,exact
+ENG,Bristol Rovers,bristol rovers,Bristol Rovers,exact
+ENG,Bromley FC,bromley,Bromley,exact
+ENG,Cambridge United,cambridge united,Cambridge United,exact
+ENG,Cheltenham Town,cheltenham,Cheltenham,exact
+ENG,Chesterfield FC,chesterfield,Chesterfield,exact
+ENG,Colchester United,colchester united,Colchester United,exact
+ENG,Crawley Town,crawley town,Crawley Town,exact
+ENG,Crewe Alexandra,crewe alexandra,Crewe Alexandra,exact
+ENG,Fleetwood Town,fleetwood town,Fleetwood Town,exact
+ENG,Gillingham FC,gillingham,Gillingham,exact
+ENG,Grimsby Town,grimsby town,Grimsby Town,exact
+ENG,Harrogate Town,harrogate town,Harrogate Town A.F.C.,contain
+ENG,Milton Keynes Dons,milton keynes dons,Milton Keynes Dons,exact
+ENG,Newport County,newport county,Newport County,exact
+ENG,Notts County,notts county,Notts County,exact
+ENG,Oldham Athletic,oldham athletic,Oldham Athletic,exact
+ENG,Salford City,salford city,Salford City,exact
+ENG,Shrewsbury Town,shrewsbury town,Shrewsbury Town,exact
+ENG,Swindon Town,swindon town,Swindon Town,exact
+ENG,Tranmere Rovers,tranmere rovers,Tranmere Rovers,exact
+ENG,Walsall FC,walsall,Walsall,exact
+ENG,Bolton Wanderers FC,bolton wanderers,Bolton Wanderers,exact
+ENG,Cardiff City FC,cardiff city,Cardiff City,exact
+ENG,Lincoln City FC,lincoln city,Lincoln City,exact
+ESP,Athletic Club,bilbao,Athletic Bilbao,manual
+ESP,CA Osasuna,ca osasuna,CA Osasuna,exact
+ESP,Club Atlético de Madrid,atletico madrid,Atletico Madrid,exact
+ESP,Deportivo Alavés,alaves,CD Alaves,contain
+ESP,Elche CF,elche,Elche CF,exact
+ESP,FC Barcelona,barcelona,FC Barcelona,exact
+ESP,Getafe CF,getafe,Getafe CF,exact
+ESP,Girona FC,girona,Girona,exact
+ESP,Levante UD,levante,Levante UD,exact
+ESP,RC Celta de Vigo,celta vigo,Celta Vigo,exact
+ESP,RCD Espanyol de Barcelona,rcd espanyol,Espanyol Barcelona,exact
+ESP,RCD Mallorca,rcd mallorca,RCD Mallorca,exact
+ESP,Rayo Vallecano de Madrid,rayo vallecano,Rayo Vallecano,fuzzy
+ESP,Real Betis Balompié,real betis,Real Betis,exact
+ESP,Real Madrid CF,real madrid,Real Madrid,exact
+ESP,Real Oviedo,real oviedo,Real Oviedo,exact
+ESP,Real Sociedad de Fútbol,real sociedad,Real Sociedad,manual
+ESP,Sevilla FC,sevilla,Sevilla FC,exact
+ESP,Valencia CF,valencia,Valencia CF,exact
+ESP,Villarreal CF,villarreal,Villarreal CF,exact
+ESP,AD Ceuta FC,ceuta,Ceuta,contain
+ESP,Albacete,albacete,Albacete,exact
+ESP,Burgos CF,burgos,Burgos CF,exact
+ESP,CD Castellón,castellon,CD Castellón,exact
+ESP,CD Leganés,leganes,CD Leganes,exact
+ESP,CD Mirandés,mirandes,CD Mirandés,exact
+ESP,Cultural Leonesa,cultural leonesa,Cultural Leonesa,exact
+ESP,Cádiz CF,cadiz,Cádiz CF,exact
+ESP,Córdoba CF,cordoba,Córdoba CF,exact
+ESP,Deportivo La Coruña,deportivo coruna,Deportivo La Coruña,exact
+ESP,FC Andorra,andorra,FC Andorra,exact
+ESP,Granada CF,granada,Granada CF,exact
+ESP,Málaga CF,malaga,Málaga CF,exact
+ESP,Racing Santander,racing santander,Racing Santander,exact
+ESP,Real Sociedad B,real sociedad b,Real Sociedad B,exact
+ESP,Real Valladolid,real valladolid,Real Valladolid,exact
+ESP,Real Zaragoza,real zaragoza,Real Zaragoza,exact
+ESP,SD Eibar,eibar,SD Eibar,exact
+ESP,SD Huesca,huesca,SD Huesca,exact
+ESP,Sporting Gijón,gijon,Sporting Gijón,exact
+ESP,UD Almería,almeria,UD Almería,exact
+ESP,UD Las Palmas,las palmas,UD Las Palmas,exact
+ESP,RC Deportivo La Coruña,deportivo coruna,Deportivo La Coruña,exact
+ESP,Real Racing Club de Santander,racing santander,Racing Santander,exact
+ITA,AC Milan,milan,AC Milan,exact
+ITA,AC Pisa 1909,pisa,Pisa SC,exact
+ITA,ACF Fiorentina,acf fiorentina,ACF Fiorentina,exact
+ITA,AS Roma,roma,AS Roma,exact
+ITA,Atalanta BC,atalanta,Atalanta,exact
+ITA,Bologna FC 1909,bologna,Bologna FC,exact
+ITA,Cagliari Calcio,cagliari,Cagliari Calcio,exact
+ITA,Como 1907,como,Como Calcio,exact
+ITA,FC Internazionale Milano,inter,Inter,manual
+ITA,Genoa CFC,genoa cfc,Genoa CFC,exact
+ITA,Hellas Verona FC,hellas verona,Hellas Verona,exact
+ITA,Juventus FC,juventus,Juventus,exact
+ITA,Parma Calcio 1913,parma,Parma FC,exact
+ITA,SS Lazio,lazio,Lazio Roma,contain
+ITA,SSC Napoli,napoli,SSC Napoli,exact
+ITA,Torino FC,torino,Torino FC,exact
+ITA,US Cremonese,cremonese,US Cremonese,exact
+ITA,US Lecce,lecce,US Lecce,exact
+ITA,US Sassuolo Calcio,sassuolo,Sassuolo Calcio,exact
+ITA,Udinese Calcio,udinese,Udinese Calcio,exact
+ITA,AC Monza,monza,AC Monza,exact
+ITA,AC Reggiana 1919,reggiana,AC Reggiana 1919,exact
+ITA,Calcio Padova,padova,Calcio Padova,exact
+ITA,Carrarese Calcio,carrarese,Carrarese Calcio,exact
+ITA,Cesena FC,cesena,Cesena FC,exact
+ITA,Delfino Pescara,delfino pescara,Delfino Pescara,exact
+ITA,Empoli FC,empoli,Empoli FC,exact
+ITA,FC Südtirol,sudtirol,FC Südtirol,exact
+ITA,Frosinone Calcio,frosinone,Frosinone Calcio,exact
+ITA,Juve Stabia,juve stabia,Juve Stabia,exact
+ITA,Mantova 1911 SSD,mantova,Mantova 1911,contain
+ITA,Modena FC,modena,Modena FC,exact
+ITA,Palermo FC,palermo,Palermo FC,exact
+ITA,SSC Bari,bari,SSC Bari,exact
+ITA,Sampdoria,sampdoria,Sampdoria,exact
+ITA,Spezia Calcio,spezia,Spezia Calcio,exact
+ITA,US Avellino,avellino,US Avellino,exact
+ITA,US Catanzaro,catanzaro,US Catanzaro,exact
+ITA,Venezia FC,venezia,AC Venezia,exact
+ITA,Virtus Entella,virtus entella,Virtus Entella,exact
+GER,1. FC Heidenheim 1846,heidenheim,1. FC Heidenheim,exact
+GER,1. FC Köln,koln,1. FC Koln,exact
+GER,1. FC Union Berlin,union berlin,1. FC Union Berlin,exact
+GER,1. FSV Mainz 05,fsv mainz 05,1. FSV Mainz 05,exact
+GER,Bayer 04 Leverkusen,bayer leverkusen,Bayer Leverkusen,exact
+GER,Borussia Dortmund,borussia dortmund,Borussia Dortmund,exact
+GER,Borussia Mönchengladbach,bor monchengladbach,Bor. Monchengladbach,fuzzy
+GER,Eintracht Frankfurt,eintracht frankfurt,Eintracht Frankfurt,exact
+GER,FC Augsburg,augsburg,FC Augsburg,exact
+GER,FC Bayern München,bayern munchen,Bayern Munchen,exact
+GER,FC St. Pauli 1910,st pauli,FC St. Pauli,exact
+GER,Hamburger SV,hamburger,Hamburger SV,exact
+GER,RB Leipzig,rasenballsport leipzig,RasenBallsport Leipzig,contain
+GER,SC Freiburg,freiburg,SC Freiburg,exact
+GER,SV Werder Bremen,werder bremen,Werder Bremen,exact
+GER,TSG 1899 Hoffenheim,hoffenheim,1899 Hoffenheim,exact
+GER,VfB Stuttgart,vfb stuttgart,VfB Stuttgart,exact
+GER,VfL Wolfsburg,vfl wolfsburg,VfL Wolfsburg,exact
+GER,1. FC Kaiserslautern,kaiserslautern,1. FC Kaiserslautern,exact
+GER,1. FC Magdeburg,magdeburg,1. FC Magdeburg,exact
+GER,1. FC Nürnberg,nurnberg,1. FC Nurnberg,exact
+GER,Arminia Bielefeld,arminia bielefeld,Arminia Bielefeld,exact
+GER,Dynamo Dresden,dynamo dresden,Dynamo Dresden,exact
+GER,Eintracht Braunschweig,eintracht braunschweig,Eintracht Braunschweig,exact
+GER,FC Schalke 04,schalke 04,FC Schalke 04,exact
+GER,Fortuna Düsseldorf,fortuna dusseldorf,Fortuna Dusseldorf,exact
+GER,Hannover 96,hannover 96,Hannover 96,exact
+GER,Hertha BSC,hertha bsc,Hertha BSC,exact
+GER,Holstein Kiel,holstein kiel,Holstein Kiel,exact
+GER,Karlsruher SC,karlsruher,Karlsruher SC,exact
+GER,Preußen Münster,preussen munster,Preussen Munster,fuzzy
+GER,SC Paderborn 07,paderborn 07,SC Paderborn 07,exact
+GER,SV 07 Elversberg,elversberg,SV Elversberg,exact
+GER,SV Darmstadt 98,darmstadt 98,SV Darmstadt 98,exact
+GER,SpVgg Greuther Fürth,spvgg greuther furth,SpVgg Greuther Furth,exact
+GER,VfL Bochum,vfl bochum,VfL Bochum,exact
+FRA,AJ Auxerre,aj auxerre,AJ Auxerre,exact
+FRA,AS Monaco FC,monaco,AS Monaco,exact
+FRA,Angers SCO,angers,Angers SCO,exact
+FRA,FC Lorient,lorient,FC Lorient,exact
+FRA,FC Metz,metz,FC Metz,exact
+FRA,FC Nantes,nantes,FC Nantes,exact
+FRA,Le Havre AC,havre,Le Havre AC,exact
+FRA,Lille OSC,lille osc,Lille OSC,exact
+FRA,OGC Nice,nice,OGC Nice,exact
+FRA,Olympique Lyonnais,lyon,Olympique Lyon,contain
+FRA,Olympique de Marseille,marseille,Olympique Marseille,exact
+FRA,Paris FC,paris,Paris FC,exact
+FRA,Paris Saint-Germain FC,paris saint germain,Paris Saint-Germain,exact
+FRA,RC Strasbourg Alsace,racing strasbourg,RC Strasbourg,contain
+FRA,Racing Club de Lens,lens,RC Lens,contain
+FRA,Stade Brestois 29,brestois 29,Stade Brest,contain
+FRA,Stade Rennais FC 1901,rennais,Stade Rennes,fuzzy
+FRA,Toulouse FC,toulouse,Toulouse FC,exact
+FRA,AS Nancy Lorraine,nancy lorraine,AS Nancy Lorraine,exact
+FRA,AS Saint-Étienne,saint etienne,AS Saint-Etienne,exact
+FRA,Amiens SC,amiens,Amiens SC,exact
+FRA,Clermont Foot 63,clermont foot 63,Clermont Foot 63,exact
+FRA,EA Guingamp,guingamp,EA Guingamp,exact
+FRA,ESTAC Troyes,es troyes,ES Troyes AC,contain
+FRA,FC Annecy,annecy,FC Annecy,exact
+FRA,Grenoble Foot 38,grenoble foot 38,Grenoble Foot 38,exact
+FRA,Le Mans FC,mans,Le Mans FC,exact
+FRA,Montpellier HSC,montpellier hsc,Montpellier HSC,exact
+FRA,Pau FC,pau,Pau FC,exact
+FRA,Red Star FC,red star,Red Star FC,exact
+FRA,Rodez AF,rodez af,Rodez AF,exact
+FRA,SC Bastia,bastia,SC Bastia,exact
+FRA,Stade Lavallois,lavallois,Stade Lavallois,exact
+FRA,Stade de Reims,reims,Stade Reims,exact
+FRA,US Boulogne,boulogne,US Boulogne,exact
+FRA,USL Dunkerque,dunkerque,USL Dunkerque,exact
+FRA,ES Troyes AC,es troyes,ES Troyes AC,exact

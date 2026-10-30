@@ -1,0 +1,179 @@
+country,season,club,pos_results,pos_official,reason
+ENG,1996,West Ham United,15,14,deduction
+ENG,1996,Everton,16,15,deduction
+ENG,1996,Southampton,17,16,deduction
+ENG,1996,Coventry City,18,17,deduction
+ENG,1996,Sunderland,19,18,deduction
+ENG,1996,Middlesbrough,14,19,deduction
+ENG,2023,AFC Bournemouth,13,12,deduction
+ENG,2023,Fulham,14,13,deduction
+ENG,2023,Wolverhampton Wanderers,15,14,deduction
+ENG,2023,Everton,12,15,deduction
+ESP,1992,Real Sociedad,12,13,head-to-head or deduction
+ESP,1992,Sporting Gijon,13,12,head-to-head or deduction
+ESP,1994,Espanyol Barcelona,5,6,head-to-head or deduction
+ESP,1994,Sevilla FC,6,5,head-to-head or deduction
+ESP,1994,Real Sociedad,10,11,head-to-head or deduction
+ESP,1994,Valencia CF,11,10,head-to-head or deduction
+ESP,1995,Real Zaragoza,12,13,head-to-head or deduction
+ESP,1995,Athletic Bilbao,13,14,head-to-head or deduction
+ESP,1995,Sevilla FC,14,12,head-to-head or deduction
+ESP,1995,CP Merida,20,21,head-to-head or deduction
+ESP,1995,Albacete,21,20,head-to-head or deduction
+ESP,1996,Real Betis,3,4,head-to-head or deduction
+ESP,1996,Deportivo La Coruna,4,3,head-to-head or deduction
+ESP,1997,Atletico Madrid,5,7,head-to-head or deduction
+ESP,1997,RCD Mallorca,6,5,head-to-head or deduction
+ESP,1997,Celta Vigo,7,6,head-to-head or deduction
+ESP,1997,UD Salamanca,14,15,head-to-head or deduction
+ESP,1997,Racing Santander,15,14,head-to-head or deduction
+ESP,1999,Espanyol Barcelona,13,14,head-to-head or deduction
+ESP,1999,Real Sociedad,14,13,head-to-head or deduction
+ESP,1999,CD Numancia,16,17,head-to-head or deduction
+ESP,1999,Real Oviedo,17,16,head-to-head or deduction
+ESP,2000,Rayo Vallecano,12,14,head-to-head or deduction
+ESP,2000,Athletic Bilbao,14,12,head-to-head or deduction
+ESP,2000,Real Zaragoza,15,17,head-to-head or deduction
+ESP,2000,CA Osasuna,17,15,head-to-head or deduction
+ESP,2001,Malaga CF,9,10,head-to-head or deduction
+ESP,2001,Athletic Bilbao,10,9,head-to-head or deduction
+ESP,2002,Atletico Madrid,11,12,head-to-head or deduction
+ESP,2002,CA Osasuna,12,11,head-to-head or deduction
+ESP,2002,Real Valladolid,13,14,head-to-head or deduction
+ESP,2002,Malaga CF,14,13,head-to-head or deduction
+ESP,2003,CA Osasuna,12,13,head-to-head or deduction
+ESP,2003,Real Zaragoza,13,12,head-to-head or deduction
+ESP,2004,Athletic Bilbao,8,9,head-to-head or deduction
+ESP,2004,Deportivo La Coruna,9,8,head-to-head or deduction
+ESP,2005,Sevilla FC,4,5,head-to-head or deduction
+ESP,2005,CA Osasuna,5,4,head-to-head or deduction
+ESP,2005,Racing Santander,16,17,head-to-head or deduction
+ESP,2005,Real Sociedad,17,16,head-to-head or deduction
+ESP,2006,FC Barcelona,1,2,head-to-head or deduction
+ESP,2006,Real Madrid,2,1,head-to-head or deduction
+ESP,2006,RCD Mallorca,11,12,head-to-head or deduction
+ESP,2006,Espanyol Barcelona,12,11,head-to-head or deduction
+ESP,2007,Sevilla FC,4,5,head-to-head or deduction
+ESP,2007,Atletico Madrid,5,4,head-to-head or deduction
+ESP,2007,Deportivo La Coruna,8,9,head-to-head or deduction
+ESP,2007,UD Almeria,9,8,head-to-head or deduction
+ESP,2007,Getafe CF,13,14,head-to-head or deduction
+ESP,2007,Real Betis,14,13,head-to-head or deduction
+ESP,2008,Racing Santander,11,12,head-to-head or deduction
+ESP,2008,UD Almeria,12,11,head-to-head or deduction
+ESP,2008,CA Osasuna,14,15,head-to-head or deduction
+ESP,2008,Real Valladolid,15,16,head-to-head or deduction
+ESP,2008,Sporting Gijon,16,14,head-to-head or deduction
+ESP,2010,Atletico Madrid,5,7,head-to-head or deduction
+ESP,2010,Sevilla FC,7,5,head-to-head or deduction
+ESP,2010,Levante UD,13,14,head-to-head or deduction
+ESP,2010,Real Zaragoza,14,13,head-to-head or deduction
+ESP,2011,Real Sociedad,11,12,head-to-head or deduction
+ESP,2011,Real Betis,12,13,head-to-head or deduction
+ESP,2011,Getafe CF,13,11,head-to-head or deduction
+ESP,2013,Espanyol Barcelona,13,14,head-to-head or deduction
+ESP,2013,Getafe CF,14,13,head-to-head or deduction
+ESP,2014,Getafe CF,14,15,head-to-head or deduction
+ESP,2014,Levante UD,15,14,head-to-head or deduction
+ESP,2014,SD Eibar,16,18,head-to-head or deduction
+ESP,2014,Deportivo La Coruna,17,16,head-to-head or deduction
+ESP,2014,Granada CF,18,17,head-to-head or deduction
+ESP,2015,Valencia CF,11,12,head-to-head or deduction
+ESP,2015,UD Las Palmas,12,11,head-to-head or deduction
+ESP,2015,SD Eibar,13,14,head-to-head or deduction
+ESP,2015,Espanyol Barcelona,14,13,head-to-head or deduction
+ESP,2015,Sporting Gijon,16,17,head-to-head or deduction
+ESP,2015,Granada CF,17,16,head-to-head or deduction
+ESP,2017,Real Sociedad,11,12,head-to-head or deduction
+ESP,2017,Celta Vigo,12,13,head-to-head or deduction
+ESP,2017,Espanyol Barcelona,13,11,head-to-head or deduction
+ESP,2018,Sevilla FC,5,6,head-to-head or deduction
+ESP,2018,Getafe CF,6,5,head-to-head or deduction
+ESP,2018,Celta Vigo,16,17,head-to-head or deduction
+ESP,2018,Real Valladolid,17,16,head-to-head or deduction
+ESP,2020,Athletic Bilbao,9,10,head-to-head or deduction
+ESP,2020,Granada CF,10,9,head-to-head or deduction
+ESP,2021,Cadiz CF,16,17,head-to-head or deduction
+ESP,2021,RCD Mallorca,17,16,head-to-head or deduction
+ESP,2022,Sevilla FC,11,12,head-to-head or deduction
+ESP,2022,Rayo Vallecano,12,11,head-to-head or deduction
+ESP,2022,Valencia CF,14,16,head-to-head or deduction
+ESP,2022,Cadiz CF,16,14,head-to-head or deduction
+ESP,2023,Sevilla FC,13,14,head-to-head or deduction
+ESP,2023,Celta Vigo,14,13,head-to-head or deduction
+ESP,2024,CA Osasuna,8,9,head-to-head or deduction
+ESP,2024,Rayo Vallecano,9,8,head-to-head or deduction
+ESP,2024,Valencia CF,11,12,head-to-head or deduction
+ESP,2024,Real Sociedad,12,11,head-to-head or deduction
+ESP,2024,CD Alaves,14,15,head-to-head or deduction
+ESP,2024,Espanyol Barcelona,15,14,head-to-head or deduction
+ESP,2024,Sevilla FC,16,17,head-to-head or deduction
+ESP,2024,Girona,17,16,head-to-head or deduction
+ITA,2005,Juventus,1,20,head-to-head or deduction
+ITA,2005,AC Milan,2,3,head-to-head or deduction
+ITA,2005,Inter,3,1,head-to-head or deduction
+ITA,2005,ACF Fiorentina,4,9,head-to-head or deduction
+ITA,2005,AS Roma,5,2,head-to-head or deduction
+ITA,2005,Lazio Roma,6,16,head-to-head or deduction
+ITA,2005,Chievo Verona,7,4,head-to-head or deduction
+ITA,2005,US Palermo,8,5,head-to-head or deduction
+ITA,2005,AS Livorno,9,6,head-to-head or deduction
+ITA,2005,Parma FC,10,7,head-to-head or deduction
+ITA,2005,Empoli FC,11,8,head-to-head or deduction
+ITA,2005,Ascoli Calcio,12,10,head-to-head or deduction
+ITA,2005,Udinese Calcio,13,11,head-to-head or deduction
+ITA,2005,Sampdoria,14,12,head-to-head or deduction
+ITA,2005,Reggina Calcio,15,13,head-to-head or deduction
+ITA,2005,Cagliari Calcio,16,14,head-to-head or deduction
+ITA,2005,AC Siena,17,15,head-to-head or deduction
+ITA,2005,FC Messina,18,17,head-to-head or deduction
+ITA,2005,US Lecce,19,18,head-to-head or deduction
+ITA,2005,Treviso FBC,20,19,head-to-head or deduction
+ITA,2006,ACF Fiorentina,3,6,head-to-head or deduction
+ITA,2006,Lazio Roma,5,3,head-to-head or deduction
+ITA,2006,US Palermo,6,5,head-to-head or deduction
+ITA,2006,Reggina Calcio,8,14,head-to-head or deduction
+ITA,2006,Atalanta,9,8,head-to-head or deduction
+ITA,2006,Sampdoria,10,9,head-to-head or deduction
+ITA,2006,Udinese Calcio,11,10,head-to-head or deduction
+ITA,2006,AS Livorno,12,11,head-to-head or deduction
+ITA,2006,Parma FC,13,12,head-to-head or deduction
+ITA,2006,AC Siena,14,15,head-to-head or deduction
+ITA,2006,Calcio Catania,15,13,head-to-head or deduction
+ITA,2006,Cagliari Calcio,16,17,head-to-head or deduction
+ITA,2006,Torino FC,17,16,head-to-head or deduction
+ITA,2008,AC Milan,2,3,head-to-head or deduction
+ITA,2008,Juventus,3,2,head-to-head or deduction
+ITA,2008,Genoa CFC,4,5,head-to-head or deduction
+ITA,2008,ACF Fiorentina,5,4,head-to-head or deduction
+ITA,2009,Cagliari Calcio,14,16,head-to-head or deduction
+ITA,2009,Chievo Verona,16,14,head-to-head or deduction
+ITA,2013,Genoa CFC,13,14,head-to-head or deduction
+ITA,2013,Udinese Calcio,14,13,head-to-head or deduction
+ITA,2015,Genoa CFC,10,11,head-to-head or deduction
+ITA,2015,Empoli FC,11,10,head-to-head or deduction
+ITA,2015,Udinese Calcio,16,17,head-to-head or deduction
+ITA,2015,US Palermo,17,16,head-to-head or deduction
+ITA,2017,Lazio Roma,4,5,head-to-head or deduction
+ITA,2017,Inter,5,4,head-to-head or deduction
+ITA,2017,Udinese Calcio,13,14,head-to-head or deduction
+ITA,2017,Chievo Verona,14,13,head-to-head or deduction
+ITA,2018,ACF Fiorentina,14,16,head-to-head or deduction
+ITA,2018,Parma FC,16,14,head-to-head or deduction
+ITA,2019,ACF Fiorentina,9,10,head-to-head or deduction
+ITA,2019,Parma FC,10,11,head-to-head or deduction
+ITA,2019,Hellas Verona,11,9,head-to-head or deduction
+ITA,2019,Cagliari Calcio,13,14,head-to-head or deduction
+ITA,2019,Udinese Calcio,14,13,head-to-head or deduction
+ITA,2022,Juventus,4,7,head-to-head or deduction
+ITA,2022,AC Milan,5,4,head-to-head or deduction
+ITA,2022,Atalanta,6,5,head-to-head or deduction
+ITA,2022,AS Roma,7,6,head-to-head or deduction
+ITA,2022,Hellas Verona,17,18,head-to-head or deduction
+ITA,2022,Spezia Calcio,18,17,head-to-head or deduction
+ITA,2023,SSC Napoli,9,10,head-to-head or deduction
+ITA,2023,Torino FC,10,9,head-to-head or deduction
+ITA,2023,Empoli FC,16,17,head-to-head or deduction
+ITA,2023,Cagliari Calcio,17,16,head-to-head or deduction
+ITA,2024,Parma FC,15,16,head-to-head or deduction
+ITA,2024,Cagliari Calcio,16,15,head-to-head or deduction

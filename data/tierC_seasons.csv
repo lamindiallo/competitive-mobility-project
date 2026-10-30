@@ -1,0 +1,999 @@
+country,k,club,season,tier,pos,lrank,N,exp_lrank,places,pay,wage_rank,wage_n
+ENG,manchester city,Manchester City,2011,1,1,1,44,2.122,1.122,201789.0,1,24
+ENG,manchester united,Manchester United,2011,1,2,2,44,3.982,1.982,133432.0,3,24
+ENG,arsenal,Arsenal,2011,1,3,3,44,2.725,-0.275,140610.0,2,24
+ENG,tottenham hotspur,Tottenham Hotspur,2011,1,4,4,44,5.733,1.733,87111.0,5,24
+ENG,newcastle united,Newcastle United,2011,1,5,5,44,10.99,5.99,64097.0,7,24
+ENG,liverpool,Liverpool,2011,1,8,8,44,4.801,-3.199,118671.0,4,24
+ENG,fulham,Fulham,2011,1,9,9,44,10.99,1.99,62256.869,9,24
+ENG,west bromwich albion,West Bromwich Albion,2011,1,10,10,44,12.579,2.579,50493.0,12,24
+ENG,norwich city,Norwich City,2011,1,12,12,44,21.334,9.334,36768.0,16,24
+ENG,sunderland,Sunderland,2011,1,13,13,44,10.99,-2.01,63784.0,8,24
+ENG,stoke city,Stoke City,2011,1,14,14,44,12.579,-1.421,53223.0,11,24
+ENG,aston villa,Aston Villa,2011,1,16,16,44,10.314,-5.686,69609.0,6,24
+ENG,queens park rangers,Queens Park Rangers,2011,1,17,17,44,12.579,-4.421,55950.0,10,24
+ENG,blackburn rovers,Blackburn Rovers,2011,1,19,19,44,14.737,-4.263,49975.58,13,24
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2011,1,20,20,44,19.497,-0.503,38339.0,15,24
+ENG,southampton,Southampton,2011,2,2,22,44,23.484,1.484,26114.422,17,24
+ENG,west ham united,West Ham United,2011,2,3,23,44,17.805,-5.195,41645.0,14,24
+ENG,birmingham city,Birmingham City,2011,2,4,24,44,25.055,1.055,25120.366,18,24
+ENG,blackpool,Blackpool,2011,2,5,25,44,31.911,6.911,12350.617,23,24
+ENG,middlesbrough,Middlesbrough,2011,2,7,27,44,27.192,0.192,21541.0,19,24
+ENG,brighton and hove albion,Brighton & Hove Albion,2011,2,10,30,44,31.269,1.269,14682.093,21,24
+ENG,millwall,Millwall,2011,2,16,36,44,33.16,-2.84,10250.0,24,24
+ENG,crystal palace,Crystal Palace,2011,2,17,37,44,31.911,-5.089,12698.808,22,24
+ENG,bristol city,Bristol City,2011,2,21,41,44,31.269,-9.731,16502.837,20,24
+ENG,manchester united,Manchester United,2012,1,1,1,44,5.116,4.116,145799.0,4,34
+ENG,manchester city,Manchester City,2012,1,2,2,44,5.116,3.116,233106.0,1,34
+ENG,chelsea,Chelsea,2012,1,3,3,44,5.116,2.116,163172.0,2,34
+ENG,arsenal,Arsenal,2012,1,4,4,44,5.116,1.116,151441.0,3,34
+ENG,tottenham hotspur,Tottenham Hotspur,2012,1,5,5,44,8.727,3.727,92567.0,6,34
+ENG,everton,Everton,2012,1,6,6,44,13.984,7.984,63049.0,10,34
+ENG,liverpool,Liverpool,2012,1,7,7,44,6.977,-0.023,132240.0,5,34
+ENG,west bromwich albion,West Bromwich Albion,2012,1,8,8,44,15.573,7.573,53977.0,15,34
+ENG,west ham united,West Ham United,2012,1,10,10,44,15.127,5.127,56220.0,14,34
+ENG,norwich city,Norwich City,2012,1,11,11,44,15.573,4.573,50814.0,16,34
+ENG,fulham,Fulham,2012,1,12,12,44,13.308,1.308,66500.46,9,34
+ENG,stoke city,Stoke City,2012,1,13,13,44,13.984,0.984,60310.0,12,34
+ENG,southampton,Southampton,2012,1,14,14,44,17.86,3.86,43500.089,18,34
+ENG,aston villa,Aston Villa,2012,1,15,15,44,13.185,-1.815,71880.0,8,34
+ENG,newcastle united,Newcastle United,2012,1,16,16,44,13.984,-2.016,61706.0,11,34
+ENG,sunderland,Sunderland,2012,1,17,17,44,15.127,-1.873,56776.0,13,34
+ENG,reading,Reading,2012,1,19,19,44,17.86,-1.14,46171.34,17,34
+ENG,queens park rangers,Queens Park Rangers,2012,1,20,20,44,13.185,-6.815,73265.0,7,34
+ENG,cardiff city,Cardiff City,2012,2,1,21,44,25.926,4.926,29965.0,21,34
+ENG,hull city,Hull City,2012,2,2,22,44,26.478,4.478,25894.221,23,34
+ENG,brighton and hove albion,Brighton & Hove Albion,2012,2,4,24,44,30.186,6.186,21063.539,25,34
+ENG,leicester city,Leicester City,2012,2,6,26,44,26.478,0.478,26814.0,22,34
+ENG,charlton athletic,Charlton Athletic,2012,2,9,29,44,34.906,5.906,11977.0,32,34
+ENG,derby county,Derby County,2012,2,10,30,44,34.906,4.906,12059.0,30,34
+ENG,birmingham city,Birmingham City,2012,2,12,32,44,28.049,-3.951,22913.922,24,34
+ENG,leeds united,Leeds United,2012,2,13,33,44,32.844,-0.156,20004.401,27,34
+ENG,blackpool,Blackpool,2012,2,15,35,44,34.906,-0.094,11560.831,34,34
+ENG,middlesbrough,Middlesbrough,2012,2,16,36,44,32.844,-3.156,20745.0,26,34
+ENG,blackburn rovers,Blackburn Rovers,2012,2,17,37,44,24.328,-12.672,36617.904,19,34
+ENG,sheffield wednesday,Sheffield Wednesday,2012,2,18,38,44,34.906,-3.094,11887.0,33,34
+ENG,huddersfield town,Huddersfield Town,2012,2,19,39,44,34.906,-4.094,13351.94,29,34
+ENG,millwall,Millwall,2012,2,20,40,44,34.906,-5.094,12053.0,31,34
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2012,2,23,43,44,25.926,-17.074,31116.0,20,34
+ENG,bristol city,Bristol City,2012,2,24,44,44,34.263,-9.737,15215.156,28,34
+ENG,manchester city,Manchester City,2013,1,1,1,44,4.446,3.446,205044.0,1,36
+ENG,liverpool,Liverpool,2013,1,2,2,44,4.446,2.446,143749.0,5,36
+ENG,chelsea,Chelsea,2013,1,3,3,44,4.446,1.446,176642.0,2,36
+ENG,arsenal,Arsenal,2013,1,4,4,44,4.446,0.446,163046.0,4,36
+ENG,everton,Everton,2013,1,5,5,44,12.638,7.638,69332.0,10,36
+ENG,tottenham hotspur,Tottenham Hotspur,2013,1,6,6,44,8.057,2.057,101608.0,6,36
+ENG,manchester united,Manchester United,2013,1,7,7,44,4.446,-2.554,165350.0,3,36
+ENG,southampton,Southampton,2013,1,8,8,44,13.314,5.314,59629.0,16,36
+ENG,stoke city,Stoke City,2013,1,9,9,44,13.314,4.314,60557.0,15,36
+ENG,newcastle united,Newcastle United,2013,1,10,10,44,12.515,2.515,78297.0,7,36
+ENG,crystal palace,Crystal Palace,2013,1,11,11,44,17.191,6.191,45755.527,19,36
+ENG,swansea city,Swansea City,2013,1,12,12,44,13.314,1.314,63231.88,14,36
+ENG,sunderland,Sunderland,2013,1,14,14,44,12.639,-1.361,68055.0,12,36
+ENG,aston villa,Aston Villa,2013,1,15,15,44,12.638,-2.362,69339.0,9,36
+ENG,hull city,Hull City,2013,1,16,16,44,20.13,4.13,43322.596,20,36
+ENG,west bromwich albion,West Bromwich Albion,2013,1,17,17,44,13.314,-3.686,65470.0,13,36
+ENG,norwich city,Norwich City,2013,1,18,18,44,14.903,-3.097,54059.0,17,36
+ENG,fulham,Fulham,2013,1,19,19,44,12.638,-6.362,68519.237,11,36
+ENG,cardiff city,Cardiff City,2013,1,20,20,44,14.903,-5.097,53158.0,18,36
+ENG,leicester city,Leicester City,2013,2,1,21,44,23.658,2.658,36342.0,21,36
+ENG,derby county,Derby County,2013,2,3,23,44,33.594,10.594,16386.0,28,36
+ENG,queens park rangers,Queens Park Rangers,2013,2,4,24,44,12.638,-11.362,71964.0,8,36
+ENG,brighton and hove albion,Brighton & Hove Albion,2013,2,6,26,44,32.174,6.174,20302.151,25,36
+ENG,reading,Reading,2013,2,7,27,44,24.561,-2.439,34548.171,22,36
+ENG,blackburn rovers,Blackburn Rovers,2013,2,8,28,44,24.561,-3.439,34485.623,23,36
+ENG,ipswich town,Ipswich Town,2013,2,9,29,44,34.236,5.236,13903.0,30,36
+ENG,bournemouth,AFC Bournemouth,2013,2,10,30,44,33.594,3.594,17347.352,27,36
+ENG,middlesbrough,Middlesbrough,2013,2,12,32,44,33.594,1.594,16285.0,29,36
+ENG,watford,Watford,2013,2,13,33,44,34.236,1.236,11896.0,34,36
+ENG,leeds united,Leeds United,2013,2,15,35,44,29.517,-5.483,22370.106,24,36
+ENG,sheffield wednesday,Sheffield Wednesday,2013,2,16,36,44,34.236,-1.764,12505.0,33,36
+ENG,huddersfield town,Huddersfield Town,2013,2,17,37,44,34.236,-2.764,13300.611,32,36
+ENG,charlton athletic,Charlton Athletic,2013,2,18,38,44,35.296,-2.704,11519.0,35,36
+ENG,millwall,Millwall,2013,2,19,39,44,34.236,-4.764,13853.0,31,36
+ENG,blackpool,Blackpool,2013,2,20,40,44,35.484,-4.516,8693.54,36,36
+ENG,birmingham city,Birmingham City,2013,2,21,41,44,32.271,-8.729,20057.582,26,36
+ENG,chelsea,Chelsea,2014,1,1,1,44,4.683,3.683,199831.0,2,38
+ENG,manchester city,Manchester City,2014,1,2,2,44,4.921,2.921,193821.0,3,38
+ENG,arsenal,Arsenal,2014,1,3,3,44,4.921,1.921,189708.0,4,38
+ENG,manchester united,Manchester United,2014,1,4,4,44,5.72,1.72,158289.0,6,38
+ENG,tottenham hotspur,Tottenham Hotspur,2014,1,5,5,44,12.535,7.535,99245.0,7,38
+ENG,liverpool,Liverpool,2014,1,6,6,44,5.72,-0.28,166085.0,5,38
+ENG,southampton,Southampton,2014,1,7,7,44,17.662,10.662,78257.654,10,38
+ENG,swansea city,Swansea City,2014,1,8,8,44,16.967,8.967,82540.562,9,38
+ENG,stoke city,Stoke City,2014,1,9,9,44,18.214,9.214,66580.0,17,38
+ENG,crystal palace,Crystal Palace,2014,1,10,10,44,18.214,8.214,68028.216,16,38
+ENG,everton,Everton,2014,1,11,11,44,17.662,6.662,77515.0,11,38
+ENG,west ham united,West Ham United,2014,1,12,12,44,18.214,6.214,72715.0,13,38
+ENG,west bromwich albion,West Bromwich Albion,2014,1,13,13,44,18.214,5.214,69801.0,15,38
+ENG,leicester city,Leicester City,2014,1,14,14,44,19.785,5.785,57438.0,18,38
+ENG,sunderland,Sunderland,2014,1,16,16,44,18.214,2.214,75158.0,12,38
+ENG,aston villa,Aston Villa,2014,1,17,17,44,16.967,-0.033,83777.0,8,38
+ENG,hull city,Hull City,2014,1,18,18,44,21.922,3.922,55611.076,19,38
+ENG,burnley,Burnley,2014,1,19,19,44,26.642,7.642,29395.0,25,38
+ENG,queens park rangers,Queens Park Rangers,2014,1,20,20,44,18.214,-1.786,69992.0,14,38
+ENG,watford,Watford,2014,2,2,22,44,27.89,5.89,20689.0,27,38
+ENG,norwich city,Norwich City,2014,2,3,23,44,24.676,1.676,48529.0,20,38
+ENG,middlesbrough,Middlesbrough,2014,2,4,24,44,27.89,3.89,20481.0,29,38
+ENG,brentford,Brentford,2014,2,5,25,44,31.403,6.403,17711.971,31,38
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2014,2,7,27,44,31.403,4.403,17657.0,32,38
+ENG,derby county,Derby County,2014,2,8,28,44,27.89,-0.11,21767.0,26,38
+ENG,blackburn rovers,Blackburn Rovers,2014,2,9,29,44,26.642,-2.358,29958.108,24,38
+ENG,birmingham city,Birmingham City,2014,2,10,30,44,34.591,4.591,14113.988,34,38
+ENG,charlton athletic,Charlton Athletic,2014,2,12,32,44,34.591,2.591,11480.0,37,38
+ENG,sheffield wednesday,Sheffield Wednesday,2014,2,13,33,44,34.591,1.591,13401.0,35,38
+ENG,nottingham forest,Nottingham Forest,2014,2,14,34,44,26.642,-7.358,30384.0,23,38
+ENG,leeds united,Leeds United,2014,2,15,35,44,31.403,-3.597,19847.739,30,38
+ENG,huddersfield town,Huddersfield Town,2014,2,16,36,44,34.591,-1.409,13287.703,36,38
+ENG,fulham,Fulham,2014,2,17,37,44,25.999,-11.001,37068.0,21,38
+ENG,reading,Reading,2014,2,19,39,44,26.642,-12.358,33336.809,22,38
+ENG,rotherham united,Rotherham United,2014,2,20,40,44,1.0,-39.0,3262897.0,1,38
+ENG,brighton and hove albion,Brighton & Hove Albion,2014,2,21,41,44,27.89,-13.11,20641.074,28,38
+ENG,millwall,Millwall,2014,2,22,42,44,34.591,-7.409,15156.0,33,38
+ENG,blackpool,Blackpool,2014,2,24,44,44,44.0,0.0,7970.057,38,38
+ENG,leicester city,Leicester City,2015,1,1,1,44,13.141,12.141,80352.0,14,36
+ENG,arsenal,Arsenal,2015,1,2,2,44,4.949,2.949,191764.0,4,36
+ENG,tottenham hotspur,Tottenham Hotspur,2015,1,3,3,44,8.56,5.56,98288.0,6,36
+ENG,manchester city,Manchester City,2015,1,4,4,44,4.949,0.949,197584.0,3,36
+ENG,manchester united,Manchester United,2015,1,5,5,44,4.949,-0.051,184946.0,5,36
+ENG,southampton,Southampton,2015,1,6,6,44,13.141,7.141,82209.0,11,36
+ENG,west ham united,West Ham United,2015,1,7,7,44,13.018,6.018,84633.0,8,36
+ENG,liverpool,Liverpool,2015,1,8,8,44,4.949,-3.051,208258.0,1,36
+ENG,stoke city,Stoke City,2015,1,9,9,44,13.141,4.141,82293.0,10,36
+ENG,chelsea,Chelsea,2015,1,10,10,44,4.949,-5.051,202686.0,2,36
+ENG,everton,Everton,2015,1,11,11,44,13.141,2.141,83985.0,9,36
+ENG,swansea city,Swansea City,2015,1,12,12,44,13.141,1.141,81777.656,12,36
+ENG,watford,Watford,2015,1,13,13,44,17.564,4.564,57900.0,19,36
+ENG,west bromwich albion,West Bromwich Albion,2015,1,14,14,44,13.817,-0.183,73742.0,16,36
+ENG,bournemouth,AFC Bournemouth,2015,1,16,16,44,15.407,-0.593,59557.0,18,36
+ENG,sunderland,Sunderland,2015,1,17,17,44,13.141,-3.859,81753.0,13,36
+ENG,newcastle united,Newcastle United,2015,1,18,18,44,13.817,-4.183,74668.0,15,36
+ENG,norwich city,Norwich City,2015,1,19,19,44,14.961,-4.039,67193.0,17,36
+ENG,aston villa,Aston Villa,2015,1,20,20,44,13.018,-6.982,93014.0,7,36
+ENG,middlesbrough,Middlesbrough,2015,2,2,22,44,26.312,4.312,32386.0,22,36
+ENG,brighton and hove albion,Brighton & Hove Albion,2015,2,3,23,44,27.883,4.883,27383.446,27,36
+ENG,hull city,Hull City,2015,2,4,24,44,27.883,3.883,30009.49,26,36
+ENG,derby county,Derby County,2015,2,5,25,44,26.312,1.312,31908.0,23,36
+ENG,sheffield wednesday,Sheffield Wednesday,2015,2,6,26,44,34.097,8.097,19295.0,29,36
+ENG,brentford,Brentford,2015,2,9,29,44,34.097,5.097,17602.769,32,36
+ENG,birmingham city,Birmingham City,2015,2,10,30,44,34.739,4.739,15327.088,34,36
+ENG,queens park rangers,Queens Park Rangers,2015,2,12,32,44,25.759,-6.241,37788.0,20,36
+ENG,leeds united,Leeds United,2015,2,13,33,44,34.097,1.097,18130.316,31,36
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2015,2,14,34,44,34.097,0.097,18240.0,30,36
+ENG,blackburn rovers,Blackburn Rovers,2015,2,15,35,44,32.677,-2.323,25307.348,28,36
+ENG,nottingham forest,Nottingham Forest,2015,2,16,36,44,27.883,-8.117,30615.0,25,36
+ENG,reading,Reading,2015,2,17,37,44,27.883,-9.117,30761.382,24,36
+ENG,bristol city,Bristol City,2015,2,18,38,44,34.739,-3.261,15436.725,33,36
+ENG,huddersfield town,Huddersfield Town,2015,2,19,39,44,35.987,-3.013,12539.588,36,36
+ENG,fulham,Fulham,2015,2,20,40,44,26.312,-13.688,36132.0,21,36
+ENG,charlton athletic,Charlton Athletic,2015,2,22,42,44,34.739,-7.261,14064.0,35,36
+ENG,chelsea,Chelsea,2016,1,1,1,44,3.85,2.85,203499.0,4,33
+ENG,tottenham hotspur,Tottenham Hotspur,2016,1,2,2,44,7.461,5.461,124825.0,6,33
+ENG,manchester city,Manchester City,2016,1,3,3,44,3.85,0.85,264133.0,1,33
+ENG,liverpool,Liverpool,2016,1,4,4,44,3.85,-0.15,207526.0,3,33
+ENG,arsenal,Arsenal,2016,1,5,5,44,5.711,0.711,195396.0,5,33
+ENG,manchester united,Manchester United,2016,1,6,6,44,3.85,-2.15,211958.0,2,33
+ENG,everton,Everton,2016,1,7,7,44,11.919,4.919,104655.0,10,33
+ENG,southampton,Southampton,2016,1,8,8,44,11.919,3.919,108687.0,9,33
+ENG,bournemouth,AFC Bournemouth,2016,1,9,9,44,14.307,5.307,71534.0,16,33
+ENG,west ham united,West Ham United,2016,1,11,11,44,12.718,1.718,95045.0,12,33
+ENG,leicester city,Leicester City,2016,1,12,12,44,11.919,-0.081,112555.0,7,33
+ENG,stoke city,Stoke City,2016,1,13,13,44,12.718,-0.282,84886.0,13,33
+ENG,swansea city,Swansea City,2016,1,15,15,44,12.042,-2.958,98698.69,11,33
+ENG,burnley,Burnley,2016,1,16,16,44,19.534,3.534,61198.0,20,33
+ENG,watford,Watford,2016,1,17,17,44,14.307,-2.693,74821.974,15,33
+ENG,hull city,Hull City,2016,1,18,18,44,19.534,1.534,61254.189,19,33
+ENG,middlesbrough,Middlesbrough,2016,1,19,19,44,16.595,-2.405,64943.0,17,33
+ENG,sunderland,Sunderland,2016,1,20,20,44,13.862,-6.138,82691.0,14,33
+ENG,newcastle united,Newcastle United,2016,2,1,21,44,11.919,-9.081,112187.0,8,33
+ENG,brighton and hove albion,Brighton & Hove Albion,2016,2,2,22,44,25.212,3.212,40043.129,22,33
+ENG,reading,Reading,2016,2,3,23,44,31.675,8.675,27894.461,26,33
+ENG,sheffield wednesday,Sheffield Wednesday,2016,2,4,24,44,31.578,7.578,29341.0,24,33
+ENG,huddersfield town,Huddersfield Town,2016,2,5,25,44,32.998,7.998,21732.329,29,33
+ENG,fulham,Fulham,2016,2,6,26,44,26.0,0.0,37087.0,23,33
+ENG,leeds united,Leeds United,2016,2,7,27,44,32.998,5.998,20713.719,30,33
+ENG,norwich city,Norwich City,2016,2,8,28,44,21.226,-6.774,55144.0,21,33
+ENG,brentford,Brentford,2016,2,10,30,44,34.888,4.888,14670.024,33,33
+ENG,aston villa,Aston Villa,2016,2,13,33,44,19.534,-13.466,61473.0,18,33
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2016,2,15,35,44,31.675,-3.325,28235.0,25,33
+ENG,ipswich town,Ipswich Town,2016,2,16,36,44,33.64,-2.36,17779.0,32,33
+ENG,bristol city,Bristol City,2016,2,17,37,44,33.64,-3.36,17895.605,31,33
+ENG,birmingham city,Birmingham City,2016,2,19,39,44,32.998,-6.002,22198.981,27,33
+ENG,blackburn rovers,Blackburn Rovers,2016,2,22,42,44,32.998,-9.002,21954.125,28,33
+ENG,manchester city,Manchester City,2017,1,1,1,44,4.749,3.749,259634.0,3,35
+ENG,manchester united,Manchester United,2017,1,2,2,44,4.749,2.749,288239.0,1,35
+ENG,tottenham hotspur,Tottenham Hotspur,2017,1,3,3,44,8.36,5.36,144909.0,7,35
+ENG,liverpool,Liverpool,2017,1,4,4,44,4.749,0.749,263615.0,2,35
+ENG,chelsea,Chelsea,2017,1,5,5,44,5.0,0.0,222870.0,5,35
+ENG,arsenal,Arsenal,2017,1,6,6,44,4.749,-1.251,235703.0,4,35
+ENG,burnley,Burnley,2017,1,7,7,44,15.207,8.207,81616.0,16,35
+ENG,everton,Everton,2017,1,8,8,44,8.36,0.36,145008.0,6,35
+ENG,leicester city,Leicester City,2017,1,9,9,44,12.818,3.818,119013.0,8,35
+ENG,newcastle united,Newcastle United,2017,1,10,10,44,13.617,3.617,93623.0,14,35
+ENG,crystal palace,Crystal Palace,2017,1,11,11,44,12.818,1.818,117328.0,9,35
+ENG,bournemouth,AFC Bournemouth,2017,1,12,12,44,13.617,1.617,101860.0,12,35
+ENG,west ham united,West Ham United,2017,1,13,13,44,12.942,-0.058,106635.0,11,35
+ENG,watford,Watford,2017,1,14,14,44,15.207,1.207,85915.0,15,35
+ENG,brighton and hove albion,Brighton & Hove Albion,2017,1,15,15,44,17.364,2.364,77005.0,17,35
+ENG,huddersfield town,Huddersfield Town,2017,1,16,16,44,20.433,4.433,62613.144,19,35
+ENG,southampton,Southampton,2017,1,17,17,44,12.942,-4.058,109785.0,10,35
+ENG,stoke city,Stoke City,2017,1,19,19,44,13.617,-5.383,94226.0,13,35
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2017,2,1,21,44,25.559,4.559,50709.0,22,35
+ENG,cardiff city,Cardiff City,2017,2,2,22,44,25.559,3.559,48445.0,24,35
+ENG,fulham,Fulham,2017,2,3,23,44,23.961,0.961,54334.0,20,35
+ENG,aston villa,Aston Villa,2017,2,4,24,44,17.494,-6.506,73110.0,18,35
+ENG,middlesbrough,Middlesbrough,2017,2,5,25,44,25.559,0.559,48707.0,23,35
+ENG,millwall,Millwall,2017,2,8,28,44,35.787,7.787,13396.0,34,35
+ENG,sheffield united,Sheffield United,2017,2,10,30,44,34.539,4.539,18965.852,32,35
+ENG,bristol city,Bristol City,2017,2,11,31,44,33.897,2.897,23083.565,31,35
+ENG,ipswich town,Ipswich Town,2017,2,12,32,44,34.539,2.539,18535.0,33,35
+ENG,leeds united,Leeds United,2017,2,13,33,44,32.574,-0.426,31358.013,28,35
+ENG,norwich city,Norwich City,2017,2,14,34,44,24.864,-9.136,54252.0,21,35
+ENG,sheffield wednesday,Sheffield Wednesday,2017,2,15,35,44,26.112,-8.888,42408.0,26,35
+ENG,nottingham forest,Nottingham Forest,2017,2,17,37,44,33.897,-3.103,27749.0,30,35
+ENG,hull city,Hull City,2017,2,18,38,44,32.574,-5.426,31132.18,29,35
+ENG,reading,Reading,2017,2,20,40,44,29.82,-10.18,35343.233,27,35
+ENG,barnsley,Barnsley,2017,2,22,42,44,41.424,-0.576,10598.822,35,35
+ENG,sunderland,Sunderland,2017,2,24,44,44,26.112,-17.888,46834.0,25,35
+ENG,manchester city,Manchester City,2018,1,1,1,44,4.305,3.305,315257.0,2,37
+ENG,liverpool,Liverpool,2018,1,2,2,44,4.305,2.305,309917.0,3,37
+ENG,chelsea,Chelsea,2018,1,3,3,44,4.305,1.305,262795.0,4,37
+ENG,tottenham hotspur,Tottenham Hotspur,2018,1,4,4,44,7.915,3.915,175013.0,6,37
+ENG,arsenal,Arsenal,2018,1,5,5,44,6.165,1.165,230463.0,5,37
+ENG,manchester united,Manchester United,2018,1,6,6,44,4.305,-1.695,324004.0,1,37
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2018,1,7,7,44,14.762,7.762,92131.0,17,37
+ENG,everton,Everton,2018,1,8,8,44,7.915,-0.085,159255.0,7,37
+ENG,leicester city,Leicester City,2018,1,9,9,44,7.915,-1.085,149512.0,8,37
+ENG,west ham united,West Ham United,2018,1,10,10,44,12.136,2.136,135796.0,9,37
+ENG,watford,Watford,2018,1,11,11,44,16.919,5.919,83599.0,19,37
+ENG,crystal palace,Crystal Palace,2018,1,12,12,44,12.497,0.497,119295.0,10,37
+ENG,newcastle united,Newcastle United,2018,1,13,13,44,14.316,1.316,96798.0,14,37
+ENG,bournemouth,AFC Bournemouth,2018,1,14,14,44,13.172,-0.828,110894.0,12,37
+ENG,burnley,Burnley,2018,1,15,15,44,14.762,-0.238,86619.0,18,37
+ENG,southampton,Southampton,2018,1,16,16,44,13.172,-2.828,111444.0,11,37
+ENG,brighton and hove albion,Brighton & Hove Albion,2018,1,17,17,44,14.316,-2.684,100581.0,13,37
+ENG,cardiff city,Cardiff City,2018,1,18,18,44,25.114,7.114,53651.0,23,37
+ENG,fulham,Fulham,2018,1,19,19,44,14.762,-4.238,92591.0,16,37
+ENG,huddersfield town,Huddersfield Town,2018,1,20,20,44,21.68,1.68,64175.649,20,37
+ENG,norwich city,Norwich City,2018,2,1,21,44,25.114,4.114,54441.0,22,37
+ENG,sheffield united,Sheffield United,2018,2,2,22,44,27.238,5.238,40654.184,27,37
+ENG,leeds united,Leeds United,2018,2,3,23,44,25.667,2.667,46161.592,25,37
+ENG,aston villa,Aston Villa,2018,2,5,25,44,14.762,-10.238,94998.0,15,37
+ENG,middlesbrough,Middlesbrough,2018,2,7,27,44,27.238,0.238,40125.0,28,37
+ENG,bristol city,Bristol City,2018,2,8,28,44,33.452,5.452,24620.235,32,37
+ENG,nottingham forest,Nottingham Forest,2018,2,9,29,44,32.033,3.033,36255.0,30,37
+ENG,swansea city,Swansea City,2018,2,10,30,44,25.667,-4.333,48900.027,24,37
+ENG,brentford,Brentford,2018,2,11,31,44,35.155,4.155,18867.403,35,37
+ENG,sheffield wednesday,Sheffield Wednesday,2018,2,12,32,44,32.033,0.033,36378.0,29,37
+ENG,hull city,Hull City,2018,2,13,33,44,33.452,0.452,24779.268,31,37
+ENG,blackburn rovers,Blackburn Rovers,2018,2,16,36,44,34.094,-1.906,22391.812,33,37
+ENG,stoke city,Stoke City,2018,2,17,37,44,25.114,-11.886,56028.0,21,37
+ENG,reading,Reading,2018,2,20,40,44,27.238,-12.762,40748.878,26,37
+ENG,millwall,Millwall,2018,2,21,41,44,35.343,-5.657,16914.0,36,37
+ENG,rotherham united,Rotherham United,2018,2,22,42,44,42.044,0.044,7823.838,37,37
+ENG,ipswich town,Ipswich Town,2018,2,24,44,44,35.155,-8.845,19249.0,34,37
+ENG,liverpool,Liverpool,2019,1,1,1,44,5.292,4.292,325572.0,2,39
+ENG,manchester city,Manchester City,2019,1,2,2,44,5.292,3.292,351412.0,1,39
+ENG,manchester united,Manchester United,2019,1,3,3,44,5.292,2.292,274189.0,3,39
+ENG,chelsea,Chelsea,2019,1,4,4,44,5.292,1.292,259450.0,4,39
+ENG,leicester city,Leicester City,2019,1,5,5,44,8.902,3.902,157479.0,8,39
+ENG,tottenham hotspur,Tottenham Hotspur,2019,1,6,6,44,7.971,1.971,177752.0,6,39
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2019,1,7,7,44,15.303,8.303,94251.0,17,39
+ENG,arsenal,Arsenal,2019,1,8,8,44,7.152,-0.848,227984.0,5,39
+ENG,sheffield united,Sheffield United,2019,1,9,9,44,17.906,8.906,77885.823,20,39
+ENG,burnley,Burnley,2019,1,10,10,44,14.159,4.159,100094.0,15,39
+ENG,southampton,Southampton,2019,1,11,11,44,13.484,2.484,114163.0,12,39
+ENG,everton,Everton,2019,1,12,12,44,8.902,-3.098,163705.0,7,39
+ENG,newcastle united,Newcastle United,2019,1,13,13,44,13.361,0.361,121146.0,11,39
+ENG,crystal palace,Crystal Palace,2019,1,14,14,44,13.123,-0.877,132643.0,9,39
+ENG,brighton and hove albion,Brighton & Hove Albion,2019,1,15,15,44,14.159,-0.841,101870.0,14,39
+ENG,west ham united,West Ham United,2019,1,16,16,44,13.361,-2.639,129949.0,10,39
+ENG,bournemouth,AFC Bournemouth,2019,1,18,18,44,14.159,-3.841,107871.0,13,39
+ENG,watford,Watford,2019,1,19,19,44,15.303,-3.697,96201.0,16,39
+ENG,norwich city,Norwich City,2019,1,20,20,44,15.749,-4.251,88925.0,18,39
+ENG,leeds united,Leeds United,2019,2,1,21,44,17.906,-3.094,78290.456,19,39
+ENG,brentford,Brentford,2019,2,3,23,44,34.439,11.439,25861.915,31,39
+ENG,fulham,Fulham,2019,2,4,24,44,20.975,-3.025,72626.0,21,39
+ENG,cardiff city,Cardiff City,2019,2,5,25,44,30.362,5.362,35640.0,26,39
+ENG,swansea city,Swansea City,2019,2,6,26,44,28.225,2.225,40216.842,23,39
+ENG,nottingham forest,Nottingham Forest,2019,2,7,27,44,28.225,1.225,38122.0,24,39
+ENG,millwall,Millwall,2019,2,8,28,44,36.142,8.142,18934.0,34,39
+ENG,preston north end,Preston North End,2019,2,9,29,44,35.081,6.081,20028.0,33,39
+ENG,blackburn rovers,Blackburn Rovers,2019,2,11,31,44,34.439,3.439,25599.35,32,39
+ENG,queens park rangers,Queens Park Rangers,2019,2,14,34,44,36.329,2.329,17390.0,36,39
+ENG,reading,Reading,2019,2,15,35,44,30.309,-4.691,37574.302,25,39
+ENG,stoke city,Stoke City,2019,2,16,36,44,26.101,-9.899,52663.0,22,39
+ENG,sheffield wednesday,Sheffield Wednesday,2019,2,17,37,44,33.02,-3.98,33541.0,27,39
+ENG,middlesbrough,Middlesbrough,2019,2,18,38,44,34.439,-3.561,30964.0,29,39
+ENG,huddersfield town,Huddersfield Town,2019,2,19,39,44,34.439,-4.561,30253.71,30,39
+ENG,luton town,Luton Town,2019,2,20,40,44,36.329,-3.671,13998.106,37,39
+ENG,birmingham city,Birmingham City,2019,2,21,41,44,33.116,-7.884,32418.347,28,39
+ENG,barnsley,Barnsley,2019,2,22,42,44,41.967,-0.033,11120.135,39,39
+ENG,charlton athletic,Charlton Athletic,2019,2,23,43,44,39.842,-3.158,12241.0,38,39
+ENG,hull city,Hull City,2019,2,24,44,44,36.329,-7.671,17751.492,35,39
+ENG,manchester city,Manchester City,2020,1,1,1,44,3.669,2.669,354689.0,1,37
+ENG,manchester united,Manchester United,2020,1,2,2,44,3.669,1.669,312359.0,3,37
+ENG,liverpool,Liverpool,2020,1,3,3,44,3.669,0.669,314354.0,2,37
+ENG,chelsea,Chelsea,2020,1,4,4,44,3.669,-0.331,309080.0,4,37
+ENG,leicester city,Leicester City,2020,1,5,5,44,6.348,1.348,191226.0,7,37
+ENG,west ham united,West Ham United,2020,1,6,6,44,11.738,5.738,128451.0,11,37
+ENG,tottenham hotspur,Tottenham Hotspur,2020,1,7,7,44,6.348,-0.652,201085.0,6,37
+ENG,arsenal,Arsenal,2020,1,8,8,44,5.529,-2.471,239830.0,5,37
+ENG,leeds united,Leeds United,2020,1,9,9,44,12.536,3.536,108252.679,14,37
+ENG,everton,Everton,2020,1,10,10,44,7.279,-2.721,182570.0,8,37
+ENG,aston villa,Aston Villa,2020,1,11,11,44,11.738,0.738,137799.0,10,37
+ENG,newcastle united,Newcastle United,2020,1,12,12,44,12.536,0.536,106829.0,16,37
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2020,1,13,13,44,11.738,-1.262,138776.0,9,37
+ENG,southampton,Southampton,2020,1,15,15,44,12.536,-2.464,113359.0,13,37
+ENG,brighton and hove albion,Brighton & Hove Albion,2020,1,16,16,44,12.536,-3.464,107404.0,15,37
+ENG,burnley,Burnley,2020,1,17,17,44,16.284,-0.716,85934.0,17,37
+ENG,fulham,Fulham,2020,1,18,18,44,12.536,-5.464,113871.0,12,37
+ENG,west bromwich albion,West Bromwich Albion,2020,1,19,19,44,19.352,0.352,76897.0,18,37
+ENG,sheffield united,Sheffield United,2020,1,20,20,44,24.478,4.478,56518.365,21,37
+ENG,norwich city,Norwich City,2020,2,1,21,44,21.044,0.044,66623.0,19,37
+ENG,brentford,Brentford,2020,2,3,23,44,26.602,3.602,41441.161,22,37
+ENG,swansea city,Swansea City,2020,2,4,24,44,32.816,8.816,27791.99,27,37
+ENG,barnsley,Barnsley,2020,2,5,25,44,34.707,9.707,14374.258,35,37
+ENG,bournemouth,AFC Bournemouth,2020,2,6,26,44,24.478,-1.522,57376.0,20,37
+ENG,cardiff city,Cardiff City,2020,2,8,28,44,31.493,3.493,33497.0,24,37
+ENG,queens park rangers,Queens Park Rangers,2020,2,9,29,44,33.458,4.458,21908.0,33,37
+ENG,middlesbrough,Middlesbrough,2020,2,10,30,44,32.816,2.816,26963.0,28,37
+ENG,millwall,Millwall,2020,2,11,31,44,33.458,2.458,20835.0,34,37
+ENG,luton town,Luton Town,2020,2,12,32,44,34.707,2.707,14109.13,36,37
+ENG,preston north end,Preston North End,2020,2,13,33,44,33.458,0.458,22886.0,32,37
+ENG,blackburn rovers,Blackburn Rovers,2020,2,15,35,44,32.816,-2.184,25652.262,29,37
+ENG,coventry city,Coventry City,2020,2,16,36,44,38.219,2.219,13173.941,37,37
+ENG,nottingham forest,Nottingham Forest,2020,2,17,37,44,31.397,-5.603,37196.0,23,37
+ENG,birmingham city,Birmingham City,2020,2,18,38,44,32.816,-5.184,30151.864,26,37
+ENG,bristol city,Bristol City,2020,2,19,39,44,32.816,-6.184,30251.6,25,37
+ENG,huddersfield town,Huddersfield Town,2020,2,20,40,44,33.458,-6.542,24636.751,30,37
+ENG,sheffield wednesday,Sheffield Wednesday,2020,2,21,41,44,33.458,-7.542,24287.0,31,37
+ENG,manchester city,Manchester City,2021,1,1,1,44,3.179,2.179,353881.0,3,38
+ENG,liverpool,Liverpool,2021,1,2,2,44,3.179,1.179,366092.0,2,38
+ENG,chelsea,Chelsea,2021,1,3,3,44,3.179,0.179,313794.0,4,38
+ENG,tottenham hotspur,Tottenham Hotspur,2021,1,4,4,44,5.858,1.858,205088.0,6,38
+ENG,arsenal,Arsenal,2021,1,5,5,44,5.858,0.858,205482.0,5,38
+ENG,manchester united,Manchester United,2021,1,6,6,44,3.179,-2.821,372533.0,1,38
+ENG,west ham united,West Ham United,2021,1,7,7,44,11.248,4.248,134397.0,11,38
+ENG,leicester city,Leicester City,2021,1,8,8,44,6.79,-1.21,180405.0,7,38
+ENG,brighton and hove albion,Brighton & Hove Albion,2021,1,9,9,44,12.047,3.047,112718.0,16,38
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2021,1,10,10,44,12.047,2.047,120216.0,14,38
+ENG,newcastle united,Newcastle United,2021,1,11,11,44,6.79,-4.21,170204.0,8,38
+ENG,crystal palace,Crystal Palace,2021,1,12,12,44,11.371,-0.629,123835.0,12,38
+ENG,brentford,Brentford,2021,1,13,13,44,20.555,7.555,68152.0,20,38
+ENG,aston villa,Aston Villa,2021,1,14,14,44,11.248,-2.752,137044.0,10,38
+ENG,southampton,Southampton,2021,1,15,15,44,12.047,-2.953,113449.0,15,38
+ENG,everton,Everton,2021,1,16,16,44,6.79,-9.21,162010.0,9,38
+ENG,leeds united,Leeds United,2021,1,17,17,44,12.047,-4.953,121405.579,13,38
+ENG,burnley,Burnley,2021,1,18,18,44,13.636,-4.364,91978.0,17,38
+ENG,watford,Watford,2021,1,19,19,44,18.863,-0.137,78969.0,19,38
+ENG,fulham,Fulham,2021,2,1,21,44,15.794,-5.206,90360.0,18,38
+ENG,bournemouth,AFC Bournemouth,2021,2,2,22,44,23.294,1.294,61381.0,21,38
+ENG,huddersfield town,Huddersfield Town,2021,2,3,23,44,34.029,11.029,20264.566,33,38
+ENG,nottingham forest,Nottingham Forest,2021,2,4,24,44,23.989,-0.011,58565.0,22,38
+ENG,sheffield united,Sheffield United,2021,2,5,25,44,26.112,1.112,42051.963,24,38
+ENG,luton town,Luton Town,2021,2,6,26,44,34.217,8.217,17824.725,34,38
+ENG,middlesbrough,Middlesbrough,2021,2,7,27,44,32.326,5.326,28427.0,27,38
+ENG,blackburn rovers,Blackburn Rovers,2021,2,8,28,44,32.969,4.969,24356.209,31,38
+ENG,millwall,Millwall,2021,2,9,29,44,32.969,3.969,22316.0,32,38
+ENG,west bromwich albion,West Bromwich Albion,2021,2,10,30,44,26.112,-3.888,42382.0,23,38
+ENG,queens park rangers,Queens Park Rangers,2021,2,11,31,44,32.969,1.969,24782.0,30,38
+ENG,coventry city,Coventry City,2021,2,12,32,44,34.217,2.217,15674.203,35,38
+ENG,stoke city,Stoke City,2021,2,14,34,44,31.003,-2.997,35560.0,25,38
+ENG,swansea city,Swansea City,2021,2,15,35,44,32.326,-2.674,26066.858,28,38
+ENG,blackpool,Blackpool,2021,2,16,36,44,39.854,3.854,11579.392,38,38
+ENG,cardiff city,Cardiff City,2021,2,19,39,44,32.326,-6.674,29215.0,26,38
+ENG,hull city,Hull City,2021,2,20,40,44,39.854,-0.146,12696.82,37,38
+ENG,reading,Reading,2021,2,22,42,44,32.969,-9.031,25322.777,29,38
+ENG,barnsley,Barnsley,2021,2,24,44,44,37.73,-6.27,13063.921,36,38
+ENG,manchester city,Manchester City FC,2022,1,1,1,44,4.226,3.226,422895.0,1,39
+ENG,arsenal,Arsenal FC,2022,1,2,2,44,6.905,4.905,225427.0,6,39
+ENG,manchester united,Manchester United FC,2022,1,3,3,44,4.226,1.226,313775.0,4,39
+ENG,newcastle united,Newcastle United FC,2022,1,4,4,44,7.836,3.836,186252.0,9,39
+ENG,liverpool,Liverpool FC,2022,1,5,5,44,4.226,-0.774,372881.0,3,39
+ENG,brighton and hove albion,Brighton & Hove Albion FC,2022,1,6,6,44,13.093,7.093,124371.0,16,39
+ENG,aston villa,Aston Villa FC,2022,1,7,7,44,7.836,0.836,194236.0,8,39
+ENG,tottenham hotspur,Tottenham Hotspur FC,2022,1,8,8,44,6.905,-1.095,245024.0,5,39
+ENG,brentford,Brentford FC,2022,1,9,9,44,14.683,5.683,98800.0,19,39
+ENG,fulham,Fulham FC,2022,1,10,10,44,12.295,2.295,139064.0,13,39
+ENG,crystal palace,Crystal Palace FC,2022,1,11,11,44,12.419,1.419,129720.0,15,39
+ENG,chelsea,Chelsea FC,2022,1,12,12,44,4.226,-7.774,373396.0,2,39
+ENG,west ham united,West Ham United FC,2022,1,14,14,44,12.418,-1.582,135343.0,14,39
+ENG,bournemouth,AFC Bournemouth,2022,1,15,15,44,14.683,-0.317,100109.0,18,39
+ENG,nottingham forest,Nottingham Forest FC,2022,1,16,16,44,12.295,-3.705,144912.0,12,39
+ENG,everton,Everton FC,2022,1,17,17,44,12.057,-4.943,156204.0,10,39
+ENG,leicester city,Leicester City FC,2022,1,18,18,44,7.836,-10.164,203169.0,7,39
+ENG,leeds united,Leeds United FC,2022,1,19,19,44,12.295,-6.705,145857.096,11,39
+ENG,southampton,Southampton FC,2022,1,20,20,44,13.093,-6.907,121105.0,17,39
+ENG,sheffield united,Sheffield United FC,2022,2,2,22,44,27.159,5.159,48194.73,22,39
+ENG,luton town,Luton Town FC,2022,2,3,23,44,33.373,10.373,27593.595,26,39
+ENG,middlesbrough,Middlesbrough FC,2022,2,4,24,44,33.373,9.373,29625.0,24,39
+ENG,coventry city,Coventry City FC,2022,2,5,25,44,35.264,10.264,18459.53,38,39
+ENG,sunderland,Sunderland AFC,2022,2,6,26,44,34.015,8.015,25296.0,28,39
+ENG,blackburn rovers,Blackburn Rovers FC,2022,2,7,27,44,34.015,7.015,25794.206,27,39
+ENG,millwall,Millwall FC,2022,2,8,28,44,34.015,6.015,22583.0,34,39
+ENG,west bromwich albion,West Bromwich Albion FC,2022,2,9,29,44,27.159,-1.841,45947.0,23,39
+ENG,swansea city,Swansea City AFC,2022,2,10,30,44,34.015,4.015,24850.723,29,39
+ENG,watford,Watford FC,2022,2,11,31,44,27.159,-3.841,48726.0,21,39
+ENG,norwich city,Norwich City FC,2022,2,13,33,44,25.588,-7.412,56448.0,20,39
+ENG,bristol city,Bristol City FC,2022,2,14,34,44,34.015,0.015,23807.941,31,39
+ENG,hull city,Hull City AFC,2022,2,15,35,44,34.015,-0.985,23651.367,32,39
+ENG,stoke city,Stoke City FC,2022,2,16,36,44,33.373,-2.627,28231.0,25,39
+ENG,huddersfield town,Huddersfield Town AFC,2022,2,18,38,44,35.076,-2.924,21522.081,37,39
+ENG,reading,Reading FC,2022,2,20,40,44,34.015,-5.985,24470.211,30,39
+ENG,queens park rangers,Queens Park Rangers FC,2022,2,21,41,44,35.076,-5.924,22436.0,35,39
+ENG,cardiff city,Cardiff City FC,2022,2,22,42,44,35.076,-6.924,22287.0,36,39
+ENG,wigan athletic,Wigan Athletic FC,2022,2,23,43,44,34.015,-8.985,23240.053,33,39
+ENG,blackpool,Blackpool FC,2022,2,24,44,44,40.901,-3.099,13528.599,39,39
+ENG,manchester city,Manchester City,2023,1,1,1,44,3.622,2.622,412573.0,1,36
+ENG,arsenal,Arsenal,2023,1,2,2,44,3.622,1.622,315168.0,4,36
+ENG,liverpool,Liverpool,2023,1,3,3,44,3.622,0.622,386086.0,2,36
+ENG,aston villa,Aston Villa,2023,1,4,4,44,6.302,2.302,252049.0,6,36
+ENG,tottenham hotspur,Tottenham Hotspur,2023,1,5,5,44,7.233,2.233,215796.0,8,36
+ENG,chelsea,Chelsea,2023,1,6,6,44,5.483,-0.517,296499.0,5,36
+ENG,newcastle united,Newcastle United,2023,1,7,7,44,7.233,0.233,217566.0,7,36
+ENG,manchester united,Manchester United,2023,1,8,8,44,3.622,-4.378,349507.0,3,36
+ENG,west ham united,West Ham United,2023,1,9,9,44,11.691,2.691,159040.0,10,36
+ENG,crystal palace,Crystal Palace,2023,1,10,10,44,12.49,2.49,132444.0,16,36
+ENG,brighton and hove albion,Brighton & Hove Albion,2023,1,11,11,44,12.49,1.49,142235.0,13,36
+ENG,everton,Everton,2023,1,12,12,44,11.815,-0.185,153661.0,12,36
+ENG,bournemouth,AFC Bournemouth,2023,1,13,13,44,12.49,-0.51,136170.0,15,36
+ENG,fulham,Fulham,2023,1,14,14,44,11.815,-2.185,154754.0,11,36
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2023,1,15,15,44,12.49,-2.51,141284.0,14,36
+ENG,brentford,Brentford,2023,1,16,16,44,14.08,-1.92,114371.0,17,36
+ENG,nottingham forest,Nottingham Forest,2023,1,17,17,44,11.691,-5.309,166399.0,9,36
+ENG,luton town,Luton Town,2023,1,18,18,44,26.556,8.556,56881.016,23,36
+ENG,burnley,Burnley,2023,1,19,19,44,19.306,0.306,93420.0,19,36
+ENG,sheffield united,Sheffield United,2023,1,20,20,44,24.985,4.985,63703.662,22,36
+ENG,leicester city,Leicester City,2023,2,1,21,44,16.237,-4.763,107164.0,18,36
+ENG,leeds united,Leeds United,2023,2,3,23,44,20.998,-2.002,84030.436,20,36
+ENG,southampton,Southampton,2023,2,4,24,44,22.834,-1.166,79014.0,21,36
+ENG,west bromwich albion,West Bromwich Albion,2023,2,5,25,44,31.447,6.447,42899.0,25,36
+ENG,norwich city,Norwich City,2023,2,6,26,44,26.556,0.556,51842.0,24,36
+ENG,hull city,Hull City,2023,2,7,27,44,33.412,6.412,29556.691,30,36
+ENG,middlesbrough,Middlesbrough,2023,2,8,28,44,32.77,4.77,31394.0,28,36
+ENG,millwall,Millwall,2023,2,13,33,44,33.412,0.412,25578.584,32,36
+ENG,swansea city,Swansea City,2023,2,14,34,44,33.412,-0.588,27347.429,31,36
+ENG,watford,Watford,2023,2,15,35,44,32.77,-2.23,33025.0,26,36
+ENG,sunderland,Sunderland,2023,2,16,36,44,33.412,-2.588,30463.0,29,36
+ENG,stoke city,Stoke City,2023,2,17,37,44,32.77,-4.23,31764.0,27,36
+ENG,queens park rangers,Queens Park Rangers,2023,2,18,38,44,34.66,-3.34,20712.0,36,36
+ENG,blackburn rovers,Blackburn Rovers,2023,2,19,39,44,34.473,-4.527,25443.371,33,36
+ENG,sheffield wednesday,Sheffield Wednesday,2023,2,20,40,44,34.66,-5.34,21810.0,35,36
+ENG,huddersfield town,Huddersfield Town,2023,2,23,43,44,34.66,-8.34,23031.53,34,36
+ENG,liverpool,Liverpool,2024,1,1,1,44,3.673,2.673,427727.0,1,36
+ENG,arsenal,Arsenal,2024,1,2,2,44,3.673,1.673,331227.0,3,36
+ENG,manchester city,Manchester City,2024,1,3,3,44,3.673,0.673,408403.0,2,36
+ENG,chelsea,Chelsea,2024,1,4,4,44,4.275,0.275,325575.0,4,36
+ENG,newcastle united,Newcastle United,2024,1,5,5,44,7.283,2.283,241344.0,8,36
+ENG,aston villa,Aston Villa,2024,1,6,6,44,6.352,0.352,273376.0,6,36
+ENG,nottingham forest,Nottingham Forest,2024,1,7,7,44,11.742,4.742,166651.0,10,36
+ENG,brighton and hove albion,Brighton & Hove Albion,2024,1,8,8,44,11.865,3.865,158679.0,13,36
+ENG,bournemouth,AFC Bournemouth,2024,1,9,9,44,11.865,2.865,158422.0,14,36
+ENG,brentford,Brentford,2024,1,10,10,44,13.684,3.684,130778.0,18,36
+ENG,fulham,Fulham,2024,1,11,11,44,11.742,0.742,166507.0,11,36
+ENG,crystal palace,Crystal Palace,2024,1,12,12,44,12.54,0.54,145478.0,17,36
+ENG,everton,Everton,2024,1,13,13,44,12.54,-0.46,152064.0,16,36
+ENG,west ham united,West Ham United,2024,1,14,14,44,11.742,-2.258,173335.0,9,36
+ENG,manchester united,Manchester United,2024,1,15,15,44,6.352,-8.648,296080.0,5,36
+ENG,wolverhampton wanderers,Wolverhampton Wanderers,2024,1,16,16,44,11.865,-4.135,162087.0,12,36
+ENG,tottenham hotspur,Tottenham Hotspur,2024,1,17,17,44,7.283,-9.717,248263.0,7,36
+ENG,leicester city,Leicester City,2024,1,18,18,44,12.54,-5.46,152932.0,15,36
+ENG,ipswich town,Ipswich Town,2024,1,19,19,44,23.787,4.787,77141.0,21,36
+ENG,southampton,Southampton,2024,1,20,20,44,16.288,-3.712,113957.0,19,36
+ENG,burnley,Burnley,2024,2,2,22,44,22.885,0.885,82263.0,20,36
+ENG,sheffield united,Sheffield United,2024,2,3,23,44,31.497,8.497,45971.762,24,36
+ENG,sunderland,Sunderland,2024,2,4,24,44,28.691,4.691,52899.0,22,36
+ENG,bristol city,Bristol City,2024,2,6,26,44,34.523,8.523,25853.682,35,36
+ENG,blackburn rovers,Blackburn Rovers,2024,2,7,27,44,33.462,6.462,28219.719,33,36
+ENG,millwall,Millwall,2024,2,8,28,44,33.462,5.462,28633.503,32,36
+ENG,west bromwich albion,West Bromwich Albion,2024,2,9,29,44,32.82,3.82,37050.0,27,36
+ENG,middlesbrough,Middlesbrough,2024,2,10,30,44,32.82,2.82,36360.0,29,36
+ENG,swansea city,Swansea City,2024,2,11,31,44,33.462,2.462,29019.531,31,36
+ENG,norwich city,Norwich City,2024,2,13,33,44,31.401,-1.599,48083.0,23,36
+ENG,watford,Watford,2024,2,14,34,44,33.462,-0.538,28124.0,34,36
+ENG,queens park rangers,Queens Park Rangers,2024,2,15,35,44,34.711,-0.289,23417.0,36,36
+ENG,stoke city,Stoke City,2024,2,18,38,44,33.462,-4.538,30300.0,30,36
+ENG,hull city,Hull City,2024,2,21,41,44,32.82,-8.18,36678.453,28,36
+ENG,luton town,Luton Town,2024,2,22,42,44,32.82,-9.18,39504.947,25,36
+ENG,cardiff city,Cardiff City,2024,2,24,44,44,32.82,-11.18,38954.0,26,36
+FRA,girondins bordeaux,Girondins Bordeaux,2008,1,1,1,40,7.579,6.579,55998.0,2,38
+FRA,marseille,Olympique Marseille,2008,1,2,2,40,7.579,5.579,75112.0,1,38
+FRA,toulouse,Toulouse FC,2008,1,4,4,40,10.989,6.989,29602.0,10,38
+FRA,lille osc,Lille OSC,2008,1,5,5,40,10.989,5.989,41140.0,4,38
+FRA,paris saint germain,Paris Saint-Germain,2008,1,6,6,40,7.579,1.579,54434.0,3,38
+FRA,rennais,Stade Rennes,2008,1,7,7,40,10.989,3.989,36964.0,5,38
+FRA,aj auxerre,AJ Auxerre,2008,1,8,8,40,10.989,2.989,29559.0,11,38
+FRA,nice,OGC Nice,2008,1,9,9,40,13.395,4.395,26560.0,13,38
+FRA,lorient,FC Lorient,2008,1,10,10,40,14.283,4.283,20849.0,17,38
+FRA,monaco,AS Monaco,2008,1,11,11,40,10.989,-0.011,35450.0,6,38
+FRA,valenciennes,Valenciennes FC,2008,1,12,12,40,14.283,2.283,23591.0,15,38
+FRA,grenoble foot 38,Grenoble Foot 38,2008,1,13,13,40,14.283,1.283,20106.0,18,38
+FRA,sochaux,FC Sochaux,2008,1,14,14,40,11.704,-2.296,27154.0,12,38
+FRA,nancy lorraine,AS Nancy,2008,1,15,15,40,10.989,-4.011,30139.0,9,38
+FRA,mans,Le Mans UC 72,2008,1,16,16,40,14.283,-1.717,24409.0,14,38
+FRA,saint etienne,AS Saint-Etienne,2008,1,17,17,40,10.989,-6.011,32292.0,7,38
+FRA,caen,SM Caen,2008,1,18,18,40,14.283,-3.717,21725.0,16,38
+FRA,nantes,FC Nantes,2008,1,19,19,40,10.989,-8.011,31655.0,8,38
+FRA,havre,Le Havre AC,2008,1,20,20,40,18.545,-1.455,17416.0,19,38
+FRA,montpellier hsc,Montpellier HSC,2008,2,2,22,40,19.981,-2.019,14651.0,20,38
+FRA,boulogne,US Boulogne,2008,2,3,23,40,30.403,7.403,7317.0,28,38
+FRA,racing strasbourg,Racing Strasbourg,2008,2,4,24,40,22.35,-1.65,12362.0,22,38
+FRA,metz,FC Metz,2008,2,5,25,40,19.981,-5.019,13646.0,21,38
+FRA,tours,Tours FC,2008,2,6,26,40,32.673,6.673,5217.0,37,38
+FRA,angers,Angers SCO,2008,2,7,27,40,30.403,3.403,7382.0,27,38
+FRA,dijon fco,Dijon FCO,2008,2,8,28,40,30.403,2.403,6992.0,31,38
+FRA,sedan,CS Sedan,2008,2,9,29,40,30.403,1.403,7516.0,26,38
+FRA,vannes oc,Vannes OC,2008,2,10,30,40,32.673,2.673,5370.0,36,38
+FRA,bastia,SC Bastia,2008,2,11,31,40,30.403,-0.597,7298.0,29,38
+FRA,clermont foot 63,Clermont Foot 63,2008,2,12,32,40,32.673,0.673,5405.0,35,38
+FRA,guingamp,EA Guingamp,2008,2,13,33,40,29.547,-3.453,9420.0,24,38
+FRA,brestois 29,Stade Brestois 29,2008,2,14,34,40,30.403,-3.597,6764.0,32,38
+FRA,chateauroux,LB Châteauroux,2008,2,15,35,40,30.403,-4.597,6759.0,33,38
+FRA,ajaccio,AC Ajaccio,2008,2,16,36,40,32.673,-3.327,5153.0,38,38
+FRA,nimes,Nîmes Olympique,2008,2,17,37,40,32.643,-4.357,5719.0,34,38
+FRA,amiens,Amiens SC,2008,2,18,38,40,30.403,-7.597,7089.0,30,38
+FRA,es troyes,ES Troyes AC,2008,2,19,39,40,25.256,-13.744,10377.0,23,38
+FRA,reims,Stade de Reims,2008,2,20,40,40,29.547,-10.453,9323.0,25,38
+FRA,marseille,Olympique Marseille,2009,1,1,1,40,4.287,3.287,92395.0,1,38
+FRA,aj auxerre,AJ Auxerre,2009,1,3,3,40,10.834,7.834,31507.0,8,38
+FRA,lille osc,Lille OSC,2009,1,4,4,40,7.424,3.424,48621.0,4,38
+FRA,montpellier hsc,Montpellier HSC,2009,1,5,5,40,14.129,9.129,23422.0,13,38
+FRA,girondins bordeaux,Girondins Bordeaux,2009,1,6,6,40,7.424,1.424,61942.0,2,38
+FRA,lorient,FC Lorient,2009,1,7,7,40,14.129,7.129,22371.0,15,38
+FRA,monaco,AS Monaco,2009,1,8,8,40,10.834,2.834,39388.0,5,38
+FRA,rennais,Stade Rennes,2009,1,9,9,40,10.834,1.834,35929.0,7,38
+FRA,valenciennes,Valenciennes FC,2009,1,10,10,40,11.549,1.549,28373.0,11,38
+FRA,nancy lorraine,AS Nancy,2009,1,12,12,40,10.834,-1.166,30719.0,9,38
+FRA,paris saint germain,Paris Saint-Germain,2009,1,13,13,40,7.424,-5.576,59293.0,3,38
+FRA,toulouse,Toulouse FC,2009,1,14,14,40,11.549,-2.451,28418.0,10,38
+FRA,nice,OGC Nice,2009,1,15,15,40,14.129,-0.871,22596.0,14,38
+FRA,sochaux,FC Sochaux,2009,1,16,16,40,14.129,-1.871,24843.0,12,38
+FRA,saint etienne,AS Saint-Etienne,2009,1,17,17,40,10.834,-6.166,39218.0,6,38
+FRA,mans,Le Mans UC 72,2009,1,18,18,40,15.317,-2.683,19991.0,16,38
+FRA,boulogne,US Boulogne,2009,1,19,19,40,19.826,0.826,14004.0,20,38
+FRA,grenoble foot 38,Grenoble Foot 38,2009,1,20,20,40,18.391,-1.609,19072.0,18,38
+FRA,caen,SM Caen,2009,2,1,21,40,18.391,-2.609,16043.0,19,38
+FRA,brestois 29,Stade Brestois 29,2009,2,2,22,40,30.248,8.248,8236.0,26,38
+FRA,arles avignon,AC Arles-Avignon,2009,2,3,23,40,32.519,9.519,5176.0,37,38
+FRA,metz,FC Metz,2009,2,4,24,40,22.196,-1.804,12709.0,22,38
+FRA,angers,Angers SCO,2009,2,5,25,40,30.248,5.248,7010.0,28,38
+FRA,clermont foot 63,Clermont Foot 63,2009,2,6,26,40,32.519,6.519,5726.0,34,38
+FRA,havre,Havre AC,2009,2,7,27,40,20.484,-6.516,13360.0,21,38
+FRA,lavallois,Stade Lavallois,2009,2,8,28,40,32.489,4.489,6062.0,32,38
+FRA,dijon fco,Dijon FCO,2009,2,9,29,40,30.248,1.248,6981.0,29,38
+FRA,nimes,Nîmes Olympique,2009,2,10,30,40,32.489,2.489,5873.0,33,38
+FRA,tours,Tours FC,2009,2,11,31,40,32.088,1.088,6349.0,30,38
+FRA,sedan,CS Sedan,2009,2,12,32,40,30.248,-1.752,8247.0,25,38
+FRA,ajaccio,AC Ajaccio,2009,2,13,33,40,32.519,-0.481,5701.0,35,38
+FRA,vannes oc,Vannes OC,2009,2,14,34,40,32.519,-1.481,5649.0,36,38
+FRA,nantes,FC Nantes,2009,2,15,35,40,18.391,-16.609,19341.0,17,38
+FRA,istres,FC Istres,2009,2,16,36,40,34.63,-1.37,4721.0,38,38
+FRA,guingamp,EA Guingamp,2009,2,17,37,40,30.248,-6.752,9379.0,24,38
+FRA,racing strasbourg,Racing Strasbourg,2009,2,18,38,40,25.101,-12.899,11246.0,23,38
+FRA,chateauroux,LB Châteauroux,2009,2,19,39,40,30.248,-8.752,7028.0,27,38
+FRA,bastia,SC Bastia,2009,2,20,40,40,32.489,-7.511,6181.0,31,38
+FRA,lille osc,Lille OSC,2010,1,1,1,40,6.473,5.473,56225.0,3,37
+FRA,marseille,Olympique Marseille,2010,1,2,2,40,3.335,1.335,100781.0,1,37
+FRA,paris saint germain,Paris Saint-Germain,2010,1,4,4,40,6.473,2.473,69563.0,2,37
+FRA,sochaux,FC Sochaux,2010,1,5,5,40,12.288,7.288,26359.0,12,37
+FRA,rennais,Stade Rennes,2010,1,6,6,40,9.883,3.883,36137.0,6,37
+FRA,girondins bordeaux,Girondins Bordeaux,2010,1,7,7,40,6.473,-0.527,52456.0,4,37
+FRA,toulouse,Toulouse FC,2010,1,8,8,40,9.883,1.883,30052.0,9,37
+FRA,aj auxerre,AJ Auxerre,2010,1,9,9,40,9.883,0.883,32623.0,7,37
+FRA,saint etienne,AS Saint-Etienne,2010,1,10,10,40,9.883,-0.117,31635.0,8,37
+FRA,lorient,FC Lorient,2010,1,11,11,40,13.177,2.177,22991.0,15,37
+FRA,valenciennes,Valenciennes FC,2010,1,12,12,40,12.288,0.288,25832.0,13,37
+FRA,nancy lorraine,AS Nancy,2010,1,13,13,40,12.288,-0.712,26913.0,11,37
+FRA,montpellier hsc,Montpellier HSC,2010,1,14,14,40,10.598,-3.402,29385.0,10,37
+FRA,caen,SM Caen,2010,1,15,15,40,14.365,-0.635,20356.0,16,37
+FRA,brestois 29,Stade Brest,2010,1,16,16,40,17.439,1.439,16708.0,17,37
+FRA,nice,OGC Nice,2010,1,17,17,40,13.177,-3.823,23799.0,14,37
+FRA,monaco,AS Monaco,2010,1,18,18,40,9.883,-8.117,37128.0,5,37
+FRA,arles avignon,AC Arles-Avignon,2010,1,20,20,40,24.15,4.15,10561.0,20,37
+FRA,thonon evian ggfc,Thonon Évian GGFC,2010,2,1,21,40,29.297,8.297,8581.0,24,37
+FRA,ajaccio,AC Ajaccio,2010,2,2,22,40,29.297,7.297,7012.0,30,37
+FRA,dijon fco,Dijon FCO,2010,2,3,23,40,29.297,6.297,6820.0,31,37
+FRA,mans,Le Mans FC,2010,2,4,24,40,24.15,0.15,11630.0,19,37
+FRA,sedan,CS Sedan,2010,2,5,25,40,29.297,4.297,7835.0,26,37
+FRA,angers,Angers SCO,2010,2,6,26,40,29.297,3.297,7810.0,27,37
+FRA,clermont foot 63,Clermont Foot 63,2010,2,7,27,40,31.567,4.567,5555.0,35,37
+FRA,boulogne,US Boulogne,2010,2,8,28,40,29.297,1.297,8835.0,23,37
+FRA,havre,Havre AC,2010,2,9,29,40,29.297,0.297,9283.0,21,37
+FRA,reims,Stade de Reims,2010,2,10,30,40,29.297,-0.703,7046.0,29,37
+FRA,istres,FC Istres,2010,2,11,31,40,33.678,2.678,4293.0,37,37
+FRA,tours,Tours FC,2010,2,12,32,40,29.297,-2.703,8420.0,25,37
+FRA,nantes,FC Nantes,2010,2,13,33,40,21.244,-11.756,12695.0,18,37
+FRA,chateauroux,LB Châteauroux,2010,2,14,34,40,31.136,-2.864,6521.0,32,37
+FRA,lavallois,Stade Lavallois,2010,2,15,35,40,31.537,-3.463,6145.0,33,37
+FRA,es troyes,ES Troyes AC,2010,2,16,36,40,29.297,-6.703,7732.0,28,37
+FRA,metz,FC Metz,2010,2,17,37,40,29.297,-7.703,9245.0,22,37
+FRA,vannes oc,Vannes OC,2010,2,18,38,40,31.567,-6.433,5427.0,36,37
+FRA,nimes,Nîmes Olympique,2010,2,19,39,40,31.567,-7.433,5814.0,34,37
+FRA,montpellier hsc,Montpellier HSC,2011,1,1,1,40,10.106,9.106,36450.0,6,39
+FRA,paris saint germain,Paris Saint-Germain,2011,1,2,2,40,3.558,1.558,117342.0,1,39
+FRA,lille osc,Lille OSC,2011,1,3,3,40,6.696,3.696,87525.0,3,39
+FRA,girondins bordeaux,Girondins Bordeaux,2011,1,5,5,40,6.696,1.696,55224.0,4,39
+FRA,rennais,Stade Rennes,2011,1,6,6,40,10.106,4.106,42984.0,5,39
+FRA,saint etienne,AS Saint-Etienne,2011,1,7,7,40,10.106,3.106,34886.0,7,39
+FRA,toulouse,Toulouse FC,2011,1,8,8,40,12.511,4.511,28996.0,10,39
+FRA,thonon evian ggfc,Evian Thonon Gaillard,2011,1,9,9,40,14.588,5.588,22253.0,16,39
+FRA,marseille,Olympique Marseille,2011,1,10,10,40,6.696,-3.304,98478.0,2,39
+FRA,nancy lorraine,AS Nancy,2011,1,11,11,40,13.4,2.4,24177.0,14,39
+FRA,valenciennes,Valenciennes FC,2011,1,12,12,40,13.4,1.4,25034.0,12,39
+FRA,nice,OGC Nice,2011,1,13,13,40,13.4,0.4,23952.0,15,39
+FRA,sochaux,FC Sochaux,2011,1,14,14,40,13.4,-0.6,25575.0,11,39
+FRA,brestois 29,Stade Brest,2011,1,15,15,40,17.662,2.662,20776.0,19,39
+FRA,ajaccio,AC Ajaccio,2011,1,16,16,40,24.373,8.373,12517.0,22,39
+FRA,lorient,FC Lorient,2011,1,17,17,40,17.662,0.662,21620.0,18,39
+FRA,caen,SM Caen,2011,1,18,18,40,13.4,-4.6,24685.0,13,39
+FRA,dijon fco,Dijon FCO,2011,1,19,19,40,19.756,0.756,15287.0,20,39
+FRA,aj auxerre,AJ Auxerre,2011,1,20,20,40,12.511,-7.489,29893.0,9,39
+FRA,bastia,SC Bastia,2011,2,1,21,40,29.52,8.52,7958.0,30,39
+FRA,reims,Stade de Reims,2011,2,2,22,40,29.52,7.52,8427.0,27,39
+FRA,es troyes,ES Troyes AC,2011,2,3,23,40,29.52,6.52,10260.0,23,39
+FRA,sedan,CS Sedan,2011,2,4,24,40,29.52,5.52,8303.0,28,39
+FRA,clermont foot 63,Clermont Foot 63,2011,2,5,25,40,31.79,6.79,6154.0,37,39
+FRA,tours,Tours FC,2011,2,6,26,40,29.52,3.52,7772.0,31,39
+FRA,guingamp,EA Guingamp,2011,2,7,27,40,29.52,2.52,7587.0,32,39
+FRA,monaco,AS Monaco,2011,2,8,28,40,12.511,-15.489,31484.0,8,39
+FRA,nantes,FC Nantes,2011,2,9,29,40,21.467,-7.533,13727.0,21,39
+FRA,istres,FC Istres,2011,2,10,30,40,33.901,3.901,4787.0,39,39
+FRA,angers,Angers SCO,2011,2,11,31,40,31.76,0.76,6923.0,34,39
+FRA,lens,RC Lens,2011,2,12,32,40,17.662,-14.338,21889.0,17,39
+FRA,arles avignon,AC Arles-Avignon,2011,2,13,33,40,31.76,-1.24,6792.0,36,39
+FRA,chateauroux,LB Châteauroux,2011,2,14,34,40,31.76,-2.24,6963.0,33,39
+FRA,havre,Havre AC,2011,2,15,35,40,29.52,-5.48,9285.0,25,39
+FRA,lavallois,Stade Lavallois,2011,2,16,36,40,31.79,-4.21,5873.0,38,39
+FRA,mans,Le Mans FC,2011,2,17,37,40,29.52,-7.48,9729.0,24,39
+FRA,metz,FC Metz,2011,2,18,38,40,29.52,-8.48,8472.0,26,39
+FRA,boulogne,US Boulogne,2011,2,19,39,40,29.52,-9.48,8253.0,29,39
+FRA,amiens,Amiens SC,2011,2,20,40,40,31.76,-8.24,6818.0,35,39
+FRA,paris saint germain,Paris Saint-Germain,2014,1,1,1,40,1.216,0.216,254890.0,1,38
+FRA,monaco,AS Monaco,2014,1,3,3,40,4.353,1.353,84254.0,3,38
+FRA,marseille,Olympique Marseille,2014,1,4,4,40,4.353,0.353,96843.0,2,38
+FRA,saint etienne,AS Saint-Etienne,2014,1,5,5,40,7.764,2.764,41762.0,6,38
+FRA,girondins bordeaux,Girondins Bordeaux,2014,1,6,6,40,7.764,1.764,50926.0,4,38
+FRA,montpellier hsc,Montpellier HSC,2014,1,7,7,40,10.169,3.169,33508.0,8,38
+FRA,lille osc,Lille OSC,2014,1,8,8,40,7.764,-0.236,48248.0,5,38
+FRA,rennais,Stade Rennes,2014,1,9,9,40,7.764,-1.236,40286.0,7,38
+FRA,guingamp,EA Guingamp,2014,1,10,10,40,15.32,5.32,21899.0,11,38
+FRA,nice,OGC Nice,2014,1,11,11,40,12.246,1.246,24930.0,10,38
+FRA,bastia,SC Bastia,2014,1,12,12,40,15.32,3.32,21559.0,12,38
+FRA,caen,SM Caen,2014,1,13,13,40,16.755,3.755,19516.0,16,38
+FRA,nantes,FC Nantes,2014,1,14,14,40,16.755,2.755,17329.0,18,38
+FRA,reims,Stade Reims,2014,1,15,15,40,15.32,0.32,20768.0,14,38
+FRA,lorient,FC Lorient,2014,1,16,16,40,15.32,-0.68,21427.0,13,38
+FRA,toulouse,Toulouse FC,2014,1,17,17,40,12.246,-4.754,25680.0,9,38
+FRA,thonon evian ggfc,Evian Thonon Gaillard,2014,1,18,18,40,17.414,-0.586,17140.0,19,38
+FRA,metz,FC Metz,2014,1,19,19,40,16.755,-2.245,17717.0,17,38
+FRA,lens,RC Lens,2014,1,20,20,40,16.755,-3.245,19620.0,15,38
+FRA,es troyes,ES Troyes AC,2014,2,1,21,40,26.322,5.322,11860.0,20,38
+FRA,gazelec ajaccio,Gazélec FC Ajaccio,2014,2,2,22,40,29.418,7.418,7537.0,29,38
+FRA,angers,Angers SCO,2014,2,3,23,40,27.178,4.178,8896.0,25,38
+FRA,dijon fco,Dijon FCO,2014,2,4,24,40,27.178,3.178,8512.0,26,38
+FRA,nancy lorraine,AS Nancy Lorraine,2014,2,5,25,40,27.178,2.178,9329.0,22,38
+FRA,brestois 29,Stade Brestois 29,2014,2,6,26,40,27.178,1.178,8292.0,27,38
+FRA,havre,Havre AC,2014,2,7,27,40,29.017,2.017,8046.0,28,38
+FRA,lavallois,Stade Lavallois,2014,2,8,28,40,31.559,3.559,5647.0,32,38
+FRA,aj auxerre,AJ Auxerre,2014,2,9,29,40,27.178,-1.822,8985.0,24,38
+FRA,sochaux,FC Sochaux,2014,2,10,30,40,27.178,-2.822,10636.0,21,38
+FRA,chamois niortais,Chamois Niortais,2014,2,11,31,40,31.559,0.559,5520.0,33,38
+FRA,clermont foot 63,Clermont Foot 63,2014,2,12,32,40,31.559,-0.441,5439.0,34,38
+FRA,nimes,Nîmes Olympique,2014,2,13,33,40,31.559,-1.441,5428.0,35,38
+FRA,creteil,US Créteil Football,2014,2,14,34,40,31.559,-2.441,5992.0,30,38
+FRA,tours,Tours FC,2014,2,15,35,40,31.559,-3.441,5921.0,31,38
+FRA,valenciennes,Valenciennes FC,2014,2,16,36,40,27.178,-8.822,9156.0,23,38
+FRA,ajaccio,AC Ajaccio,2014,2,17,37,40,35.373,-1.627,3544.0,38,38
+FRA,orleans,US Orléans,2014,2,18,38,40,32.224,-5.776,4263.0,37,38
+FRA,chateauroux,LB Châteauroux,2014,2,19,39,40,31.559,-7.441,5203.0,36,38
+FRA,paris saint germain,Paris Saint-Germain,2015,1,1,1,40,1.0,0.0,292394.0,1,38
+FRA,monaco,AS Monaco,2015,1,3,3,40,4.12,1.12,82480.0,3,38
+FRA,nice,OGC Nice,2015,1,4,4,40,10.824,6.824,31677.0,8,38
+FRA,lille osc,Lille OSC,2015,1,5,5,40,7.53,2.53,49547.0,5,38
+FRA,saint etienne,AS Saint-Etienne,2015,1,6,6,40,7.53,1.53,48251.0,6,38
+FRA,caen,SM Caen,2015,1,7,7,40,10.824,3.824,27212.0,10,38
+FRA,rennais,Stade Rennes,2015,1,8,8,40,7.53,-0.47,44004.0,7,38
+FRA,angers,Angers SCO,2015,1,9,9,40,18.891,9.891,15848.0,17,38
+FRA,bastia,SC Bastia,2015,1,10,10,40,15.086,5.086,20916.0,15,38
+FRA,girondins bordeaux,Girondins Bordeaux,2015,1,11,11,40,7.53,-3.47,50472.0,4,38
+FRA,montpellier hsc,Montpellier HSC,2015,1,12,12,40,10.824,-1.176,31628.0,9,38
+FRA,marseille,Olympique Marseille,2015,1,13,13,40,4.12,-8.88,92571.0,2,38
+FRA,nantes,FC Nantes,2015,1,14,14,40,15.086,1.086,22213.0,12,38
+FRA,lorient,FC Lorient,2015,1,15,15,40,15.086,0.086,21510.0,14,38
+FRA,guingamp,EA Guingamp,2015,1,16,16,40,15.086,-0.914,21680.0,13,38
+FRA,toulouse,Toulouse FC,2015,1,17,17,40,15.086,-1.914,25463.0,11,38
+FRA,reims,Stade Reims,2015,1,18,18,40,16.522,-1.478,19184.0,16,38
+FRA,gazelec ajaccio,Gazélec FC Ajaccio,2015,1,19,19,40,29.184,10.184,7648.0,27,38
+FRA,es troyes,ESTAC Troyes,2015,1,20,20,40,21.797,1.797,13809.0,20,38
+FRA,nancy lorraine,AS Nancy Lorraine,2015,2,1,21,40,26.944,5.944,9969.0,23,38
+FRA,dijon fco,Dijon FCO,2015,2,2,22,40,26.944,4.944,8901.0,24,38
+FRA,metz,FC Metz,2015,2,3,23,40,21.797,-1.203,14480.0,19,38
+FRA,havre,Havre AC,2015,2,4,24,40,26.944,2.944,10324.0,22,38
+FRA,red star,Red Star FC,2015,2,5,25,40,31.325,6.325,5461.0,35,38
+FRA,lens,RC Lens,2015,2,6,26,40,21.797,-4.203,15293.0,18,38
+FRA,clermont foot 63,Clermont Foot 63,2015,2,7,27,40,31.325,4.325,5404.0,36,38
+FRA,aj auxerre,AJ Auxerre,2015,2,8,28,40,29.184,1.184,8065.0,26,38
+FRA,tours,Tours FC,2015,2,9,29,40,31.325,2.325,5315.0,37,38
+FRA,brestois 29,Stade Brestois 29,2015,2,10,30,40,28.783,-1.217,8284.0,25,38
+FRA,bourg peronnas,FC Bourg-Péronnas,2015,2,11,31,40,35.139,4.139,3279.0,38,38
+FRA,valenciennes,Valenciennes FC,2015,2,12,32,40,29.214,-2.786,7568.0,28,38
+FRA,lavallois,Stade Lavallois,2015,2,13,33,40,31.325,-1.675,5845.0,31,38
+FRA,nimes,Nîmes Olympique,2015,2,14,34,40,31.325,-2.675,5542.0,33,38
+FRA,sochaux,FC Sochaux,2015,2,15,35,40,26.088,-8.912,12770.0,21,38
+FRA,chamois niortais,Chamois Niortais,2015,2,16,36,40,31.325,-4.675,5624.0,32,38
+FRA,ajaccio,AC Ajaccio,2015,2,17,37,40,31.325,-5.675,6206.0,30,38
+FRA,creteil,US Créteil Football,2015,2,19,39,40,31.325,-7.675,5532.0,34,38
+FRA,paris,Paris FC,2015,2,20,40,40,29.214,-10.786,7185.0,29,38
+FRA,monaco,AS Monaco,2016,1,1,1,40,4.651,3.651,98812.0,2,38
+FRA,paris saint germain,Paris Saint-Germain,2016,1,2,2,40,1.514,-0.486,272169.0,1,38
+FRA,nice,OGC Nice,2016,1,3,3,40,8.061,5.061,49905.0,5,38
+FRA,marseille,Olympique Marseille,2016,1,5,5,40,4.651,-0.349,87670.0,3,38
+FRA,girondins bordeaux,Girondins Bordeaux,2016,1,6,6,40,8.061,2.061,47019.0,7,38
+FRA,nantes,FC Nantes,2016,1,7,7,40,12.543,5.543,26769.0,11,38
+FRA,saint etienne,AS Saint-Etienne,2016,1,8,8,40,8.061,0.061,47202.0,6,38
+FRA,rennais,Stade Rennes,2016,1,9,9,40,8.061,-0.939,41032.0,8,38
+FRA,guingamp,EA Guingamp,2016,1,10,10,40,12.543,2.543,26502.0,12,38
+FRA,lille osc,Lille OSC,2016,1,11,11,40,8.061,-2.939,58853.0,4,38
+FRA,angers,Angers SCO,2016,1,12,12,40,17.053,5.053,18961.0,17,38
+FRA,toulouse,Toulouse FC,2016,1,13,13,40,11.355,-1.645,30601.0,10,38
+FRA,metz,FC Metz,2016,1,14,14,40,17.053,3.053,20585.0,15,38
+FRA,montpellier hsc,Montpellier HSC,2016,1,15,15,40,11.355,-3.645,34253.0,9,38
+FRA,dijon fco,Dijon FCO,2016,1,16,16,40,17.053,1.053,18922.0,18,38
+FRA,caen,SM Caen,2016,1,17,17,40,15.618,-1.382,24421.0,14,38
+FRA,lorient,FC Lorient,2016,1,18,18,40,15.618,-2.382,25642.0,13,38
+FRA,nancy lorraine,AS Nancy,2016,1,19,19,40,17.053,-1.947,19065.0,16,38
+FRA,racing strasbourg,Racing Strasbourg,2016,2,1,21,40,29.314,8.314,8493.0,26,38
+FRA,amiens,Amiens SC,2016,2,2,22,40,31.856,9.856,6332.0,29,38
+FRA,es troyes,ES Troyes AC,2016,2,3,23,40,27.475,4.475,10163.0,23,38
+FRA,lens,RC Lens,2016,2,4,24,40,22.328,-1.672,15781.0,19,38
+FRA,brestois 29,Stade Brestois 29,2016,2,5,25,40,27.475,2.475,9444.0,25,38
+FRA,nimes,Nîmes Olympique,2016,2,6,26,40,31.856,5.856,5604.0,35,38
+FRA,reims,Stade de Reims,2016,2,7,27,40,23.235,-3.765,13553.0,20,38
+FRA,havre,Havre AC,2016,2,8,28,40,27.475,-0.525,12390.0,21,38
+FRA,gazelec ajaccio,Gazélec FC Ajaccio,2016,2,9,29,40,31.856,2.856,5724.0,34,38
+FRA,chamois niortais,Chamois Niortais,2016,2,10,30,40,31.856,1.856,5917.0,32,38
+FRA,ajaccio,AC Ajaccio,2016,2,11,31,40,31.856,0.856,6256.0,30,38
+FRA,clermont foot 63,Clermont Foot 63,2016,2,12,32,40,31.856,-0.144,5740.0,33,38
+FRA,sochaux,FC Sochaux,2016,2,13,33,40,27.475,-5.525,11830.0,22,38
+FRA,valenciennes,Valenciennes FC,2016,2,14,34,40,31.856,-2.144,6839.0,27,38
+FRA,bourg peronnas,FC Bourg-Péronnas,2016,2,15,35,40,35.67,0.67,4204.0,38,38
+FRA,tours,Tours FC,2016,2,16,36,40,31.856,-4.144,5951.0,31,38
+FRA,aj auxerre,AJ Auxerre,2016,2,17,37,40,27.475,-9.525,9688.0,24,38
+FRA,orleans,US Orléans,2016,2,18,38,40,35.67,-2.33,4395.0,37,38
+FRA,red star,Red Star FC,2016,2,19,39,40,32.522,-6.478,4653.0,36,38
+FRA,lavallois,Stade Lavallois,2016,2,20,40,40,31.856,-8.144,6457.0,28,38
+FRA,paris saint germain,Paris Saint-Germain,2017,1,1,1,40,1.044,0.044,332063.0,1,39
+FRA,monaco,AS Monaco,2017,1,2,2,40,4.181,2.181,132810.0,2,39
+FRA,marseille,Olympique Marseille,2017,1,4,4,40,4.181,0.181,125121.0,3,39
+FRA,rennais,Stade Rennes,2017,1,5,5,40,7.591,2.591,50259.0,7,39
+FRA,girondins bordeaux,Girondins Bordeaux,2017,1,6,6,40,7.591,1.591,59564.0,6,39
+FRA,saint etienne,AS Saint-Etienne,2017,1,7,7,40,8.307,1.307,46335.0,8,39
+FRA,nice,OGC Nice,2017,1,8,8,40,7.591,-0.409,61389.0,5,39
+FRA,nantes,FC Nantes,2017,1,9,9,40,10.886,1.886,37660.0,9,39
+FRA,montpellier hsc,Montpellier HSC,2017,1,10,10,40,10.886,0.886,34908.0,10,39
+FRA,dijon fco,Dijon FCO,2017,1,11,11,40,16.583,5.583,23296.0,14,39
+FRA,guingamp,EA Guingamp,2017,1,12,12,40,15.148,3.148,25419.0,13,39
+FRA,amiens,Amiens SC,2017,1,13,13,40,26.149,13.149,15136.0,21,39
+FRA,angers,Angers SCO,2017,1,14,14,40,17.241,3.241,21199.0,16,39
+FRA,racing strasbourg,RC Strasbourg,2017,1,15,15,40,21.858,6.858,17849.0,17,39
+FRA,caen,SM Caen,2017,1,16,16,40,15.148,-0.852,26872.0,12,39
+FRA,lille osc,Lille OSC,2017,1,17,17,40,7.591,-9.409,68266.0,4,39
+FRA,toulouse,Toulouse FC,2017,1,18,18,40,15.148,-2.852,30463.0,11,39
+FRA,es troyes,ESTAC Troyes,2017,1,19,19,40,22.765,3.765,15763.0,20,39
+FRA,metz,FC Metz,2017,1,20,20,40,16.583,-3.417,22899.0,15,39
+FRA,reims,Stade de Reims,2017,2,1,21,40,27.005,6.005,13202.0,24,39
+FRA,nimes,Nîmes Olympique,2017,2,2,22,40,29.246,7.246,9226.0,28,39
+FRA,ajaccio,AC Ajaccio,2017,2,3,23,40,31.387,8.387,7043.0,30,39
+FRA,havre,Havre AC,2017,2,4,24,40,27.005,3.005,12539.0,25,39
+FRA,brestois 29,Stade Brestois 29,2017,2,5,25,40,27.005,2.005,10531.0,27,39
+FRA,clermont foot 63,Clermont Foot 63,2017,2,6,26,40,32.052,6.052,5820.0,35,39
+FRA,lorient,FC Lorient,2017,2,7,27,40,22.585,-4.415,16211.0,19,39
+FRA,paris,Paris FC,2017,2,8,28,40,31.387,3.387,6796.0,32,39
+FRA,chateauroux,LB Châteauroux,2017,2,9,29,40,31.387,2.387,6865.0,31,39
+FRA,sochaux,FC Sochaux,2017,2,10,30,40,27.005,-2.995,11415.0,26,39
+FRA,aj auxerre,AJ Auxerre,2017,2,11,31,40,27.005,-3.995,13509.0,23,39
+FRA,orleans,US Orléans,2017,2,12,32,40,35.2,3.2,4552.0,38,39
+FRA,valenciennes,Valenciennes FC,2017,2,13,33,40,31.387,-1.613,7922.0,29,39
+FRA,lens,RC Lens,2017,2,14,34,40,21.858,-12.142,17535.0,18,39
+FRA,chamois niortais,Chamois Niortais,2017,2,15,35,40,32.052,-2.948,6398.0,33,39
+FRA,gazelec ajaccio,Gazélec FC Ajaccio,2017,2,16,36,40,32.052,-3.948,5504.0,36,39
+FRA,nancy lorraine,AS Nancy Lorraine,2017,2,17,37,40,27.005,-9.995,13960.0,22,39
+FRA,bourg peronnas,FC Bourg-Péronnas,2017,2,18,38,40,35.2,-2.8,4708.0,37,39
+FRA,quevilly rouen,US Quevilly-Rouen,2017,2,19,39,40,35.2,-3.8,4350.0,39,39
+FRA,tours,Tours FC,2017,2,20,40,40,32.052,-7.948,5963.0,34,39
+FRA,paris saint germain,Paris Saint-Germain,2018,1,1,1,40,1.0,0.0,370921.0,1,39
+FRA,lille osc,Lille OSC,2018,1,2,2,40,7.516,5.516,71979.0,4,39
+FRA,saint etienne,AS Saint-Etienne,2018,1,4,4,40,7.516,3.516,53626.0,7,39
+FRA,marseille,Olympique Marseille,2018,1,5,5,40,4.105,-0.895,127210.0,3,39
+FRA,montpellier hsc,Montpellier HSC,2018,1,6,6,40,10.81,4.81,39493.0,10,39
+FRA,nice,OGC Nice,2018,1,7,7,40,9.921,2.921,46071.0,8,39
+FRA,reims,Stade Reims,2018,1,8,8,40,15.072,7.072,27529.0,15,39
+FRA,nimes,Nimes Olympique,2018,1,9,9,40,18.877,9.877,20899.0,19,39
+FRA,rennais,Stade Rennes,2018,1,10,10,40,7.516,-2.484,63639.0,5,39
+FRA,racing strasbourg,RC Strasbourg,2018,1,11,11,40,15.072,4.072,28629.0,12,39
+FRA,nantes,FC Nantes,2018,1,12,12,40,10.81,-1.19,41780.0,9,39
+FRA,angers,Angers SCO,2018,1,13,13,40,15.072,2.072,28275.0,13,39
+FRA,girondins bordeaux,Girondins Bordeaux,2018,1,14,14,40,7.516,-6.484,60471.0,6,39
+FRA,amiens,Amiens SC,2018,1,15,15,40,22.509,7.509,17459.0,21,39
+FRA,toulouse,Toulouse FC,2018,1,16,16,40,11.998,-4.002,35531.0,11,39
+FRA,monaco,AS Monaco,2018,1,17,17,40,4.105,-12.895,147128.0,2,39
+FRA,dijon fco,Dijon FCO,2018,1,18,18,40,18.877,0.877,21879.0,18,39
+FRA,caen,SM Caen,2018,1,19,19,40,15.072,-3.928,28248.0,14,39
+FRA,guingamp,EA Guingamp,2018,1,20,20,40,16.507,-3.493,27408.0,16,39
+FRA,metz,FC Metz,2018,2,1,21,40,18.877,-2.123,22158.0,17,39
+FRA,brestois 29,Stade Brestois 29,2018,2,2,22,40,26.929,4.929,11825.0,26,39
+FRA,es troyes,ES Troyes AC,2018,2,3,23,40,26.929,3.929,11559.0,27,39
+FRA,paris,Paris FC,2018,2,4,24,40,29.2,5.2,9488.0,29,39
+FRA,lens,RC Lens,2018,2,5,25,40,22.509,-2.491,17550.0,20,39
+FRA,lorient,FC Lorient,2018,2,6,26,40,26.929,0.929,15244.0,22,39
+FRA,havre,Havre AC,2018,2,7,27,40,26.929,-0.071,14838.0,23,39
+FRA,orleans,US Orléans,2018,2,8,28,40,31.976,3.976,5841.0,34,39
+FRA,grenoble foot 38,Grenoble Foot 38,2018,2,9,29,40,35.124,6.124,4973.0,38,39
+FRA,clermont foot 63,Clermont Foot 63,2018,2,10,30,40,35.124,5.124,5278.0,36,39
+FRA,chateauroux,LB Châteauroux,2018,2,11,31,40,31.976,0.976,6521.0,33,39
+FRA,chamois niortais,Chamois Niortais,2018,2,12,32,40,31.976,-0.024,6696.0,32,39
+FRA,valenciennes,Valenciennes FC,2018,2,13,33,40,31.311,-1.689,7850.0,30,39
+FRA,nancy lorraine,AS Nancy Lorraine,2018,2,14,34,40,26.929,-7.071,13788.0,25,39
+FRA,aj auxerre,AJ Auxerre,2018,2,15,35,40,26.929,-8.071,14248.0,24,39
+FRA,sochaux,FC Sochaux,2018,2,16,36,40,29.2,-6.8,9496.0,28,39
+FRA,ajaccio,AC Ajaccio,2018,2,17,37,40,31.976,-5.024,7036.0,31,39
+FRA,gazelec ajaccio,Gazélec FC Ajaccio,2018,2,18,38,40,35.124,-2.876,5008.0,37,39
+FRA,beziers,AS Béziers,2018,2,19,39,40,36.694,-2.306,3629.0,39,39
+FRA,red star,Red Star FC,2018,2,20,40,40,35.124,-4.876,5626.0,35,39
+FRA,paris saint germain,Paris Saint-Germain,2019,1,1,1,40,1.0,0.0,414383.0,1,39
+FRA,marseille,Olympique Marseille,2019,1,2,2,40,3.379,1.379,118260.0,3,39
+FRA,rennais,Stade Rennes,2019,1,3,3,40,6.789,3.789,63790.0,6,39
+FRA,lille osc,Lille OSC,2019,1,4,4,40,3.379,-0.621,89762.0,4,39
+FRA,reims,Stade Reims,2019,1,5,5,40,14.346,9.346,28859.0,14,39
+FRA,nice,OGC Nice,2019,1,6,6,40,9.195,3.195,45199.0,8,39
+FRA,montpellier hsc,Montpellier HSC,2019,1,8,8,40,10.083,2.083,40031.0,9,39
+FRA,monaco,AS Monaco,2019,1,9,9,40,3.379,-5.621,121095.0,2,39
+FRA,angers,Angers SCO,2019,1,10,10,40,14.346,4.346,30943.0,12,39
+FRA,racing strasbourg,RC Strasbourg,2019,1,11,11,40,14.346,3.346,30688.0,13,39
+FRA,girondins bordeaux,Girondins Bordeaux,2019,1,12,12,40,6.789,-5.211,72531.0,5,39
+FRA,nantes,FC Nantes,2019,1,13,13,40,11.271,-1.729,36016.0,10,39
+FRA,brestois 29,Stade Brest,2019,1,14,14,40,21.056,7.056,18668.0,20,39
+FRA,metz,FC Metz,2019,1,15,15,40,15.781,0.781,25510.0,15,39
+FRA,dijon fco,Dijon FCO,2019,1,16,16,40,21.056,5.056,19268.0,19,39
+FRA,saint etienne,AS Saint-Etienne,2019,1,17,17,40,6.789,-10.211,58051.0,7,39
+FRA,nimes,Nimes Olympique,2019,1,18,18,40,21.056,3.056,19962.0,16,39
+FRA,amiens,Amiens SC,2019,1,19,19,40,21.056,2.056,19645.0,18,39
+FRA,toulouse,Toulouse FC,2019,1,20,20,40,14.346,-5.654,31313.0,11,39
+FRA,lorient,FC Lorient,2019,2,1,21,40,25.347,4.347,17000.0,21,39
+FRA,lens,RC Lens,2019,2,2,22,40,21.056,-0.944,19700.0,17,39
+FRA,ajaccio,AC Ajaccio,2019,2,3,23,40,31.25,8.25,5984.0,32,39
+FRA,es troyes,ES Troyes AC,2019,2,4,24,40,28.474,4.474,9479.0,27,39
+FRA,clermont foot 63,Clermont Foot 63,2019,2,5,25,40,31.25,6.25,6312.0,31,39
+FRA,havre,Havre AC,2019,2,6,26,40,26.203,0.203,14830.0,23,39
+FRA,valenciennes,Valenciennes FC,2019,2,7,27,40,30.584,3.584,7149.0,30,39
+FRA,guingamp,EA Guingamp,2019,2,8,28,40,28.0,0.0,11425.0,25,39
+FRA,grenoble foot 38,Grenoble Foot 38,2019,2,9,29,40,34.398,5.398,4490.0,38,39
+FRA,chambly,FC Chambly,2019,2,10,30,40,34.398,4.398,4515.0,37,39
+FRA,aj auxerre,AJ Auxerre,2019,2,11,31,40,26.203,-4.797,13921.0,24,39
+FRA,nancy lorraine,AS Nancy Lorraine,2019,2,12,32,40,30.584,-1.416,8867.0,28,39
+FRA,caen,SM Caen,2019,2,13,33,40,26.203,-6.797,15188.0,22,39
+FRA,sochaux,FC Sochaux,2019,2,14,34,40,30.584,-3.416,8058.0,29,39
+FRA,chateauroux,LB Châteauroux,2019,2,15,35,40,34.398,-0.602,5219.0,36,39
+FRA,rodez af,Rodez AF,2019,2,16,36,40,36.0,0.0,3027.0,39,39
+FRA,paris,Paris FC,2019,2,17,37,40,28.474,-8.526,10112.0,26,39
+FRA,chamois niortais,Chamois Niortais,2019,2,18,38,40,34.398,-3.602,5454.0,35,39
+FRA,mans,Le Mans FC,2019,2,19,39,40,34.398,-4.602,5580.0,34,39
+FRA,orleans,US Orléans,2019,2,20,40,40,34.398,-5.602,5657.0,33,39
+FRA,lille osc,Lille OSC,2020,1,1,1,40,3.469,2.469,88936.0,4,39
+FRA,paris saint germain,Paris Saint-Germain,2020,1,2,2,40,1.0,-1.0,503179.0,1,39
+FRA,monaco,AS Monaco,2020,1,3,3,40,3.105,0.105,119180.0,3,39
+FRA,marseille,Olympique Marseille,2020,1,5,5,40,3.105,-1.895,122088.0,2,39
+FRA,rennais,Stade Rennes,2020,1,6,6,40,6.515,0.515,74807.0,5,39
+FRA,lens,RC Lens,2020,1,7,7,40,14.072,7.072,34720.0,13,39
+FRA,montpellier hsc,Montpellier HSC,2020,1,8,8,40,9.81,1.81,41707.0,10,39
+FRA,nice,OGC Nice,2020,1,9,9,40,6.515,-2.485,65872.0,6,39
+FRA,metz,FC Metz,2020,1,10,10,40,15.507,5.507,30937.0,16,39
+FRA,saint etienne,AS Saint-Etienne,2020,1,11,11,40,8.921,-2.079,51423.0,8,39
+FRA,girondins bordeaux,Girondins Bordeaux,2020,1,12,12,40,6.515,-5.485,65692.0,7,39
+FRA,angers,Angers SCO,2020,1,13,13,40,10.998,-2.002,40192.0,11,39
+FRA,reims,Stade Reims,2020,1,14,14,40,14.072,0.072,34801.0,12,39
+FRA,racing strasbourg,RC Strasbourg,2020,1,15,15,40,14.072,-0.928,32181.0,14,39
+FRA,lorient,FC Lorient,2020,1,16,16,40,14.072,-1.928,32173.0,15,39
+FRA,brestois 29,Stade Brest,2020,1,17,17,40,17.877,0.877,25432.0,18,39
+FRA,nantes,FC Nantes,2020,1,18,18,40,9.81,-8.19,45570.0,9,39
+FRA,nimes,Nimes Olympique,2020,1,19,19,40,20.782,1.782,20512.0,20,39
+FRA,dijon fco,Dijon FCO,2020,1,20,20,40,20.782,0.782,22994.0,19,39
+FRA,es troyes,ES Troyes AC,2020,2,1,21,40,25.929,4.929,13879.0,24,39
+FRA,clermont foot 63,Clermont Foot 63,2020,2,2,22,40,30.976,8.976,7665.0,30,39
+FRA,toulouse,Toulouse FC,2020,2,3,23,40,17.877,-5.123,25908.0,17,39
+FRA,grenoble foot 38,Grenoble Foot 38,2020,2,4,24,40,35.694,11.694,4426.0,37,39
+FRA,paris,Paris FC,2020,2,5,25,40,25.929,0.929,13176.0,26,39
+FRA,aj auxerre,AJ Auxerre,2020,2,6,26,40,25.929,-0.071,15307.0,22,39
+FRA,sochaux,FC Sochaux,2020,2,7,27,40,30.311,3.311,8645.0,29,39
+FRA,nancy lorraine,AS Nancy Lorraine,2020,2,8,28,40,30.311,2.311,8846.0,28,39
+FRA,guingamp,EA Guingamp,2020,2,9,29,40,25.929,-3.071,14397.0,23,39
+FRA,amiens,Amiens SC,2020,2,10,30,40,28.17,-1.83,11750.0,27,39
+FRA,valenciennes,Valenciennes FC,2020,2,11,31,40,34.124,3.124,6013.0,31,39
+FRA,havre,Havre AC,2020,2,12,32,40,25.929,-6.071,13595.0,25,39
+FRA,ajaccio,AC Ajaccio,2020,2,13,33,40,34.124,1.124,4870.0,34,39
+FRA,pau,Pau FC,2020,2,14,34,40,35.694,1.694,3847.0,38,39
+FRA,rodez af,Rodez AF,2020,2,15,35,40,35.694,0.694,3822.0,39,39
+FRA,dunkerque,USL Dunkerque,2020,2,16,36,40,35.694,-0.306,4660.0,35,39
+FRA,caen,SM Caen,2020,2,17,37,40,25.929,-11.071,17525.0,21,39
+FRA,chamois niortais,Chamois Niortais,2020,2,18,38,40,35.694,-2.306,4638.0,36,39
+FRA,chambly,FC Chambly,2020,2,19,39,40,34.124,-4.876,5811.0,32,39
+FRA,chateauroux,LB Châteauroux,2020,2,20,40,40,34.124,-5.876,5337.0,33,39
+FRA,paris saint germain,Paris Saint-Germain,2021,1,1,1,40,1.0,0.0,729019.0,1,39
+FRA,marseille,Olympique Marseille,2021,1,2,2,40,1.992,-0.008,135491.0,2,39
+FRA,monaco,AS Monaco,2021,1,3,3,40,1.992,-1.008,117974.0,3,39
+FRA,nice,OGC Nice,2021,1,4,4,40,5.402,1.402,70864.0,5,39
+FRA,rennais,Stade Rennes,2021,1,5,5,40,5.402,0.402,68112.0,6,39
+FRA,racing strasbourg,RC Strasbourg,2021,1,6,6,40,12.959,6.959,37050.0,12,39
+FRA,lens,RC Lens,2021,1,8,8,40,12.959,4.959,38039.0,11,39
+FRA,nantes,FC Nantes,2021,1,9,9,40,9.885,0.885,42950.0,8,39
+FRA,lille osc,Lille OSC,2021,1,10,10,40,5.402,-4.598,84181.0,4,39
+FRA,brestois 29,Stade Brest,2021,1,11,11,40,15.052,4.052,29510.0,16,39
+FRA,reims,Stade Reims,2021,1,12,12,40,16.764,4.764,27521.0,17,39
+FRA,montpellier hsc,Montpellier HSC,2021,1,13,13,40,12.959,-0.041,40692.0,9,39
+FRA,angers,Angers SCO,2021,1,14,14,40,16.764,2.764,27436.0,18,39
+FRA,es troyes,ESTAC Troyes,2021,1,15,15,40,14.394,-0.606,34648.0,13,39
+FRA,lorient,FC Lorient,2021,1,16,16,40,15.052,-0.948,30066.0,15,39
+FRA,clermont foot 63,Clermont Foot 63,2021,1,17,17,40,24.816,7.816,17550.0,20,39
+FRA,saint etienne,AS Saint-Etienne,2021,1,18,18,40,12.959,-5.041,38765.0,10,39
+FRA,metz,FC Metz,2021,1,19,19,40,14.394,-4.606,34475.0,14,39
+FRA,girondins bordeaux,Girondins Bordeaux,2021,1,20,20,40,8.696,-11.304,56495.0,7,39
+FRA,toulouse,Toulouse FC,2021,2,1,21,40,20.396,-0.604,22651.0,19,39
+FRA,ajaccio,AC Ajaccio,2021,2,2,22,40,29.863,7.863,7569.0,31,39
+FRA,aj auxerre,AJ Auxerre,2021,2,3,23,40,24.816,1.816,14896.0,21,39
+FRA,paris,Paris FC,2021,2,4,24,40,27.087,3.087,12240.0,24,39
+FRA,sochaux,FC Sochaux,2021,2,5,25,40,27.087,2.087,12167.0,25,39
+FRA,guingamp,EA Guingamp,2021,2,6,26,40,29.863,3.863,8486.0,30,39
+FRA,caen,SM Caen,2021,2,7,27,40,29.197,2.197,9280.0,28,39
+FRA,havre,Havre AC,2021,2,8,28,40,27.056,-0.944,12941.0,23,39
+FRA,nimes,Nîmes Olympique,2021,2,9,29,40,33.011,4.011,6029.0,33,39
+FRA,pau,Pau FC,2021,2,10,30,40,34.581,4.581,4553.0,39,39
+FRA,dijon fco,Dijon FCO,2021,2,11,31,40,27.056,-3.944,13500.0,22,39
+FRA,bastia,SC Bastia,2021,2,12,32,40,33.011,1.011,5579.0,35,39
+FRA,chamois niortais,Chamois Niortais,2021,2,13,33,40,33.011,0.011,5671.0,34,39
+FRA,amiens,Amiens SC,2021,2,14,34,40,29.197,-4.803,11379.0,26,39
+FRA,grenoble foot 38,Grenoble Foot 38,2021,2,15,35,40,33.011,-1.989,6044.0,32,39
+FRA,valenciennes,Valenciennes FC,2021,2,16,36,40,29.197,-6.803,10292.0,27,39
+FRA,rodez af,Rodez AF,2021,2,17,37,40,34.581,-2.419,4944.0,38,39
+FRA,quevilly rouen,US Quevilly-Rouen,2021,2,18,38,40,34.581,-3.419,5446.0,36,39
+FRA,dunkerque,USL Dunkerque,2021,2,19,39,40,34.581,-4.419,5093.0,37,39
+FRA,nancy lorraine,AS Nancy Lorraine,2021,2,20,40,40,29.863,-10.137,8770.0,29,39
+FRA,paris saint germain,Paris Saint-Germain,2022,1,1,1,40,1.0,0.0,621183.0,1,39
+FRA,lens,RC Lens,2022,1,2,2,40,7.293,5.293,65117.0,7,39
+FRA,marseille,Olympique Marseille,2022,1,3,3,40,3.167,0.167,147448.0,2,39
+FRA,rennais,Stade Rennes,2022,1,4,4,40,3.167,-0.833,116234.0,3,39
+FRA,lille osc,Lille OSC,2022,1,5,5,40,6.578,1.578,73334.0,6,39
+FRA,monaco,AS Monaco,2022,1,6,6,40,3.531,-2.469,112946.0,4,39
+FRA,clermont foot 63,Clermont Foot 63,2022,1,8,8,40,20.845,12.845,25396.0,20,39
+FRA,nice,OGC Nice,2022,1,9,9,40,6.578,-2.422,104511.0,5,39
+FRA,lorient,FC Lorient,2022,1,10,10,40,14.134,4.134,38792.0,13,39
+FRA,reims,Stade Reims,2022,1,11,11,40,14.134,3.134,43957.0,11,39
+FRA,montpellier hsc,Montpellier HSC,2022,1,12,12,40,9.872,-2.128,51663.0,8,39
+FRA,toulouse,Toulouse FC,2022,1,13,13,40,15.569,2.569,32530.0,17,39
+FRA,brestois 29,Stade Brest,2022,1,14,14,40,15.569,1.569,33144.0,16,39
+FRA,racing strasbourg,RC Strasbourg,2022,1,15,15,40,14.134,-0.866,45083.0,10,39
+FRA,nantes,FC Nantes,2022,1,16,16,40,9.872,-6.128,50070.0,9,39
+FRA,aj auxerre,AJ Auxerre,2022,1,17,17,40,17.939,0.939,30265.0,18,39
+FRA,ajaccio,AC Ajaccio,2022,1,18,18,40,25.992,7.992,16174.0,24,39
+FRA,es troyes,ESTAC Troyes,2022,1,19,19,40,14.134,-4.866,37821.0,14,39
+FRA,angers,Angers SCO,2022,1,20,20,40,15.569,-4.431,36360.0,15,39
+FRA,havre,Havre AC,2022,2,1,21,40,25.992,4.992,15716.0,25,39
+FRA,metz,FC Metz,2022,2,2,22,40,25.992,3.992,21804.0,21,39
+FRA,girondins bordeaux,Girondins de Bordeaux,2022,2,3,23,40,14.134,-8.866,42471.0,12,39
+FRA,bastia,SC Bastia,2022,2,4,24,40,34.187,10.187,6472.0,33,39
+FRA,caen,SM Caen,2022,2,5,25,40,27.831,2.831,14714.0,27,39
+FRA,guingamp,EA Guingamp,2022,2,6,26,40,30.373,4.373,10241.0,29,39
+FRA,paris,Paris FC,2022,2,7,27,40,25.992,-1.008,16177.0,23,39
+FRA,saint etienne,AS Saint-Étienne,2022,2,8,28,40,20.845,-7.155,27416.0,19,39
+FRA,sochaux,FC Sochaux,2022,2,9,29,40,25.992,-3.008,19654.0,22,39
+FRA,grenoble foot 38,Grenoble Foot 38,2022,2,10,30,40,31.038,1.038,7802.0,31,39
+FRA,quevilly rouen,US Quevilly-Rouen,2022,2,11,31,40,34.187,3.187,6230.0,34,39
+FRA,amiens,Amiens SC,2022,2,12,32,40,30.373,-1.627,10592.0,28,39
+FRA,pau,Pau FC,2022,2,13,33,40,34.187,1.187,5829.0,37,39
+FRA,rodez af,Rodez AF,2022,2,14,34,40,34.187,0.187,6082.0,35,39
+FRA,lavallois,Stade Lavallois,2022,2,15,35,40,35.756,0.756,5592.0,38,39
+FRA,valenciennes,Valenciennes FC,2022,2,16,36,40,31.038,-4.962,9196.0,30,39
+FRA,annecy,FC Annecy,2022,2,17,37,40,34.187,-2.813,5844.0,36,39
+FRA,dijon fco,Dijon FCO,2022,2,18,38,40,27.831,-10.169,14837.0,26,39
+FRA,nimes,Nîmes Olympique,2022,2,19,39,40,34.187,-4.813,7260.0,32,39
+FRA,chamois niortais,Chamois Niortais,2022,2,20,40,40,35.756,-4.244,5546.0,39,39

@@ -1,0 +1,5 @@
+<h1>This season so far</h1>
+<p class="lede">The 2026/27 tables as they stand, and what clubs finishing in each position have gone on to do. Everything here is provisional until the final tables are published.</p>
+<p class="small">Tables come from <a href="https://www.football-data.org">football-data.org</a> and are refreshed every half hour. If that service cannot be reached, the page falls back to <a href="https://github.com/openfootball/football.json">openfootball</a>'s public-domain results, which can run behind; the date is shown above each table. Available for the five top divisions and the Championship. Everything here is provisional until the league publishes its final table.</p>
+<div id="liveroot"><p class="muted">Loading this season's results…</p></div>
+<script src="live.js"></script>

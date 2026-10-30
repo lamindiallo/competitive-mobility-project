@@ -1,0 +1,3128 @@
+club,Season,tier,pos,k
+Manchester United,1992,1,1,manchester united
+Aston Villa,1992,1,2,aston villa
+Norwich City,1992,1,3,norwich city
+Blackburn Rovers,1992,1,4,blackburn rovers
+Queens Park Rangers,1992,1,5,queens park rangers
+Liverpool,1992,1,6,liverpool
+Sheffield Wednesday,1992,1,7,sheffield wednesday
+Tottenham Hotspur,1992,1,8,tottenham hotspur
+Manchester City,1992,1,9,manchester city
+Arsenal,1992,1,10,arsenal
+Chelsea,1992,1,11,chelsea
+Wimbledon,1992,1,12,wimbledon
+Everton,1992,1,13,everton
+Sheffield United,1992,1,14,sheffield united
+Coventry City,1992,1,15,coventry city
+Ipswich Town,1992,1,16,ipswich town
+Leeds United,1992,1,17,leeds united
+Southampton,1992,1,18,southampton
+Oldham Athletic,1992,1,19,oldham athletic
+Crystal Palace,1992,1,20,crystal palace
+Middlesbrough,1992,1,21,middlesbrough
+Nottingham Forest,1992,1,22,nottingham forest
+Newcastle United,1992,2,1,newcastle united
+West Ham United,1992,2,2,west ham united
+Portsmouth,1992,2,3,portsmouth
+Tranmere Rovers,1992,2,4,tranmere rovers
+Swindon Town,1992,2,5,swindon town
+Leicester City,1992,2,6,leicester city
+Millwall,1992,2,7,millwall
+Derby County,1992,2,8,derby county
+Grimsby Town,1992,2,9,grimsby town
+Peterborough United,1992,2,10,peterborough united
+Charlton Athletic,1992,2,11,charlton athletic
+Wolverhampton Wanderers,1992,2,12,wolverhampton wanderers
+Barnsley,1992,2,13,barnsley
+Oxford United,1992,2,14,oxford united
+Bristol City,1992,2,15,bristol city
+Watford,1992,2,16,watford
+Southend United,1992,2,17,southend united
+Notts County,1992,2,18,notts county
+Luton Town,1992,2,19,luton town
+Birmingham City,1992,2,20,birmingham city
+Sunderland,1992,2,21,sunderland
+Brentford,1992,2,22,brentford
+Cambridge United,1992,2,23,cambridge united
+Bristol Rovers,1992,2,24,bristol rovers
+Stoke City,1992,3,1,stoke city
+Bolton Wanderers,1992,3,2,bolton wanderers
+Port Vale,1992,3,3,port vale
+West Bromwich Albion,1992,3,4,west bromwich albion
+Swansea City,1992,3,5,swansea city
+Stockport County,1992,3,6,stockport county
+Leyton Orient,1992,3,7,leyton orient
+Reading,1992,3,8,reading
+Brighton & Hove Albion,1992,3,9,brighton and hove albion
+Bradford City,1992,3,10,bradford city
+Fulham,1992,3,11,fulham
+Rotherham United,1992,3,12,rotherham united
+Burnley,1992,3,13,burnley
+Plymouth Argyle,1992,3,14,plymouth argyle
+Huddersfield Town,1992,3,15,huddersfield town
+Hartlepool United,1992,3,16,hartlepool united
+AFC Bournemouth,1992,3,17,bournemouth
+Blackpool,1992,3,18,blackpool
+Exeter City,1992,3,19,exeter city
+Hull City,1992,3,20,hull city
+Preston North End,1992,3,21,preston north end
+Mansfield Town,1992,3,22,mansfield town
+Wigan Athletic,1992,3,23,wigan athletic
+Chester,1992,3,24,chester
+Cardiff City,1992,4,1,cardiff city
+Wrexham,1992,4,2,wrexham
+Barnet,1992,4,3,barnet
+York City,1992,4,4,york city
+Walsall,1992,4,5,walsall
+Crewe Alexandra,1992,4,6,crewe alexandra
+Bury,1992,4,7,bury
+Lincoln City,1992,4,8,lincoln city
+Shrewsbury Town,1992,4,9,shrewsbury town
+Colchester United,1992,4,10,colchester united
+Rochdale,1992,4,11,rochdale
+Chesterfield,1992,4,12,chesterfield
+Scunthorpe United,1992,4,13,scunthorpe united
+Scarborough,1992,4,14,scarborough
+Darlington,1992,4,15,darlington
+Doncaster Rovers,1992,4,16,doncaster rovers
+Hereford United,1992,4,17,hereford united
+Carlisle United,1992,4,18,carlisle united
+Torquay United,1992,4,19,torquay united
+Northampton Town,1992,4,20,northampton town
+Gillingham,1992,4,21,gillingham
+Halifax Town,1992,4,22,halifax town
+Manchester United,1993,1,1,manchester united
+Blackburn Rovers,1993,1,2,blackburn rovers
+Newcastle United,1993,1,3,newcastle united
+Arsenal,1993,1,4,arsenal
+Leeds United,1993,1,5,leeds united
+Wimbledon,1993,1,6,wimbledon
+Sheffield Wednesday,1993,1,7,sheffield wednesday
+Liverpool,1993,1,8,liverpool
+Queens Park Rangers,1993,1,9,queens park rangers
+Aston Villa,1993,1,10,aston villa
+Coventry City,1993,1,11,coventry city
+Norwich City,1993,1,12,norwich city
+West Ham United,1993,1,13,west ham united
+Chelsea,1993,1,14,chelsea
+Tottenham Hotspur,1993,1,15,tottenham hotspur
+Manchester City,1993,1,16,manchester city
+Everton,1993,1,17,everton
+Southampton,1993,1,18,southampton
+Ipswich Town,1993,1,19,ipswich town
+Sheffield United,1993,1,20,sheffield united
+Oldham Athletic,1993,1,21,oldham athletic
+Swindon Town,1993,1,22,swindon town
+Crystal Palace,1993,2,1,crystal palace
+Nottingham Forest,1993,2,2,nottingham forest
+Millwall,1993,2,3,millwall
+Leicester City,1993,2,4,leicester city
+Tranmere Rovers,1993,2,5,tranmere rovers
+Derby County,1993,2,6,derby county
+Wolverhampton Wanderers,1993,2,7,wolverhampton wanderers
+Notts County,1993,2,8,notts county
+Middlesbrough,1993,2,9,middlesbrough
+Stoke City,1993,2,10,stoke city
+Charlton Athletic,1993,2,11,charlton athletic
+Sunderland,1993,2,12,sunderland
+Bristol City,1993,2,13,bristol city
+Grimsby Town,1993,2,14,grimsby town
+Bolton Wanderers,1993,2,15,bolton wanderers
+Southend United,1993,2,16,southend united
+Portsmouth,1993,2,17,portsmouth
+Barnsley,1993,2,18,barnsley
+Watford,1993,2,19,watford
+Luton Town,1993,2,20,luton town
+West Bromwich Albion,1993,2,21,west bromwich albion
+Birmingham City,1993,2,22,birmingham city
+Oxford United,1993,2,23,oxford united
+Peterborough United,1993,2,24,peterborough united
+Reading,1993,3,1,reading
+Port Vale,1993,3,2,port vale
+Plymouth Argyle,1993,3,3,plymouth argyle
+Stockport County,1993,3,4,stockport county
+York City,1993,3,5,york city
+Burnley,1993,3,6,burnley
+Bradford City,1993,3,7,bradford city
+Bristol Rovers,1993,3,8,bristol rovers
+Hull City,1993,3,9,hull city
+Cambridge United,1993,3,10,cambridge united
+Huddersfield Town,1993,3,11,huddersfield town
+Wrexham,1993,3,12,wrexham
+Swansea City,1993,3,13,swansea city
+Brighton & Hove Albion,1993,3,14,brighton and hove albion
+Rotherham United,1993,3,15,rotherham united
+Brentford,1993,3,16,brentford
+AFC Bournemouth,1993,3,17,bournemouth
+Leyton Orient,1993,3,18,leyton orient
+Cardiff City,1993,3,19,cardiff city
+Blackpool,1993,3,20,blackpool
+Fulham,1993,3,21,fulham
+Exeter City,1993,3,22,exeter city
+Hartlepool United,1993,3,23,hartlepool united
+Barnet,1993,3,24,barnet
+Shrewsbury Town,1993,4,1,shrewsbury town
+Chester,1993,4,2,chester
+Crewe Alexandra,1993,4,3,crewe alexandra
+Wycombe Wanderers,1993,4,4,wycombe wanderers
+Preston North End,1993,4,5,preston north end
+Torquay United,1993,4,6,torquay united
+Carlisle United,1993,4,7,carlisle united
+Chesterfield,1993,4,8,chesterfield
+Rochdale,1993,4,9,rochdale
+Walsall,1993,4,10,walsall
+Scunthorpe United,1993,4,11,scunthorpe united
+Mansfield Town,1993,4,12,mansfield town
+Bury,1993,4,13,bury
+Scarborough,1993,4,14,scarborough
+Doncaster Rovers,1993,4,15,doncaster rovers
+Gillingham,1993,4,16,gillingham
+Colchester United,1993,4,17,colchester united
+Lincoln City,1993,4,18,lincoln city
+Wigan Athletic,1993,4,19,wigan athletic
+Hereford United,1993,4,20,hereford united
+Darlington,1993,4,21,darlington
+Northampton Town,1993,4,22,northampton town
+Blackburn Rovers,1994,1,1,blackburn rovers
+Manchester United,1994,1,2,manchester united
+Nottingham Forest,1994,1,3,nottingham forest
+Liverpool,1994,1,4,liverpool
+Leeds United,1994,1,5,leeds united
+Newcastle United,1994,1,6,newcastle united
+Tottenham Hotspur,1994,1,7,tottenham hotspur
+Queens Park Rangers,1994,1,8,queens park rangers
+Wimbledon,1994,1,9,wimbledon
+Southampton,1994,1,10,southampton
+Chelsea,1994,1,11,chelsea
+Arsenal,1994,1,12,arsenal
+Sheffield Wednesday,1994,1,13,sheffield wednesday
+West Ham United,1994,1,14,west ham united
+Everton,1994,1,15,everton
+Coventry City,1994,1,16,coventry city
+Manchester City,1994,1,17,manchester city
+Aston Villa,1994,1,18,aston villa
+Crystal Palace,1994,1,19,crystal palace
+Norwich City,1994,1,20,norwich city
+Leicester City,1994,1,21,leicester city
+Ipswich Town,1994,1,22,ipswich town
+Middlesbrough,1994,2,1,middlesbrough
+Reading,1994,2,2,reading
+Bolton Wanderers,1994,2,3,bolton wanderers
+Wolverhampton Wanderers,1994,2,4,wolverhampton wanderers
+Tranmere Rovers,1994,2,5,tranmere rovers
+Barnsley,1994,2,6,barnsley
+Watford,1994,2,7,watford
+Sheffield United,1994,2,8,sheffield united
+Derby County,1994,2,9,derby county
+Grimsby Town,1994,2,10,grimsby town
+Stoke City,1994,2,11,stoke city
+Millwall,1994,2,12,millwall
+Southend United,1994,2,13,southend united
+Oldham Athletic,1994,2,14,oldham athletic
+Charlton Athletic,1994,2,15,charlton athletic
+Luton Town,1994,2,16,luton town
+Port Vale,1994,2,17,port vale
+West Bromwich Albion,1994,2,18,west bromwich albion
+Portsmouth,1994,2,19,portsmouth
+Sunderland,1994,2,20,sunderland
+Swindon Town,1994,2,21,swindon town
+Burnley,1994,2,22,burnley
+Bristol City,1994,2,23,bristol city
+Notts County,1994,2,24,notts county
+Birmingham City,1994,3,1,birmingham city
+Brentford,1994,3,2,brentford
+Crewe Alexandra,1994,3,3,crewe alexandra
+Bristol Rovers,1994,3,4,bristol rovers
+Huddersfield Town,1994,3,5,huddersfield town
+Wycombe Wanderers,1994,3,6,wycombe wanderers
+Oxford United,1994,3,7,oxford united
+Hull City,1994,3,8,hull city
+York City,1994,3,9,york city
+Swansea City,1994,3,10,swansea city
+Stockport County,1994,3,11,stockport county
+Blackpool,1994,3,12,blackpool
+Wrexham,1994,3,13,wrexham
+Bradford City,1994,3,14,bradford city
+Peterborough United,1994,3,15,peterborough united
+Brighton & Hove Albion,1994,3,16,brighton and hove albion
+Rotherham United,1994,3,17,rotherham united
+Shrewsbury Town,1994,3,18,shrewsbury town
+AFC Bournemouth,1994,3,19,bournemouth
+Cambridge United,1994,3,20,cambridge united
+Plymouth Argyle,1994,3,21,plymouth argyle
+Cardiff City,1994,3,22,cardiff city
+Chester,1994,3,23,chester
+Leyton Orient,1994,3,24,leyton orient
+Carlisle United,1994,4,1,carlisle united
+Walsall,1994,4,2,walsall
+Chesterfield,1994,4,3,chesterfield
+Bury,1994,4,4,bury
+Preston North End,1994,4,5,preston north end
+Mansfield Town,1994,4,6,mansfield town
+Fulham,1994,4,7,fulham
+Scunthorpe United,1994,4,8,scunthorpe united
+Doncaster Rovers,1994,4,9,doncaster rovers
+Colchester United,1994,4,10,colchester united
+Lincoln City,1994,4,11,lincoln city
+Barnet,1994,4,12,barnet
+Torquay United,1994,4,13,torquay united
+Wigan Athletic,1994,4,14,wigan athletic
+Rochdale,1994,4,15,rochdale
+Hereford United,1994,4,16,hereford united
+Northampton Town,1994,4,17,northampton town
+Hartlepool United,1994,4,18,hartlepool united
+Darlington,1994,4,19,darlington
+Gillingham,1994,4,20,gillingham
+Scarborough,1994,4,21,scarborough
+Exeter City,1994,4,22,exeter city
+Manchester United,1995,1,1,manchester united
+Newcastle United,1995,1,2,newcastle united
+Liverpool,1995,1,3,liverpool
+Aston Villa,1995,1,4,aston villa
+Arsenal,1995,1,5,arsenal
+Everton,1995,1,6,everton
+Blackburn Rovers,1995,1,7,blackburn rovers
+Tottenham Hotspur,1995,1,8,tottenham hotspur
+Nottingham Forest,1995,1,9,nottingham forest
+West Ham United,1995,1,10,west ham united
+Chelsea,1995,1,11,chelsea
+Middlesbrough,1995,1,12,middlesbrough
+Leeds United,1995,1,13,leeds united
+Wimbledon,1995,1,14,wimbledon
+Sheffield Wednesday,1995,1,15,sheffield wednesday
+Coventry City,1995,1,16,coventry city
+Southampton,1995,1,17,southampton
+Manchester City,1995,1,18,manchester city
+Queens Park Rangers,1995,1,19,queens park rangers
+Bolton Wanderers,1995,1,20,bolton wanderers
+Sunderland,1995,2,1,sunderland
+Derby County,1995,2,2,derby county
+Crystal Palace,1995,2,3,crystal palace
+Stoke City,1995,2,4,stoke city
+Charlton Athletic,1995,2,5,charlton athletic
+Leicester City,1995,2,6,leicester city
+Ipswich Town,1995,2,7,ipswich town
+Huddersfield Town,1995,2,8,huddersfield town
+Sheffield United,1995,2,9,sheffield united
+Barnsley,1995,2,10,barnsley
+Port Vale,1995,2,11,port vale
+West Bromwich Albion,1995,2,12,west bromwich albion
+Tranmere Rovers,1995,2,13,tranmere rovers
+Southend United,1995,2,14,southend united
+Birmingham City,1995,2,15,birmingham city
+Norwich City,1995,2,16,norwich city
+Oldham Athletic,1995,2,17,oldham athletic
+Reading,1995,2,18,reading
+Grimsby Town,1995,2,19,grimsby town
+Wolverhampton Wanderers,1995,2,20,wolverhampton wanderers
+Portsmouth,1995,2,21,portsmouth
+Millwall,1995,2,22,millwall
+Watford,1995,2,23,watford
+Luton Town,1995,2,24,luton town
+Swindon Town,1995,3,1,swindon town
+Oxford United,1995,3,2,oxford united
+Blackpool,1995,3,3,blackpool
+Notts County,1995,3,4,notts county
+Crewe Alexandra,1995,3,5,crewe alexandra
+Bradford City,1995,3,6,bradford city
+Chesterfield,1995,3,7,chesterfield
+Wrexham,1995,3,8,wrexham
+Stockport County,1995,3,9,stockport county
+Bristol Rovers,1995,3,10,bristol rovers
+Walsall,1995,3,11,walsall
+Wycombe Wanderers,1995,3,12,wycombe wanderers
+Bristol City,1995,3,13,bristol city
+Brentford,1995,3,14,brentford
+AFC Bournemouth,1995,3,15,bournemouth
+Rotherham United,1995,3,16,rotherham united
+Burnley,1995,3,17,burnley
+Shrewsbury Town,1995,3,18,shrewsbury town
+Peterborough United,1995,3,19,peterborough united
+York City,1995,3,20,york city
+Carlisle United,1995,3,21,carlisle united
+Swansea City,1995,3,22,swansea city
+Brighton & Hove Albion,1995,3,23,brighton and hove albion
+Hull City,1995,3,24,hull city
+Preston North End,1995,4,1,preston north end
+Gillingham,1995,4,2,gillingham
+Bury,1995,4,3,bury
+Plymouth Argyle,1995,4,4,plymouth argyle
+Darlington,1995,4,5,darlington
+Hereford United,1995,4,6,hereford united
+Colchester United,1995,4,7,colchester united
+Barnet,1995,4,8,barnet
+Chester,1995,4,9,chester
+Wigan Athletic,1995,4,10,wigan athletic
+Northampton Town,1995,4,11,northampton town
+Scunthorpe United,1995,4,12,scunthorpe united
+Doncaster Rovers,1995,4,13,doncaster rovers
+Exeter City,1995,4,14,exeter city
+Rochdale,1995,4,15,rochdale
+Cambridge United,1995,4,16,cambridge united
+Fulham,1995,4,17,fulham
+Mansfield Town,1995,4,18,mansfield town
+Lincoln City,1995,4,19,lincoln city
+Hartlepool United,1995,4,20,hartlepool united
+Leyton Orient,1995,4,21,leyton orient
+Cardiff City,1995,4,22,cardiff city
+Scarborough,1995,4,23,scarborough
+Torquay United,1995,4,24,torquay united
+Manchester United,1996,1,1,manchester united
+Newcastle United,1996,1,2,newcastle united
+Arsenal,1996,1,3,arsenal
+Liverpool,1996,1,4,liverpool
+Aston Villa,1996,1,5,aston villa
+Chelsea,1996,1,6,chelsea
+Sheffield Wednesday,1996,1,7,sheffield wednesday
+Wimbledon,1996,1,8,wimbledon
+Leicester City,1996,1,9,leicester city
+Tottenham Hotspur,1996,1,10,tottenham hotspur
+Leeds United,1996,1,11,leeds united
+Derby County,1996,1,12,derby county
+Blackburn Rovers,1996,1,13,blackburn rovers
+Middlesbrough,1996,1,19,middlesbrough
+West Ham United,1996,1,14,west ham united
+Everton,1996,1,15,everton
+Southampton,1996,1,16,southampton
+Coventry City,1996,1,17,coventry city
+Sunderland,1996,1,18,sunderland
+Nottingham Forest,1996,1,20,nottingham forest
+Bolton Wanderers,1996,2,1,bolton wanderers
+Barnsley,1996,2,2,barnsley
+Wolverhampton Wanderers,1996,2,3,wolverhampton wanderers
+Ipswich Town,1996,2,4,ipswich town
+Sheffield United,1996,2,5,sheffield united
+Crystal Palace,1996,2,6,crystal palace
+Portsmouth,1996,2,7,portsmouth
+Port Vale,1996,2,8,port vale
+Queens Park Rangers,1996,2,9,queens park rangers
+Birmingham City,1996,2,10,birmingham city
+Tranmere Rovers,1996,2,11,tranmere rovers
+Stoke City,1996,2,12,stoke city
+Norwich City,1996,2,13,norwich city
+Manchester City,1996,2,14,manchester city
+Charlton Athletic,1996,2,15,charlton athletic
+West Bromwich Albion,1996,2,16,west bromwich albion
+Oxford United,1996,2,17,oxford united
+Reading,1996,2,18,reading
+Huddersfield Town,1996,2,19,huddersfield town
+Swindon Town,1996,2,20,swindon town
+Bradford City,1996,2,21,bradford city
+Grimsby Town,1996,2,22,grimsby town
+Oldham Athletic,1996,2,23,oldham athletic
+Southend United,1996,2,24,southend united
+Bury,1996,3,1,bury
+Stockport County,1996,3,2,stockport county
+Luton Town,1996,3,3,luton town
+Brentford,1996,3,4,brentford
+Bristol City,1996,3,5,bristol city
+Crewe Alexandra,1996,3,6,crewe alexandra
+Blackpool,1996,3,7,blackpool
+Wrexham,1996,3,8,wrexham
+Burnley,1996,3,9,burnley
+Chesterfield,1996,3,10,chesterfield
+Watford,1996,3,11,watford
+Gillingham,1996,3,12,gillingham
+Walsall,1996,3,13,walsall
+Millwall,1996,3,14,millwall
+Preston North End,1996,3,15,preston north end
+AFC Bournemouth,1996,3,16,bournemouth
+Bristol Rovers,1996,3,17,bristol rovers
+Wycombe Wanderers,1996,3,18,wycombe wanderers
+Plymouth Argyle,1996,3,19,plymouth argyle
+York City,1996,3,20,york city
+Peterborough United,1996,3,21,peterborough united
+Shrewsbury Town,1996,3,22,shrewsbury town
+Notts County,1996,3,23,notts county
+Rotherham United,1996,3,24,rotherham united
+Fulham,1996,4,1,fulham
+Wigan Athletic,1996,4,2,wigan athletic
+Carlisle United,1996,4,3,carlisle united
+Northampton Town,1996,4,4,northampton town
+Swansea City,1996,4,5,swansea city
+Chester,1996,4,6,chester
+Cardiff City,1996,4,7,cardiff city
+Colchester United,1996,4,8,colchester united
+Lincoln City,1996,4,9,lincoln city
+Cambridge United,1996,4,10,cambridge united
+Mansfield Town,1996,4,11,mansfield town
+Scarborough,1996,4,12,scarborough
+Scunthorpe United,1996,4,13,scunthorpe united
+Rochdale,1996,4,14,rochdale
+Barnet,1996,4,15,barnet
+Hull City,1996,4,16,hull city
+Leyton Orient,1996,4,17,leyton orient
+Darlington,1996,4,18,darlington
+Doncaster Rovers,1996,4,19,doncaster rovers
+Hartlepool United,1996,4,20,hartlepool united
+Torquay United,1996,4,21,torquay united
+Brighton & Hove Albion,1996,4,22,brighton and hove albion
+Exeter City,1996,4,23,exeter city
+Hereford United,1996,4,24,hereford united
+Arsenal,1997,1,1,arsenal
+Manchester United,1997,1,2,manchester united
+Liverpool,1997,1,3,liverpool
+Chelsea,1997,1,4,chelsea
+Leeds United,1997,1,5,leeds united
+Blackburn Rovers,1997,1,6,blackburn rovers
+Aston Villa,1997,1,7,aston villa
+West Ham United,1997,1,8,west ham united
+Derby County,1997,1,9,derby county
+Leicester City,1997,1,10,leicester city
+Coventry City,1997,1,11,coventry city
+Southampton,1997,1,12,southampton
+Newcastle United,1997,1,13,newcastle united
+Tottenham Hotspur,1997,1,14,tottenham hotspur
+Wimbledon,1997,1,15,wimbledon
+Sheffield Wednesday,1997,1,16,sheffield wednesday
+Everton,1997,1,17,everton
+Bolton Wanderers,1997,1,18,bolton wanderers
+Barnsley,1997,1,19,barnsley
+Crystal Palace,1997,1,20,crystal palace
+Nottingham Forest,1997,2,1,nottingham forest
+Middlesbrough,1997,2,2,middlesbrough
+Sunderland,1997,2,3,sunderland
+Charlton Athletic,1997,2,4,charlton athletic
+Ipswich Town,1997,2,5,ipswich town
+Birmingham City,1997,2,6,birmingham city
+Sheffield United,1997,2,7,sheffield united
+Wolverhampton Wanderers,1997,2,8,wolverhampton wanderers
+Stockport County,1997,2,9,stockport county
+West Bromwich Albion,1997,2,10,west bromwich albion
+Crewe Alexandra,1997,2,11,crewe alexandra
+Oxford United,1997,2,12,oxford united
+Bradford City,1997,2,13,bradford city
+Tranmere Rovers,1997,2,14,tranmere rovers
+Norwich City,1997,2,15,norwich city
+Huddersfield Town,1997,2,16,huddersfield town
+Bury,1997,2,17,bury
+Swindon Town,1997,2,18,swindon town
+Port Vale,1997,2,19,port vale
+Portsmouth,1997,2,20,portsmouth
+Queens Park Rangers,1997,2,21,queens park rangers
+Manchester City,1997,2,22,manchester city
+Stoke City,1997,2,23,stoke city
+Reading,1997,2,24,reading
+Watford,1997,3,1,watford
+Bristol City,1997,3,2,bristol city
+Grimsby Town,1997,3,3,grimsby town
+Northampton Town,1997,3,4,northampton town
+Fulham,1997,3,5,fulham
+Bristol Rovers,1997,3,6,bristol rovers
+Gillingham,1997,3,7,gillingham
+Wrexham,1997,3,8,wrexham
+AFC Bournemouth,1997,3,9,bournemouth
+Chesterfield,1997,3,10,chesterfield
+Wigan Athletic,1997,3,11,wigan athletic
+Blackpool,1997,3,12,blackpool
+Oldham Athletic,1997,3,13,oldham athletic
+Wycombe Wanderers,1997,3,14,wycombe wanderers
+Preston North End,1997,3,15,preston north end
+York City,1997,3,16,york city
+Luton Town,1997,3,17,luton town
+Millwall,1997,3,18,millwall
+Walsall,1997,3,19,walsall
+Burnley,1997,3,20,burnley
+Brentford,1997,3,21,brentford
+Plymouth Argyle,1997,3,22,plymouth argyle
+Carlisle United,1997,3,23,carlisle united
+Southend United,1997,3,24,southend united
+Notts County,1997,4,1,notts county
+Macclesfield,1997,4,2,macclesfield
+Lincoln City,1997,4,3,lincoln city
+Colchester United,1997,4,4,colchester united
+Torquay United,1997,4,5,torquay united
+Scarborough,1997,4,6,scarborough
+Barnet,1997,4,7,barnet
+Leyton Orient,1997,4,8,leyton orient
+Scunthorpe United,1997,4,9,scunthorpe united
+Peterborough United,1997,4,10,peterborough united
+Rotherham United,1997,4,11,rotherham united
+Mansfield Town,1997,4,12,mansfield town
+Shrewsbury Town,1997,4,13,shrewsbury town
+Chester,1997,4,14,chester
+Cambridge United,1997,4,15,cambridge united
+Exeter City,1997,4,16,exeter city
+Hartlepool United,1997,4,17,hartlepool united
+Rochdale,1997,4,18,rochdale
+Darlington,1997,4,19,darlington
+Cardiff City,1997,4,20,cardiff city
+Swansea City,1997,4,21,swansea city
+Hull City,1997,4,22,hull city
+Brighton & Hove Albion,1997,4,23,brighton and hove albion
+Doncaster Rovers,1997,4,24,doncaster rovers
+Manchester United,1998,1,1,manchester united
+Arsenal,1998,1,2,arsenal
+Chelsea,1998,1,3,chelsea
+Leeds United,1998,1,4,leeds united
+West Ham United,1998,1,5,west ham united
+Aston Villa,1998,1,6,aston villa
+Liverpool,1998,1,7,liverpool
+Derby County,1998,1,8,derby county
+Middlesbrough,1998,1,9,middlesbrough
+Leicester City,1998,1,10,leicester city
+Tottenham Hotspur,1998,1,11,tottenham hotspur
+Sheffield Wednesday,1998,1,12,sheffield wednesday
+Newcastle United,1998,1,13,newcastle united
+Everton,1998,1,14,everton
+Coventry City,1998,1,15,coventry city
+Wimbledon,1998,1,16,wimbledon
+Southampton,1998,1,17,southampton
+Charlton Athletic,1998,1,18,charlton athletic
+Blackburn Rovers,1998,1,19,blackburn rovers
+Nottingham Forest,1998,1,20,nottingham forest
+Sunderland,1998,2,1,sunderland
+Bradford City,1998,2,2,bradford city
+Ipswich Town,1998,2,3,ipswich town
+Birmingham City,1998,2,4,birmingham city
+Watford,1998,2,5,watford
+Bolton Wanderers,1998,2,6,bolton wanderers
+Wolverhampton Wanderers,1998,2,7,wolverhampton wanderers
+Sheffield United,1998,2,8,sheffield united
+Norwich City,1998,2,9,norwich city
+Huddersfield Town,1998,2,10,huddersfield town
+Grimsby Town,1998,2,11,grimsby town
+Barnsley,1998,2,12,barnsley
+West Bromwich Albion,1998,2,13,west bromwich albion
+Crystal Palace,1998,2,14,crystal palace
+Tranmere Rovers,1998,2,15,tranmere rovers
+Stockport County,1998,2,16,stockport county
+Swindon Town,1998,2,17,swindon town
+Crewe Alexandra,1998,2,18,crewe alexandra
+Queens Park Rangers,1998,2,19,queens park rangers
+Portsmouth,1998,2,20,portsmouth
+Bury,1998,2,21,bury
+Port Vale,1998,2,22,port vale
+Oxford United,1998,2,23,oxford united
+Bristol City,1998,2,24,bristol city
+Fulham,1998,3,1,fulham
+Walsall,1998,3,2,walsall
+Manchester City,1998,3,3,manchester city
+Gillingham,1998,3,4,gillingham
+Preston North End,1998,3,5,preston north end
+Wigan Athletic,1998,3,6,wigan athletic
+AFC Bournemouth,1998,3,7,bournemouth
+Stoke City,1998,3,8,stoke city
+Chesterfield,1998,3,9,chesterfield
+Millwall,1998,3,10,millwall
+Reading,1998,3,11,reading
+Luton Town,1998,3,12,luton town
+Bristol Rovers,1998,3,13,bristol rovers
+Blackpool,1998,3,14,blackpool
+Burnley,1998,3,15,burnley
+Notts County,1998,3,16,notts county
+Wrexham,1998,3,17,wrexham
+Colchester United,1998,3,18,colchester united
+Wycombe Wanderers,1998,3,19,wycombe wanderers
+Oldham Athletic,1998,3,20,oldham athletic
+York City,1998,3,21,york city
+Northampton Town,1998,3,22,northampton town
+Lincoln City,1998,3,23,lincoln city
+Macclesfield,1998,3,24,macclesfield
+Brentford,1998,4,1,brentford
+Cambridge United,1998,4,2,cambridge united
+Cardiff City,1998,4,3,cardiff city
+Scunthorpe United,1998,4,4,scunthorpe united
+Rotherham United,1998,4,5,rotherham united
+Leyton Orient,1998,4,6,leyton orient
+Swansea City,1998,4,7,swansea city
+Mansfield Town,1998,4,8,mansfield town
+Peterborough United,1998,4,9,peterborough united
+Halifax Town,1998,4,10,halifax town
+Darlington,1998,4,11,darlington
+Exeter City,1998,4,12,exeter city
+Plymouth Argyle,1998,4,13,plymouth argyle
+Chester,1998,4,14,chester
+Shrewsbury Town,1998,4,15,shrewsbury town
+Barnet,1998,4,16,barnet
+Brighton & Hove Albion,1998,4,17,brighton and hove albion
+Southend United,1998,4,18,southend united
+Rochdale,1998,4,19,rochdale
+Torquay United,1998,4,20,torquay united
+Hull City,1998,4,21,hull city
+Hartlepool United,1998,4,22,hartlepool united
+Carlisle United,1998,4,23,carlisle united
+Scarborough,1998,4,24,scarborough
+Manchester United,1999,1,1,manchester united
+Arsenal,1999,1,2,arsenal
+Leeds United,1999,1,3,leeds united
+Liverpool,1999,1,4,liverpool
+Chelsea,1999,1,5,chelsea
+Aston Villa,1999,1,6,aston villa
+Sunderland,1999,1,7,sunderland
+Leicester City,1999,1,8,leicester city
+West Ham United,1999,1,9,west ham united
+Tottenham Hotspur,1999,1,10,tottenham hotspur
+Newcastle United,1999,1,11,newcastle united
+Middlesbrough,1999,1,12,middlesbrough
+Everton,1999,1,13,everton
+Coventry City,1999,1,14,coventry city
+Southampton,1999,1,15,southampton
+Derby County,1999,1,16,derby county
+Bradford City,1999,1,17,bradford city
+Wimbledon,1999,1,18,wimbledon
+Sheffield Wednesday,1999,1,19,sheffield wednesday
+Watford,1999,1,20,watford
+Charlton Athletic,1999,2,1,charlton athletic
+Manchester City,1999,2,2,manchester city
+Ipswich Town,1999,2,3,ipswich town
+Barnsley,1999,2,4,barnsley
+Birmingham City,1999,2,5,birmingham city
+Bolton Wanderers,1999,2,6,bolton wanderers
+Wolverhampton Wanderers,1999,2,7,wolverhampton wanderers
+Huddersfield Town,1999,2,8,huddersfield town
+Fulham,1999,2,9,fulham
+Queens Park Rangers,1999,2,10,queens park rangers
+Blackburn Rovers,1999,2,11,blackburn rovers
+Norwich City,1999,2,12,norwich city
+Tranmere Rovers,1999,2,13,tranmere rovers
+Nottingham Forest,1999,2,14,nottingham forest
+Crystal Palace,1999,2,15,crystal palace
+Sheffield United,1999,2,16,sheffield united
+Stockport County,1999,2,17,stockport county
+Portsmouth,1999,2,18,portsmouth
+Crewe Alexandra,1999,2,19,crewe alexandra
+Grimsby Town,1999,2,20,grimsby town
+West Bromwich Albion,1999,2,21,west bromwich albion
+Walsall,1999,2,22,walsall
+Port Vale,1999,2,23,port vale
+Swindon Town,1999,2,24,swindon town
+Preston North End,1999,3,1,preston north end
+Burnley,1999,3,2,burnley
+Gillingham,1999,3,3,gillingham
+Wigan Athletic,1999,3,4,wigan athletic
+Millwall,1999,3,5,millwall
+Stoke City,1999,3,6,stoke city
+Bristol Rovers,1999,3,7,bristol rovers
+Notts County,1999,3,8,notts county
+Bristol City,1999,3,9,bristol city
+Reading,1999,3,10,reading
+Wrexham,1999,3,11,wrexham
+Wycombe Wanderers,1999,3,12,wycombe wanderers
+Luton Town,1999,3,13,luton town
+Oldham Athletic,1999,3,14,oldham athletic
+Bury,1999,3,15,bury
+AFC Bournemouth,1999,3,16,bournemouth
+Brentford,1999,3,17,brentford
+Colchester United,1999,3,18,colchester united
+Cambridge United,1999,3,19,cambridge united
+Oxford United,1999,3,20,oxford united
+Cardiff City,1999,3,21,cardiff city
+Blackpool,1999,3,22,blackpool
+Scunthorpe United,1999,3,23,scunthorpe united
+Chesterfield,1999,3,24,chesterfield
+Swansea City,1999,4,1,swansea city
+Rotherham United,1999,4,2,rotherham united
+Northampton Town,1999,4,3,northampton town
+Darlington,1999,4,4,darlington
+Peterborough United,1999,4,5,peterborough united
+Barnet,1999,4,6,barnet
+Hartlepool United,1999,4,7,hartlepool united
+Cheltenham,1999,4,8,cheltenham
+Torquay United,1999,4,9,torquay united
+Rochdale,1999,4,10,rochdale
+Brighton & Hove Albion,1999,4,11,brighton and hove albion
+Plymouth Argyle,1999,4,12,plymouth argyle
+Macclesfield,1999,4,13,macclesfield
+Hull City,1999,4,14,hull city
+Lincoln City,1999,4,15,lincoln city
+Southend United,1999,4,16,southend united
+Mansfield Town,1999,4,17,mansfield town
+Halifax Town,1999,4,18,halifax town
+Leyton Orient,1999,4,19,leyton orient
+York City,1999,4,20,york city
+Exeter City,1999,4,21,exeter city
+Shrewsbury Town,1999,4,22,shrewsbury town
+Carlisle United,1999,4,23,carlisle united
+Chester,1999,4,24,chester
+Manchester United,2000,1,1,manchester united
+Arsenal,2000,1,2,arsenal
+Liverpool,2000,1,3,liverpool
+Leeds United,2000,1,4,leeds united
+Ipswich Town,2000,1,5,ipswich town
+Chelsea,2000,1,6,chelsea
+Sunderland,2000,1,7,sunderland
+Aston Villa,2000,1,8,aston villa
+Charlton Athletic,2000,1,9,charlton athletic
+Southampton,2000,1,10,southampton
+Newcastle United,2000,1,11,newcastle united
+Tottenham Hotspur,2000,1,12,tottenham hotspur
+Leicester City,2000,1,13,leicester city
+Middlesbrough,2000,1,14,middlesbrough
+West Ham United,2000,1,15,west ham united
+Everton,2000,1,16,everton
+Derby County,2000,1,17,derby county
+Manchester City,2000,1,18,manchester city
+Coventry City,2000,1,19,coventry city
+Bradford City,2000,1,20,bradford city
+Fulham,2000,2,1,fulham
+Blackburn Rovers,2000,2,2,blackburn rovers
+Bolton Wanderers,2000,2,3,bolton wanderers
+Preston North End,2000,2,4,preston north end
+Birmingham City,2000,2,5,birmingham city
+West Bromwich Albion,2000,2,6,west bromwich albion
+Burnley,2000,2,7,burnley
+Wimbledon,2000,2,8,wimbledon
+Watford,2000,2,9,watford
+Sheffield United,2000,2,10,sheffield united
+Nottingham Forest,2000,2,11,nottingham forest
+Wolverhampton Wanderers,2000,2,12,wolverhampton wanderers
+Gillingham,2000,2,13,gillingham
+Crewe Alexandra,2000,2,14,crewe alexandra
+Norwich City,2000,2,15,norwich city
+Barnsley,2000,2,16,barnsley
+Sheffield Wednesday,2000,2,17,sheffield wednesday
+Grimsby Town,2000,2,18,grimsby town
+Stockport County,2000,2,19,stockport county
+Portsmouth,2000,2,20,portsmouth
+Crystal Palace,2000,2,21,crystal palace
+Huddersfield Town,2000,2,22,huddersfield town
+Queens Park Rangers,2000,2,23,queens park rangers
+Tranmere Rovers,2000,2,24,tranmere rovers
+Millwall,2000,3,1,millwall
+Rotherham United,2000,3,2,rotherham united
+Reading,2000,3,3,reading
+Walsall,2000,3,4,walsall
+Stoke City,2000,3,5,stoke city
+Wigan Athletic,2000,3,6,wigan athletic
+AFC Bournemouth,2000,3,7,bournemouth
+Notts County,2000,3,8,notts county
+Bristol City,2000,3,9,bristol city
+Wrexham,2000,3,10,wrexham
+Port Vale,2000,3,11,port vale
+Peterborough United,2000,3,12,peterborough united
+Wycombe Wanderers,2000,3,13,wycombe wanderers
+Brentford,2000,3,14,brentford
+Oldham Athletic,2000,3,15,oldham athletic
+Bury,2000,3,16,bury
+Colchester United,2000,3,17,colchester united
+Northampton Town,2000,3,18,northampton town
+Cambridge United,2000,3,19,cambridge united
+Swindon Town,2000,3,20,swindon town
+Bristol Rovers,2000,3,21,bristol rovers
+Luton Town,2000,3,22,luton town
+Swansea City,2000,3,23,swansea city
+Oxford United,2000,3,24,oxford united
+Brighton & Hove Albion,2000,4,1,brighton and hove albion
+Chesterfield,2000,4,2,chesterfield
+Cardiff City,2000,4,3,cardiff city
+Hartlepool United,2000,4,4,hartlepool united
+Leyton Orient,2000,4,5,leyton orient
+Hull City,2000,4,6,hull city
+Blackpool,2000,4,7,blackpool
+Rochdale,2000,4,8,rochdale
+Cheltenham,2000,4,9,cheltenham
+Scunthorpe United,2000,4,10,scunthorpe united
+Southend United,2000,4,11,southend united
+Plymouth Argyle,2000,4,12,plymouth argyle
+Mansfield Town,2000,4,13,mansfield town
+Macclesfield,2000,4,14,macclesfield
+Shrewsbury Town,2000,4,15,shrewsbury town
+Kidderminster Harriers,2000,4,16,kidderminster harriers
+York City,2000,4,17,york city
+Lincoln City,2000,4,18,lincoln city
+Exeter City,2000,4,19,exeter city
+Darlington,2000,4,20,darlington
+Torquay United,2000,4,21,torquay united
+Carlisle United,2000,4,22,carlisle united
+Halifax Town,2000,4,23,halifax town
+Barnet,2000,4,24,barnet
+Arsenal,2001,1,1,arsenal
+Liverpool,2001,1,2,liverpool
+Manchester United,2001,1,3,manchester united
+Newcastle United,2001,1,4,newcastle united
+Leeds United,2001,1,5,leeds united
+Chelsea,2001,1,6,chelsea
+West Ham United,2001,1,7,west ham united
+Aston Villa,2001,1,8,aston villa
+Tottenham Hotspur,2001,1,9,tottenham hotspur
+Blackburn Rovers,2001,1,10,blackburn rovers
+Southampton,2001,1,11,southampton
+Middlesbrough,2001,1,12,middlesbrough
+Fulham,2001,1,13,fulham
+Charlton Athletic,2001,1,14,charlton athletic
+Everton,2001,1,15,everton
+Bolton Wanderers,2001,1,16,bolton wanderers
+Sunderland,2001,1,17,sunderland
+Ipswich Town,2001,1,18,ipswich town
+Derby County,2001,1,19,derby county
+Leicester City,2001,1,20,leicester city
+Manchester City,2001,2,1,manchester city
+West Bromwich Albion,2001,2,2,west bromwich albion
+Wolverhampton Wanderers,2001,2,3,wolverhampton wanderers
+Millwall,2001,2,4,millwall
+Birmingham City,2001,2,5,birmingham city
+Norwich City,2001,2,6,norwich city
+Burnley,2001,2,7,burnley
+Preston North End,2001,2,8,preston north end
+Wimbledon,2001,2,9,wimbledon
+Crystal Palace,2001,2,10,crystal palace
+Coventry City,2001,2,11,coventry city
+Gillingham,2001,2,12,gillingham
+Sheffield United,2001,2,13,sheffield united
+Watford,2001,2,14,watford
+Bradford City,2001,2,15,bradford city
+Nottingham Forest,2001,2,16,nottingham forest
+Portsmouth,2001,2,17,portsmouth
+Walsall,2001,2,18,walsall
+Grimsby Town,2001,2,19,grimsby town
+Sheffield Wednesday,2001,2,20,sheffield wednesday
+Rotherham United,2001,2,21,rotherham united
+Crewe Alexandra,2001,2,22,crewe alexandra
+Barnsley,2001,2,23,barnsley
+Stockport County,2001,2,24,stockport county
+Brighton & Hove Albion,2001,3,1,brighton and hove albion
+Reading,2001,3,2,reading
+Brentford,2001,3,3,brentford
+Cardiff City,2001,3,4,cardiff city
+Stoke City,2001,3,5,stoke city
+Huddersfield Town,2001,3,6,huddersfield town
+Bristol City,2001,3,7,bristol city
+Queens Park Rangers,2001,3,8,queens park rangers
+Oldham Athletic,2001,3,9,oldham athletic
+Wigan Athletic,2001,3,10,wigan athletic
+Wycombe Wanderers,2001,3,11,wycombe wanderers
+Tranmere Rovers,2001,3,12,tranmere rovers
+Swindon Town,2001,3,13,swindon town
+Port Vale,2001,3,14,port vale
+Colchester United,2001,3,15,colchester united
+Blackpool,2001,3,16,blackpool
+Peterborough United,2001,3,17,peterborough united
+Chesterfield,2001,3,18,chesterfield
+Notts County,2001,3,19,notts county
+Northampton Town,2001,3,20,northampton town
+AFC Bournemouth,2001,3,21,bournemouth
+Bury,2001,3,22,bury
+Wrexham,2001,3,23,wrexham
+Cambridge United,2001,3,24,cambridge united
+Plymouth Argyle,2001,4,1,plymouth argyle
+Luton Town,2001,4,2,luton town
+Mansfield Town,2001,4,3,mansfield town
+Cheltenham,2001,4,4,cheltenham
+Rochdale,2001,4,5,rochdale
+Rushden & Diamonds,2001,4,6,rushden and diamonds
+Hartlepool United,2001,4,7,hartlepool united
+Scunthorpe United,2001,4,8,scunthorpe united
+Shrewsbury Town,2001,4,9,shrewsbury town
+Kidderminster Harriers,2001,4,10,kidderminster harriers
+Hull City,2001,4,11,hull city
+Southend United,2001,4,12,southend united
+Macclesfield,2001,4,13,macclesfield
+York City,2001,4,14,york city
+Darlington,2001,4,15,darlington
+Exeter City,2001,4,16,exeter city
+Carlisle United,2001,4,17,carlisle united
+Leyton Orient,2001,4,18,leyton orient
+Torquay United,2001,4,19,torquay united
+Swansea City,2001,4,20,swansea city
+Oxford United,2001,4,21,oxford united
+Lincoln City,2001,4,22,lincoln city
+Bristol Rovers,2001,4,23,bristol rovers
+Halifax Town,2001,4,24,halifax town
+Manchester United,2002,1,1,manchester united
+Arsenal,2002,1,2,arsenal
+Newcastle United,2002,1,3,newcastle united
+Chelsea,2002,1,4,chelsea
+Liverpool,2002,1,5,liverpool
+Blackburn Rovers,2002,1,6,blackburn rovers
+Everton,2002,1,7,everton
+Southampton,2002,1,8,southampton
+Manchester City,2002,1,9,manchester city
+Tottenham Hotspur,2002,1,10,tottenham hotspur
+Middlesbrough,2002,1,11,middlesbrough
+Charlton Athletic,2002,1,12,charlton athletic
+Birmingham City,2002,1,13,birmingham city
+Fulham,2002,1,14,fulham
+Leeds United,2002,1,15,leeds united
+Aston Villa,2002,1,16,aston villa
+Bolton Wanderers,2002,1,17,bolton wanderers
+West Ham United,2002,1,18,west ham united
+West Bromwich Albion,2002,1,19,west bromwich albion
+Sunderland,2002,1,20,sunderland
+Portsmouth,2002,2,1,portsmouth
+Leicester City,2002,2,2,leicester city
+Sheffield United,2002,2,3,sheffield united
+Reading,2002,2,4,reading
+Wolverhampton Wanderers,2002,2,5,wolverhampton wanderers
+Nottingham Forest,2002,2,6,nottingham forest
+Ipswich Town,2002,2,7,ipswich town
+Norwich City,2002,2,8,norwich city
+Millwall,2002,2,9,millwall
+Wimbledon,2002,2,10,wimbledon
+Gillingham,2002,2,11,gillingham
+Preston North End,2002,2,12,preston north end
+Watford,2002,2,13,watford
+Crystal Palace,2002,2,14,crystal palace
+Rotherham United,2002,2,15,rotherham united
+Burnley,2002,2,16,burnley
+Walsall,2002,2,17,walsall
+Derby County,2002,2,18,derby county
+Bradford City,2002,2,19,bradford city
+Coventry City,2002,2,20,coventry city
+Stoke City,2002,2,21,stoke city
+Sheffield Wednesday,2002,2,22,sheffield wednesday
+Brighton & Hove Albion,2002,2,23,brighton and hove albion
+Grimsby Town,2002,2,24,grimsby town
+Wigan Athletic,2002,3,1,wigan athletic
+Crewe Alexandra,2002,3,2,crewe alexandra
+Bristol City,2002,3,3,bristol city
+Queens Park Rangers,2002,3,4,queens park rangers
+Oldham Athletic,2002,3,5,oldham athletic
+Cardiff City,2002,3,6,cardiff city
+Tranmere Rovers,2002,3,7,tranmere rovers
+Plymouth Argyle,2002,3,8,plymouth argyle
+Luton Town,2002,3,9,luton town
+Swindon Town,2002,3,10,swindon town
+Peterborough United,2002,3,11,peterborough united
+Colchester United,2002,3,12,colchester united
+Blackpool,2002,3,13,blackpool
+Stockport County,2002,3,14,stockport county
+Notts County,2002,3,15,notts county
+Brentford,2002,3,16,brentford
+Port Vale,2002,3,17,port vale
+Wycombe Wanderers,2002,3,18,wycombe wanderers
+Barnsley,2002,3,19,barnsley
+Chesterfield,2002,3,20,chesterfield
+Cheltenham,2002,3,21,cheltenham
+Huddersfield Town,2002,3,22,huddersfield town
+Mansfield Town,2002,3,23,mansfield town
+Northampton Town,2002,3,24,northampton town
+Rushden & Diamonds,2002,4,1,rushden and diamonds
+Hartlepool United,2002,4,2,hartlepool united
+Wrexham,2002,4,3,wrexham
+AFC Bournemouth,2002,4,4,bournemouth
+Scunthorpe United,2002,4,5,scunthorpe united
+Lincoln City,2002,4,6,lincoln city
+Bury,2002,4,7,bury
+Oxford United,2002,4,8,oxford united
+Torquay United,2002,4,9,torquay united
+York City,2002,4,10,york city
+Kidderminster Harriers,2002,4,11,kidderminster harriers
+Cambridge United,2002,4,12,cambridge united
+Hull City,2002,4,13,hull city
+Boston United,2002,4,14,boston united
+Darlington,2002,4,15,darlington
+Macclesfield,2002,4,16,macclesfield
+Southend United,2002,4,17,southend united
+Leyton Orient,2002,4,18,leyton orient
+Rochdale,2002,4,19,rochdale
+Bristol Rovers,2002,4,20,bristol rovers
+Swansea City,2002,4,21,swansea city
+Carlisle United,2002,4,22,carlisle united
+Exeter City,2002,4,23,exeter city
+Shrewsbury Town,2002,4,24,shrewsbury town
+Arsenal,2003,1,1,arsenal
+Chelsea,2003,1,2,chelsea
+Manchester United,2003,1,3,manchester united
+Liverpool,2003,1,4,liverpool
+Newcastle United,2003,1,5,newcastle united
+Aston Villa,2003,1,6,aston villa
+Charlton Athletic,2003,1,7,charlton athletic
+Bolton Wanderers,2003,1,8,bolton wanderers
+Fulham,2003,1,9,fulham
+Birmingham City,2003,1,10,birmingham city
+Middlesbrough,2003,1,11,middlesbrough
+Southampton,2003,1,12,southampton
+Portsmouth,2003,1,13,portsmouth
+Tottenham Hotspur,2003,1,14,tottenham hotspur
+Blackburn Rovers,2003,1,15,blackburn rovers
+Manchester City,2003,1,16,manchester city
+Everton,2003,1,17,everton
+Leicester City,2003,1,18,leicester city
+Leeds United,2003,1,19,leeds united
+Wolverhampton Wanderers,2003,1,20,wolverhampton wanderers
+Norwich City,2003,2,1,norwich city
+West Bromwich Albion,2003,2,2,west bromwich albion
+Sunderland,2003,2,3,sunderland
+West Ham United,2003,2,4,west ham united
+Ipswich Town,2003,2,5,ipswich town
+Crystal Palace,2003,2,6,crystal palace
+Wigan Athletic,2003,2,7,wigan athletic
+Sheffield United,2003,2,8,sheffield united
+Reading,2003,2,9,reading
+Millwall,2003,2,10,millwall
+Stoke City,2003,2,11,stoke city
+Coventry City,2003,2,12,coventry city
+Cardiff City,2003,2,13,cardiff city
+Nottingham Forest,2003,2,14,nottingham forest
+Preston North End,2003,2,15,preston north end
+Watford,2003,2,16,watford
+Rotherham United,2003,2,17,rotherham united
+Crewe Alexandra,2003,2,18,crewe alexandra
+Burnley,2003,2,19,burnley
+Derby County,2003,2,20,derby county
+Gillingham,2003,2,21,gillingham
+Walsall,2003,2,22,walsall
+Bradford City,2003,2,23,bradford city
+Wimbledon,2003,2,24,wimbledon
+Plymouth Argyle,2003,3,1,plymouth argyle
+Queens Park Rangers,2003,3,2,queens park rangers
+Bristol City,2003,3,3,bristol city
+Brighton & Hove Albion,2003,3,4,brighton and hove albion
+Swindon Town,2003,3,5,swindon town
+Hartlepool United,2003,3,6,hartlepool united
+Port Vale,2003,3,7,port vale
+Tranmere Rovers,2003,3,8,tranmere rovers
+AFC Bournemouth,2003,3,9,bournemouth
+Luton Town,2003,3,10,luton town
+Colchester United,2003,3,11,colchester united
+Barnsley,2003,3,12,barnsley
+Wrexham,2003,3,13,wrexham
+Blackpool,2003,3,14,blackpool
+Oldham Athletic,2003,3,15,oldham athletic
+Sheffield Wednesday,2003,3,16,sheffield wednesday
+Brentford,2003,3,17,brentford
+Peterborough United,2003,3,18,peterborough united
+Stockport County,2003,3,19,stockport county
+Chesterfield,2003,3,20,chesterfield
+Grimsby Town,2003,3,21,grimsby town
+Rushden & Diamonds,2003,3,22,rushden and diamonds
+Notts County,2003,3,23,notts county
+Wycombe Wanderers,2003,3,24,wycombe wanderers
+Doncaster Rovers,2003,4,1,doncaster rovers
+Hull City,2003,4,2,hull city
+Torquay United,2003,4,3,torquay united
+Huddersfield Town,2003,4,4,huddersfield town
+Mansfield Town,2003,4,5,mansfield town
+Northampton Town,2003,4,6,northampton town
+Lincoln City,2003,4,7,lincoln city
+Yeovil,2003,4,8,yeovil town
+Oxford United,2003,4,9,oxford united
+Swansea City,2003,4,10,swansea city
+Boston United,2003,4,11,boston united
+Bury,2003,4,12,bury
+Cambridge United,2003,4,13,cambridge united
+Cheltenham,2003,4,14,cheltenham
+Bristol Rovers,2003,4,15,bristol rovers
+Kidderminster Harriers,2003,4,16,kidderminster harriers
+Southend United,2003,4,17,southend united
+Darlington,2003,4,18,darlington
+Leyton Orient,2003,4,19,leyton orient
+Macclesfield,2003,4,20,macclesfield
+Rochdale,2003,4,21,rochdale
+Scunthorpe United,2003,4,22,scunthorpe united
+Carlisle United,2003,4,23,carlisle united
+York City,2003,4,24,york city
+Chelsea,2004,1,1,chelsea
+Arsenal,2004,1,2,arsenal
+Manchester United,2004,1,3,manchester united
+Everton,2004,1,4,everton
+Liverpool,2004,1,5,liverpool
+Bolton Wanderers,2004,1,6,bolton wanderers
+Middlesbrough,2004,1,7,middlesbrough
+Manchester City,2004,1,8,manchester city
+Tottenham Hotspur,2004,1,9,tottenham hotspur
+Aston Villa,2004,1,10,aston villa
+Charlton Athletic,2004,1,11,charlton athletic
+Birmingham City,2004,1,12,birmingham city
+Fulham,2004,1,13,fulham
+Newcastle United,2004,1,14,newcastle united
+Blackburn Rovers,2004,1,15,blackburn rovers
+Portsmouth,2004,1,16,portsmouth
+West Bromwich Albion,2004,1,17,west bromwich albion
+Crystal Palace,2004,1,18,crystal palace
+Norwich City,2004,1,19,norwich city
+Southampton,2004,1,20,southampton
+Sunderland,2004,2,1,sunderland
+Wigan Athletic,2004,2,2,wigan athletic
+Ipswich Town,2004,2,3,ipswich town
+Derby County,2004,2,4,derby county
+Preston North End,2004,2,5,preston north end
+West Ham United,2004,2,6,west ham united
+Reading,2004,2,7,reading
+Sheffield United,2004,2,8,sheffield united
+Wolverhampton Wanderers,2004,2,9,wolverhampton wanderers
+Millwall,2004,2,10,millwall
+Queens Park Rangers,2004,2,11,queens park rangers
+Stoke City,2004,2,12,stoke city
+Burnley,2004,2,13,burnley
+Leeds United,2004,2,14,leeds united
+Leicester City,2004,2,15,leicester city
+Cardiff City,2004,2,16,cardiff city
+Plymouth Argyle,2004,2,17,plymouth argyle
+Watford,2004,2,18,watford
+Coventry City,2004,2,19,coventry city
+Brighton & Hove Albion,2004,2,20,brighton and hove albion
+Crewe Alexandra,2004,2,21,crewe alexandra
+Gillingham,2004,2,22,gillingham
+Nottingham Forest,2004,2,23,nottingham forest
+Rotherham United,2004,2,24,rotherham united
+Luton Town,2004,3,1,luton town
+Hull City,2004,3,2,hull city
+Tranmere Rovers,2004,3,3,tranmere rovers
+Brentford,2004,3,4,brentford
+Sheffield Wednesday,2004,3,5,sheffield wednesday
+Hartlepool United,2004,3,6,hartlepool united
+Bristol City,2004,3,7,bristol city
+AFC Bournemouth,2004,3,8,bournemouth
+Huddersfield Town,2004,3,9,huddersfield town
+Doncaster Rovers,2004,3,10,doncaster rovers
+Bradford City,2004,3,11,bradford city
+Swindon Town,2004,3,12,swindon town
+Barnsley,2004,3,13,barnsley
+Walsall,2004,3,14,walsall
+Colchester United,2004,3,15,colchester united
+Blackpool,2004,3,16,blackpool
+Chesterfield,2004,3,17,chesterfield
+Port Vale,2004,3,18,port vale
+Wrexham,2004,3,19,wrexham
+Oldham Athletic,2004,3,20,oldham athletic
+Milton Keynes Dons,2004,3,21,milton keynes dons
+Torquay United,2004,3,22,torquay united
+Peterborough United,2004,3,23,peterborough united
+Stockport County,2004,3,24,stockport county
+Yeovil,2004,4,1,yeovil town
+Scunthorpe United,2004,4,2,scunthorpe united
+Swansea City,2004,4,3,swansea city
+Southend United,2004,4,4,southend united
+Macclesfield,2004,4,5,macclesfield
+Lincoln City,2004,4,6,lincoln city
+Northampton Town,2004,4,7,northampton town
+Darlington,2004,4,8,darlington
+Rochdale,2004,4,9,rochdale
+Wycombe Wanderers,2004,4,10,wycombe wanderers
+Leyton Orient,2004,4,11,leyton orient
+Bristol Rovers,2004,4,12,bristol rovers
+Mansfield Town,2004,4,13,mansfield town
+Cheltenham,2004,4,14,cheltenham
+Oxford United,2004,4,15,oxford united
+Boston United,2004,4,16,boston united
+Bury,2004,4,17,bury
+Grimsby Town,2004,4,18,grimsby town
+Notts County,2004,4,19,notts county
+Chester,2004,4,20,chester
+Shrewsbury Town,2004,4,21,shrewsbury town
+Rushden & Diamonds,2004,4,22,rushden and diamonds
+Cambridge United,2004,4,23,cambridge united
+Kidderminster Harriers,2004,4,24,kidderminster harriers
+Chelsea,2005,1,1,chelsea
+Manchester United,2005,1,2,manchester united
+Liverpool,2005,1,3,liverpool
+Arsenal,2005,1,4,arsenal
+Tottenham Hotspur,2005,1,5,tottenham hotspur
+Blackburn Rovers,2005,1,6,blackburn rovers
+Newcastle United,2005,1,7,newcastle united
+Bolton Wanderers,2005,1,8,bolton wanderers
+West Ham United,2005,1,9,west ham united
+Wigan Athletic,2005,1,10,wigan athletic
+Everton,2005,1,11,everton
+Fulham,2005,1,12,fulham
+Charlton Athletic,2005,1,13,charlton athletic
+Middlesbrough,2005,1,14,middlesbrough
+Manchester City,2005,1,15,manchester city
+Aston Villa,2005,1,16,aston villa
+Portsmouth,2005,1,17,portsmouth
+Birmingham City,2005,1,18,birmingham city
+West Bromwich Albion,2005,1,19,west bromwich albion
+Sunderland,2005,1,20,sunderland
+Reading,2005,2,1,reading
+Sheffield United,2005,2,2,sheffield united
+Watford,2005,2,3,watford
+Preston North End,2005,2,4,preston north end
+Leeds United,2005,2,5,leeds united
+Crystal Palace,2005,2,6,crystal palace
+Wolverhampton Wanderers,2005,2,7,wolverhampton wanderers
+Coventry City,2005,2,8,coventry city
+Norwich City,2005,2,9,norwich city
+Luton Town,2005,2,10,luton town
+Cardiff City,2005,2,11,cardiff city
+Southampton,2005,2,12,southampton
+Stoke City,2005,2,13,stoke city
+Plymouth Argyle,2005,2,14,plymouth argyle
+Ipswich Town,2005,2,15,ipswich town
+Leicester City,2005,2,16,leicester city
+Burnley,2005,2,17,burnley
+Hull City,2005,2,18,hull city
+Sheffield Wednesday,2005,2,19,sheffield wednesday
+Derby County,2005,2,20,derby county
+Queens Park Rangers,2005,2,21,queens park rangers
+Crewe Alexandra,2005,2,22,crewe alexandra
+Millwall,2005,2,23,millwall
+Brighton & Hove Albion,2005,2,24,brighton and hove albion
+Southend United,2005,3,1,southend united
+Colchester United,2005,3,2,colchester united
+Brentford,2005,3,3,brentford
+Huddersfield Town,2005,3,4,huddersfield town
+Barnsley,2005,3,5,barnsley
+Swansea City,2005,3,6,swansea city
+Nottingham Forest,2005,3,7,nottingham forest
+Doncaster Rovers,2005,3,8,doncaster rovers
+Bristol City,2005,3,9,bristol city
+Oldham Athletic,2005,3,10,oldham athletic
+Bradford City,2005,3,11,bradford city
+Scunthorpe United,2005,3,12,scunthorpe united
+Port Vale,2005,3,13,port vale
+Gillingham,2005,3,14,gillingham
+Yeovil,2005,3,15,yeovil town
+Chesterfield,2005,3,16,chesterfield
+AFC Bournemouth,2005,3,17,bournemouth
+Tranmere Rovers,2005,3,18,tranmere rovers
+Blackpool,2005,3,19,blackpool
+Rotherham United,2005,3,20,rotherham united
+Hartlepool United,2005,3,21,hartlepool united
+Milton Keynes Dons,2005,3,22,milton keynes dons
+Swindon Town,2005,3,23,swindon town
+Walsall,2005,3,24,walsall
+Carlisle United,2005,4,1,carlisle united
+Northampton Town,2005,4,2,northampton town
+Leyton Orient,2005,4,3,leyton orient
+Grimsby Town,2005,4,4,grimsby town
+Cheltenham,2005,4,5,cheltenham
+Wycombe Wanderers,2005,4,6,wycombe wanderers
+Lincoln City,2005,4,7,lincoln city
+Darlington,2005,4,8,darlington
+Peterborough United,2005,4,9,peterborough united
+Shrewsbury Town,2005,4,10,shrewsbury town
+Boston United,2005,4,11,boston united
+Bristol Rovers,2005,4,12,bristol rovers
+Wrexham,2005,4,13,wrexham
+Rochdale,2005,4,14,rochdale
+Chester,2005,4,15,chester
+Mansfield Town,2005,4,16,mansfield town
+Macclesfield,2005,4,17,macclesfield
+Barnet,2005,4,18,barnet
+Bury,2005,4,19,bury
+Torquay United,2005,4,20,torquay united
+Notts County,2005,4,21,notts county
+Stockport County,2005,4,22,stockport county
+Oxford United,2005,4,23,oxford united
+Rushden & Diamonds,2005,4,24,rushden and diamonds
+Manchester United,2006,1,1,manchester united
+Chelsea,2006,1,2,chelsea
+Liverpool,2006,1,3,liverpool
+Arsenal,2006,1,4,arsenal
+Tottenham Hotspur,2006,1,5,tottenham hotspur
+Everton,2006,1,6,everton
+Bolton Wanderers,2006,1,7,bolton wanderers
+Reading,2006,1,8,reading
+Portsmouth,2006,1,9,portsmouth
+Blackburn Rovers,2006,1,10,blackburn rovers
+Aston Villa,2006,1,11,aston villa
+Middlesbrough,2006,1,12,middlesbrough
+Newcastle United,2006,1,13,newcastle united
+Manchester City,2006,1,14,manchester city
+West Ham United,2006,1,15,west ham united
+Fulham,2006,1,16,fulham
+Wigan Athletic,2006,1,17,wigan athletic
+Sheffield United,2006,1,18,sheffield united
+Charlton Athletic,2006,1,19,charlton athletic
+Watford,2006,1,20,watford
+Sunderland,2006,2,1,sunderland
+Birmingham City,2006,2,2,birmingham city
+Derby County,2006,2,3,derby county
+West Bromwich Albion,2006,2,4,west bromwich albion
+Wolverhampton Wanderers,2006,2,5,wolverhampton wanderers
+Southampton,2006,2,6,southampton
+Preston North End,2006,2,7,preston north end
+Stoke City,2006,2,8,stoke city
+Sheffield Wednesday,2006,2,9,sheffield wednesday
+Colchester United,2006,2,10,colchester united
+Plymouth Argyle,2006,2,11,plymouth argyle
+Crystal Palace,2006,2,12,crystal palace
+Cardiff City,2006,2,13,cardiff city
+Ipswich Town,2006,2,14,ipswich town
+Burnley,2006,2,15,burnley
+Norwich City,2006,2,16,norwich city
+Coventry City,2006,2,17,coventry city
+Queens Park Rangers,2006,2,18,queens park rangers
+Leicester City,2006,2,19,leicester city
+Barnsley,2006,2,20,barnsley
+Hull City,2006,2,21,hull city
+Leeds United,2006,2,22,leeds united
+Southend United,2006,2,23,southend united
+Luton Town,2006,2,24,luton town
+Scunthorpe United,2006,3,1,scunthorpe united
+Bristol City,2006,3,2,bristol city
+Blackpool,2006,3,3,blackpool
+Nottingham Forest,2006,3,4,nottingham forest
+Yeovil,2006,3,5,yeovil town
+Oldham Athletic,2006,3,6,oldham athletic
+Swansea City,2006,3,7,swansea city
+Carlisle United,2006,3,8,carlisle united
+Tranmere Rovers,2006,3,9,tranmere rovers
+Millwall,2006,3,10,millwall
+Doncaster Rovers,2006,3,11,doncaster rovers
+Port Vale,2006,3,12,port vale
+Crewe Alexandra,2006,3,13,crewe alexandra
+Northampton Town,2006,3,14,northampton town
+Huddersfield Town,2006,3,15,huddersfield town
+Gillingham,2006,3,16,gillingham
+Cheltenham,2006,3,17,cheltenham
+Brighton & Hove Albion,2006,3,18,brighton and hove albion
+AFC Bournemouth,2006,3,19,bournemouth
+Leyton Orient,2006,3,20,leyton orient
+Rotherham United,2006,3,21,rotherham united
+Chesterfield,2006,3,22,chesterfield
+Bradford City,2006,3,23,bradford city
+Brentford,2006,3,24,brentford
+Walsall,2006,4,1,walsall
+Hartlepool United,2006,4,2,hartlepool united
+Swindon Town,2006,4,3,swindon town
+Milton Keynes Dons,2006,4,4,milton keynes dons
+Lincoln City,2006,4,5,lincoln city
+Bristol Rovers,2006,4,6,bristol rovers
+Shrewsbury Town,2006,4,7,shrewsbury town
+Stockport County,2006,4,8,stockport county
+Rochdale,2006,4,9,rochdale
+Peterborough United,2006,4,10,peterborough united
+Darlington,2006,4,11,darlington
+Wycombe Wanderers,2006,4,12,wycombe wanderers
+Notts County,2006,4,13,notts county
+Barnet,2006,4,14,barnet
+Grimsby Town,2006,4,15,grimsby town
+Hereford United,2006,4,16,hereford united
+Mansfield Town,2006,4,17,mansfield town
+Chester,2006,4,18,chester
+Wrexham,2006,4,19,wrexham
+Accrington,2006,4,20,accrington
+Bury,2006,4,21,bury
+Macclesfield,2006,4,22,macclesfield
+Boston United,2006,4,23,boston united
+Torquay United,2006,4,24,torquay united
+Manchester United,2007,1,1,manchester united
+Chelsea,2007,1,2,chelsea
+Arsenal,2007,1,3,arsenal
+Liverpool,2007,1,4,liverpool
+Everton,2007,1,5,everton
+Aston Villa,2007,1,6,aston villa
+Blackburn Rovers,2007,1,7,blackburn rovers
+Portsmouth,2007,1,8,portsmouth
+Manchester City,2007,1,9,manchester city
+West Ham United,2007,1,10,west ham united
+Tottenham Hotspur,2007,1,11,tottenham hotspur
+Newcastle United,2007,1,12,newcastle united
+Middlesbrough,2007,1,13,middlesbrough
+Wigan Athletic,2007,1,14,wigan athletic
+Sunderland,2007,1,15,sunderland
+Bolton Wanderers,2007,1,16,bolton wanderers
+Fulham,2007,1,17,fulham
+Reading,2007,1,18,reading
+Birmingham City,2007,1,19,birmingham city
+Derby County,2007,1,20,derby county
+West Bromwich Albion,2007,2,1,west bromwich albion
+Stoke City,2007,2,2,stoke city
+Hull City,2007,2,3,hull city
+Bristol City,2007,2,4,bristol city
+Crystal Palace,2007,2,5,crystal palace
+Watford,2007,2,6,watford
+Wolverhampton Wanderers,2007,2,7,wolverhampton wanderers
+Ipswich Town,2007,2,8,ipswich town
+Sheffield United,2007,2,9,sheffield united
+Plymouth Argyle,2007,2,10,plymouth argyle
+Charlton Athletic,2007,2,11,charlton athletic
+Cardiff City,2007,2,12,cardiff city
+Burnley,2007,2,13,burnley
+Queens Park Rangers,2007,2,14,queens park rangers
+Preston North End,2007,2,15,preston north end
+Sheffield Wednesday,2007,2,16,sheffield wednesday
+Norwich City,2007,2,17,norwich city
+Barnsley,2007,2,18,barnsley
+Blackpool,2007,2,19,blackpool
+Southampton,2007,2,20,southampton
+Coventry City,2007,2,21,coventry city
+Leicester City,2007,2,22,leicester city
+Scunthorpe United,2007,2,23,scunthorpe united
+Colchester United,2007,2,24,colchester united
+Swansea City,2007,3,1,swansea city
+Leeds United,2007,3,2,leeds united
+Nottingham Forest,2007,3,3,nottingham forest
+Doncaster Rovers,2007,3,4,doncaster rovers
+Carlisle United,2007,3,5,carlisle united
+Southend United,2007,3,6,southend united
+Brighton & Hove Albion,2007,3,7,brighton and hove albion
+Oldham Athletic,2007,3,8,oldham athletic
+Northampton Town,2007,3,9,northampton town
+Huddersfield Town,2007,3,10,huddersfield town
+Tranmere Rovers,2007,3,11,tranmere rovers
+Walsall,2007,3,12,walsall
+Swindon Town,2007,3,13,swindon town
+Leyton Orient,2007,3,14,leyton orient
+AFC Bournemouth,2007,3,15,bournemouth
+Hartlepool United,2007,3,16,hartlepool united
+Bristol Rovers,2007,3,17,bristol rovers
+Millwall,2007,3,18,millwall
+Yeovil,2007,3,19,yeovil town
+Cheltenham,2007,3,20,cheltenham
+Crewe Alexandra,2007,3,21,crewe alexandra
+Gillingham,2007,3,22,gillingham
+Luton Town,2007,3,23,luton town
+Port Vale,2007,3,24,port vale
+Milton Keynes Dons,2007,4,1,milton keynes dons
+Peterborough United,2007,4,2,peterborough united
+Hereford United,2007,4,3,hereford united
+Stockport County,2007,4,4,stockport county
+Rochdale,2007,4,5,rochdale
+Darlington,2007,4,6,darlington
+Wycombe Wanderers,2007,4,7,wycombe wanderers
+Rotherham United,2007,4,8,rotherham united
+Chesterfield,2007,4,9,chesterfield
+Bradford City,2007,4,10,bradford city
+Morecambe,2007,4,11,morecambe
+Barnet,2007,4,12,barnet
+Bury,2007,4,13,bury
+Brentford,2007,4,14,brentford
+Lincoln City,2007,4,15,lincoln city
+Grimsby Town,2007,4,16,grimsby town
+Accrington,2007,4,17,accrington
+Shrewsbury Town,2007,4,18,shrewsbury town
+Macclesfield,2007,4,19,macclesfield
+Dagenham and Redbridge,2007,4,20,dagenham and redbridge
+Notts County,2007,4,21,notts county
+Chester,2007,4,22,chester
+Mansfield Town,2007,4,23,mansfield town
+Wrexham,2007,4,24,wrexham
+Manchester United,2008,1,1,manchester united
+Liverpool,2008,1,2,liverpool
+Chelsea,2008,1,3,chelsea
+Arsenal,2008,1,4,arsenal
+Everton,2008,1,5,everton
+Aston Villa,2008,1,6,aston villa
+Fulham,2008,1,7,fulham
+Tottenham Hotspur,2008,1,8,tottenham hotspur
+West Ham United,2008,1,9,west ham united
+Manchester City,2008,1,10,manchester city
+Wigan Athletic,2008,1,11,wigan athletic
+Stoke City,2008,1,12,stoke city
+Bolton Wanderers,2008,1,13,bolton wanderers
+Portsmouth,2008,1,14,portsmouth
+Blackburn Rovers,2008,1,15,blackburn rovers
+Sunderland,2008,1,16,sunderland
+Hull City,2008,1,17,hull city
+Newcastle United,2008,1,18,newcastle united
+Middlesbrough,2008,1,19,middlesbrough
+West Bromwich Albion,2008,1,20,west bromwich albion
+Wolverhampton Wanderers,2008,2,1,wolverhampton wanderers
+Birmingham City,2008,2,2,birmingham city
+Sheffield United,2008,2,3,sheffield united
+Reading,2008,2,4,reading
+Burnley,2008,2,5,burnley
+Preston North End,2008,2,6,preston north end
+Cardiff City,2008,2,7,cardiff city
+Swansea City,2008,2,8,swansea city
+Ipswich Town,2008,2,9,ipswich town
+Bristol City,2008,2,10,bristol city
+Queens Park Rangers,2008,2,11,queens park rangers
+Sheffield Wednesday,2008,2,12,sheffield wednesday
+Watford,2008,2,13,watford
+Doncaster Rovers,2008,2,14,doncaster rovers
+Crystal Palace,2008,2,15,crystal palace
+Blackpool,2008,2,16,blackpool
+Coventry City,2008,2,17,coventry city
+Derby County,2008,2,18,derby county
+Nottingham Forest,2008,2,19,nottingham forest
+Barnsley,2008,2,20,barnsley
+Plymouth Argyle,2008,2,21,plymouth argyle
+Norwich City,2008,2,22,norwich city
+Southampton,2008,2,23,southampton
+Charlton Athletic,2008,2,24,charlton athletic
+Leicester City,2008,3,1,leicester city
+Peterborough United,2008,3,2,peterborough united
+Milton Keynes Dons,2008,3,3,milton keynes dons
+Leeds United,2008,3,4,leeds united
+Millwall,2008,3,5,millwall
+Scunthorpe United,2008,3,6,scunthorpe united
+Tranmere Rovers,2008,3,7,tranmere rovers
+Southend United,2008,3,8,southend united
+Huddersfield Town,2008,3,9,huddersfield town
+Oldham Athletic,2008,3,10,oldham athletic
+Bristol Rovers,2008,3,11,bristol rovers
+Colchester United,2008,3,12,colchester united
+Walsall,2008,3,13,walsall
+Stockport County,2008,3,14,stockport county
+Leyton Orient,2008,3,15,leyton orient
+Swindon Town,2008,3,16,swindon town
+Brighton & Hove Albion,2008,3,17,brighton and hove albion
+Yeovil,2008,3,18,yeovil town
+Hartlepool United,2008,3,19,hartlepool united
+Carlisle United,2008,3,20,carlisle united
+Northampton Town,2008,3,21,northampton town
+Crewe Alexandra,2008,3,22,crewe alexandra
+Cheltenham,2008,3,23,cheltenham
+Hereford United,2008,3,24,hereford united
+Brentford,2008,4,1,brentford
+Exeter City,2008,4,2,exeter city
+Wycombe Wanderers,2008,4,3,wycombe wanderers
+Bury,2008,4,4,bury
+Rotherham United,2008,4,5,rotherham united
+Gillingham,2008,4,6,gillingham
+Darlington,2008,4,7,darlington
+Rochdale,2008,4,8,rochdale
+Shrewsbury Town,2008,4,9,shrewsbury town
+Dagenham and Redbridge,2008,4,10,dagenham and redbridge
+Bradford City,2008,4,11,bradford city
+AFC Bournemouth,2008,4,12,bournemouth
+Chesterfield,2008,4,13,chesterfield
+Morecambe,2008,4,14,morecambe
+Lincoln City,2008,4,15,lincoln city
+Luton Town,2008,4,16,luton town
+Aldershot,2008,4,17,aldershot
+Accrington,2008,4,18,accrington
+Barnet,2008,4,19,barnet
+Port Vale,2008,4,20,port vale
+Notts County,2008,4,21,notts county
+Macclesfield,2008,4,22,macclesfield
+Grimsby Town,2008,4,23,grimsby town
+Chester,2008,4,24,chester
+Chelsea,2009,1,1,chelsea
+Manchester United,2009,1,2,manchester united
+Arsenal,2009,1,3,arsenal
+Tottenham Hotspur,2009,1,4,tottenham hotspur
+Manchester City,2009,1,5,manchester city
+Aston Villa,2009,1,6,aston villa
+Liverpool,2009,1,7,liverpool
+Everton,2009,1,8,everton
+Birmingham City,2009,1,9,birmingham city
+Blackburn Rovers,2009,1,10,blackburn rovers
+Stoke City,2009,1,11,stoke city
+Fulham,2009,1,12,fulham
+Sunderland,2009,1,13,sunderland
+Bolton Wanderers,2009,1,14,bolton wanderers
+Wolverhampton Wanderers,2009,1,15,wolverhampton wanderers
+Wigan Athletic,2009,1,16,wigan athletic
+West Ham United,2009,1,17,west ham united
+Burnley,2009,1,18,burnley
+Hull City,2009,1,19,hull city
+Portsmouth,2009,1,20,portsmouth
+Newcastle United,2009,2,1,newcastle united
+West Bromwich Albion,2009,2,2,west bromwich albion
+Nottingham Forest,2009,2,3,nottingham forest
+Cardiff City,2009,2,4,cardiff city
+Leicester City,2009,2,5,leicester city
+Blackpool,2009,2,6,blackpool
+Swansea City,2009,2,7,swansea city
+Sheffield United,2009,2,8,sheffield united
+Reading,2009,2,9,reading
+Bristol City,2009,2,10,bristol city
+Middlesbrough,2009,2,11,middlesbrough
+Doncaster Rovers,2009,2,12,doncaster rovers
+Crystal Palace,2009,2,13,crystal palace
+Queens Park Rangers,2009,2,14,queens park rangers
+Derby County,2009,2,15,derby county
+Ipswich Town,2009,2,16,ipswich town
+Watford,2009,2,17,watford
+Preston North End,2009,2,18,preston north end
+Barnsley,2009,2,19,barnsley
+Coventry City,2009,2,20,coventry city
+Scunthorpe United,2009,2,21,scunthorpe united
+Sheffield Wednesday,2009,2,22,sheffield wednesday
+Plymouth Argyle,2009,2,23,plymouth argyle
+Peterborough United,2009,2,24,peterborough united
+Norwich City,2009,3,1,norwich city
+Leeds United,2009,3,2,leeds united
+Millwall,2009,3,3,millwall
+Charlton Athletic,2009,3,4,charlton athletic
+Southampton,2009,3,5,southampton
+Swindon Town,2009,3,6,swindon town
+Huddersfield Town,2009,3,7,huddersfield town
+Colchester United,2009,3,8,colchester united
+Brentford,2009,3,9,brentford
+Walsall,2009,3,10,walsall
+Bristol Rovers,2009,3,11,bristol rovers
+Milton Keynes Dons,2009,3,12,milton keynes dons
+Brighton & Hove Albion,2009,3,13,brighton and hove albion
+Carlisle United,2009,3,14,carlisle united
+Yeovil,2009,3,15,yeovil town
+Hartlepool United,2009,3,16,hartlepool united
+Oldham Athletic,2009,3,17,oldham athletic
+Leyton Orient,2009,3,18,leyton orient
+Exeter City,2009,3,19,exeter city
+Tranmere Rovers,2009,3,20,tranmere rovers
+Gillingham,2009,3,21,gillingham
+Wycombe Wanderers,2009,3,22,wycombe wanderers
+Southend United,2009,3,23,southend united
+Stockport County,2009,3,24,stockport county
+Notts County,2009,4,1,notts county
+AFC Bournemouth,2009,4,2,bournemouth
+Rochdale,2009,4,3,rochdale
+Morecambe,2009,4,4,morecambe
+Rotherham United,2009,4,5,rotherham united
+Aldershot,2009,4,6,aldershot
+Dagenham and Redbridge,2009,4,7,dagenham and redbridge
+Chesterfield,2009,4,8,chesterfield
+Bury,2009,4,9,bury
+Port Vale,2009,4,10,port vale
+Northampton Town,2009,4,11,northampton town
+Shrewsbury Town,2009,4,12,shrewsbury town
+Burton Albion,2009,4,13,burton albion
+Bradford City,2009,4,14,bradford city
+Accrington,2009,4,15,accrington
+Hereford United,2009,4,16,hereford united
+Torquay United,2009,4,17,torquay united
+Crewe Alexandra,2009,4,18,crewe alexandra
+Macclesfield,2009,4,19,macclesfield
+Lincoln City,2009,4,20,lincoln city
+Barnet,2009,4,21,barnet
+Cheltenham,2009,4,22,cheltenham
+Grimsby Town,2009,4,23,grimsby town
+Darlington,2009,4,24,darlington
+Manchester United,2010,1,1,manchester united
+Chelsea,2010,1,2,chelsea
+Manchester City,2010,1,3,manchester city
+Arsenal,2010,1,4,arsenal
+Tottenham Hotspur,2010,1,5,tottenham hotspur
+Liverpool,2010,1,6,liverpool
+Everton,2010,1,7,everton
+Fulham,2010,1,8,fulham
+Aston Villa,2010,1,9,aston villa
+Sunderland,2010,1,10,sunderland
+West Bromwich Albion,2010,1,11,west bromwich albion
+Newcastle United,2010,1,12,newcastle united
+Stoke City,2010,1,13,stoke city
+Bolton Wanderers,2010,1,14,bolton wanderers
+Blackburn Rovers,2010,1,15,blackburn rovers
+Wigan Athletic,2010,1,16,wigan athletic
+Wolverhampton Wanderers,2010,1,17,wolverhampton wanderers
+Birmingham City,2010,1,18,birmingham city
+Blackpool,2010,1,19,blackpool
+West Ham United,2010,1,20,west ham united
+Queens Park Rangers,2010,2,1,queens park rangers
+Norwich City,2010,2,2,norwich city
+Swansea City,2010,2,3,swansea city
+Cardiff City,2010,2,4,cardiff city
+Reading,2010,2,5,reading
+Nottingham Forest,2010,2,6,nottingham forest
+Leeds United,2010,2,7,leeds united
+Burnley,2010,2,8,burnley
+Millwall,2010,2,9,millwall
+Leicester City,2010,2,10,leicester city
+Hull City,2010,2,11,hull city
+Middlesbrough,2010,2,12,middlesbrough
+Ipswich Town,2010,2,13,ipswich town
+Watford,2010,2,14,watford
+Bristol City,2010,2,15,bristol city
+Portsmouth,2010,2,16,portsmouth
+Barnsley,2010,2,17,barnsley
+Coventry City,2010,2,18,coventry city
+Derby County,2010,2,19,derby county
+Crystal Palace,2010,2,20,crystal palace
+Doncaster Rovers,2010,2,21,doncaster rovers
+Preston North End,2010,2,22,preston north end
+Sheffield United,2010,2,23,sheffield united
+Scunthorpe United,2010,2,24,scunthorpe united
+Brighton & Hove Albion,2010,3,1,brighton and hove albion
+Southampton,2010,3,2,southampton
+Huddersfield Town,2010,3,3,huddersfield town
+Peterborough United,2010,3,4,peterborough united
+Milton Keynes Dons,2010,3,5,milton keynes dons
+AFC Bournemouth,2010,3,6,bournemouth
+Leyton Orient,2010,3,7,leyton orient
+Exeter City,2010,3,8,exeter city
+Rochdale,2010,3,9,rochdale
+Colchester United,2010,3,10,colchester united
+Brentford,2010,3,11,brentford
+Carlisle United,2010,3,12,carlisle united
+Charlton Athletic,2010,3,13,charlton athletic
+Yeovil,2010,3,14,yeovil town
+Sheffield Wednesday,2010,3,15,sheffield wednesday
+Hartlepool United,2010,3,16,hartlepool united
+Tranmere Rovers,2010,3,17,tranmere rovers
+Oldham Athletic,2010,3,18,oldham athletic
+Plymouth Argyle,2010,3,19,plymouth argyle
+Notts County,2010,3,20,notts county
+Walsall,2010,3,21,walsall
+Dagenham and Redbridge,2010,3,22,dagenham and redbridge
+Bristol Rovers,2010,3,23,bristol rovers
+Swindon Town,2010,3,24,swindon town
+Chesterfield,2010,4,1,chesterfield
+Bury,2010,4,2,bury
+Wycombe Wanderers,2010,4,3,wycombe wanderers
+Shrewsbury Town,2010,4,4,shrewsbury town
+Accrington,2010,4,5,accrington
+Torquay United,2010,4,6,torquay united
+Stevenage Borough,2010,4,7,stevenage borough
+Gillingham,2010,4,8,gillingham
+Rotherham United,2010,4,9,rotherham united
+Crewe Alexandra,2010,4,10,crewe alexandra
+Port Vale,2010,4,11,port vale
+Oxford United,2010,4,12,oxford united
+Southend United,2010,4,13,southend united
+Aldershot,2010,4,14,aldershot
+Macclesfield,2010,4,15,macclesfield
+Hereford United,2010,4,16,hereford united
+Northampton Town,2010,4,17,northampton town
+Cheltenham,2010,4,18,cheltenham
+Bradford City,2010,4,19,bradford city
+Burton Albion,2010,4,20,burton albion
+Morecambe,2010,4,21,morecambe
+Barnet,2010,4,22,barnet
+Lincoln City,2010,4,23,lincoln city
+Stockport County,2010,4,24,stockport county
+Manchester City,2011,1,1,manchester city
+Manchester United,2011,1,2,manchester united
+Arsenal,2011,1,3,arsenal
+Tottenham Hotspur,2011,1,4,tottenham hotspur
+Newcastle United,2011,1,5,newcastle united
+Chelsea,2011,1,6,chelsea
+Everton,2011,1,7,everton
+Liverpool,2011,1,8,liverpool
+Fulham,2011,1,9,fulham
+West Bromwich Albion,2011,1,10,west bromwich albion
+Swansea City,2011,1,11,swansea city
+Norwich City,2011,1,12,norwich city
+Sunderland,2011,1,13,sunderland
+Stoke City,2011,1,14,stoke city
+Wigan Athletic,2011,1,15,wigan athletic
+Aston Villa,2011,1,16,aston villa
+Queens Park Rangers,2011,1,17,queens park rangers
+Bolton Wanderers,2011,1,18,bolton wanderers
+Blackburn Rovers,2011,1,19,blackburn rovers
+Wolverhampton Wanderers,2011,1,20,wolverhampton wanderers
+Reading,2011,2,1,reading
+Southampton,2011,2,2,southampton
+West Ham United,2011,2,3,west ham united
+Birmingham City,2011,2,4,birmingham city
+Blackpool,2011,2,5,blackpool
+Cardiff City,2011,2,6,cardiff city
+Middlesbrough,2011,2,7,middlesbrough
+Hull City,2011,2,8,hull city
+Leicester City,2011,2,9,leicester city
+Brighton & Hove Albion,2011,2,10,brighton and hove albion
+Watford,2011,2,11,watford
+Derby County,2011,2,12,derby county
+Burnley,2011,2,13,burnley
+Leeds United,2011,2,14,leeds united
+Ipswich Town,2011,2,15,ipswich town
+Millwall,2011,2,16,millwall
+Crystal Palace,2011,2,17,crystal palace
+Portsmouth,2011,2,18,portsmouth
+Peterborough United,2011,2,19,peterborough united
+Nottingham Forest,2011,2,20,nottingham forest
+Bristol City,2011,2,21,bristol city
+Barnsley,2011,2,22,barnsley
+Coventry City,2011,2,23,coventry city
+Doncaster Rovers,2011,2,24,doncaster rovers
+Charlton Athletic,2011,3,1,charlton athletic
+Sheffield Wednesday,2011,3,2,sheffield wednesday
+Sheffield United,2011,3,3,sheffield united
+Huddersfield Town,2011,3,4,huddersfield town
+Milton Keynes Dons,2011,3,5,milton keynes dons
+Stevenage Borough,2011,3,6,stevenage borough
+Notts County,2011,3,7,notts county
+Carlisle United,2011,3,8,carlisle united
+Brentford,2011,3,9,brentford
+Colchester United,2011,3,10,colchester united
+AFC Bournemouth,2011,3,11,bournemouth
+Tranmere Rovers,2011,3,12,tranmere rovers
+Hartlepool United,2011,3,13,hartlepool united
+Bury,2011,3,14,bury
+Preston North End,2011,3,15,preston north end
+Oldham Athletic,2011,3,16,oldham athletic
+Yeovil,2011,3,17,yeovil town
+Scunthorpe United,2011,3,18,scunthorpe united
+Walsall,2011,3,19,walsall
+Leyton Orient,2011,3,20,leyton orient
+Wycombe Wanderers,2011,3,21,wycombe wanderers
+Chesterfield,2011,3,22,chesterfield
+Exeter City,2011,3,23,exeter city
+Rochdale,2011,3,24,rochdale
+Swindon Town,2011,4,1,swindon town
+Shrewsbury Town,2011,4,2,shrewsbury town
+Crawley Town,2011,4,3,crawley town
+Southend United,2011,4,4,southend united
+Torquay United,2011,4,5,torquay united
+Cheltenham,2011,4,6,cheltenham
+Crewe Alexandra,2011,4,7,crewe alexandra
+Gillingham,2011,4,8,gillingham
+Port Vale,2011,4,9,port vale
+Oxford United,2011,4,10,oxford united
+Rotherham United,2011,4,11,rotherham united
+Aldershot,2011,4,12,aldershot
+Bristol Rovers,2011,4,13,bristol rovers
+Accrington,2011,4,14,accrington
+Morecambe,2011,4,15,morecambe
+AFC Wimbledon,2011,4,16,afc wimbledon
+Burton Albion,2011,4,17,burton albion
+Bradford City,2011,4,18,bradford city
+Dagenham and Redbridge,2011,4,19,dagenham and redbridge
+Northampton Town,2011,4,20,northampton town
+Plymouth Argyle,2011,4,21,plymouth argyle
+Barnet,2011,4,22,barnet
+Hereford United,2011,4,23,hereford united
+Macclesfield,2011,4,24,macclesfield
+Manchester United,2012,1,1,manchester united
+Manchester City,2012,1,2,manchester city
+Chelsea,2012,1,3,chelsea
+Arsenal,2012,1,4,arsenal
+Tottenham Hotspur,2012,1,5,tottenham hotspur
+Everton,2012,1,6,everton
+Liverpool,2012,1,7,liverpool
+West Bromwich Albion,2012,1,8,west bromwich albion
+Swansea City,2012,1,9,swansea city
+West Ham United,2012,1,10,west ham united
+Norwich City,2012,1,11,norwich city
+Fulham,2012,1,12,fulham
+Stoke City,2012,1,13,stoke city
+Southampton,2012,1,14,southampton
+Aston Villa,2012,1,15,aston villa
+Newcastle United,2012,1,16,newcastle united
+Sunderland,2012,1,17,sunderland
+Wigan Athletic,2012,1,18,wigan athletic
+Reading,2012,1,19,reading
+Queens Park Rangers,2012,1,20,queens park rangers
+Cardiff City,2012,2,1,cardiff city
+Hull City,2012,2,2,hull city
+Watford,2012,2,3,watford
+Brighton & Hove Albion,2012,2,4,brighton and hove albion
+Crystal Palace,2012,2,5,crystal palace
+Leicester City,2012,2,6,leicester city
+Bolton Wanderers,2012,2,7,bolton wanderers
+Nottingham Forest,2012,2,8,nottingham forest
+Charlton Athletic,2012,2,9,charlton athletic
+Derby County,2012,2,10,derby county
+Burnley,2012,2,11,burnley
+Birmingham City,2012,2,12,birmingham city
+Leeds United,2012,2,13,leeds united
+Ipswich Town,2012,2,14,ipswich town
+Blackpool,2012,2,15,blackpool
+Middlesbrough,2012,2,16,middlesbrough
+Blackburn Rovers,2012,2,17,blackburn rovers
+Sheffield Wednesday,2012,2,18,sheffield wednesday
+Huddersfield Town,2012,2,19,huddersfield town
+Millwall,2012,2,20,millwall
+Barnsley,2012,2,21,barnsley
+Peterborough United,2012,2,22,peterborough united
+Wolverhampton Wanderers,2012,2,23,wolverhampton wanderers
+Bristol City,2012,2,24,bristol city
+Doncaster Rovers,2012,3,1,doncaster rovers
+AFC Bournemouth,2012,3,2,bournemouth
+Brentford,2012,3,3,brentford
+Yeovil,2012,3,4,yeovil town
+Sheffield United,2012,3,5,sheffield united
+Swindon Town,2012,3,6,swindon town
+Leyton Orient,2012,3,7,leyton orient
+Milton Keynes Dons,2012,3,8,milton keynes dons
+Walsall,2012,3,9,walsall
+Crawley Town,2012,3,10,crawley town
+Tranmere Rovers,2012,3,11,tranmere rovers
+Notts County,2012,3,12,notts county
+Coventry City,2012,3,13,coventry city
+Crewe Alexandra,2012,3,14,crewe alexandra
+Preston North End,2012,3,15,preston north end
+Shrewsbury Town,2012,3,16,shrewsbury town
+Carlisle United,2012,3,17,carlisle united
+Stevenage Borough,2012,3,18,stevenage borough
+Oldham Athletic,2012,3,19,oldham athletic
+Colchester United,2012,3,20,colchester united
+Scunthorpe United,2012,3,21,scunthorpe united
+Portsmouth,2012,3,22,portsmouth
+Bury,2012,3,23,bury
+Hartlepool United,2012,3,24,hartlepool united
+Gillingham,2012,4,1,gillingham
+Rotherham United,2012,4,2,rotherham united
+Port Vale,2012,4,3,port vale
+Burton Albion,2012,4,4,burton albion
+Cheltenham,2012,4,5,cheltenham
+Northampton Town,2012,4,6,northampton town
+Bradford City,2012,4,7,bradford city
+Chesterfield,2012,4,8,chesterfield
+Oxford United,2012,4,9,oxford united
+Exeter City,2012,4,10,exeter city
+Southend United,2012,4,11,southend united
+Rochdale,2012,4,12,rochdale
+Fleetwood Town,2012,4,13,fleetwood town
+Bristol Rovers,2012,4,14,bristol rovers
+Wycombe Wanderers,2012,4,15,wycombe wanderers
+Morecambe,2012,4,16,morecambe
+York City,2012,4,17,york city
+Accrington,2012,4,18,accrington
+Torquay United,2012,4,19,torquay united
+AFC Wimbledon,2012,4,20,afc wimbledon
+Plymouth Argyle,2012,4,21,plymouth argyle
+Dagenham and Redbridge,2012,4,22,dagenham and redbridge
+Barnet,2012,4,23,barnet
+Aldershot,2012,4,24,aldershot
+Manchester City,2013,1,1,manchester city
+Liverpool,2013,1,2,liverpool
+Chelsea,2013,1,3,chelsea
+Arsenal,2013,1,4,arsenal
+Everton,2013,1,5,everton
+Tottenham Hotspur,2013,1,6,tottenham hotspur
+Manchester United,2013,1,7,manchester united
+Southampton,2013,1,8,southampton
+Stoke City,2013,1,9,stoke city
+Newcastle United,2013,1,10,newcastle united
+Crystal Palace,2013,1,11,crystal palace
+Swansea City,2013,1,12,swansea city
+West Ham United,2013,1,13,west ham united
+Sunderland,2013,1,14,sunderland
+Aston Villa,2013,1,15,aston villa
+Hull City,2013,1,16,hull city
+West Bromwich Albion,2013,1,17,west bromwich albion
+Norwich City,2013,1,18,norwich city
+Fulham,2013,1,19,fulham
+Cardiff City,2013,1,20,cardiff city
+Leicester City,2013,2,1,leicester city
+Burnley,2013,2,2,burnley
+Derby County,2013,2,3,derby county
+Queens Park Rangers,2013,2,4,queens park rangers
+Wigan Athletic,2013,2,5,wigan athletic
+Brighton & Hove Albion,2013,2,6,brighton and hove albion
+Reading,2013,2,7,reading
+Blackburn Rovers,2013,2,8,blackburn rovers
+Ipswich Town,2013,2,9,ipswich town
+AFC Bournemouth,2013,2,10,bournemouth
+Nottingham Forest,2013,2,11,nottingham forest
+Middlesbrough,2013,2,12,middlesbrough
+Watford,2013,2,13,watford
+Bolton Wanderers,2013,2,14,bolton wanderers
+Leeds United,2013,2,15,leeds united
+Sheffield Wednesday,2013,2,16,sheffield wednesday
+Huddersfield Town,2013,2,17,huddersfield town
+Charlton Athletic,2013,2,18,charlton athletic
+Millwall,2013,2,19,millwall
+Blackpool,2013,2,20,blackpool
+Birmingham City,2013,2,21,birmingham city
+Doncaster Rovers,2013,2,22,doncaster rovers
+Barnsley,2013,2,23,barnsley
+Yeovil,2013,2,24,yeovil town
+Wolverhampton Wanderers,2013,3,1,wolverhampton wanderers
+Brentford,2013,3,2,brentford
+Leyton Orient,2013,3,3,leyton orient
+Rotherham United,2013,3,4,rotherham united
+Preston North End,2013,3,5,preston north end
+Peterborough United,2013,3,6,peterborough united
+Sheffield United,2013,3,7,sheffield united
+Swindon Town,2013,3,8,swindon town
+Coventry City,2013,3,9,coventry city
+Port Vale,2013,3,10,port vale
+Milton Keynes Dons,2013,3,11,milton keynes dons
+Bradford City,2013,3,12,bradford city
+Bristol City,2013,3,13,bristol city
+Walsall,2013,3,14,walsall
+Crawley Town,2013,3,15,crawley town
+Oldham Athletic,2013,3,16,oldham athletic
+Colchester United,2013,3,17,colchester united
+Gillingham,2013,3,18,gillingham
+Crewe Alexandra,2013,3,19,crewe alexandra
+Notts County,2013,3,20,notts county
+Tranmere Rovers,2013,3,21,tranmere rovers
+Carlisle United,2013,3,22,carlisle united
+Shrewsbury Town,2013,3,23,shrewsbury town
+Stevenage Borough,2013,3,24,stevenage borough
+Chesterfield,2013,4,1,chesterfield
+Scunthorpe United,2013,4,2,scunthorpe united
+Rochdale,2013,4,3,rochdale
+Fleetwood Town,2013,4,4,fleetwood town
+Southend United,2013,4,5,southend united
+Burton Albion,2013,4,6,burton albion
+York City,2013,4,7,york city
+Oxford United,2013,4,8,oxford united
+Dagenham and Redbridge,2013,4,9,dagenham and redbridge
+Plymouth Argyle,2013,4,10,plymouth argyle
+Mansfield Town,2013,4,11,mansfield town
+Bury,2013,4,12,bury
+Portsmouth,2013,4,13,portsmouth
+Newport County,2013,4,14,newport county
+Accrington,2013,4,15,accrington
+AFC Wimbledon,2013,4,16,afc wimbledon
+Exeter City,2013,4,17,exeter city
+Cheltenham,2013,4,18,cheltenham
+Morecambe,2013,4,19,morecambe
+Hartlepool United,2013,4,20,hartlepool united
+Northampton Town,2013,4,21,northampton town
+Wycombe Wanderers,2013,4,22,wycombe wanderers
+Bristol Rovers,2013,4,23,bristol rovers
+Torquay United,2013,4,24,torquay united
+Chelsea,2014,1,1,chelsea
+Manchester City,2014,1,2,manchester city
+Arsenal,2014,1,3,arsenal
+Manchester United,2014,1,4,manchester united
+Tottenham Hotspur,2014,1,5,tottenham hotspur
+Liverpool,2014,1,6,liverpool
+Southampton,2014,1,7,southampton
+Swansea City,2014,1,8,swansea city
+Stoke City,2014,1,9,stoke city
+Crystal Palace,2014,1,10,crystal palace
+Everton,2014,1,11,everton
+West Ham United,2014,1,12,west ham united
+West Bromwich Albion,2014,1,13,west bromwich albion
+Leicester City,2014,1,14,leicester city
+Newcastle United,2014,1,15,newcastle united
+Sunderland,2014,1,16,sunderland
+Aston Villa,2014,1,17,aston villa
+Hull City,2014,1,18,hull city
+Burnley,2014,1,19,burnley
+Queens Park Rangers,2014,1,20,queens park rangers
+AFC Bournemouth,2014,2,1,bournemouth
+Watford,2014,2,2,watford
+Norwich City,2014,2,3,norwich city
+Middlesbrough,2014,2,4,middlesbrough
+Brentford,2014,2,5,brentford
+Ipswich Town,2014,2,6,ipswich town
+Wolverhampton Wanderers,2014,2,7,wolverhampton wanderers
+Derby County,2014,2,8,derby county
+Blackburn Rovers,2014,2,9,blackburn rovers
+Birmingham City,2014,2,10,birmingham city
+Cardiff City,2014,2,11,cardiff city
+Charlton Athletic,2014,2,12,charlton athletic
+Sheffield Wednesday,2014,2,13,sheffield wednesday
+Nottingham Forest,2014,2,14,nottingham forest
+Leeds United,2014,2,15,leeds united
+Huddersfield Town,2014,2,16,huddersfield town
+Fulham,2014,2,17,fulham
+Bolton Wanderers,2014,2,18,bolton wanderers
+Reading,2014,2,19,reading
+Rotherham United,2014,2,20,rotherham united
+Brighton & Hove Albion,2014,2,21,brighton and hove albion
+Millwall,2014,2,22,millwall
+Wigan Athletic,2014,2,23,wigan athletic
+Blackpool,2014,2,24,blackpool
+Bristol City,2014,3,1,bristol city
+Milton Keynes Dons,2014,3,2,milton keynes dons
+Preston North End,2014,3,3,preston north end
+Swindon Town,2014,3,4,swindon town
+Sheffield United,2014,3,5,sheffield united
+Chesterfield,2014,3,6,chesterfield
+Bradford City,2014,3,7,bradford city
+Rochdale,2014,3,8,rochdale
+Peterborough United,2014,3,9,peterborough united
+Fleetwood Town,2014,3,10,fleetwood town
+Barnsley,2014,3,11,barnsley
+Gillingham,2014,3,12,gillingham
+Doncaster Rovers,2014,3,13,doncaster rovers
+Walsall,2014,3,14,walsall
+Oldham Athletic,2014,3,15,oldham athletic
+Scunthorpe United,2014,3,16,scunthorpe united
+Coventry City,2014,3,17,coventry city
+Port Vale,2014,3,18,port vale
+Colchester United,2014,3,19,colchester united
+Crewe Alexandra,2014,3,20,crewe alexandra
+Notts County,2014,3,21,notts county
+Crawley Town,2014,3,22,crawley town
+Leyton Orient,2014,3,23,leyton orient
+Yeovil,2014,3,24,yeovil town
+Burton Albion,2014,4,1,burton albion
+Shrewsbury Town,2014,4,2,shrewsbury town
+Bury,2014,4,3,bury
+Wycombe Wanderers,2014,4,4,wycombe wanderers
+Southend United,2014,4,5,southend united
+Stevenage Borough,2014,4,6,stevenage borough
+Plymouth Argyle,2014,4,7,plymouth argyle
+Luton Town,2014,4,8,luton town
+Newport County,2014,4,9,newport county
+Exeter City,2014,4,10,exeter city
+Morecambe,2014,4,11,morecambe
+Northampton Town,2014,4,12,northampton town
+Oxford United,2014,4,13,oxford united
+Dagenham and Redbridge,2014,4,14,dagenham and redbridge
+AFC Wimbledon,2014,4,15,afc wimbledon
+Portsmouth,2014,4,16,portsmouth
+Accrington,2014,4,17,accrington
+York City,2014,4,18,york city
+Cambridge United,2014,4,19,cambridge united
+Carlisle United,2014,4,20,carlisle united
+Mansfield Town,2014,4,21,mansfield town
+Hartlepool United,2014,4,22,hartlepool united
+Cheltenham,2014,4,23,cheltenham
+Tranmere Rovers,2014,4,24,tranmere rovers
+Leicester City,2015,1,1,leicester city
+Arsenal,2015,1,2,arsenal
+Tottenham Hotspur,2015,1,3,tottenham hotspur
+Manchester City,2015,1,4,manchester city
+Manchester United,2015,1,5,manchester united
+Southampton,2015,1,6,southampton
+West Ham United,2015,1,7,west ham united
+Liverpool,2015,1,8,liverpool
+Stoke City,2015,1,9,stoke city
+Chelsea,2015,1,10,chelsea
+Everton,2015,1,11,everton
+Swansea City,2015,1,12,swansea city
+Watford,2015,1,13,watford
+West Bromwich Albion,2015,1,14,west bromwich albion
+Crystal Palace,2015,1,15,crystal palace
+AFC Bournemouth,2015,1,16,bournemouth
+Sunderland,2015,1,17,sunderland
+Newcastle United,2015,1,18,newcastle united
+Norwich City,2015,1,19,norwich city
+Aston Villa,2015,1,20,aston villa
+Burnley,2015,2,1,burnley
+Middlesbrough,2015,2,2,middlesbrough
+Brighton & Hove Albion,2015,2,3,brighton and hove albion
+Hull City,2015,2,4,hull city
+Derby County,2015,2,5,derby county
+Sheffield Wednesday,2015,2,6,sheffield wednesday
+Ipswich Town,2015,2,7,ipswich town
+Cardiff City,2015,2,8,cardiff city
+Brentford,2015,2,9,brentford
+Birmingham City,2015,2,10,birmingham city
+Preston North End,2015,2,11,preston north end
+Queens Park Rangers,2015,2,12,queens park rangers
+Leeds United,2015,2,13,leeds united
+Wolverhampton Wanderers,2015,2,14,wolverhampton wanderers
+Blackburn Rovers,2015,2,15,blackburn rovers
+Nottingham Forest,2015,2,16,nottingham forest
+Reading,2015,2,17,reading
+Bristol City,2015,2,18,bristol city
+Huddersfield Town,2015,2,19,huddersfield town
+Fulham,2015,2,20,fulham
+Rotherham United,2015,2,21,rotherham united
+Charlton Athletic,2015,2,22,charlton athletic
+Milton Keynes Dons,2015,2,23,milton keynes dons
+Bolton Wanderers,2015,2,24,bolton wanderers
+Wigan Athletic,2015,3,1,wigan athletic
+Burton Albion,2015,3,2,burton albion
+Walsall,2015,3,3,walsall
+Millwall,2015,3,4,millwall
+Bradford City,2015,3,5,bradford city
+Barnsley,2015,3,6,barnsley
+Scunthorpe United,2015,3,7,scunthorpe united
+Coventry City,2015,3,8,coventry city
+Gillingham,2015,3,9,gillingham
+Rochdale,2015,3,10,rochdale
+Sheffield United,2015,3,11,sheffield united
+Port Vale,2015,3,12,port vale
+Peterborough United,2015,3,13,peterborough united
+Bury,2015,3,14,bury
+Southend United,2015,3,15,southend united
+Swindon Town,2015,3,16,swindon town
+Oldham Athletic,2015,3,17,oldham athletic
+Chesterfield,2015,3,18,chesterfield
+Fleetwood Town,2015,3,19,fleetwood town
+Shrewsbury Town,2015,3,20,shrewsbury town
+Doncaster Rovers,2015,3,21,doncaster rovers
+Blackpool,2015,3,22,blackpool
+Colchester United,2015,3,23,colchester united
+Crewe Alexandra,2015,3,24,crewe alexandra
+Northampton Town,2015,4,1,northampton town
+Oxford United,2015,4,2,oxford united
+Bristol Rovers,2015,4,3,bristol rovers
+Accrington,2015,4,4,accrington
+Plymouth Argyle,2015,4,5,plymouth argyle
+Portsmouth,2015,4,6,portsmouth
+AFC Wimbledon,2015,4,7,afc wimbledon
+Leyton Orient,2015,4,8,leyton orient
+Cambridge United,2015,4,9,cambridge united
+Carlisle United,2015,4,10,carlisle united
+Luton Town,2015,4,11,luton town
+Mansfield Town,2015,4,12,mansfield town
+Wycombe Wanderers,2015,4,13,wycombe wanderers
+Exeter City,2015,4,14,exeter city
+Barnet,2015,4,15,barnet
+Hartlepool United,2015,4,16,hartlepool united
+Notts County,2015,4,17,notts county
+Stevenage Borough,2015,4,18,stevenage borough
+Yeovil,2015,4,19,yeovil town
+Crawley Town,2015,4,20,crawley town
+Morecambe,2015,4,21,morecambe
+Newport County,2015,4,22,newport county
+Dagenham and Redbridge,2015,4,23,dagenham and redbridge
+York City,2015,4,24,york city
+Chelsea,2016,1,1,chelsea
+Tottenham Hotspur,2016,1,2,tottenham hotspur
+Manchester City,2016,1,3,manchester city
+Liverpool,2016,1,4,liverpool
+Arsenal,2016,1,5,arsenal
+Manchester United,2016,1,6,manchester united
+Everton,2016,1,7,everton
+Southampton,2016,1,8,southampton
+AFC Bournemouth,2016,1,9,bournemouth
+West Bromwich Albion,2016,1,10,west bromwich albion
+West Ham United,2016,1,11,west ham united
+Leicester City,2016,1,12,leicester city
+Stoke City,2016,1,13,stoke city
+Crystal Palace,2016,1,14,crystal palace
+Swansea City,2016,1,15,swansea city
+Burnley,2016,1,16,burnley
+Watford,2016,1,17,watford
+Hull City,2016,1,18,hull city
+Middlesbrough,2016,1,19,middlesbrough
+Sunderland,2016,1,20,sunderland
+Newcastle United,2016,2,1,newcastle united
+Brighton & Hove Albion,2016,2,2,brighton and hove albion
+Reading,2016,2,3,reading
+Sheffield Wednesday,2016,2,4,sheffield wednesday
+Huddersfield Town,2016,2,5,huddersfield town
+Fulham,2016,2,6,fulham
+Leeds United,2016,2,7,leeds united
+Norwich City,2016,2,8,norwich city
+Derby County,2016,2,9,derby county
+Brentford,2016,2,10,brentford
+Preston North End,2016,2,11,preston north end
+Cardiff City,2016,2,12,cardiff city
+Aston Villa,2016,2,13,aston villa
+Barnsley,2016,2,14,barnsley
+Wolverhampton Wanderers,2016,2,15,wolverhampton wanderers
+Ipswich Town,2016,2,16,ipswich town
+Bristol City,2016,2,17,bristol city
+Queens Park Rangers,2016,2,18,queens park rangers
+Birmingham City,2016,2,19,birmingham city
+Burton Albion,2016,2,20,burton albion
+Nottingham Forest,2016,2,21,nottingham forest
+Blackburn Rovers,2016,2,22,blackburn rovers
+Wigan Athletic,2016,2,23,wigan athletic
+Rotherham United,2016,2,24,rotherham united
+Sheffield United,2016,3,1,sheffield united
+Bolton Wanderers,2016,3,2,bolton wanderers
+Scunthorpe United,2016,3,3,scunthorpe united
+Fleetwood Town,2016,3,4,fleetwood town
+Bradford City,2016,3,5,bradford city
+Millwall,2016,3,6,millwall
+Southend United,2016,3,7,southend united
+Oxford United,2016,3,8,oxford united
+Rochdale,2016,3,9,rochdale
+Bristol Rovers,2016,3,10,bristol rovers
+Peterborough United,2016,3,11,peterborough united
+Milton Keynes Dons,2016,3,12,milton keynes dons
+Charlton Athletic,2016,3,13,charlton athletic
+Walsall,2016,3,14,walsall
+AFC Wimbledon,2016,3,15,afc wimbledon
+Northampton Town,2016,3,16,northampton town
+Oldham Athletic,2016,3,17,oldham athletic
+Shrewsbury Town,2016,3,18,shrewsbury town
+Bury,2016,3,19,bury
+Gillingham,2016,3,20,gillingham
+Port Vale,2016,3,21,port vale
+Swindon Town,2016,3,22,swindon town
+Coventry City,2016,3,23,coventry city
+Chesterfield,2016,3,24,chesterfield
+Portsmouth,2016,4,1,portsmouth
+Plymouth Argyle,2016,4,2,plymouth argyle
+Doncaster Rovers,2016,4,3,doncaster rovers
+Luton Town,2016,4,4,luton town
+Exeter City,2016,4,5,exeter city
+Carlisle United,2016,4,6,carlisle united
+Blackpool,2016,4,7,blackpool
+Colchester United,2016,4,8,colchester united
+Wycombe Wanderers,2016,4,9,wycombe wanderers
+Stevenage Borough,2016,4,10,stevenage borough
+Cambridge United,2016,4,11,cambridge united
+Mansfield Town,2016,4,12,mansfield town
+Accrington,2016,4,13,accrington
+Grimsby Town,2016,4,14,grimsby town
+Barnet,2016,4,15,barnet
+Notts County,2016,4,16,notts county
+Crewe Alexandra,2016,4,17,crewe alexandra
+Morecambe,2016,4,18,morecambe
+Crawley Town,2016,4,19,crawley town
+Yeovil,2016,4,20,yeovil town
+Cheltenham,2016,4,21,cheltenham
+Newport County,2016,4,22,newport county
+Hartlepool United,2016,4,23,hartlepool united
+Leyton Orient,2016,4,24,leyton orient
+Manchester City,2017,1,1,manchester city
+Manchester United,2017,1,2,manchester united
+Tottenham Hotspur,2017,1,3,tottenham hotspur
+Liverpool,2017,1,4,liverpool
+Chelsea,2017,1,5,chelsea
+Arsenal,2017,1,6,arsenal
+Burnley,2017,1,7,burnley
+Everton,2017,1,8,everton
+Leicester City,2017,1,9,leicester city
+Newcastle United,2017,1,10,newcastle united
+Crystal Palace,2017,1,11,crystal palace
+AFC Bournemouth,2017,1,12,bournemouth
+West Ham United,2017,1,13,west ham united
+Watford,2017,1,14,watford
+Brighton & Hove Albion,2017,1,15,brighton and hove albion
+Huddersfield Town,2017,1,16,huddersfield town
+Southampton,2017,1,17,southampton
+Swansea City,2017,1,18,swansea city
+Stoke City,2017,1,19,stoke city
+West Bromwich Albion,2017,1,20,west bromwich albion
+Wolverhampton Wanderers,2017,2,1,wolverhampton wanderers
+Cardiff City,2017,2,2,cardiff city
+Fulham,2017,2,3,fulham
+Aston Villa,2017,2,4,aston villa
+Middlesbrough,2017,2,5,middlesbrough
+Derby County,2017,2,6,derby county
+Preston North End,2017,2,7,preston north end
+Millwall,2017,2,8,millwall
+Brentford,2017,2,9,brentford
+Sheffield United,2017,2,10,sheffield united
+Bristol City,2017,2,11,bristol city
+Ipswich Town,2017,2,12,ipswich town
+Leeds United,2017,2,13,leeds united
+Norwich City,2017,2,14,norwich city
+Sheffield Wednesday,2017,2,15,sheffield wednesday
+Queens Park Rangers,2017,2,16,queens park rangers
+Nottingham Forest,2017,2,17,nottingham forest
+Hull City,2017,2,18,hull city
+Birmingham City,2017,2,19,birmingham city
+Reading,2017,2,20,reading
+Bolton Wanderers,2017,2,21,bolton wanderers
+Barnsley,2017,2,22,barnsley
+Burton Albion,2017,2,23,burton albion
+Sunderland,2017,2,24,sunderland
+Wigan Athletic,2017,3,1,wigan athletic
+Blackburn Rovers,2017,3,2,blackburn rovers
+Shrewsbury Town,2017,3,3,shrewsbury town
+Rotherham United,2017,3,4,rotherham united
+Scunthorpe United,2017,3,5,scunthorpe united
+Charlton Athletic,2017,3,6,charlton athletic
+Plymouth Argyle,2017,3,7,plymouth argyle
+Portsmouth,2017,3,8,portsmouth
+Peterborough United,2017,3,9,peterborough united
+Southend United,2017,3,10,southend united
+Bradford City,2017,3,11,bradford city
+Blackpool,2017,3,12,blackpool
+Bristol Rovers,2017,3,13,bristol rovers
+Fleetwood Town,2017,3,14,fleetwood town
+Doncaster Rovers,2017,3,15,doncaster rovers
+Oxford United,2017,3,16,oxford united
+Gillingham,2017,3,17,gillingham
+AFC Wimbledon,2017,3,18,afc wimbledon
+Walsall,2017,3,19,walsall
+Rochdale,2017,3,20,rochdale
+Oldham Athletic,2017,3,21,oldham athletic
+Northampton Town,2017,3,22,northampton town
+Milton Keynes Dons,2017,3,23,milton keynes dons
+Bury,2017,3,24,bury
+Accrington,2017,4,1,accrington
+Luton Town,2017,4,2,luton town
+Wycombe Wanderers,2017,4,3,wycombe wanderers
+Exeter City,2017,4,4,exeter city
+Notts County,2017,4,5,notts county
+Coventry City,2017,4,6,coventry city
+Lincoln City,2017,4,7,lincoln city
+Mansfield Town,2017,4,8,mansfield town
+Swindon Town,2017,4,9,swindon town
+Carlisle United,2017,4,10,carlisle united
+Newport County,2017,4,11,newport county
+Cambridge United,2017,4,12,cambridge united
+Colchester United,2017,4,13,colchester united
+Crawley Town,2017,4,14,crawley town
+Crewe Alexandra,2017,4,15,crewe alexandra
+Stevenage Borough,2017,4,16,stevenage borough
+Cheltenham,2017,4,17,cheltenham
+Grimsby Town,2017,4,18,grimsby town
+Yeovil,2017,4,19,yeovil town
+Port Vale,2017,4,20,port vale
+Forest Green Rovers,2017,4,21,forest green rovers
+Morecambe,2017,4,22,morecambe
+Barnet,2017,4,23,barnet
+Chesterfield,2017,4,24,chesterfield
+Manchester City,2018,1,1,manchester city
+Liverpool,2018,1,2,liverpool
+Chelsea,2018,1,3,chelsea
+Tottenham Hotspur,2018,1,4,tottenham hotspur
+Arsenal,2018,1,5,arsenal
+Manchester United,2018,1,6,manchester united
+Wolverhampton Wanderers,2018,1,7,wolverhampton wanderers
+Everton,2018,1,8,everton
+Leicester City,2018,1,9,leicester city
+West Ham United,2018,1,10,west ham united
+Watford,2018,1,11,watford
+Crystal Palace,2018,1,12,crystal palace
+Newcastle United,2018,1,13,newcastle united
+AFC Bournemouth,2018,1,14,bournemouth
+Burnley,2018,1,15,burnley
+Southampton,2018,1,16,southampton
+Brighton & Hove Albion,2018,1,17,brighton and hove albion
+Cardiff City,2018,1,18,cardiff city
+Fulham,2018,1,19,fulham
+Huddersfield Town,2018,1,20,huddersfield town
+Norwich City,2018,2,1,norwich city
+Sheffield United,2018,2,2,sheffield united
+Leeds United,2018,2,3,leeds united
+West Bromwich Albion,2018,2,4,west bromwich albion
+Aston Villa,2018,2,5,aston villa
+Derby County,2018,2,6,derby county
+Middlesbrough,2018,2,7,middlesbrough
+Bristol City,2018,2,8,bristol city
+Nottingham Forest,2018,2,9,nottingham forest
+Swansea City,2018,2,10,swansea city
+Brentford,2018,2,11,brentford
+Sheffield Wednesday,2018,2,12,sheffield wednesday
+Hull City,2018,2,13,hull city
+Birmingham City,2018,2,14,birmingham city
+Preston North End,2018,2,15,preston north end
+Blackburn Rovers,2018,2,16,blackburn rovers
+Stoke City,2018,2,17,stoke city
+Wigan Athletic,2018,2,18,wigan athletic
+Queens Park Rangers,2018,2,19,queens park rangers
+Reading,2018,2,20,reading
+Millwall,2018,2,21,millwall
+Rotherham United,2018,2,22,rotherham united
+Bolton Wanderers,2018,2,23,bolton wanderers
+Ipswich Town,2018,2,24,ipswich town
+Luton Town,2018,3,1,luton town
+Barnsley,2018,3,2,barnsley
+Charlton Athletic,2018,3,3,charlton athletic
+Portsmouth,2018,3,4,portsmouth
+Sunderland,2018,3,5,sunderland
+Doncaster Rovers,2018,3,6,doncaster rovers
+Peterborough United,2018,3,7,peterborough united
+Coventry City,2018,3,8,coventry city
+Burton Albion,2018,3,9,burton albion
+Blackpool,2018,3,10,blackpool
+Fleetwood Town,2018,3,11,fleetwood town
+Oxford United,2018,3,12,oxford united
+Gillingham,2018,3,13,gillingham
+Accrington,2018,3,14,accrington
+Bristol Rovers,2018,3,15,bristol rovers
+Rochdale,2018,3,16,rochdale
+Wycombe Wanderers,2018,3,17,wycombe wanderers
+Shrewsbury Town,2018,3,18,shrewsbury town
+Southend United,2018,3,19,southend united
+AFC Wimbledon,2018,3,20,afc wimbledon
+Plymouth Argyle,2018,3,21,plymouth argyle
+Walsall,2018,3,22,walsall
+Scunthorpe United,2018,3,23,scunthorpe united
+Bradford City,2018,3,24,bradford city
+Lincoln City,2018,4,1,lincoln city
+Bury,2018,4,2,bury
+Milton Keynes Dons,2018,4,3,milton keynes dons
+Mansfield Town,2018,4,4,mansfield town
+Forest Green Rovers,2018,4,5,forest green rovers
+Tranmere Rovers,2018,4,6,tranmere rovers
+Newport County,2018,4,7,newport county
+Colchester United,2018,4,8,colchester united
+Exeter City,2018,4,9,exeter city
+Stevenage Borough,2018,4,10,stevenage borough
+Carlisle United,2018,4,11,carlisle united
+Crewe Alexandra,2018,4,12,crewe alexandra
+Swindon Town,2018,4,13,swindon town
+Oldham Athletic,2018,4,14,oldham athletic
+Northampton Town,2018,4,15,northampton town
+Cheltenham,2018,4,16,cheltenham
+Grimsby Town,2018,4,17,grimsby town
+Morecambe,2018,4,18,morecambe
+Crawley Town,2018,4,19,crawley town
+Port Vale,2018,4,20,port vale
+Cambridge United,2018,4,21,cambridge united
+Macclesfield,2018,4,22,macclesfield
+Notts County,2018,4,23,notts county
+Yeovil,2018,4,24,yeovil town
+Liverpool,2019,1,1,liverpool
+Manchester City,2019,1,2,manchester city
+Manchester United,2019,1,3,manchester united
+Chelsea,2019,1,4,chelsea
+Leicester City,2019,1,5,leicester city
+Tottenham Hotspur,2019,1,6,tottenham hotspur
+Wolverhampton Wanderers,2019,1,7,wolverhampton wanderers
+Arsenal,2019,1,8,arsenal
+Sheffield United,2019,1,9,sheffield united
+Burnley,2019,1,10,burnley
+Southampton,2019,1,11,southampton
+Everton,2019,1,12,everton
+Newcastle United,2019,1,13,newcastle united
+Crystal Palace,2019,1,14,crystal palace
+Brighton & Hove Albion,2019,1,15,brighton and hove albion
+West Ham United,2019,1,16,west ham united
+Aston Villa,2019,1,17,aston villa
+AFC Bournemouth,2019,1,18,bournemouth
+Watford,2019,1,19,watford
+Norwich City,2019,1,20,norwich city
+Leeds United,2019,2,1,leeds united
+West Bromwich Albion,2019,2,2,west bromwich albion
+Brentford,2019,2,3,brentford
+Fulham,2019,2,4,fulham
+Cardiff City,2019,2,5,cardiff city
+Swansea City,2019,2,6,swansea city
+Nottingham Forest,2019,2,7,nottingham forest
+Millwall,2019,2,8,millwall
+Preston North End,2019,2,9,preston north end
+Derby County,2019,2,10,derby county
+Blackburn Rovers,2019,2,11,blackburn rovers
+Bristol City,2019,2,12,bristol city
+Wigan Athletic,2019,2,13,wigan athletic
+Queens Park Rangers,2019,2,14,queens park rangers
+Reading,2019,2,15,reading
+Stoke City,2019,2,16,stoke city
+Sheffield Wednesday,2019,2,17,sheffield wednesday
+Middlesbrough,2019,2,18,middlesbrough
+Huddersfield Town,2019,2,19,huddersfield town
+Luton Town,2019,2,20,luton town
+Birmingham City,2019,2,21,birmingham city
+Barnsley,2019,2,22,barnsley
+Charlton Athletic,2019,2,23,charlton athletic
+Hull City,2019,2,24,hull city
+Coventry City,2019,3,1,coventry city
+Rotherham United,2019,3,2,rotherham united
+Oxford United,2019,3,3,oxford united
+Portsmouth,2019,3,4,portsmouth
+Fleetwood Town,2019,3,5,fleetwood town
+Peterborough United,2019,3,6,peterborough united
+Sunderland,2019,3,7,sunderland
+Wycombe Wanderers,2019,3,8,wycombe wanderers
+Doncaster Rovers,2019,3,9,doncaster rovers
+Ipswich Town,2019,3,10,ipswich town
+Gillingham,2019,3,11,gillingham
+Burton Albion,2019,3,12,burton albion
+Blackpool,2019,3,13,blackpool
+Bristol Rovers,2019,3,14,bristol rovers
+Lincoln City,2019,3,15,lincoln city
+Shrewsbury Town,2019,3,16,shrewsbury town
+Accrington,2019,3,17,accrington
+Milton Keynes Dons,2019,3,18,milton keynes dons
+Rochdale,2019,3,19,rochdale
+AFC Wimbledon,2019,3,20,afc wimbledon
+Tranmere Rovers,2019,3,21,tranmere rovers
+Bolton Wanderers,2019,3,22,bolton wanderers
+Southend United,2019,3,23,southend united
+Crewe Alexandra,2019,4,1,crewe alexandra
+Swindon Town,2019,4,2,swindon town
+Plymouth Argyle,2019,4,3,plymouth argyle
+Exeter City,2019,4,4,exeter city
+Cheltenham,2019,4,5,cheltenham
+Colchester United,2019,4,6,colchester united
+Northampton Town,2019,4,7,northampton town
+Port Vale,2019,4,8,port vale
+Bradford City,2019,4,9,bradford city
+Salford City,2019,4,10,salford city
+Forest Green Rovers,2019,4,11,forest green rovers
+Crawley Town,2019,4,12,crawley town
+Grimsby Town,2019,4,13,grimsby town
+Walsall,2019,4,14,walsall
+Newport County,2019,4,15,newport county
+Cambridge United,2019,4,16,cambridge united
+Leyton Orient,2019,4,17,leyton orient
+Carlisle United,2019,4,18,carlisle united
+Oldham Athletic,2019,4,19,oldham athletic
+Scunthorpe United,2019,4,20,scunthorpe united
+Mansfield Town,2019,4,21,mansfield town
+Macclesfield,2019,4,22,macclesfield
+Morecambe,2019,4,23,morecambe
+Stevenage Borough,2019,4,24,stevenage borough
+Manchester City,2020,1,1,manchester city
+Manchester United,2020,1,2,manchester united
+Liverpool,2020,1,3,liverpool
+Chelsea,2020,1,4,chelsea
+Leicester City,2020,1,5,leicester city
+West Ham United,2020,1,6,west ham united
+Tottenham Hotspur,2020,1,7,tottenham hotspur
+Arsenal,2020,1,8,arsenal
+Leeds United,2020,1,9,leeds united
+Everton,2020,1,10,everton
+Aston Villa,2020,1,11,aston villa
+Newcastle United,2020,1,12,newcastle united
+Wolverhampton Wanderers,2020,1,13,wolverhampton wanderers
+Crystal Palace,2020,1,14,crystal palace
+Southampton,2020,1,15,southampton
+Brighton & Hove Albion,2020,1,16,brighton and hove albion
+Burnley,2020,1,17,burnley
+Fulham,2020,1,18,fulham
+West Bromwich Albion,2020,1,19,west bromwich albion
+Sheffield United,2020,1,20,sheffield united
+Norwich City,2020,2,1,norwich city
+Watford,2020,2,2,watford
+Brentford,2020,2,3,brentford
+Swansea City,2020,2,4,swansea city
+Barnsley,2020,2,5,barnsley
+AFC Bournemouth,2020,2,6,bournemouth
+Reading,2020,2,7,reading
+Cardiff City,2020,2,8,cardiff city
+Queens Park Rangers,2020,2,9,queens park rangers
+Middlesbrough,2020,2,10,middlesbrough
+Millwall,2020,2,11,millwall
+Luton Town,2020,2,12,luton town
+Preston North End,2020,2,13,preston north end
+Stoke City,2020,2,14,stoke city
+Blackburn Rovers,2020,2,15,blackburn rovers
+Coventry City,2020,2,16,coventry city
+Nottingham Forest,2020,2,17,nottingham forest
+Birmingham City,2020,2,18,birmingham city
+Bristol City,2020,2,19,bristol city
+Huddersfield Town,2020,2,20,huddersfield town
+Sheffield Wednesday,2020,2,21,sheffield wednesday
+Derby County,2020,2,22,derby county
+Wycombe Wanderers,2020,2,23,wycombe wanderers
+Rotherham United,2020,2,24,rotherham united
+Hull City,2020,3,1,hull city
+Peterborough United,2020,3,2,peterborough united
+Blackpool,2020,3,3,blackpool
+Sunderland,2020,3,4,sunderland
+Lincoln City,2020,3,5,lincoln city
+Oxford United,2020,3,6,oxford united
+Charlton Athletic,2020,3,7,charlton athletic
+Portsmouth,2020,3,8,portsmouth
+Ipswich Town,2020,3,9,ipswich town
+Gillingham,2020,3,10,gillingham
+Accrington,2020,3,11,accrington
+Crewe Alexandra,2020,3,12,crewe alexandra
+Milton Keynes Dons,2020,3,13,milton keynes dons
+Doncaster Rovers,2020,3,14,doncaster rovers
+Fleetwood Town,2020,3,15,fleetwood town
+Burton Albion,2020,3,16,burton albion
+Shrewsbury Town,2020,3,17,shrewsbury town
+Plymouth Argyle,2020,3,18,plymouth argyle
+AFC Wimbledon,2020,3,19,afc wimbledon
+Wigan Athletic,2020,3,20,wigan athletic
+Rochdale,2020,3,21,rochdale
+Northampton Town,2020,3,22,northampton town
+Swindon Town,2020,3,23,swindon town
+Bristol Rovers,2020,3,24,bristol rovers
+Cheltenham,2020,4,1,cheltenham
+Cambridge United,2020,4,2,cambridge united
+Bolton Wanderers,2020,4,3,bolton wanderers
+Morecambe,2020,4,4,morecambe
+Newport County,2020,4,5,newport county
+Forest Green Rovers,2020,4,6,forest green rovers
+Tranmere Rovers,2020,4,7,tranmere rovers
+Salford City,2020,4,8,salford city
+Exeter City,2020,4,9,exeter city
+Carlisle United,2020,4,10,carlisle united
+Leyton Orient,2020,4,11,leyton orient
+Crawley Town,2020,4,12,crawley town
+Port Vale,2020,4,13,port vale
+Stevenage Borough,2020,4,14,stevenage borough
+Bradford City,2020,4,15,bradford city
+Mansfield Town,2020,4,16,mansfield town
+Harrogate Town A.F.C.,2020,4,17,harrogate town
+Oldham Athletic,2020,4,18,oldham athletic
+Walsall,2020,4,19,walsall
+Colchester United,2020,4,20,colchester united
+Barrow,2020,4,21,barrow
+Scunthorpe United,2020,4,22,scunthorpe united
+Southend United,2020,4,23,southend united
+Grimsby Town,2020,4,24,grimsby town
+Manchester City,2021,1,1,manchester city
+Liverpool,2021,1,2,liverpool
+Chelsea,2021,1,3,chelsea
+Tottenham Hotspur,2021,1,4,tottenham hotspur
+Arsenal,2021,1,5,arsenal
+Manchester United,2021,1,6,manchester united
+West Ham United,2021,1,7,west ham united
+Leicester City,2021,1,8,leicester city
+Brighton & Hove Albion,2021,1,9,brighton and hove albion
+Wolverhampton Wanderers,2021,1,10,wolverhampton wanderers
+Newcastle United,2021,1,11,newcastle united
+Crystal Palace,2021,1,12,crystal palace
+Brentford,2021,1,13,brentford
+Aston Villa,2021,1,14,aston villa
+Southampton,2021,1,15,southampton
+Everton,2021,1,16,everton
+Leeds United,2021,1,17,leeds united
+Burnley,2021,1,18,burnley
+Watford,2021,1,19,watford
+Norwich City,2021,1,20,norwich city
+Fulham,2021,2,1,fulham
+AFC Bournemouth,2021,2,2,bournemouth
+Huddersfield Town,2021,2,3,huddersfield town
+Nottingham Forest,2021,2,4,nottingham forest
+Sheffield United,2021,2,5,sheffield united
+Luton Town,2021,2,6,luton town
+Middlesbrough,2021,2,7,middlesbrough
+Blackburn Rovers,2021,2,8,blackburn rovers
+Millwall,2021,2,9,millwall
+West Bromwich Albion,2021,2,10,west bromwich albion
+Queens Park Rangers,2021,2,11,queens park rangers
+Coventry City,2021,2,12,coventry city
+Preston North End,2021,2,13,preston north end
+Stoke City,2021,2,14,stoke city
+Swansea City,2021,2,15,swansea city
+Blackpool,2021,2,16,blackpool
+Derby County,2021,2,17,derby county
+Bristol City,2021,2,18,bristol city
+Cardiff City,2021,2,19,cardiff city
+Hull City,2021,2,20,hull city
+Birmingham City,2021,2,21,birmingham city
+Reading,2021,2,22,reading
+Peterborough United,2021,2,23,peterborough united
+Barnsley,2021,2,24,barnsley
+Wigan Athletic,2021,3,1,wigan athletic
+Rotherham United,2021,3,2,rotherham united
+Milton Keynes Dons,2021,3,3,milton keynes dons
+Sheffield Wednesday,2021,3,4,sheffield wednesday
+Sunderland,2021,3,5,sunderland
+Wycombe Wanderers,2021,3,6,wycombe wanderers
+Plymouth Argyle,2021,3,7,plymouth argyle
+Oxford United,2021,3,8,oxford united
+Bolton Wanderers,2021,3,9,bolton wanderers
+Portsmouth,2021,3,10,portsmouth
+Ipswich Town,2021,3,11,ipswich town
+Accrington,2021,3,12,accrington
+Charlton Athletic,2021,3,13,charlton athletic
+Cambridge United,2021,3,14,cambridge united
+Cheltenham,2021,3,15,cheltenham
+Burton Albion,2021,3,16,burton albion
+Lincoln City,2021,3,17,lincoln city
+Shrewsbury Town,2021,3,18,shrewsbury town
+Morecambe,2021,3,19,morecambe
+Fleetwood Town,2021,3,20,fleetwood town
+Gillingham,2021,3,21,gillingham
+Doncaster Rovers,2021,3,22,doncaster rovers
+AFC Wimbledon,2021,3,23,afc wimbledon
+Crewe Alexandra,2021,3,24,crewe alexandra
+Forest Green Rovers,2021,4,1,forest green rovers
+Exeter City,2021,4,2,exeter city
+Bristol Rovers,2021,4,3,bristol rovers
+Northampton Town,2021,4,4,northampton town
+Port Vale,2021,4,5,port vale
+Swindon Town,2021,4,6,swindon town
+Mansfield Town,2021,4,7,mansfield town
+Sutton United,2021,4,8,sutton united
+Tranmere Rovers,2021,4,9,tranmere rovers
+Salford City,2021,4,10,salford city
+Newport County,2021,4,11,newport county
+Crawley Town,2021,4,12,crawley town
+Leyton Orient,2021,4,13,leyton orient
+Bradford City,2021,4,14,bradford city
+Colchester United,2021,4,15,colchester united
+Walsall,2021,4,16,walsall
+Hartlepool United,2021,4,17,hartlepool united
+Rochdale,2021,4,18,rochdale
+Harrogate Town A.F.C.,2021,4,19,harrogate town
+Carlisle United,2021,4,20,carlisle united
+Stevenage Borough,2021,4,21,stevenage borough
+Barrow,2021,4,22,barrow
+Oldham Athletic,2021,4,23,oldham athletic
+Scunthorpe United,2021,4,24,scunthorpe united
+Manchester City,2023,1,1,manchester city
+Arsenal,2023,1,2,arsenal
+Liverpool,2023,1,3,liverpool
+Aston Villa,2023,1,4,aston villa
+Tottenham Hotspur,2023,1,5,tottenham hotspur
+Chelsea,2023,1,6,chelsea
+Newcastle United,2023,1,7,newcastle united
+Manchester United,2023,1,8,manchester united
+West Ham United,2023,1,9,west ham united
+Crystal Palace,2023,1,10,crystal palace
+Brighton & Hove Albion,2023,1,11,brighton and hove albion
+Everton,2023,1,15,everton
+AFC Bournemouth,2023,1,12,bournemouth
+Fulham,2023,1,13,fulham
+Wolverhampton Wanderers,2023,1,14,wolverhampton wanderers
+Brentford,2023,1,16,brentford
+Nottingham Forest,2023,1,17,nottingham forest
+Luton Town,2023,1,18,luton town
+Burnley,2023,1,19,burnley
+Sheffield United,2023,1,20,sheffield united
+Leicester City,2023,2,1,leicester city
+Ipswich Town,2023,2,2,ipswich town
+Leeds United,2023,2,3,leeds united
+Southampton,2023,2,4,southampton
+West Bromwich Albion,2023,2,5,west bromwich albion
+Norwich City,2023,2,6,norwich city
+Hull City,2023,2,7,hull city
+Middlesbrough,2023,2,8,middlesbrough
+Coventry City,2023,2,9,coventry city
+Preston North End,2023,2,10,preston north end
+Bristol City,2023,2,11,bristol city
+Cardiff City,2023,2,12,cardiff city
+Millwall,2023,2,13,millwall
+Swansea City,2023,2,14,swansea city
+Watford,2023,2,15,watford
+Sunderland,2023,2,16,sunderland
+Stoke City,2023,2,17,stoke city
+Queens Park Rangers,2023,2,18,queens park rangers
+Blackburn Rovers,2023,2,19,blackburn rovers
+Sheffield Wednesday,2023,2,20,sheffield wednesday
+Plymouth Argyle,2023,2,21,plymouth argyle
+Birmingham City,2023,2,22,birmingham city
+Huddersfield Town,2023,2,23,huddersfield town
+Rotherham United,2023,2,24,rotherham united
+Portsmouth,2023,3,1,portsmouth
+Derby County,2023,3,2,derby county
+Bolton Wanderers,2023,3,3,bolton wanderers
+Peterborough United,2023,3,4,peterborough united
+Oxford United,2023,3,5,oxford united
+Barnsley,2023,3,6,barnsley
+Lincoln City,2023,3,7,lincoln city
+Blackpool,2023,3,8,blackpool
+Stevenage Borough,2023,3,9,stevenage borough
+Wigan Athletic,2023,3,10,wigan athletic
+Wycombe Wanderers,2023,3,11,wycombe wanderers
+Leyton Orient,2023,3,12,leyton orient
+Exeter City,2023,3,13,exeter city
+Northampton Town,2023,3,14,northampton town
+Reading,2023,3,15,reading
+Bristol Rovers,2023,3,16,bristol rovers
+Charlton Athletic,2023,3,17,charlton athletic
+Cambridge United,2023,3,18,cambridge united
+Shrewsbury Town,2023,3,19,shrewsbury town
+Burton Albion,2023,3,20,burton albion
+Cheltenham,2023,3,21,cheltenham
+Fleetwood Town,2023,3,22,fleetwood town
+Port Vale,2023,3,23,port vale
+Carlisle United,2023,3,24,carlisle united
+Stockport County,2023,4,1,stockport county
+Wrexham,2023,4,2,wrexham
+Mansfield Town,2023,4,3,mansfield town
+Milton Keynes Dons,2023,4,4,milton keynes dons
+Doncaster Rovers,2023,4,5,doncaster rovers
+Crewe Alexandra,2023,4,6,crewe alexandra
+Crawley Town,2023,4,7,crawley town
+Barrow,2023,4,8,barrow
+Bradford City,2023,4,9,bradford city
+AFC Wimbledon,2023,4,10,afc wimbledon
+Walsall,2023,4,11,walsall
+Gillingham,2023,4,12,gillingham
+Harrogate Town A.F.C.,2023,4,13,harrogate town
+Notts County,2023,4,14,notts county
+Morecambe,2023,4,15,morecambe
+Tranmere Rovers,2023,4,16,tranmere rovers
+Accrington,2023,4,17,accrington
+Newport County,2023,4,18,newport county
+Swindon Town,2023,4,19,swindon town
+Salford City,2023,4,20,salford city
+Grimsby Town,2023,4,21,grimsby town
+Colchester United,2023,4,22,colchester united
+Sutton United,2023,4,23,sutton united
+Forest Green Rovers,2023,4,24,forest green rovers
+Liverpool,2024,1,1,liverpool
+Arsenal,2024,1,2,arsenal
+Manchester City,2024,1,3,manchester city
+Chelsea,2024,1,4,chelsea
+Newcastle United,2024,1,5,newcastle united
+Aston Villa,2024,1,6,aston villa
+Nottingham Forest,2024,1,7,nottingham forest
+Brighton & Hove Albion,2024,1,8,brighton and hove albion
+AFC Bournemouth,2024,1,9,bournemouth
+Brentford,2024,1,10,brentford
+Fulham,2024,1,11,fulham
+Crystal Palace,2024,1,12,crystal palace
+Everton,2024,1,13,everton
+West Ham United,2024,1,14,west ham united
+Manchester United,2024,1,15,manchester united
+Wolverhampton Wanderers,2024,1,16,wolverhampton wanderers
+Tottenham Hotspur,2024,1,17,tottenham hotspur
+Leicester City,2024,1,18,leicester city
+Ipswich Town,2024,1,19,ipswich town
+Southampton,2024,1,20,southampton
+Leeds United,2024,2,1,leeds united
+Burnley,2024,2,2,burnley
+Sheffield United,2024,2,3,sheffield united
+Sunderland,2024,2,4,sunderland
+Coventry City,2024,2,5,coventry city
+Bristol City,2024,2,6,bristol city
+Blackburn Rovers,2024,2,7,blackburn rovers
+Millwall,2024,2,8,millwall
+West Bromwich Albion,2024,2,9,west bromwich albion
+Middlesbrough,2024,2,10,middlesbrough
+Swansea City,2024,2,11,swansea city
+Sheffield Wednesday,2024,2,12,sheffield wednesday
+Norwich City,2024,2,13,norwich city
+Watford,2024,2,14,watford
+Queens Park Rangers,2024,2,15,queens park rangers
+Portsmouth,2024,2,16,portsmouth
+Oxford United,2024,2,17,oxford united
+Stoke City,2024,2,18,stoke city
+Derby County,2024,2,19,derby county
+Preston North End,2024,2,20,preston north end
+Hull City,2024,2,21,hull city
+Luton Town,2024,2,22,luton town
+Plymouth Argyle,2024,2,23,plymouth argyle
+Cardiff City,2024,2,24,cardiff city
+Birmingham City,2024,3,1,birmingham city
+Wrexham,2024,3,2,wrexham
+Stockport County,2024,3,3,stockport county
+Charlton Athletic,2024,3,4,charlton athletic
+Wycombe Wanderers,2024,3,5,wycombe wanderers
+Leyton Orient,2024,3,6,leyton orient
+Reading,2024,3,7,reading
+Bolton Wanderers,2024,3,8,bolton wanderers
+Blackpool,2024,3,9,blackpool
+Huddersfield Town,2024,3,10,huddersfield town
+Lincoln City,2024,3,11,lincoln city
+Barnsley,2024,3,12,barnsley
+Rotherham United,2024,3,13,rotherham united
+Stevenage Borough,2024,3,14,stevenage borough
+Wigan Athletic,2024,3,15,wigan athletic
+Exeter City,2024,3,16,exeter city
+Mansfield Town,2024,3,17,mansfield town
+Peterborough United,2024,3,18,peterborough united
+Northampton Town,2024,3,19,northampton town
+Burton Albion,2024,3,20,burton albion
+Crawley Town,2024,3,21,crawley town
+Bristol Rovers,2024,3,22,bristol rovers
+Cambridge United,2024,3,23,cambridge united
+Shrewsbury Town,2024,3,24,shrewsbury town
+Doncaster Rovers,2024,4,1,doncaster rovers
+Port Vale,2024,4,2,port vale
+Bradford City,2024,4,3,bradford city
+Walsall,2024,4,4,walsall
+AFC Wimbledon,2024,4,5,afc wimbledon
+Notts County,2024,4,6,notts county
+Chesterfield,2024,4,7,chesterfield
+Salford City,2024,4,8,salford city
+Grimsby Town,2024,4,9,grimsby town
+Colchester United,2024,4,10,colchester united
+Bromley,2024,4,11,bromley
+Swindon Town,2024,4,12,swindon town
+Crewe Alexandra,2024,4,13,crewe alexandra
+Fleetwood Town,2024,4,14,fleetwood town
+Cheltenham,2024,4,15,cheltenham
+Barrow,2024,4,16,barrow
+Gillingham,2024,4,17,gillingham
+Harrogate Town A.F.C.,2024,4,18,harrogate town
+Milton Keynes Dons,2024,4,19,milton keynes dons
+Tranmere Rovers,2024,4,20,tranmere rovers
+Accrington,2024,4,21,accrington
+Newport County,2024,4,22,newport county
+Carlisle United,2024,4,23,carlisle united
+Morecambe,2024,4,24,morecambe
+Manchester City FC,2022,1,1,manchester city
+Arsenal FC,2022,1,2,arsenal
+Manchester United FC,2022,1,3,manchester united
+Newcastle United FC,2022,1,4,newcastle united
+Liverpool FC,2022,1,5,liverpool
+Brighton & Hove Albion FC,2022,1,6,brighton and hove albion
+Aston Villa FC,2022,1,7,aston villa
+Tottenham Hotspur FC,2022,1,8,tottenham hotspur
+Brentford FC,2022,1,9,brentford
+Fulham FC,2022,1,10,fulham
+Crystal Palace FC,2022,1,11,crystal palace
+Chelsea FC,2022,1,12,chelsea
+Wolverhampton Wanderers FC,2022,1,13,wolverhampton wanderers
+West Ham United FC,2022,1,14,west ham united
+AFC Bournemouth,2022,1,15,bournemouth
+Nottingham Forest FC,2022,1,16,nottingham forest
+Everton FC,2022,1,17,everton
+Leicester City FC,2022,1,18,leicester city
+Leeds United FC,2022,1,19,leeds united
+Southampton FC,2022,1,20,southampton
+Burnley FC,2022,2,1,burnley
+Sheffield United FC,2022,2,2,sheffield united
+Luton Town FC,2022,2,3,luton town
+Middlesbrough FC,2022,2,4,middlesbrough
+Coventry City FC,2022,2,5,coventry city
+Sunderland AFC,2022,2,6,sunderland
+Blackburn Rovers FC,2022,2,7,blackburn rovers
+Millwall FC,2022,2,8,millwall
+West Bromwich Albion FC,2022,2,9,west bromwich albion
+Swansea City AFC,2022,2,10,swansea city
+Watford FC,2022,2,11,watford
+Preston North End FC,2022,2,12,preston north end
+Norwich City FC,2022,2,13,norwich city
+Bristol City FC,2022,2,14,bristol city
+Hull City AFC,2022,2,15,hull city
+Stoke City FC,2022,2,16,stoke city
+Birmingham City FC,2022,2,17,birmingham city
+Huddersfield Town AFC,2022,2,18,huddersfield town
+Rotherham United FC,2022,2,19,rotherham united
+Reading FC,2022,2,20,reading
+Queens Park Rangers FC,2022,2,21,queens park rangers
+Cardiff City FC,2022,2,22,cardiff city
+Wigan Athletic FC,2022,2,23,wigan athletic
+Blackpool FC,2022,2,24,blackpool
+Plymouth Argyle,2022,3,1,plymouth argyle
+Ipswich Town,2022,3,2,ipswich town
+Sheffield Wednesday,2022,3,3,sheffield wednesday
+Barnsley FC,2022,3,4,barnsley
+Bolton Wanderers,2022,3,5,bolton wanderers
+Peterborough United,2022,3,6,peterborough united
+Derby County,2022,3,7,derby county
+Portsmouth FC,2022,3,8,portsmouth
+Wycombe Wanderers,2022,3,9,wycombe wanderers
+Charlton Athletic,2022,3,10,charlton athletic
+Lincoln City,2022,3,11,lincoln city
+Shrewsbury Town,2022,3,12,shrewsbury town
+Fleetwood Town,2022,3,13,fleetwood town
+Exeter City,2022,3,14,exeter city
+Burton Albion,2022,3,15,burton albion
+Cheltenham Town,2022,3,16,cheltenham
+Bristol Rovers,2022,3,17,bristol rovers
+Port Vale FC,2022,3,18,port vale
+Oxford United,2022,3,19,oxford united
+Cambridge United,2022,3,20,cambridge united
+Milton Keynes Dons,2022,3,21,milton keynes dons
+Morecambe FC,2022,3,22,morecambe
+Accrington Stanley,2022,3,23,accrington
+Forest Green Rovers,2022,3,24,forest green rovers
+Leyton Orient,2022,4,1,leyton orient
+Stevenage FC,2022,4,2,stevenage borough
+Northampton Town,2022,4,3,northampton town
+Stockport County,2022,4,4,stockport county
+Carlisle United,2022,4,5,carlisle united
+Bradford City,2022,4,6,bradford city
+Salford City,2022,4,7,salford city
+Mansfield Town,2022,4,8,mansfield town
+Barrow AFC,2022,4,9,barrow
+Swindon Town,2022,4,10,swindon town
+Grimsby Town,2022,4,11,grimsby town
+Tranmere Rovers,2022,4,12,tranmere rovers
+Crewe Alexandra,2022,4,13,crewe alexandra
+Sutton United,2022,4,14,sutton united
+Newport County,2022,4,15,newport county
+Walsall FC,2022,4,16,walsall
+Gillingham FC,2022,4,17,gillingham
+Doncaster Rovers,2022,4,18,doncaster rovers
+Harrogate Town,2022,4,19,harrogate town
+Colchester United,2022,4,20,colchester united
+AFC Wimbledon,2022,4,21,afc wimbledon
+Crawley Town,2022,4,22,crawley town
+Hartlepool United,2022,4,23,hartlepool united
+Rochdale AFC,2022,4,24,rochdale
+Arsenal,2025,1,1,arsenal
+Manchester City,2025,1,2,manchester city
+Manchester United,2025,1,3,manchester united
+Aston Villa,2025,1,4,aston villa
+Liverpool,2025,1,5,liverpool
+AFC Bournemouth,2025,1,6,bournemouth
+Sunderland,2025,1,7,sunderland
+Brighton & Hove Albion,2025,1,8,brighton and hove albion
+Brentford,2025,1,9,brentford
+Chelsea,2025,1,10,chelsea
+Fulham,2025,1,11,fulham
+Newcastle United,2025,1,12,newcastle united
+Everton,2025,1,13,everton
+Leeds United,2025,1,14,leeds united
+Crystal Palace,2025,1,15,crystal palace
+Nottingham Forest,2025,1,16,nottingham forest
+Tottenham Hotspur,2025,1,17,tottenham hotspur
+West Ham United,2025,1,18,west ham united
+Burnley,2025,1,19,burnley
+Wolverhampton Wanderers,2025,1,20,wolverhampton wanderers
+Coventry City,2025,2,1,coventry city
+Ipswich Town,2025,2,2,ipswich town
+Millwall,2025,2,3,millwall
+Southampton,2025,2,4,southampton
+Middlesbrough,2025,2,5,middlesbrough
+Hull City,2025,2,6,hull city
+Wrexham,2025,2,7,wrexham
+Derby County,2025,2,8,derby county
+Norwich City,2025,2,9,norwich city
+Birmingham City,2025,2,10,birmingham city
+Swansea City,2025,2,11,swansea city
+Bristol City,2025,2,12,bristol city
+Sheffield United,2025,2,13,sheffield united
+Preston North End,2025,2,14,preston north end
+Queens Park Rangers,2025,2,15,queens park rangers
+Watford,2025,2,16,watford
+Stoke City,2025,2,17,stoke city
+Portsmouth,2025,2,18,portsmouth
+Charlton Athletic,2025,2,19,charlton athletic
+Blackburn Rovers,2025,2,20,blackburn rovers
+West Bromwich Albion,2025,2,21,west bromwich albion
+Oxford United,2025,2,22,oxford united
+Leicester City,2025,2,23,leicester city
+Sheffield Wednesday,2025,2,24,sheffield wednesday
+Lincoln City,2025,3,1,lincoln city
+Cardiff City,2025,3,2,cardiff city
+Stockport County,2025,3,3,stockport county
+Bradford City,2025,3,4,bradford city
+Bolton Wanderers,2025,3,5,bolton wanderers
+Stevenage Borough,2025,3,6,stevenage borough
+Luton Town,2025,3,7,luton town
+Plymouth Argyle,2025,3,8,plymouth argyle
+Huddersfield Town,2025,3,9,huddersfield town
+Mansfield Town,2025,3,10,mansfield town
+Wycombe Wanderers,2025,3,11,wycombe wanderers
+Reading,2025,3,12,reading
+Blackpool,2025,3,13,blackpool
+Doncaster Rovers,2025,3,14,doncaster rovers
+Barnsley,2025,3,15,barnsley
+Wigan Athletic,2025,3,16,wigan athletic
+Burton Albion,2025,3,17,burton albion
+Peterborough United,2025,3,18,peterborough united
+AFC Wimbledon,2025,3,19,afc wimbledon
+Leyton Orient,2025,3,20,leyton orient
+Exeter City,2025,3,21,exeter city
+Port Vale,2025,3,22,port vale
+Rotherham United,2025,3,23,rotherham united
+Northampton Town,2025,3,24,northampton town
+Bromley,2025,4,1,bromley
+Milton Keynes Dons,2025,4,2,milton keynes dons
+Cambridge United,2025,4,3,cambridge united
+Salford City,2025,4,4,salford city
+Notts County,2025,4,5,notts county
+Chesterfield,2025,4,6,chesterfield
+Grimsby Town,2025,4,7,grimsby town
+Barnet,2025,4,8,barnet
+Swindon Town,2025,4,9,swindon town
+Oldham Athletic,2025,4,10,oldham athletic
+Crewe Alexandra,2025,4,11,crewe alexandra
+Colchester United,2025,4,12,colchester united
+Walsall,2025,4,13,walsall
+Bristol Rovers,2025,4,14,bristol rovers
+Fleetwood Town,2025,4,15,fleetwood town
+Accrington,2025,4,16,accrington
+Gillingham,2025,4,17,gillingham
+Cheltenham,2025,4,18,cheltenham
+Shrewsbury Town,2025,4,19,shrewsbury town
+Newport County,2025,4,20,newport county
+Tranmere Rovers,2025,4,21,tranmere rovers
+Crawley Town,2025,4,22,crawley town
+Harrogate Town A.F.C.,2025,4,23,harrogate town
+Barrow,2025,4,24,barrow
