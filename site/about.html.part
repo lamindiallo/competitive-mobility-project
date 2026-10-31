@@ -22,7 +22,7 @@
 <p>Each of these was written down, with the test and what would count as a "no", before any result was calculated. A "no" is reported as prominently as a "yes". The <a href="https://github.com/lamindiallo/competitive-mobility-project/blob/main/docs/Hypothesis_Register.md">register of tests</a> is published with the code. It is the project's own dated document, not an entry in an outside registry, so its dates are not independently timestamped.</p>
 <div class="scroll"><table class="t">
 <tr><th>Question</th><th>Answer</th><th>In plain words</th></tr>
-<tr><td>Has it got harder to reach the top across European football?</td><td><strong>No</strong></td><td>Only in England (since the early 1990s) and Italy (since the mid-1990s). Spain is borderline. Germany and France show no such change.</td></tr>
+<tr><td>Has it got harder to reach the top across European football?</td><td><strong>No, as registered</strong></td><td>On the data the test was registered on, only England (since the early 1990s) and Italy (since the mid-1990s) declined, with Spain borderline. Re-run on the corrected tables (official positions, 2025/26 added), Spain also declines, so a wider decline cannot be ruled out. Germany and France show no change on either version. No league has become more open. <a href="https://github.com/lamindiallo/competitive-mobility-project/blob/main/docs/Sensitivity_D304.md">Details of the re-run</a>.</td></tr>
 <tr><td>Does a club's history matter, beyond where it finished last season?</td><td>Yes</td><td>But the pull is back towards each club's usual level: newcomers to the top four rarely stay, and fallen giants often return. "Success breeds success" is not what the data show.</td></tr>
 <tr><td>Is the top harder to break into than the bottom is to escape?</td><td>Yes</td><td>Top positions stick more than chance would allow, and more than bottom positions, in every league except Germany.</td></tr>
 <tr><td>Does promotion and relegation tell us whether the top is open?</td><td>No</td><td>How many clubs move up and down at the bottom says nothing about whether the top four can be reached.</td></tr>
@@ -59,7 +59,7 @@
 <li>League positions to 2024/25 are worked out from match results and checked against an independent source (in England every club and position in 88 division-seasons agreed). Top-division positions then follow the official tables: head-to-head tie-breaks where the league uses them (Spain; Italy from 2005/06), point deductions, and titles taken away. Every change is listed in the downloads.</li>
 <li>The 2025/26 final tables are the official tables, checked against a separate results file for the five top divisions and the Championship. Where the two differed, the official table had applied a head-to-head tie-break, a points deduction or an awarded match.</li>
 <li>Every wage figure must add up from its own parts as printed in the accounts, and most are confirmed again by the next year's accounts. No figure was read by an AI model; all were read by fixed rules that can be re-run.</li>
-<li>This season's table is provisional and comes from a volunteer-run public-domain results file, which can run behind.</li>
+<li>This season's table is provisional. It comes from football-data.org and is refreshed every 30 minutes; if that service is unavailable, a volunteer-run public-domain results file is used instead, which can run behind.</li>
 </ul>
 <p>Spotted something wrong? <a href="corrections.html">Tell us, with a source</a>. Version {{VERSION}}, {{DATE}}.</p>
 </div>

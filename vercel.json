@@ -1,6 +1,6 @@
 {
   "installCommand": "npm install",
-  "buildCommand": "uv run --no-project --with pandas --with numpy python site/build.py data public 2.1 \"30 October 2026\"",
+  "buildCommand": "uv run --no-project --with pandas --with numpy python site/build.py data public 2.2 \"31 October 2026\"",
   "outputDirectory": "public",
   "framework": null
 }
