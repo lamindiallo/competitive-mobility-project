@@ -20,10 +20,14 @@ Live site: https://competitive-mobility-project.vercel.app
 
 ```
 pip install pandas numpy
-python site/build.py data public 2.0 "30 October 2026"
+python site/build.py data public 2.1 "30 October 2026"
 ```
 
 Vercel runs the same command on every push (see `vercel.json`). The function `api/live.js` needs an environment variable `FOOTBALL_DATA_TOKEN`; without it, it falls back to openfootball's public-domain files.
+
+## Licence
+
+Code: MIT (see `LICENSE`). Data in `data/`: GNU GPL v3 or later (see `data/LICENSE.md`), because the match data derive from the GPL-licensed engsoccerdata.
 
 ## Rules the project keeps
 

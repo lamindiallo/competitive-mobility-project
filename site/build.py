@@ -23,9 +23,18 @@ MC = pd.read_csv(os.path.join(IN, 'money_ceilings.csv')) if os.path.exists(os.pa
 MCM = pd.read_csv(os.path.join(IN, 'money_ceiling_models.csv')).set_index(['country', 'goal']) if os.path.exists(os.path.join(IN, 'money_ceiling_models.csv')) else pd.DataFrame()
 MGOAL = {'top4_5': 'reached the top four within five seasons', 'stay5': 'stayed in the top flight for all of the next five seasons',
          'tf5': 'were in the top flight within five seasons'}
-# Gross mobility G (registered result, D167/D213): expected time to reach the top four relative to a league without memory
-# or club differences, measured on the whole ladder (England four divisions, elsewhere two)
-G = {'ENG': 4.00, 'ESP': 3.44, 'ITA': 3.28, 'GER': 2.56, 'FRA': 2.38}
+# Gross mobility G: expected time to reach the top four relative to a league without memory or club differences, measured on
+# the whole ladder (England four divisions, elsewhere two). Registered values (D167/D213, data to 2024/25) in G_REG; the site shows
+# the recomputation on its own ladders to 2025/26 with 95% ranges from resampling seasons (analysis/site_checks/g_intervals.py, D303).
+G_REG = {'ENG': 4.00, 'ESP': 3.44, 'ITA': 3.28, 'GER': 2.56, 'FRA': 2.38}
+_gi = pd.read_csv(os.path.join(IN, 'mobility_intervals.csv'))
+GI = {r.country: (r.G, r.lo, r.hi) for r in _gi[_gi.variant == 'all'].itertuples()}
+GSEAS = {r.country: tuple(int(v) for v in r.seasons.split('-')) for r in _gi[_gi.variant == 'all'].itertuples()}
+G = {c: v[0] for c, v in GI.items()}
+GNR = {r.country: (r.G, r.lo, r.hi) for r in _gi[_gi.variant == 'no_reserves'].itertuples()}
+_gv = os.path.join(IN, 'mobility_intervals_england_vs.csv')
+GVS = pd.read_csv(_gv).set_index('country').share_england_higher.to_dict() if os.path.exists(_gv) else {}
+def grange(c): return f'{GI[c][0]:.1f}× (likely range {GI[c][1]:.1f}–{GI[c][2]:.1f})'
 # How much of a big over-performance against the money survives into the next season
 PERS = {}
 for _c in ('ENG', 'FRA'):
@@ -140,10 +149,10 @@ def trajectory(c, series, series2=None, start=None):
     x = lambda s: l + (s - lo) / max(1, hi - lo) * (W - l - r)
     y = lambda k: t + (k - 0.5) / maxr * (H - t - b)
     P = [f'<svg viewBox="0 0 {W} {H}" class="chart wide" role="img" aria-label="Finishing position each season">']
-    acc = 0
+    acc = 0; LAB = []   # tier labels are drawn last, over the lines, with a halo (review 2)
     for i, (tier, n) in enumerate(sizes.items()):
         if i % 2 == 0: P.append(f'<rect class="tierband" x="{l}" y="{y(acc + .5):.1f}" width="{W - l - r}" height="{y(acc + n + .5) - y(acc + .5):.1f}"/>')
-        P.append(f'<text class="tierlab" x="{l + 6}" y="{y(acc + .5) + 14:.1f}">{E(tiername(c, tier))}</text>'); acc += n
+        LAB.append(f'<text class="tierlab" x="{l + 6}" y="{y(acc + .5) + 14:.1f}">{E(tiername(c, tier))}</text>'); acc += n
     step = 4 if hi - lo > 20 else 2
     for i, s in enumerate(range(hi, lo - 1, -step)):
         P.append(f'<text class="ax{" alt" if i % 2 else ""}" x="{x(s):.1f}" y="{H - 8}" text-anchor="middle">{season(s)}</text>')
@@ -163,7 +172,7 @@ def trajectory(c, series, series2=None, start=None):
             ti = tier == 1 and pos == 1 and (c, s) not in NOCH
             P.append(f'<circle class="d{cls}{" title" if ti else ""}" cx="{x(s):.1f}" cy="{y(rk):.1f}" r="{6 if ti else 4}"/>')
             P.append(f'<circle class="hit" cx="{x(s):.1f}" cy="{y(rk):.1f}" r="11" data-tip="{tip(f"{season(s)}: {ordinal(pos)} in {the(c, tier)}" + (" — champions" if ti else ""))}"/>')
-    P.append('</svg>'); return ''.join(P)
+    P += LAB; P.append('</svg>'); return ''.join(P)
 
 def bars(items, fmt, W=330, unit='', l=92, r=56):
     """Horizontal bars: items = [(label, value, highlight, tooltip)]"""
@@ -183,9 +192,9 @@ def money_chart(rows, c):
     x = lambda s: l + (s - lo) / max(1, hi - lo) * (W - l - r) if hi > lo else (l + W - r) / 2
     y = lambda k: t + (k - 0.5) / N * (H - t - b)
     n1 = int(L[c][(L[c].Season == hi) & (L[c].tier == 1)].shape[0])
+    LAB = [f'<text class="tierlab" x="{l + 6}" y="{y(.5) + 14:.1f}">{E(tiername(c, 1))}</text><text class="tierlab" x="{l + 6}" y="{y(n1 + .5) + 14:.1f}">{E(tiername(c, 2))}</text>']
     P = [f'<svg viewBox="0 0 {W} {H}" class="chart wide" role="img" aria-label="Actual finish against the finish the wage bill normally buys">',
          f'<rect class="tierband" x="{l}" y="{y(.5):.1f}" width="{W - l - r}" height="{y(n1 + .5) - y(.5):.1f}"/>',
-         f'<text class="tierlab" x="{l + 6}" y="{y(.5) + 14:.1f}">{E(tiername(c, 1))}</text><text class="tierlab" x="{l + 6}" y="{y(n1 + .5) + 14:.1f}">{E(tiername(c, 2))}</text>',
          f'<text class="ax" x="{l - 8}" y="{y(1) + 4:.1f}" text-anchor="end">1st</text>']
     for i, s in enumerate(range(hi, lo - 1, -2)): P.append(f'<text class="ax{" alt" if i % 2 else ""}" x="{x(s):.1f}" y="{H - 8}" text-anchor="middle">{season(s)}</text>')
     rows = rows.sort_values('season')
@@ -201,7 +210,7 @@ def money_chart(rows, c):
         P.append(f'<circle class="dx" cx="{x(rr.season):.1f}" cy="{y(rr.exp_lrank):.1f}" r="3.5"/><circle class="d1" cx="{x(rr.season):.1f}" cy="{y(rr.lrank):.1f}" r="4.5"/>')
         tp = f'{season(rr.season)}: finished {ordinal(rr.pos)} in {the(c, rr.tier)}; the wage bill normally buys about {ordinal(max(1, round(rr.exp_lrank)) if rr.exp_lrank <= n1 else max(1, round(rr.exp_lrank - n1)))} in {the(c, 1 if rr.exp_lrank <= n1 else 2)}'
         P.append(f'<rect class="hit" x="{x(rr.season) - 12:.1f}" y="{t}" width="24" height="{H - t - b}" data-tip="{tip(tp)}"/>')
-    P.append('</svg>'); return ''.join(P)
+    P += LAB; P.append('</svg>'); return ''.join(P)
 
 def lines_chart(series, xlabels, highlight, fmt):
     """series = {name: [values]}; highlighted series in accent, others in context grey, all direct-labelled."""
@@ -472,6 +481,23 @@ BHCI = {c: club_interval(bottom_half_rows(c, 2004, 2015), 'hit') for c in ORDER}
 PERIODS = [(1994, 1999, '1994–99'), (2000, 2005, '2000–05'), (2006, 2010, '2006–10'), (2011, 2015, '2011–15')]
 BH = {c: [bottom_half_rate(c, a, b)[0] for a, b, _ in PERIODS] for c in ORDER}
 BH0415 = {c: bottom_half_rate(c, 2004, 2015) for c in ORDER}
+# Sensitivity of the bottom-half figure to the window (review 2): earlier and later halves, and a five-year goal on later finishes
+def bottom_half_rows_h(c, a, b, h):
+    d = L[c]; S = {(r.k, r.Season): r for r in d.itertuples()}; out = []
+    for r in d[(d.tier == 1) & (d.Season >= a) & (d.Season <= b)].itertuples():
+        if r.pos <= r.N / 2: continue
+        out.append(dict(k=r.k, hit=float(any((x := S.get((r.k, r.Season + i))) is not None and x.tier == 1 and x.pos <= 4 for i in range(1, h + 1)))))
+    return pd.DataFrame(out)
+WINDOWS = [(2004, 2015, 10, 'Finishes 2004/05–2015/16, top four within 10 seasons (the main figure)'), (2004, 2009, 10, 'Finishes 2004/05–2009/10, within 10 seasons'),
+           (2010, 2015, 10, 'Finishes 2010/11–2015/16, within 10 seasons'), (2011, 2020, 5, 'Finishes 2011/12–2020/21, within 5 seasons')]
+WS = {}
+for c in ORDER:
+    for a, b, h, lab in WINDOWS:
+        g = bottom_half_rows_h(c, a, b, h); lo, hi = club_interval(g, 'hit')[:2]
+        WS[(c, a, b, h)] = (g.hit.mean(), len(g), int(g.hit.sum()), lo, hi)
+os.makedirs(os.path.join(OUT, 'data'), exist_ok=True)
+pd.DataFrame([dict(country=c, first_season=a, last_season=b, within_seasons=h, finishes=v[1], reached_top4=v[2], share=round(v[0], 4), lo=round(v[3], 4), hi=round(v[4], 4))
+              for (c, a, b, h), v in WS.items()]).to_csv(os.path.join(OUT, 'data', 'bottom_half_windows.csv'), index=False)
 def distinct_top4(c, a, b):
     t = L[c][(L[c].tier == 1) & (L[c].Season >= a) & (L[c].Season <= b) & (L[c].pos <= 4)]; return t.k.nunique()
 DT = {c: (distinct_top4(c, 2000, 2009), distinct_top4(c, 2016, 2025)) for c in ORDER}
@@ -503,20 +529,32 @@ for c in ORDER:
         groups.setdefault(x['R']['last'][0] if x['R']['last'] else 99, []).append(x)
     lists = ''.join(f'<h3>{E(tiername(c, t) + " in " + season(LAST[c]) if t != 99 else "Formerly in the divisions covered")}</h3><ul class="clubs">'
                     + ''.join(f'<li><a href="../clubs/{x["slug"]}.html">{E(x["name"])}</a></li>' for x in groups[t]) + '</ul>' for t in sorted(groups))
+    spain_note = ''
+    if c == 'ESP':
+        nres = int(L[c].reserve.sum()); nrc = L[c][L[c].reserve].k.nunique()
+        spain_note = (f'<p class="note">Reserve teams such as Barcelona B and Real Madrid Castilla played {nres} seasons in the {E(tiername(c, 2))} in this period ({nrc} different teams). '
+                      'They cannot be promoted into their first team\'s division, so they are left out of every "realistic ceiling" figure. They stay in the league tables, because the other clubs\' positions depend on them. '
+                      f'Taking them out of the mobility measure leaves it unchanged: {GNR[c][0]:.1f}× (likely range {GNR[c][1]:.1f}–{GNR[c][2]:.1f}).</p>')
+    wrows = ''.join(f'<tr><td>{E(lab)}</td>' + ''.join(f'<td class="v{" hl" if x == c else ""}">{WS[(x, a, b, h)][0]:.0%}<br><span class="note">{WS[(x, a, b, h)][3]:.0%}–{WS[(x, a, b, h)][4]:.0%}</span></td>' for x in ORDER) + '</tr>'
+                    for a, b, h, lab in WINDOWS)
+    window_table = (f'<h3>Does the answer depend on the seasons chosen?</h3><p class="small">Share of bottom-half finishes followed by a top-four finish, with likely ranges. '
+                    'The main figure uses 2004/05–2015/16 because ten-year outcomes are complete only up to then. Later finishes can only be followed for five seasons.</p>'
+                    f'<div class="scroll"><table class="t"><tr><th>Window</th>{"".join(f"<th>{E(cname(x))}</th>" for x in ORDER)}</tr>{wrows}</table></div>')
     body = f'''<p class="crumb"><a href="../leagues.html">Leagues</a></p><h1>How open is {E(the(c, 1))}?</h1>
 <p class="lede">{E(m["country"])} · {" · ".join(E(v) for v in m["tiers"].values())} · {season(m["start"])} to {season(LAST[c])}</p>
-<div class="tiles"><div class="tile"><b>{G[c]:.1f}×</b><span>as long to reach the top four as in a league where the past did not matter</span></div>
+<div class="tiles"><div class="tile"><b>{G[c]:.1f}×</b><span>as long to reach the top four as in a league where the past did not matter (likely range {GI[c][1]:.1f}–{GI[c][2]:.1f})</span></div>
 <div class="tile"><b>{champs.size}</b><span>different champions since {season(m["start"])}</span></div>
 <div class="tile"><b>{last10.k.nunique()}</b><span>different champions in the last ten seasons</span></div>
 <div class="tile"><b>{DT[c][1]}</b><span>different clubs in the top four, 2016/17–2025/26</span></div>
 <div class="tile"><b>{DT[c][0]}</b><span>different clubs in the top four, 2000/01–2009/10</span></div></div>
-<p class="small">Champions: {champ_list}.</p>
+<p class="small">Champions: {champ_list}.</p>{spain_note}
 <h2>Can a bottom-half club reach the top four?</h2>
 <p>Of the {bh[1]} times a club finished in the bottom half of {E(the(c, 1))} between {season(2004)} and {season(2015)}, <strong>{bh[2]}</strong> reached the top four within the next ten seasons: {E(phrase(bh[0], bh[1], bh[2]))} (likely range {BHCI[c][0]:.0%}–{BHCI[c][1]:.0%}).</p>
 <div class="grid2"><div class="chartbox"><p class="small"><strong>The same question in each league</strong> (finishes 2004/05–2015/16)</p>
 {bars([(cname(x), BH0415[x][0], x == c, f"{cname(x)}: {BH0415[x][2]} of {BH0415[x][1]}; likely range {BHCI[x][0]:.0%}–{BHCI[x][1]:.0%}") for x in ORDER], lambda v: f"{v:.0%}")}</div>
 <div class="chartbox"><p class="small"><strong>Over time</strong>: share reaching the top four within ten seasons, by when the bottom-half finish happened</p>
 {lines_chart({cname(x): BH[x] for x in ORDER}, [p[2] for p in PERIODS], cname(c), lambda v: f"{v:.0%}")}</div></div>
+{window_table}
 {how("How do we know?", "<p>Every bottom-half finish in the top division was followed forward ten seasons. The periods are short, so single seasons move the lines; the project's registered tests, which use the whole ladder and every season, are on the <a href='../about.html'>How it works</a> page.</p>")}
 <h2>Realistic ceilings in {E(m["country"])}</h2><p>What happened next to clubs in each position (finishes from {season(START)}; ten-year goals to {season(END10)}, five-year goals to {season(END5)}).</p>
 <div class="scroll"><table class="t"><tr><th>Clubs that…</th><th>…and then</th></tr>{ceil_rows}</table></div>
@@ -539,13 +577,13 @@ home = f'''<section class="hero"><h1>How far can your club climb?</h1>
 <div class="search"><input id="q" type="search" placeholder="Type a club, e.g. Brentford, Lens, Bologna" autocomplete="off" aria-label="Find a club"><ul id="res" class="results"></ul></div>
 <div class="chips">{"".join(f'<a href="leagues/{c.lower()}.html">{E(TOPN[c])}</a>' for c in ORDER)}<a href="live.html">This season so far</a></div></section>
 <h2>What "mobility" means here</h2>
-<p>Mobility is how easily a club can move up over the years — above all, into the top four. We compare each league with an imaginary one in which last season's position told you nothing about the next and every club had the same chance. In England, reaching the top four takes about <strong>4 times longer</strong> than in that imaginary league; in France about <strong>2.4 times</strong>.</p>
-<div class="chartbox" style="max-width:560px">{bars([(cname(x), G[x], x == "ENG", f"{cname(x)}: {G[x]:.2f} times as long as in a league without memory") for x in ORDER], lambda v: f"{v:.1f}×", W=420)}</div>
+<p>Mobility is how easily a club can move up over the years — above all, into the top four. We compare each league with an imaginary one in which last season's position told you nothing about the next and every club had the same chance. In England, reaching the top four takes about <strong>{G["ENG"]:.1f} times longer</strong> than in that imaginary league (likely range {GI["ENG"][1]:.1f}–{GI["ENG"][2]:.1f}); in France about <strong>{G["FRA"]:.1f} times</strong> ({GI["FRA"][1]:.1f}–{GI["FRA"][2]:.1f}). England is the least mobile of the five: its figure was higher than Spain's and Italy's in {min(GVS.get("ESP", 0), GVS.get("ITA", 0)):.0%} or more of resampled comparisons.</p>
+<div class="chartbox" style="max-width:560px">{bars([(cname(x), G[x], x == "ENG", f"{cname(x)}: {G[x]:.2f} times as long as in a league without memory; likely range {GI[x][1]:.1f}–{GI[x][2]:.1f}") for x in ORDER], lambda v: f"{v:.1f}×", W=420)}<p class="note">1992/93 (or the first season covered) to 2025/26. Likely ranges come from resampling whole seasons.</p></div>
 {how("How is this worked out?", "<p>Every club is placed on one ladder each season, covering England's four divisions and the top two elsewhere. We measure how long, on average, it takes clubs to reach the top four, and compare that with the same calculation for a league in which positions are reshuffled at random every season. The ratio is 1 when a league is as open as pure chance. The test and its rejection rule were written down before the result was computed; see <a href='about.html'>How it works</a>.</p>")}
 <p class="kicker">Three things the numbers show</p>
 <div class="finds">
-<div class="find"><h3>From the bottom half to the top four is a long shot — longest in England</h3>
-<p>Of clubs finishing in the bottom half of the Premier League (2004/05–2015/16), {E(phrase(*ENGB))} reached the top four within ten years ({ENGB[2]} of {ENGB[1]}). In the Bundesliga it was {E(phrase(*BH0415["GER"]))} ({BH0415["GER"][2]} of {BH0415["GER"][1]}). The same clubs recur, so the likely ranges are wide: England {BHCI["ENG"][0]:.0%}–{BHCI["ENG"][1]:.0%}, Germany {BHCI["GER"][0]:.0%}–{BHCI["GER"][1]:.0%}.</p>
+<div class="find"><h3>From the bottom half to the top four is a long shot everywhere</h3>
+<p>Of clubs finishing in the bottom half of the Premier League (2004/05–2015/16), {E(phrase(*ENGB))} reached the top four within ten years ({ENGB[2]} of {ENGB[1]}); in the Bundesliga, {E(phrase(*BH0415["GER"]))} ({BH0415["GER"][2]} of {BH0415["GER"][1]}). The same clubs recur, so the ranges are wide (England {BHCI["ENG"][0]:.0%}–{BHCI["ENG"][1]:.0%}, Germany {BHCI["GER"][0]:.0%}–{BHCI["GER"][1]:.0%}), and the gap depends on the seasons chosen: for finishes from 2011/12 to 2020/21, followed for five seasons, England ({WS[("ENG", 2011, 2020, 5)][0]:.0%}), Italy ({WS[("ITA", 2011, 2020, 5)][0]:.0%}) and Spain ({WS[("ESP", 2011, 2020, 5)][0]:.0%}) are about level. The firmer evidence that England is the least mobile is the measure above, which uses every club and every season.</p>
 {bars([(cname(x), BH0415[x][0], x == "ENG", f"{cname(x)}: {BH0415[x][2]} of {BH0415[x][1]}") for x in ORDER], lambda v: f"{v:.0%}")}</div>
 <div class="find"><h3>Going up is easier than staying up</h3>
 <p>Only about 1 in 3 promoted clubs stayed in the top flight for the next five seasons. About half of relegated clubs were back within five.</p>
@@ -583,7 +621,10 @@ def part(name, rel=''):
     return open(os.path.join(HERE, name), encoding='utf-8').read().replace('{{VERSION}}', E(VERSION)).replace('{{DATE}}', E(DATE)).replace('{{START}}', season(START)).replace('{{END10}}', season(END10)).replace('{{END5}}', season(END5))
 write('compare.html', page('Compare two clubs', part('compare.html.part'), '', 'Compare the paths of two clubs.', 'compare.html'))
 write('live.html', page('This season so far', part('live.html.part'), '', 'The 2026/27 tables so far, with what clubs in each position have gone on to do. Provisional.', 'live.html'))
-write('about.html', page('How it works', part('about.html.part'), '', 'How the figures on this site are produced, what they mean and what they do not.', 'about.html'))
+GTABLE = ('<div class="scroll"><table class="t"><tr><th>League</th><th>Seasons</th><th>Times as long as by chance</th><th>Likely range</th></tr>'
+          + ''.join(f'<tr><td>{E(cname(c))}</td><td>{season(GSEAS[c][0])}–{season(GSEAS[c][1])}</td><td class="v">{GI[c][0]:.1f}</td><td class="v">{GI[c][1]:.1f}–{GI[c][2]:.1f}</td></tr>' for c in ORDER)
+          + '</table></div>')
+write('about.html', page('How it works', part('about.html.part').replace('{{GTABLE}}', GTABLE).replace('{{GVSMIN}}', f'{min(GVS.values()):.0%}' if GVS else '—'), '', 'How the figures on this site are produced, what they mean and what they do not.', 'about.html'))
 write('corrections.html', page('Corrections', part('corrections.html.part'), '', 'Report an error.'))
 
 lad = pd.concat([L[c].assign(country=c)[['country', 'Season', 'tier', 'pos', 'club', 'k', 'band']] for c in ORDER]).rename(columns={'Season': 'season_start', 'k': 'club_key', 'band': 'position_band'})
@@ -604,7 +645,7 @@ EP[['k', 'season', 'payroll_k', 'ye', 'company_no', 'source', 'xcheck_diff_pct',
 FP[['k', 'ladder_club', 'season', 'payroll_keur', 'payroll_source', 'consolidated', 'file', 'page']].rename(columns={
     'k': 'club_key', 'ladder_club': 'club', 'season': 'season_start', 'payroll_keur': 'payroll_eur_thousands', 'payroll_source': 'check', 'consolidated': 'group_perimeter',
     'file': 'dncg_report', 'page': 'report_page'}).to_csv(os.path.join(OUT, 'data', 'payroll_france.csv'), index=False)
-for f in ('official_position_changes.csv', 'final_tables_2025_26.txt', 'code.zip', 'money_ceilings.csv', 'money_ceiling_models.csv'):
+for f in ('official_position_changes.csv', 'final_tables_2025_26.txt', 'code.zip', 'money_ceilings.csv', 'money_ceiling_models.csv', 'mobility_intervals.csv', 'mobility_intervals_england_vs.csv'):
     if os.path.exists(os.path.join(IN, f)): shutil.copy(os.path.join(IN, f), os.path.join(OUT, 'data', f))
 REPO = os.path.dirname(HERE)   # in the repository layout, zip the code that produced this site (D271)
 if not os.path.exists(os.path.join(OUT, 'data', 'code.zip')) and os.path.isdir(os.path.join(REPO, 'analysis')):
@@ -626,6 +667,9 @@ files = [('positions_five_leagues.csv', 'Final position of every club, every sea
          ('against_the_money_fra.csv', 'France: the same'),
          ('money_ceilings.csv', 'England and France: the realistic ceiling taking the wage bill into account, for each club in a position where it applies, with 95% ranges'),
          ('money_ceiling_models.csv', 'The models behind those figures, with the out-of-sample check against position alone'),
+         ('mobility_intervals.csv', 'The mobility measure for each league with 95% ranges from resampling seasons, and for Spain without reserve teams'),
+         ('mobility_intervals_england_vs.csv', 'How often England\'s resampled mobility figure exceeds each other league\'s'),
+         ('bottom_half_windows.csv', 'Bottom half to top four: the same share for different windows of seasons, with ranges'),
          ('against_the_money_by_season.csv', 'England and France, season by season: finish, the finish the wage bill usually buys, wage bill and its rank'),
          ('payroll_england.csv', 'England: club staff costs (£000) from Companies House accounts, with company number, year end and the cross-check'),
          ('payroll_france.csv', 'France: club payroll (€000) from the DNCG\'s published accounts, with report and page'),
@@ -636,6 +680,7 @@ write('data.html', page('Data and code', f'''<h1>Data and code</h1><p class="led
 <h2>Sources</h2><ul><li>Match results 1992/93–2024/25: the engsoccerdata and football-data compilations; England 2022/23 from openfootball. Final tables 2025/26: the official tables as published on each league's Wikipedia page, checked against openfootball's results for the top divisions and the Championship.</li>
 <li>This season (2026/27): tables from <a href='https://www.football-data.org'>football-data.org</a>, provisional; openfootball's public-domain files as a fallback.</li>
 <li>England wage bills: statutory accounts at Companies House. France wage bills: the DNCG's annual reports on club accounts.</li></ul>
+<h2>Licence</h2><p>The code is under the MIT licence. The data files are under the GNU GPL (version 3 or later), because the match data derive from engsoccerdata, which is GPL-licensed. Please credit the project and the original sources. Details are in the <a href="https://github.com/lamindiallo/competitive-mobility-project">repository</a>.</p>
 <h2>Who made this</h2><p>The Competitive Mobility Project is by {AUTHOR}. The code and data are on <a href="https://github.com/lamindiallo/competitive-mobility-project">GitHub</a>, including the <a href="https://github.com/lamindiallo/competitive-mobility-project/blob/main/docs/Hypothesis_Register.md">register of tests</a> written before the results were computed.</p>
 <h2>What is not here</h2><ul><li>The original filings: they are public at their sources and cited row by row.</li><li>Transfer-market valuations or anything derived from them.</li><li>Anyone's individual pay.</li><li>Club badges: they are the clubs' property.</li></ul>''', '', 'Downloads.'))
 shutil.copy(os.path.join(HERE, 'style.css'), os.path.join(OUT, 'style.css')); shutil.copy(os.path.join(HERE, 'live.js'), os.path.join(OUT, 'live.js'))

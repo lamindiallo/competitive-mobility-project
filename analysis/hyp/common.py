@@ -1,6 +1,7 @@
 """Shared data and state definitions for the registered H1/H2 tests.
 Implements `06 Analysis/H1_H2_Test_Protocol.md` §1 exactly.
-Env: FR_SRC (public GitHub clones, see rcm/README.md), FR_LADDERS (folder holding ladder_XX.csv)."""
+Env: FR_SRC (public GitHub clones, see rcm/README.md), FR_LADDERS (folder holding ladder_XX.csv);
+optional FR_ENG4 (a four-tier England ladder CSV with club, Season, tier, pos, k, used instead of rebuilding from FR_SRC)."""
 import os, sys, numpy as np, pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', 'rcm'))
@@ -12,7 +13,9 @@ LADDERS = os.environ.get('FR_LADDERS')
 def load(series):
     """series: 'ENG-4' or 'ENG-2','ESP-2','ITA-2','GER-2','FRA-2'. Returns club-season frame
     with k, Season, tier, pos, n1 (tier-1 size), ntot, rank; plus list of usable seasons."""
-    if series == 'ENG-4':
+    if series == 'ENG-4' and os.environ.get('FR_ENG4'):      # sensitivity runs: a prepared four-tier ladder (e.g. the site's, D303)
+        d = pd.read_csv(os.environ['FR_ENG4'])[['club', 'Season', 'tier', 'pos', 'k']].copy(); ntiers = 4
+    elif series == 'ENG-4':
         d = eng_ladder(4, 1958, 2024)[['club', 'Season', 'tier', 'pos']].copy()
         d['k'] = d.club.map(ck); ntiers = 4
     else:
