@@ -161,7 +161,25 @@ This register records each hypothesis, its falsification condition and the test 
 
 **Secondary prediction, tested but not decisive.** The bound should be tighter in leagues where resources map more reliably onto position. Failure of the secondary prediction weakens but does not falsify H7.
 
-**Status.** **Registered.** **This is the most directly testable hypothesis in the register and among the most consequential for Phase IV** — because it bears on whether redistributing revenue would change anything.
+**Design fixed before data (D306, 31 October 2026).** Unit changed from league-decades to league-seasons, for power; HICB is the primary concentration measure; revenue comes from Deloitte's *Annual Review of Football Finance* (`06 Analysis/H7_Test_Protocol.md`).
+
+**Status.** **Tested 31 October 2026 — NOT REJECTED** (`06 Analysis/H7_Test_Results.md`, D310).
+
+> **Result.** 75 league-seasons: 1996/97, 2010/11 and 2012/13–2024/25. The τ = 0.10 lower envelope of HICB **rises** with log real revenue (slope +2.56; one-sided p for a decline 0.96). No specification gives a negative slope. Power against a decline of 0.5 / 1 SD is 0.17 / 0.46. **More revenue has not lowered the floor of concentration.** This is consistent with an arms race but does not prove one; the secondary prediction is not tested.
+
+---
+
+## H1b — History beyond money (added 31 October 2026, D307)
+
+**Statement.** A club's previous-season position predicts its next-season position **beyond its current position and its current wage bill**.
+
+**Test.** Permutation likelihood-ratio test of previous-state terms in a multinomial logit of the next state on current state and wage terms; England and France, tiers 1–2 (`06 Analysis/H1b_Test_Protocol.md`, written before any H1b statistic).
+
+> **Falsification condition. H1b is rejected if the permutation p-value is ≥ 0.05 in the pooled England–France data.**
+
+**Status.** **Tested 31 October 2026 — NOT REJECTED** (p = 0.032; `06 Analysis/H1b_Test_Results.md`, D311).
+
+> **Result.** Wages absorb about four-fifths of H1's history signal: the excess over the permutation null falls from 65 without wage terms to 12 with them. The remainder is not significant in England (p = 0.17) or France (p = 0.055) alone. **H1's history dependence mostly reflects lasting differences in money.**
 
 ---
 

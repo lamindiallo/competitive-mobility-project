@@ -662,7 +662,7 @@ files = [('positions_five_leagues.csv', 'Final position of every club, every sea
          ('realistic_ceilings.csv', 'What happened next to clubs in each position band: counts, shares, 95% ranges from resampling clubs, number of different clubs, and the seasons used (reserve teams excluded)'),
          ('club_records.csv', 'Each club\'s record: seasons by division, titles, top-four finishes, promotions, relegations'),
          ('final_tables_2025_26.txt', 'The official 2025/26 final tables used'),
-         ('official_position_changes.csv', 'Every top-flight position changed from the results-based table to the official classification, with the reason'),
+         ('official_position_changes.csv', 'Every position changed from the results-based table to the official classification (top divisions; England\'s tiers 2–4 and the 2. Bundesliga), with the reason'),
          ('against_the_money_eng.csv', 'England: each club\'s average places above or below what its wage bill usually buys, with 95% intervals'),
          ('against_the_money_fra.csv', 'France: the same'),
          ('money_ceilings.csv', 'England and France: the realistic ceiling taking the wage bill into account, for each club in a position where it applies, with 95% ranges'),
