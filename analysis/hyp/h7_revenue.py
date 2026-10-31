@@ -1,7 +1,7 @@
 """H7 league revenue (D306): read 'big five' league revenues from Deloitte's Annual Review of Football Finance (ARFF) PDFs
 without any model reading. Chart values are read from the PDF text layer; each value is attributed to its league by
 the colour of the value label (2017, 2018, 2026 editions) or of the line it sits on (2016 edition), matched to the
-chart's legend. 2010/11 comes from sentences in the 2012 highlights. Projections are dropped.
+chart's legend. 2008/09, 2009/10 (not England) and 2010/11 come from sentences in the 2010, 2011 and 2012 highlights. Projections are dropped.
 
 Source priority (protocol 2.2): the latest edition reporting a season wins; every other reading of the same season is
 kept in the output as a cross-check.
@@ -73,6 +73,23 @@ val['England'] = val['Germany'] + gap            # "the gap to the second highes
 for k, v in val.items():
     rows.append(dict(league=k, season='2010/11', revenue_eur_m=v, edition='ARFF 2012 highlights', file='uk-sbg-annual-football-finance-review-2012-highlights.pdf',
                      page=1, method='text' if k != 'England' else 'text (Bundesliga + stated gap)', projection=False))
+
+# ARFF 2010 highlights (2008/09, all five) and ARFF 2011 highlights (2009/10; the Premier League is given only as
+# "almost EUR 2.5 billion", so England 2009/10 is left out)
+TEXT = {('uk-sbg-arff-2010-highlights.pdf', '2008/09', 'ARFF 2010 highlights'): {
+            'England': r'revenues fell by €115m to €([\d,]+)m in 2008/09', 'Germany': r'Bundesliga’s revenue growth of €137m \(10%\) to €([\d,]+)m',
+            'Spain': r'La Liga growth of €63m \(4%\) to €([\d,]+)m', 'Italy': r'Serie A’s revenues increased by €73m \(5%\) to €([\d,]+)m',
+            'France': r'totalling €([\d,]+)m \(up 6%\)'},
+        ('uk-sbg-arff11-highlights.pdf', '2009/10', 'ARFF 2011 highlights'): {
+            'Germany': r'Bundesliga’s revenue grew 6% to €([\d,]+)m', 'Spain': r'La Liga revenues grew by 8% to €([\d,]+)m',
+            'Italy': r'Serie A’s revenues increased by 3% to €([\d,]+)m', 'France': r'revenues grew by 2% to reach €([\d,]+)m'}}
+for (fn, season, ed), pats in TEXT.items():
+    t = ' '.join(p.get_text() for p in pymupdf.open(os.path.join(SRC, fn))).replace('\n', ' ')
+    t = re.sub(r'\s+', ' ', t)
+    for lg, pt in pats.items():
+        m = re.search(pt, t)
+        if not m: raise SystemExit(f'pattern not found: {fn} {lg}')
+        rows.append(dict(league=lg, season=season, revenue_eur_m=int(m.group(1).replace(',', '')), edition=ed, file=fn, page=1, method='text', projection=False))
 
 R = pd.DataFrame(rows)
 R['edition_year'] = R.edition.str.extract(r'(\d{4})').astype(int)

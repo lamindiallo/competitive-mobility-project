@@ -6,7 +6,7 @@ Implementation notes, recorded with the results:
     contemporary rates, so national deflation would mix exchange-rate effects; the protocol's stated fallback is used:
     every league deflated by euro-area HICP (Eurostat prc_hicp_aind, annual average, calendar year in which the season ends),
     expressed in 2024 euros.
-  - Seasons available: 1996/97, 2010/11 and 2012/13-2024/25. The moving-block bootstrap treats each league's available
+  - Seasons available: 1996/97, 2008/09, 2009/10 (not England), 2010/11 and 2012/13-2024/25. The moving-block bootstrap treats each league's available
     seasons as one ordered sequence.
   - Power (protocol 5) uses the observed bootstrap spread around the estimate as the sampling distribution under each
     simulated slope, instead of a full bootstrap for each of 500 simulations.
@@ -19,7 +19,7 @@ DATA, REV, OUT = sys.argv[1:4]; os.makedirs(OUT, exist_ok=True)
 SRC = os.environ['FR_SRC']
 from official_positions import DEDUCT
 from ladder import parse_of
-HICP = {1997: 72.87, 2011: 95.66, 2013: 99.38, 2014: 99.81, 2015: 100.00, 2016: 100.23, 2017: 101.78, 2018: 103.56, 2019: 104.80,
+HICP = {1997: 72.87, 2009: 91.65, 2010: 93.14, 2011: 95.66, 2013: 99.38, 2014: 99.81, 2015: 100.00, 2016: 100.23, 2017: 101.78, 2018: 103.56, 2019: 104.80,
         2020: 105.06, 2021: 107.78, 2022: 116.82, 2023: 123.15, 2024: 126.07, 2025: 128.75}   # Eurostat prc_hicp_aind, EA, 2015=100
 FILES = {'England': 'england', 'Spain': 'spain', 'Italy': 'italy', 'Germany': 'germany', 'France': 'france'}
 CODE = {'England': 'ENG', 'Spain': 'ESP', 'Italy': 'ITA', 'Germany': 'GER', 'France': 'FRA'}
