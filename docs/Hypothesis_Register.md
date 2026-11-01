@@ -147,7 +147,7 @@ This register records each hypothesis, its falsification condition and the test 
 
 > **Condition to be specified only if a sunk-share estimate proves feasible.** If it does not, H6 is **withdrawn as an empirical hypothesis and retained as a theoretical interpretation**, clearly labelled as such. That outcome must be declared rather than allowed to blur.
 
-**Status.** **Draft.** Feasibility not established.
+**Status.** **Withdrawn as an empirical hypothesis; retained as a theoretical interpretation** (1 November 2026, D321/P2), as this entry's own condition provides: no sunk-share estimate is feasible from the available data. It is no longer described as the project's primary structural explanation.
 
 ---
 
@@ -185,7 +185,7 @@ This register records each hypothesis, its falsification condition and the test 
 
 ## H8 — Asymmetric erosion
 
-**Statement.** Competitive advantage erodes **slowly at the top and quickly at the bottom** — the mirror image of the asymmetry found in the industrial persistence-of-profits literature.
+**Statement.** Competitive advantage erodes **slowly at the top and quickly at the bottom** — **the same direction** as the asymmetry found in the industrial persistence-of-profits literature, where high profits also persist longer than low ones (McMillan and Wohar). *(Corrected 1 November 2026, D321/P1: earlier versions called it the "mirror image".)*
 
 **Test.** Estimate the persistence parameter separately by position band, using bias-corrected estimation (D038), on the pyramid-wide state space. Equivalently, compare state-specific diagonal retention probabilities in the estimated transition matrix.
 
@@ -209,6 +209,8 @@ This register records each hypothesis, its falsification condition and the test 
 
 > **Falsification condition. H9 is rejected if the correlation between the promotion-relegation component and the elite-tier component exceeds 0.5 in absolute value at bootstrapped p < 0.05.**
 
+**Scope note (1 November 2026, D321/P3).** The registered test addresses only the orthogonality part of H9's statement (that the two components are not strongly correlated). It does not test the second sentence, that movement among continuously present clubs *drives* changes in concentration.
+
 **The 0.5 threshold is a judgement and is declared as such.** It is set at the level above which the two components could not sensibly be described as telling different stories. **It is registered now precisely so that it cannot be adjusted after the correlation is seen.**
 
 **Status.** **Tested 8 October 2026 — NOT REJECTED** (`06 Analysis/H8_H9_Test_Results.md`, D251).
@@ -229,7 +231,7 @@ This register records each hypothesis, its falsification condition and the test 
 
 > **Condition to be specified only if an exogenous attachment measure proves feasible.** If it does not, H10 is **withdrawn and the policy implication reported as unresolved**, which is itself a finding worth stating to UEFA.
 
-**Status.** **Draft.** Feasibility not established.
+**Status.** **Withdrawn** (1 November 2026, D321/P10), as this entry's own condition provides: club-level wage bills cannot separate the Rosen and Adler mechanisms, and no exogenous attachment measure is available. **The policy implication is reported as unresolved.**
 
 ---
 

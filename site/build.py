@@ -34,6 +34,9 @@ G = {c: v[0] for c, v in GI.items()}
 GNR = {r.country: (r.G, r.lo, r.hi) for r in _gi[_gi.variant == 'no_reserves'].itertuples()}
 _gv = os.path.join(IN, 'mobility_intervals_england_vs.csv')
 GVS = pd.read_csv(_gv).set_index('country').share_england_higher.to_dict() if os.path.exists(_gv) else {}
+_gvb = os.path.join(IN, 'mobility_intervals_block_england_vs.csv')   # P18/D322: seasons drawn in blocks of four
+if os.path.exists(_gvb):
+    for _c, _v in pd.read_csv(_gvb).set_index('country').share_england_higher.to_dict().items(): GVS[_c] = min(GVS.get(_c, 1), _v)
 def grange(c): return f'{GI[c][0]:.1f}× (likely range {GI[c][1]:.1f}–{GI[c][2]:.1f})'
 # How much of a big over-performance against the money survives into the next season
 PERS = {}
@@ -577,7 +580,7 @@ home = f'''<section class="hero"><h1>How far can your club climb?</h1>
 <div class="search"><input id="q" type="search" placeholder="Type a club, e.g. Brentford, Lens, Bologna" autocomplete="off" aria-label="Find a club"><ul id="res" class="results"></ul></div>
 <div class="chips">{"".join(f'<a href="leagues/{c.lower()}.html">{E(TOPN[c])}</a>' for c in ORDER)}<a href="live.html">This season so far</a></div></section>
 <h2>What "mobility" means here</h2>
-<p>Mobility is how easily a club can move up over the years — above all, into the top four. We compare each league with an imaginary one in which last season's position told you nothing about the next and every club had the same chance. In England, reaching the top four takes about <strong>{G["ENG"]:.1f} times longer</strong> than in that imaginary league (likely range {GI["ENG"][1]:.1f}–{GI["ENG"][2]:.1f}); in France about <strong>{G["FRA"]:.1f} times</strong> ({GI["FRA"][1]:.1f}–{GI["FRA"][2]:.1f}). England is the least mobile of the five: its figure was higher than Spain's and Italy's in {min(GVS.get("ESP", 0), GVS.get("ITA", 0)):.0%} or more of resampled comparisons.</p>
+<p>Mobility is how easily a club can move up over the years — above all, into the top four. We compare each league with an imaginary one in which last season's position told you nothing about the next and every club had the same chance. In England, reaching the top four takes about <strong>{G["ENG"]:.1f} times longer</strong> than in that imaginary league (likely range {GI["ENG"][1]:.1f}–{GI["ENG"][2]:.1f}); in France about <strong>{G["FRA"]:.1f} times</strong> ({GI["FRA"][1]:.1f}–{GI["FRA"][2]:.1f}). England is the least mobile of the five: its figure was higher than Spain's and Italy's in {min(GVS.get("ESP", 0), GVS.get("ITA", 0)):.0%} or more of resampled comparisons, however the seasons are resampled.</p>
 <div class="chartbox" style="max-width:560px">{bars([(cname(x), G[x], x == "ENG", f"{cname(x)}: {G[x]:.2f} times as long as in a league without memory; likely range {GI[x][1]:.1f}–{GI[x][2]:.1f}") for x in ORDER], lambda v: f"{v:.1f}×", W=420)}<p class="note">1992/93 (or the first season covered) to 2025/26. Likely ranges come from resampling whole seasons.</p></div>
 {how("How is this worked out?", "<p>Every club is placed on one ladder each season, covering England's four divisions and the top two elsewhere. We measure how long, on average, it takes clubs to reach the top four, and compare that with the same calculation for a league in which positions are reshuffled at random every season. The ratio is 1 when a league is as open as pure chance. The test and its rejection rule were written down before the result was computed; see <a href='about.html'>How it works</a>.</p>")}
 <p class="kicker">Three things the numbers show</p>
@@ -645,7 +648,7 @@ EP[['k', 'season', 'payroll_k', 'ye', 'company_no', 'source', 'xcheck_diff_pct',
 FP[['k', 'ladder_club', 'season', 'payroll_keur', 'payroll_source', 'consolidated', 'file', 'page']].rename(columns={
     'k': 'club_key', 'ladder_club': 'club', 'season': 'season_start', 'payroll_keur': 'payroll_eur_thousands', 'payroll_source': 'check', 'consolidated': 'group_perimeter',
     'file': 'dncg_report', 'page': 'report_page'}).to_csv(os.path.join(OUT, 'data', 'payroll_france.csv'), index=False)
-for f in ('official_position_changes.csv', 'final_tables_2025_26.txt', 'code.zip', 'money_ceilings.csv', 'money_ceiling_models.csv', 'mobility_intervals.csv', 'mobility_intervals_england_vs.csv'):
+for f in ('official_position_changes.csv', 'final_tables_2025_26.txt', 'code.zip', 'money_ceilings.csv', 'money_ceiling_models.csv', 'mobility_intervals.csv', 'mobility_intervals_england_vs.csv', 'mobility_intervals_block.csv', 'mobility_intervals_block_england_vs.csv'):
     if os.path.exists(os.path.join(IN, f)): shutil.copy(os.path.join(IN, f), os.path.join(OUT, 'data', f))
 REPO = os.path.dirname(HERE)   # in the repository layout, zip the code that produced this site (D271)
 if not os.path.exists(os.path.join(OUT, 'data', 'code.zip')) and os.path.isdir(os.path.join(REPO, 'analysis')):
@@ -669,6 +672,8 @@ files = [('positions_five_leagues.csv', 'Final position of every club, every sea
          ('money_ceiling_models.csv', 'The models behind those figures, with the out-of-sample check against position alone'),
          ('mobility_intervals.csv', 'The mobility measure for each league with 95% ranges from resampling seasons, and for Spain without reserve teams'),
          ('mobility_intervals_england_vs.csv', 'How often England\'s resampled mobility figure exceeds each other league\'s'),
+         ('mobility_intervals_block.csv', 'The same ranges when seasons are resampled in blocks of four, to allow for dependence between neighbouring seasons'),
+         ('mobility_intervals_block_england_vs.csv', 'England against each other league, block resampling'),
          ('bottom_half_windows.csv', 'Bottom half to top four: the same share for different windows of seasons, with ranges'),
          ('against_the_money_by_season.csv', 'England and France, season by season: finish, the finish the wage bill usually buys, wage bill and its rank'),
          ('payroll_england.csv', 'England: club staff costs (£000) from Companies House accounts, with company number, year end and the cross-check'),
