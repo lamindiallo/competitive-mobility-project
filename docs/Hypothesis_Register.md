@@ -1,8 +1,8 @@
 # Hypothesis_Register.md
 
-**Document Version:** 6.1
+**Document Version:** 7.0
 **Status:** Active
-**Last Updated:** 29 October 2026
+**Last Updated:** 2 November 2026
 **Governing Decision:** D014
 
 ---
@@ -21,12 +21,12 @@ This register records each hypothesis, its falsification condition and the test 
 
 | Status | Count |
 |---|---|
-| **Registered** — condition specified, analysis not yet run | **1** (H7) — needs league revenue by decade |
-| **Draft** — condition cannot yet be specified, reason recorded | **6** (H3, H5, H6, H10, H11, H12) |
-| **Tested** | **5** — **H4 rejected** (D280), **H1 not rejected** (history dependence; causal reading not identified), **H2 rejected** (D242–D244), **H8 not rejected** (D249–D250), **H9 not rejected** (D251) |
-| Withdrawn | 0 |
+| **Registered**: condition specified, analysis not yet run | **0** |
+| **Draft**: condition cannot yet be specified, reason recorded | **1** (H5: no never-treated league, D193) |
+| **Tested** | **10**. **Rejected:** H2 (as registered; configuration-dependent on corrected data, D304), H3 (D326), H4 (D280), H11 (D327), H12 (as registered, D328). **Not rejected:** H1 (order limb; causal reading not identified), H1b (D311), H7 (D310, D316), H8 (D249–D250), H9 (D251) |
+| **Withdrawn** | **2** (H6, H10; D321) |
 
-> **The four remaining Draft hypotheses are honest.** Each depends on a quantity whose scale is unknown until the index exists or the data is assembled. Setting a numerical threshold now would be arbitrary, and an arbitrary threshold is worse than a declared gap because it creates the appearance of pre-registration without the substance.
+> *Historical note (29 October 2026):* **The four remaining Draft hypotheses are honest.** Each depends on a quantity whose scale is unknown until the index exists or the data is assembled. Setting a numerical threshold now would be arbitrary, and an arbitrary threshold is worse than a declared gap because it creates the appearance of pre-registration without the substance.
 
 ---
 
@@ -99,7 +99,11 @@ This register records each hypothesis, its falsification condition and the test 
 
 > **Condition to be specified at Phase II completion**, once the state space is populated and base transition rates are known. The form is fixed: the difference in upward-transition probability between clubs in the top and bottom quartiles of sustained residual performance, compared against the permutation null.
 
-**Status.** **Draft.** Blocked on the resource-conditional model.
+**Condition fixed before analysis (D325, 2 November 2026, `06 Analysis/H3_H11_H12_Test_Protocol.md`).** Sustained residual = mean places above the money over t−2..t; outcome = better state at t+2; D = top-quartile minus bottom-quartile upward rate, against a permutation null within country × season × state × pay tercile. **H3 is rejected if D does not exceed the null's 95th percentile.**
+
+**Status.** **Tested 2 November 2026: REJECTED** (`06 Analysis/H3_H11_H12_Test_Results.md`, D326).
+
+> **Result.** 611 club-seasons, England and France. D = −0.105 against a null mean of −0.138; p = 0.16. Power against a 5 / 10 point effect: 0.74 / 0.95. Among clubs whose relative pay did not rise, p = 0.75. **Sustained over-performance against the wage bill does not predict a lasting climb**, as the registered prior expected.
 
 ---
 
@@ -165,7 +169,7 @@ This register records each hypothesis, its falsification condition and the test 
 
 **Status.** **Tested 31 October 2026 — NOT REJECTED** (`06 Analysis/H7_Test_Results.md`, D310).
 
-> **Result.** 75 league-seasons: 1996/97, 2010/11 and 2012/13–2024/25. The τ = 0.10 lower envelope of HICB **rises** with log real revenue (slope +2.56; one-sided p for a decline 0.96). No specification gives a negative slope. Power against a decline of 0.5 / 1 SD is 0.17 / 0.46. **More revenue has not lowered the floor of concentration.** This is consistent with an arms race but does not prove one; the secondary prediction is not tested.
+> **Result (v1.1, D316).** 84 league-seasons: 1996/97, 2008/09, 2009/10, 2010/11 and 2012/13–2024/25. The τ = 0.10 lower envelope of HICB **rises** with log real revenue (slope +2.38, 95% range +0.68 to +2.95; one-sided p for a decline 0.997). No specification gives a negative slope. Power against a decline of 0.5 / 1 SD is 0.30 / 0.40. (v1.0 on 75 league-seasons: +2.56, same verdict.) **More revenue has not lowered the floor of concentration.** This is consistent with an arms race but does not prove one; the secondary prediction is not tested.
 
 ---
 
@@ -229,7 +233,7 @@ This register records each hypothesis, its falsification condition and the test 
 
 **Why this remains Draft.** Separating the two requires a measure of accumulated supporter attachment independent of current performance. **The project has not established that such a measure is constructible from the available data**, and the obvious candidates — attendance, social following, historical support — are all endogenous to past success, which is the very thing being separated out.
 
-> **Condition to be specified only if an exogenous attachment measure proves feasible.** If it does not, H10 is **withdrawn and the policy implication reported as unresolved**, which is itself a finding worth stating to UEFA.
+> **Condition to be specified only if an exogenous attachment measure proves feasible.** If it does not, H10 is **withdrawn and the policy implication reported as unresolved**, which is itself a finding.
 
 **Status.** **Withdrawn** (1 November 2026, D321/P10), as this entry's own condition provides: club-level wage bills cannot separate the Rosen and Adler mechanisms, and no exogenous attachment measure is available. **The policy implication is reported as unresolved.**
 
@@ -245,7 +249,11 @@ This register records each hypothesis, its falsification condition and the test 
 
 > **Provisional form, to be fixed before the test is run:** H11 is falsified if, among over-performing clubs, the lag from over-performance to recorded revenue gain is no longer than one season — because a rule indexed to revenue cannot then bind before the revenue arrives.
 
-**Status.** **Draft.** Blocked on the wage and revenue panel.
+**Condition fixed before analysis (D325).** Revenue gain G_h = relative log revenue at t+h minus t−1, regressed on places above the money at t (h = 0, 1, 2). **H11 is rejected if Δ = β₂ − β₁ is not significantly positive** (gain all in within one season), or on its premise if β₂ is not positive.
+
+**Status.** **Tested 2 November 2026: REJECTED** (D327). Premise holds.
+
+> **Result.** 256 club-seasons (England 47, France 209). Each place above the money adds about 0.042 log points of relative revenue by t+1 and 0.041 by t+2: Δ = −0.001 (−0.010 to +0.007), p = 0.58. **The revenue comes within a season**; there is no later revenue for a rule to bind ahead of.
 
 ---
 
@@ -259,7 +267,11 @@ This register records each hypothesis, its falsification condition and the test 
 
 > **Provisional form, to be fixed before the test is run:** H12 is falsified if, once wages replace transfer spend, England's league effect in the reach model is no longer negative at equal relative resources — that would make the transfer-spend result a measurement artefact rather than crowding.
 
-**Status.** **Draft.** Blocked on wages. **Weakened by an exploratory test on the proxy** (Part III, E1).
+**Condition fixed before analysis (D325), not blind (D279 disclosed).** Logit of top-four entry at t+1 on an England dummy, log relative pay and position, tier-1 clubs outside the top four. **H12 is rejected if the England coefficient is not significantly negative** (one-sided club-bootstrap p ≥ 0.05).
+
+**Status.** **Tested 2 November 2026: REJECTED as registered**, narrowly (D328).
+
+> **Result.** 408 club-seasons, 38 entries. England −0.61 (−1.58 to +0.23), p = 0.068. Direct crowding measure (rivals with ≥ 75% of the fourth-highest payroll): −0.03, p = 0.41. **The English gap stays directional (D279); crowding finds no support** (consistent with E1).
 
 ---
 
@@ -297,7 +309,7 @@ Recorded because Rule Zero requires it, and because a register that cannot say w
 
 In that case European football's hierarchy would be persistent but not self-reinforcing, and stable rather than closing. **The correct conclusion would be that the system is functioning as an open meritocracy with high but non-increasing persistence, and that no intervention is warranted on mobility grounds.**
 
-That conclusion would contradict the project's working hypothesis, the author's expectation, and the entire premise of a submission to UEFA.
+That conclusion would contradict the project's working hypothesis, the author's expectation, and the premise with which the project began.
 
 > **Status after testing (8 October 2026, D248).** **H2 is rejected; H1 is not.** The condition above is therefore **not met**. But H1 survives only as history dependence of unidentified cause, so the project does not rest on it. **The general premise — European football is closing — is rejected. The defensible premise is narrower: closing at the top in England (robust) and Italy, borderline in Spain, absent in Germany and France.**
 
